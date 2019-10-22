@@ -162,7 +162,7 @@ void prvLed_Toggle (int Mode)
 	The block time is specified in ticks, the constant used converts ticks
 	to ms.  While in the Blocked state this task will not consume any CPU
 	time. */
-	//vTaskDelayUntil(&xNextWakeTime, BLINK_PERIOD );
+	vTaskDelayUntil(&xNextWakeTime, BLINK_PERIOD );
 
 	xSemaphoreGive(xMutex_Led);
 }

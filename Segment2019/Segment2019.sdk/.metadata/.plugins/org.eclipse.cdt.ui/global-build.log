@@ -1,4 +1,274 @@
-09:09:35 **** Incremental Build of configuration Debug for project AXIGPIO_FreeRTOS ****
+19:50:06 **** Build of project FreeRTOS_Queue_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"include"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+"Compiling FreeRTOS"
+arm-none-eabi-ar: creating ../../../lib/libfreertos.a
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+19:50:26 **** Build of configuration Debug for project FreeRTOS_Queue ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FreeRTOSQueue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FreeRTOSQueue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FreeRTOSQueue.d" -MT"src/FreeRTOSQueue.o" -o "src/FreeRTOSQueue.o" "../src/FreeRTOSQueue.c"
+../src/FreeRTOSQueue.c: In function 'prvTxTask':
+../src/FreeRTOSQueue.c:108:18: warning: unused variable 'x1second' [-Wunused-variable]
+ const TickType_t x1second = pdMS_TO_TICKS( DELAY_1_SECOND );
+                  ^~~~~~~~
+../src/FreeRTOSQueue.c: In function 'prvRxTask':
+../src/FreeRTOSQueue.c:139:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:139:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/FreeRTOSQueue.c:139:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/FreeRTOSQueue.c:12:1:
++#include <stdio.h>
+ 
+../src/FreeRTOSQueue.c:139:3:
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:129:13: warning: unused variable 'value' [-Wunused-variable]
+ int number, value = 0;
+             ^~~~~
+../src/FreeRTOSQueue.c:129:5: warning: unused variable 'number' [-Wunused-variable]
+ int number, value = 0;
+     ^~~~~~
+../src/FreeRTOSQueue.c:127:6: warning: unused variable 'Recdstring' [-Wunused-variable]
+ char Recdstring[15] = "";
+      ^~~~~~~~~~
+../src/FreeRTOSQueue.c: In function 'startGPIOHardware':
+../src/FreeRTOSQueue.c:231:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/FreeRTOSQueue.c:231:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:232:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:219:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:234:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/FreeRTOSQueue.c:234:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:243:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:219:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:239:16: warning: unused variable 'GPIOConfigPtr' [-Wunused-variable]
+  XGpio_Config *GPIOConfigPtr;
+                ^~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:221:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/FreeRTOSQueue.c:31:21: warning: 'xprvPS_SwitchTask' defined but not used [-Wunused-variable]
+ static TaskHandle_t xprvPS_SwitchTask;
+                     ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/FreeRTOSQueue.c'
+' '
+'Building target: FreeRTOS_Queue.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Queue.elf"  ./src/FreeRTOSQueue.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Queue.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Queue.elf  |tee "FreeRTOS_Queue.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102116	   3392	  89488	 194996	  2f9b4	FreeRTOS_Queue.elf
+'Finished building: FreeRTOS_Queue.elf.size'
+' '
+19:50:52 **** Incremental Build of project AXIGPIO_FreeRTOS_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"include"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+"Compiling FreeRTOS"
+arm-none-eabi-ar: creating ../../../lib/libfreertos.a
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+19:51:13 **** Incremental Build of configuration Debug for project AXIGPIO_FreeRTOS ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
@@ -73,18 +343,1151 @@ arm-none-eabi-size AXIGPIO_FreeRTOS.elf  |tee "AXIGPIO_FreeRTOS.elf.size"
  102428	   3408	  89488	 195324	  2fafc	AXIGPIO_FreeRTOS.elf
 'Finished building: AXIGPIO_FreeRTOS.elf.size'
 ' '
-09:10:42 **** Incremental Build of configuration Debug for project AXIGPIO_FreeRTOS ****
+19:52:24 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for 'main-build'.
-09:11:05 **** Incremental Build of configuration Debug for project AXIGPIO_FreeRTOS ****
+19:54:37 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FreeRTOSQueue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FreeRTOSQueue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FreeRTOSQueue.d" -MT"src/FreeRTOSQueue.o" -o "src/FreeRTOSQueue.o" "../src/FreeRTOSQueue.c"
+../src/FreeRTOSQueue.c: In function 'prvRxTask':
+../src/FreeRTOSQueue.c:139:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:139:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/FreeRTOSQueue.c:139:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/FreeRTOSQueue.c:12:1:
++#include <stdio.h>
+ 
+../src/FreeRTOSQueue.c:139:3:
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:129:13: warning: unused variable 'value' [-Wunused-variable]
+ int number, value = 0;
+             ^~~~~
+../src/FreeRTOSQueue.c:129:5: warning: unused variable 'number' [-Wunused-variable]
+ int number, value = 0;
+     ^~~~~~
+../src/FreeRTOSQueue.c:127:6: warning: unused variable 'Recdstring' [-Wunused-variable]
+ char Recdstring[15] = "";
+      ^~~~~~~~~~
+../src/FreeRTOSQueue.c: In function 'startGPIOHardware':
+../src/FreeRTOSQueue.c:231:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/FreeRTOSQueue.c:231:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:232:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:219:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:234:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/FreeRTOSQueue.c:234:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:243:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:219:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:239:16: warning: unused variable 'GPIOConfigPtr' [-Wunused-variable]
+  XGpio_Config *GPIOConfigPtr;
+                ^~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:221:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/FreeRTOSQueue.c:31:21: warning: 'xprvPS_SwitchTask' defined but not used [-Wunused-variable]
+ static TaskHandle_t xprvPS_SwitchTask;
+                     ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/FreeRTOSQueue.c'
+' '
+'Building target: FreeRTOS_Queue.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Queue.elf"  ./src/FreeRTOSQueue.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Queue.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Queue.elf  |tee "FreeRTOS_Queue.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102116	   3392	  89488	 194996	  2f9b4	FreeRTOS_Queue.elf
+'Finished building: FreeRTOS_Queue.elf.size'
+' '
+19:56:05 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FreeRTOSQueue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FreeRTOSQueue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FreeRTOSQueue.d" -MT"src/FreeRTOSQueue.o" -o "src/FreeRTOSQueue.o" "../src/FreeRTOSQueue.c"
+../src/FreeRTOSQueue.c: In function 'main':
+../src/FreeRTOSQueue.c:70:19: warning: unused variable 'x5second' [-Wunused-variable]
+  const TickType_t x5second = pdMS_TO_TICKS( DELAY_5_SECOND );
+                   ^~~~~~~~
+../src/FreeRTOSQueue.c:69:19: warning: unused variable 'x1second' [-Wunused-variable]
+  const TickType_t x1second = pdMS_TO_TICKS( DELAY_1_SECOND );
+                   ^~~~~~~~
+../src/FreeRTOSQueue.c: In function 'prvTxTask':
+../src/FreeRTOSQueue.c:116:15: error: 'x5second' undeclared (first use in this function)
+   vTaskDelay( x5second );
+               ^~~~~~~~
+../src/FreeRTOSQueue.c:116:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/FreeRTOSQueue.c: In function 'prvRxTask':
+../src/FreeRTOSQueue.c:142:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:142:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/FreeRTOSQueue.c:142:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/FreeRTOSQueue.c:12:1:
++#include <stdio.h>
+ 
+../src/FreeRTOSQueue.c:142:3:
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:132:13: warning: unused variable 'value' [-Wunused-variable]
+ int number, value = 0;
+             ^~~~~
+../src/FreeRTOSQueue.c:132:5: warning: unused variable 'number' [-Wunused-variable]
+ int number, value = 0;
+     ^~~~~~
+../src/FreeRTOSQueue.c:130:6: warning: unused variable 'Recdstring' [-Wunused-variable]
+ char Recdstring[15] = "";
+      ^~~~~~~~~~
+../src/FreeRTOSQueue.c: In function 'startGPIOHardware':
+../src/FreeRTOSQueue.c:234:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/FreeRTOSQueue.c:234:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:235:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:222:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:237:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/FreeRTOSQueue.c:237:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:246:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:222:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:242:16: warning: unused variable 'GPIOConfigPtr' [-Wunused-variable]
+  XGpio_Config *GPIOConfigPtr;
+                ^~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:224:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/FreeRTOSQueue.c:33:21: warning: 'xprvPS_SwitchTask' defined but not used [-Wunused-variable]
+ static TaskHandle_t xprvPS_SwitchTask;
+                     ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/FreeRTOSQueue.o] Error 1
+19:56:31 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FreeRTOSQueue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FreeRTOSQueue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FreeRTOSQueue.d" -MT"src/FreeRTOSQueue.o" -o "src/FreeRTOSQueue.o" "../src/FreeRTOSQueue.c"
+../src/FreeRTOSQueue.c: In function 'main':
+../src/FreeRTOSQueue.c:70:19: warning: unused variable 'x5second' [-Wunused-variable]
+  const TickType_t x5second = pdMS_TO_TICKS( DELAY_5_SECOND );
+                   ^~~~~~~~
+../src/FreeRTOSQueue.c:69:19: warning: unused variable 'x1second' [-Wunused-variable]
+  const TickType_t x1second = pdMS_TO_TICKS( DELAY_1_SECOND );
+                   ^~~~~~~~
+../src/FreeRTOSQueue.c: In function 'prvTxTask':
+../src/FreeRTOSQueue.c:116:15: error: 'x5second' undeclared (first use in this function)
+   vTaskDelay( x5second );
+               ^~~~~~~~
+../src/FreeRTOSQueue.c:116:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/FreeRTOSQueue.c: In function 'prvRxTask':
+../src/FreeRTOSQueue.c:142:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:142:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/FreeRTOSQueue.c:142:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/FreeRTOSQueue.c:12:1:
++#include <stdio.h>
+ 
+../src/FreeRTOSQueue.c:142:3:
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:132:13: warning: unused variable 'value' [-Wunused-variable]
+ int number, value = 0;
+             ^~~~~
+../src/FreeRTOSQueue.c:132:5: warning: unused variable 'number' [-Wunused-variable]
+ int number, value = 0;
+     ^~~~~~
+../src/FreeRTOSQueue.c:130:6: warning: unused variable 'Recdstring' [-Wunused-variable]
+ char Recdstring[15] = "";
+      ^~~~~~~~~~
+../src/FreeRTOSQueue.c: In function 'startGPIOHardware':
+../src/FreeRTOSQueue.c:234:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/FreeRTOSQueue.c:234:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:235:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:222:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:237:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/FreeRTOSQueue.c:237:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:246:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:222:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:242:16: warning: unused variable 'GPIOConfigPtr' [-Wunused-variable]
+  XGpio_Config *GPIOConfigPtr;
+                ^~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:224:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/FreeRTOSQueue.c:33:21: warning: 'xprvPS_SwitchTask' defined but not used [-Wunused-variable]
+ static TaskHandle_t xprvPS_SwitchTask;
+                     ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/FreeRTOSQueue.o] Error 1
+19:57:01 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FreeRTOSQueue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FreeRTOSQueue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FreeRTOSQueue.d" -MT"src/FreeRTOSQueue.o" -o "src/FreeRTOSQueue.o" "../src/FreeRTOSQueue.c"
+../src/FreeRTOSQueue.c: In function 'prvTxTask':
+../src/FreeRTOSQueue.c:109:19: warning: unused variable 'x1second' [-Wunused-variable]
+  const TickType_t x1second = pdMS_TO_TICKS( DELAY_1_SECOND );
+                   ^~~~~~~~
+../src/FreeRTOSQueue.c: In function 'prvRxTask':
+../src/FreeRTOSQueue.c:140:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:140:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/FreeRTOSQueue.c:140:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/FreeRTOSQueue.c:12:1:
++#include <stdio.h>
+ 
+../src/FreeRTOSQueue.c:140:3:
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:130:13: warning: unused variable 'value' [-Wunused-variable]
+ int number, value = 0;
+             ^~~~~
+../src/FreeRTOSQueue.c:130:5: warning: unused variable 'number' [-Wunused-variable]
+ int number, value = 0;
+     ^~~~~~
+../src/FreeRTOSQueue.c:128:6: warning: unused variable 'Recdstring' [-Wunused-variable]
+ char Recdstring[15] = "";
+      ^~~~~~~~~~
+../src/FreeRTOSQueue.c: In function 'startGPIOHardware':
+../src/FreeRTOSQueue.c:232:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/FreeRTOSQueue.c:232:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:233:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:220:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:235:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/FreeRTOSQueue.c:235:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:244:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:220:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:240:16: warning: unused variable 'GPIOConfigPtr' [-Wunused-variable]
+  XGpio_Config *GPIOConfigPtr;
+                ^~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:222:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/FreeRTOSQueue.c:33:21: warning: 'xprvPS_SwitchTask' defined but not used [-Wunused-variable]
+ static TaskHandle_t xprvPS_SwitchTask;
+                     ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/FreeRTOSQueue.c'
+' '
+'Building target: FreeRTOS_Queue.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Queue.elf"  ./src/FreeRTOSQueue.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Queue.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Queue.elf  |tee "FreeRTOS_Queue.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102116	   3392	  89488	 194996	  2f9b4	FreeRTOS_Queue.elf
+'Finished building: FreeRTOS_Queue.elf.size'
+' '
+19:58:49 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FreeRTOSQueue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FreeRTOSQueue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FreeRTOSQueue.d" -MT"src/FreeRTOSQueue.o" -o "src/FreeRTOSQueue.o" "../src/FreeRTOSQueue.c"
+../src/FreeRTOSQueue.c: In function 'main':
+../src/FreeRTOSQueue.c:70:19: warning: unused variable 'x5second' [-Wunused-variable]
+  const TickType_t x5second = pdMS_TO_TICKS( DELAY_5_SECOND );
+                   ^~~~~~~~
+../src/FreeRTOSQueue.c:69:19: warning: unused variable 'x1second' [-Wunused-variable]
+  const TickType_t x1second = pdMS_TO_TICKS( DELAY_1_SECOND );
+                   ^~~~~~~~
+../src/FreeRTOSQueue.c: In function 'prvTxTask':
+../src/FreeRTOSQueue.c:115:15: error: 'x5second' undeclared (first use in this function)
+   vTaskDelay( x5second );
+               ^~~~~~~~
+../src/FreeRTOSQueue.c:115:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/FreeRTOSQueue.c: In function 'prvRxTask':
+../src/FreeRTOSQueue.c:139:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:139:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/FreeRTOSQueue.c:139:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/FreeRTOSQueue.c:12:1:
++#include <stdio.h>
+ 
+../src/FreeRTOSQueue.c:139:3:
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c: In function 'prvPS_SwitchTask':
+../src/FreeRTOSQueue.c:148:2: error: unknown type name 'uint8'; did you mean 'uint8_t'?
+  uint8 swValue;
+  ^~~~~
+  uint8_t
+../src/FreeRTOSQueue.c: In function 'startGPIOHardware':
+../src/FreeRTOSQueue.c:231:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/FreeRTOSQueue.c:231:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:232:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:219:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:234:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/FreeRTOSQueue.c:234:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:243:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:219:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:239:16: warning: unused variable 'GPIOConfigPtr' [-Wunused-variable]
+  XGpio_Config *GPIOConfigPtr;
+                ^~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:221:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/FreeRTOSQueue.c:33:21: warning: 'xprvPS_SwitchTask' defined but not used [-Wunused-variable]
+ static TaskHandle_t xprvPS_SwitchTask;
+                     ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/FreeRTOSQueue.o] Error 1
+19:59:07 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FreeRTOSQueue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FreeRTOSQueue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FreeRTOSQueue.d" -MT"src/FreeRTOSQueue.o" -o "src/FreeRTOSQueue.o" "../src/FreeRTOSQueue.c"
+../src/FreeRTOSQueue.c: In function 'prvTxTask':
+../src/FreeRTOSQueue.c:109:19: warning: unused variable 'x1second' [-Wunused-variable]
+  const TickType_t x1second = pdMS_TO_TICKS( DELAY_1_SECOND );
+                   ^~~~~~~~
+../src/FreeRTOSQueue.c: In function 'prvRxTask':
+../src/FreeRTOSQueue.c:138:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:138:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/FreeRTOSQueue.c:138:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/FreeRTOSQueue.c:12:1:
++#include <stdio.h>
+ 
+../src/FreeRTOSQueue.c:138:3:
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c: In function 'prvPS_SwitchTask':
+../src/FreeRTOSQueue.c:147:2: error: unknown type name 'uint8'; did you mean 'uint8_t'?
+  uint8 swValue;
+  ^~~~~
+  uint8_t
+../src/FreeRTOSQueue.c:148:14: error: 'x5second' undeclared (first use in this function)
+  vTaskDelay( x5second );
+              ^~~~~~~~
+../src/FreeRTOSQueue.c:148:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/FreeRTOSQueue.c: In function 'startGPIOHardware':
+../src/FreeRTOSQueue.c:231:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/FreeRTOSQueue.c:231:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:232:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:219:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:234:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/FreeRTOSQueue.c:234:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:243:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:219:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:239:16: warning: unused variable 'GPIOConfigPtr' [-Wunused-variable]
+  XGpio_Config *GPIOConfigPtr;
+                ^~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:221:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/FreeRTOSQueue.c:33:21: warning: 'xprvPS_SwitchTask' defined but not used [-Wunused-variable]
+ static TaskHandle_t xprvPS_SwitchTask;
+                     ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/FreeRTOSQueue.o] Error 1
+19:59:26 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FreeRTOSQueue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FreeRTOSQueue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FreeRTOSQueue.d" -MT"src/FreeRTOSQueue.o" -o "src/FreeRTOSQueue.o" "../src/FreeRTOSQueue.c"
+../src/FreeRTOSQueue.c: In function 'prvRxTask':
+../src/FreeRTOSQueue.c:137:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:137:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/FreeRTOSQueue.c:137:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/FreeRTOSQueue.c:12:1:
++#include <stdio.h>
+ 
+../src/FreeRTOSQueue.c:137:3:
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c: In function 'prvPS_SwitchTask':
+../src/FreeRTOSQueue.c:146:2: error: unknown type name 'uint8'; did you mean 'uint8_t'?
+  uint8 swValue;
+  ^~~~~
+  uint8_t
+../src/FreeRTOSQueue.c: In function 'startGPIOHardware':
+../src/FreeRTOSQueue.c:231:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/FreeRTOSQueue.c:231:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:232:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:219:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:234:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/FreeRTOSQueue.c:234:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:243:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:219:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:239:16: warning: unused variable 'GPIOConfigPtr' [-Wunused-variable]
+  XGpio_Config *GPIOConfigPtr;
+                ^~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:221:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/FreeRTOSQueue.c:33:21: warning: 'xprvPS_SwitchTask' defined but not used [-Wunused-variable]
+ static TaskHandle_t xprvPS_SwitchTask;
+                     ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/FreeRTOSQueue.o] Error 1
+19:59:39 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FreeRTOSQueue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FreeRTOSQueue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FreeRTOSQueue.d" -MT"src/FreeRTOSQueue.o" -o "src/FreeRTOSQueue.o" "../src/FreeRTOSQueue.c"
+../src/FreeRTOSQueue.c: In function 'prvRxTask':
+../src/FreeRTOSQueue.c:137:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:137:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/FreeRTOSQueue.c:137:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/FreeRTOSQueue.c:12:1:
++#include <stdio.h>
+ 
+../src/FreeRTOSQueue.c:137:3:
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c: In function 'startGPIOHardware':
+../src/FreeRTOSQueue.c:231:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/FreeRTOSQueue.c:231:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:232:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:219:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:234:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/FreeRTOSQueue.c:234:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:243:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:219:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:239:16: warning: unused variable 'GPIOConfigPtr' [-Wunused-variable]
+  XGpio_Config *GPIOConfigPtr;
+                ^~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:221:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/FreeRTOSQueue.c:33:21: warning: 'xprvPS_SwitchTask' defined but not used [-Wunused-variable]
+ static TaskHandle_t xprvPS_SwitchTask;
+                     ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/FreeRTOSQueue.c'
+' '
+'Building target: FreeRTOS_Queue.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Queue.elf"  ./src/FreeRTOSQueue.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Queue.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Queue.elf  |tee "FreeRTOS_Queue.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102116	   3392	  89488	 194996	  2f9b4	FreeRTOS_Queue.elf
+'Finished building: FreeRTOS_Queue.elf.size'
+' '
+20:00:03 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FreeRTOSQueue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FreeRTOSQueue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FreeRTOSQueue.d" -MT"src/FreeRTOSQueue.o" -o "src/FreeRTOSQueue.o" "../src/FreeRTOSQueue.c"
+../src/FreeRTOSQueue.c: In function 'prvRxTask':
+../src/FreeRTOSQueue.c:137:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:137:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/FreeRTOSQueue.c:137:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/FreeRTOSQueue.c:12:1:
++#include <stdio.h>
+ 
+../src/FreeRTOSQueue.c:137:3:
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c: In function 'startGPIOHardware':
+../src/FreeRTOSQueue.c:231:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/FreeRTOSQueue.c:231:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:232:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:219:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:234:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/FreeRTOSQueue.c:234:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:243:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:219:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:239:16: warning: unused variable 'GPIOConfigPtr' [-Wunused-variable]
+  XGpio_Config *GPIOConfigPtr;
+                ^~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:221:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/FreeRTOSQueue.c:33:21: warning: 'xprvPS_SwitchTask' defined but not used [-Wunused-variable]
+ static TaskHandle_t xprvPS_SwitchTask;
+                     ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/FreeRTOSQueue.c'
+' '
+'Building target: FreeRTOS_Queue.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Queue.elf"  ./src/FreeRTOSQueue.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Queue.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Queue.elf  |tee "FreeRTOS_Queue.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102052	   3392	  89488	 194932	  2f974	FreeRTOS_Queue.elf
+'Finished building: FreeRTOS_Queue.elf.size'
+' '
+20:00:40 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FreeRTOSQueue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FreeRTOSQueue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FreeRTOSQueue.d" -MT"src/FreeRTOSQueue.o" -o "src/FreeRTOSQueue.o" "../src/FreeRTOSQueue.c"
+../src/FreeRTOSQueue.c: In function 'prvRxTask':
+../src/FreeRTOSQueue.c:139:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:139:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/FreeRTOSQueue.c:139:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/FreeRTOSQueue.c:12:1:
++#include <stdio.h>
+ 
+../src/FreeRTOSQueue.c:139:3:
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c: In function 'startGPIOHardware':
+../src/FreeRTOSQueue.c:234:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/FreeRTOSQueue.c:234:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:235:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:222:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:237:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/FreeRTOSQueue.c:237:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:246:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:222:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:242:16: warning: unused variable 'GPIOConfigPtr' [-Wunused-variable]
+  XGpio_Config *GPIOConfigPtr;
+                ^~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:224:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/FreeRTOSQueue.c:33:21: warning: 'xprvPS_SwitchTask' defined but not used [-Wunused-variable]
+ static TaskHandle_t xprvPS_SwitchTask;
+                     ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/FreeRTOSQueue.c'
+' '
+'Building target: FreeRTOS_Queue.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Queue.elf"  ./src/FreeRTOSQueue.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Queue.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Queue.elf  |tee "FreeRTOS_Queue.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102052	   3392	  89488	 194932	  2f974	FreeRTOS_Queue.elf
+'Finished building: FreeRTOS_Queue.elf.size'
+' '
+20:03:22 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FreeRTOSQueue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FreeRTOSQueue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FreeRTOSQueue.d" -MT"src/FreeRTOSQueue.o" -o "src/FreeRTOSQueue.o" "../src/FreeRTOSQueue.c"
+../src/FreeRTOSQueue.c: In function 'prvRxTask':
+../src/FreeRTOSQueue.c:139:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:139:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/FreeRTOSQueue.c:139:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/FreeRTOSQueue.c:12:1:
++#include <stdio.h>
+ 
+../src/FreeRTOSQueue.c:139:3:
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c: In function 'startGPIOHardware':
+../src/FreeRTOSQueue.c:237:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/FreeRTOSQueue.c:237:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:238:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:225:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:240:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/FreeRTOSQueue.c:240:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:249:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:225:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:245:16: warning: unused variable 'GPIOConfigPtr' [-Wunused-variable]
+  XGpio_Config *GPIOConfigPtr;
+                ^~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:227:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/FreeRTOSQueue.c:33:21: warning: 'xprvPS_SwitchTask' defined but not used [-Wunused-variable]
+ static TaskHandle_t xprvPS_SwitchTask;
+                     ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/FreeRTOSQueue.c'
+' '
+'Building target: FreeRTOS_Queue.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Queue.elf"  ./src/FreeRTOSQueue.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Queue.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Queue.elf  |tee "FreeRTOS_Queue.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102052	   3392	  89488	 194932	  2f974	FreeRTOS_Queue.elf
+'Finished building: FreeRTOS_Queue.elf.size'
+' '
+20:04:18 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FreeRTOSQueue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FreeRTOSQueue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FreeRTOSQueue.d" -MT"src/FreeRTOSQueue.o" -o "src/FreeRTOSQueue.o" "../src/FreeRTOSQueue.c"
+../src/FreeRTOSQueue.c: In function 'prvRxTask':
+../src/FreeRTOSQueue.c:139:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:139:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/FreeRTOSQueue.c:139:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/FreeRTOSQueue.c:12:1:
++#include <stdio.h>
+ 
+../src/FreeRTOSQueue.c:139:3:
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c: In function 'startGPIOHardware':
+../src/FreeRTOSQueue.c:235:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/FreeRTOSQueue.c:235:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:236:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:223:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:238:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/FreeRTOSQueue.c:238:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:247:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:223:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:243:16: warning: unused variable 'GPIOConfigPtr' [-Wunused-variable]
+  XGpio_Config *GPIOConfigPtr;
+                ^~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:225:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/FreeRTOSQueue.c:33:21: warning: 'xprvPS_SwitchTask' defined but not used [-Wunused-variable]
+ static TaskHandle_t xprvPS_SwitchTask;
+                     ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/FreeRTOSQueue.c'
+' '
+'Building target: FreeRTOS_Queue.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Queue.elf"  ./src/FreeRTOSQueue.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Queue.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Queue.elf  |tee "FreeRTOS_Queue.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102052	   3392	  89488	 194932	  2f974	FreeRTOS_Queue.elf
+'Finished building: FreeRTOS_Queue.elf.size'
+' '
+20:07:02 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FreeRTOSQueue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FreeRTOSQueue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FreeRTOSQueue.d" -MT"src/FreeRTOSQueue.o" -o "src/FreeRTOSQueue.o" "../src/FreeRTOSQueue.c"
+../src/FreeRTOSQueue.c: In function 'prvRxTask':
+../src/FreeRTOSQueue.c:139:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:139:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/FreeRTOSQueue.c:139:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/FreeRTOSQueue.c:12:1:
++#include <stdio.h>
+ 
+../src/FreeRTOSQueue.c:139:3:
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c: In function 'startGPIOHardware':
+../src/FreeRTOSQueue.c:235:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/FreeRTOSQueue.c:235:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:236:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:223:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:238:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/FreeRTOSQueue.c:238:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:247:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:223:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:243:16: warning: unused variable 'GPIOConfigPtr' [-Wunused-variable]
+  XGpio_Config *GPIOConfigPtr;
+                ^~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:225:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/FreeRTOSQueue.c:33:21: warning: 'xprvPS_SwitchTask' defined but not used [-Wunused-variable]
+ static TaskHandle_t xprvPS_SwitchTask;
+                     ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/FreeRTOSQueue.c'
+' '
+'Building target: FreeRTOS_Queue.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Queue.elf"  ./src/FreeRTOSQueue.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Queue.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Queue.elf  |tee "FreeRTOS_Queue.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102052	   3392	  89488	 194932	  2f974	FreeRTOS_Queue.elf
+'Finished building: FreeRTOS_Queue.elf.size'
+' '
+20:07:33 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for 'main-build'.
-09:12:56 **** Incremental Build of configuration Debug for project AXIGPIO_FreeRTOS ****
+20:09:10 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-make: Nothing to be done for 'main-build'.
+'Building file: ../src/FreeRTOSQueue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FreeRTOSQueue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FreeRTOSQueue.d" -MT"src/FreeRTOSQueue.o" -o "src/FreeRTOSQueue.o" "../src/FreeRTOSQueue.c"
+../src/FreeRTOSQueue.c: In function 'prvRxTask':
+../src/FreeRTOSQueue.c:140:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:140:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/FreeRTOSQueue.c:140:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/FreeRTOSQueue.c:12:1:
++#include <stdio.h>
+ 
+../src/FreeRTOSQueue.c:140:3:
+   printf("Input value got: %d\r\n",(int) RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c: In function 'startGPIOHardware':
+../src/FreeRTOSQueue.c:236:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/FreeRTOSQueue.c:236:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:237:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:224:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:239:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/FreeRTOSQueue.c:239:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:248:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:224:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:244:16: warning: unused variable 'GPIOConfigPtr' [-Wunused-variable]
+  XGpio_Config *GPIOConfigPtr;
+                ^~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:226:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/FreeRTOSQueue.c:33:21: warning: 'xprvPS_SwitchTask' defined but not used [-Wunused-variable]
+ static TaskHandle_t xprvPS_SwitchTask;
+                     ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/FreeRTOSQueue.c'
+' '
+'Building target: FreeRTOS_Queue.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Queue.elf"  ./src/FreeRTOSQueue.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Queue.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Queue.elf  |tee "FreeRTOS_Queue.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102052	   3392	  89488	 194932	  2f974	FreeRTOS_Queue.elf
+'Finished building: FreeRTOS_Queue.elf.size'
+' '
+20:09:40 **** Incremental Build of configuration Debug for project FreeRTOS_Queue ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FreeRTOSQueue.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FreeRTOSQueue.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FreeRTOSQueue.d" -MT"src/FreeRTOSQueue.o" -o "src/FreeRTOSQueue.o" "../src/FreeRTOSQueue.c"
+../src/FreeRTOSQueue.c: In function 'prvRxTask':
+../src/FreeRTOSQueue.c:140:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input value got: %d\r\n", RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:140:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/FreeRTOSQueue.c:140:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/FreeRTOSQueue.c:12:1:
++#include <stdio.h>
+ 
+../src/FreeRTOSQueue.c:140:3:
+   printf("Input value got: %d\r\n", RecData);
+   ^~~~~~
+../src/FreeRTOSQueue.c:140:29: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("Input value got: %d\r\n", RecData);
+                            ~^       ~~~~~~~
+                            %ld
+../src/FreeRTOSQueue.c: In function 'startGPIOHardware':
+../src/FreeRTOSQueue.c:236:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/FreeRTOSQueue.c:236:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:237:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:224:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:239:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/FreeRTOSQueue.c:239:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xgpio.h:132,
+                 from ../src/FreeRTOSQueue.c:9:
+../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/FreeRTOSQueue.c:248:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/FreeRTOSQueue.c:224:6: note: declared here
+ void startGPIOHardware()
+      ^~~~~~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:244:16: warning: unused variable 'GPIOConfigPtr' [-Wunused-variable]
+  XGpio_Config *GPIOConfigPtr;
+                ^~~~~~~~~~~~~
+../src/FreeRTOSQueue.c:226:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/FreeRTOSQueue.c:33:21: warning: 'xprvPS_SwitchTask' defined but not used [-Wunused-variable]
+ static TaskHandle_t xprvPS_SwitchTask;
+                     ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/FreeRTOSQueue.c'
+' '
+'Building target: FreeRTOS_Queue.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FreeRTOS_Queue_bsp/ps7_cortexa9_0/lib -o "FreeRTOS_Queue.elf"  ./src/FreeRTOSQueue.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: FreeRTOS_Queue.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FreeRTOS_Queue.elf  |tee "FreeRTOS_Queue.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102052	   3392	  89488	 194932	  2f974	FreeRTOS_Queue.elf
+'Finished building: FreeRTOS_Queue.elf.size'
+' '
