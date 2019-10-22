@@ -1,0 +1,61 @@
+13:03:55 **** Build of configuration Debug for project PS_GPIO_FreeRTOS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PS_GPIO_FreeRTOS_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c: In function 'prvRxTask':
+../src/freertos_hello_world.c:172:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Value of Switch: %d\r\n",(int) recData);
+   ^~~~~~
+../src/freertos_hello_world.c:172:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/freertos_hello_world.c:172:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/freertos_hello_world.c:43:1:
++#include <stdio.h>
+ 
+../src/freertos_hello_world.c:172:3:
+   printf("Value of Switch: %d\r\n",(int) recData);
+   ^~~~~~
+../src/freertos_hello_world.c:160:6: warning: unused variable 'Recdstring' [-Wunused-variable]
+ char Recdstring[15] = "";
+      ^~~~~~~~~~
+../src/freertos_hello_world.c: In function 'startGPIOPS':
+../src/freertos_hello_world.c:216:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("status error \n\r");
+   ^~~~~~
+../src/freertos_hello_world.c:216:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../../PS_GPIO_FreeRTOS_bsp/ps7_cortexa9_0/include/xgpiops.h:124,
+                 from ../src/freertos_hello_world.c:40:
+../../PS_GPIO_FreeRTOS_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/freertos_hello_world.c:217:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/freertos_hello_world.c:205:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+../src/freertos_hello_world.c:220:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Starting GPIO PS\n\r");
+     ^~~~~~
+../src/freertos_hello_world.c:220:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/freertos_hello_world.c:207:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building target: PS_GPIO_FreeRTOS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../PS_GPIO_FreeRTOS_bsp/ps7_cortexa9_0/lib -o "PS_GPIO_FreeRTOS.elf"  ./src/freertos_hello_world.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: PS_GPIO_FreeRTOS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size PS_GPIO_FreeRTOS.elf  |tee "PS_GPIO_FreeRTOS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 100948	   3376	  89472	 193796	  2f504	PS_GPIO_FreeRTOS.elf
+'Finished building: PS_GPIO_FreeRTOS.elf.size'
+' '
+
+13:03:57 Build Finished (took 2s.33ms)
+

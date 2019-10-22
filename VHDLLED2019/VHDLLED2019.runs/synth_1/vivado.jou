@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Sep 24 14:19:16 2019
+# Process ID: 9732
+# Current directory: C:/FPGA/VHDLLED2019/VHDLLED2019.runs/synth_1
+# Command line: vivado.exe -log loopLicht.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source loopLicht.tcl
+# Log file: C:/FPGA/VHDLLED2019/VHDLLED2019.runs/synth_1/loopLicht.vds
+# Journal file: C:/FPGA/VHDLLED2019/VHDLLED2019.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source loopLicht.tcl -notrace
