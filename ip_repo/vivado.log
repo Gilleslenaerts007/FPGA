@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jan  5 19:56:58 2019
+# Process ID: 9520
+# Current directory: C:/FPGA/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1928 C:\FPGA\ip_repo\edit_Testblock_v1_0.xpr
+# Log file: C:/FPGA/ip_repo/vivado.log
+# Journal file: C:/FPGA/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/FPGA/ip_repo/edit_Testblock_v1_0.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/FPGA/ip_repo/Testblock_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/FPGA/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Sat Jan  5 19:57:54 2019] Launched synth_1...
+Run output will be captured here: C:/FPGA/ip_repo/edit_Testblock_v1_0.runs/synth_1/runme.log
+ipx::open_ipxact_file C:/FPGA/ip_repo/Testblock_1.0/component.xml
+WARNING: [IP_Flow 19-5226] Project source file 'c:/FPGA/ip_repo/Testblock_1.0/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/FPGA/ip_repo/Testblock_1.0/src/Testing.vhd'.
+set_property supported_families {zynq Pre-Production zynq Beta} [ipx::current_core]
+set_property supported_families {zynq Pre-Production zynq Production} [ipx::current_core]
+set_property supported_families {zynq Pre-Production zynq Beta} [ipx::current_core]
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/FPGA/ip_repo/Testblock_1.0
+CRITICAL WARNING: [IP_Flow 19-1681] Failed to reload user IP repository 'c:/FPGA/ip_repo/Testblock_1.0'. ''c:/FPGA/ip_repo/Testblock_1.0' is not valid: Path is contained within another repository.'
+0
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/FPGA/ip_repo/Testblock_1.0
+CRITICAL WARNING: [IP_Flow 19-1681] Failed to reload user IP repository 'c:/FPGA/ip_repo/Testblock_1.0'. ''c:/FPGA/ip_repo/Testblock_1.0' is not valid: Path is contained within another repository.'
+0
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jan  5 20:01:15 2019...
