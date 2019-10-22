@@ -1,0 +1,49 @@
+12:22:07 **** Build of configuration Debug for project ImpedancePmodIA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImpedancePmodIA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:214:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:214:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:358:3: warning: implicit declaration of function 'usleep_A9' [-Wimplicit-function-declaration]
+   usleep_A9(sleepTime);
+   ^~~~~~~~~
+../src/AD5933.c:304:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+'Finished building: ../src/AD5933.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImpedancePmodIA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:76:7: warning: variable 'in' set but not used [-Wunused-but-set-variable]
+  char in;
+       ^~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImpedancePmodIA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: ImpedancePmodIA.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImpedancePmodIA_bsp/ps7_cortexa9_0/lib -o "ImpedancePmodIA.elf"  ./src/AD5933.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/AD5933.o: in function `AD5933_CalculateGainFactor':
+C:\FPGA\ImpedancePmod\ImpedancePmod.sdk\ImpedancePmodIA\Debug/../src/AD5933.c:279: undefined reference to `sqrtf'
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/AD5933.o: in function `AD5933_CalculateImpedance':
+C:\FPGA\ImpedancePmod\ImpedancePmod.sdk\ImpedancePmodIA\Debug/../src/AD5933.c:353: undefined reference to `sqrtf'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: ImpedancePmodIA.elf] Error 1
+
+12:22:08 Build Finished (took 1s.226ms)
+

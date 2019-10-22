@@ -1,0 +1,65 @@
+#include <stdio.h>
+#include <math.h>
+#include "platform_config.h"
+#include "xil_printf.h"
+#include "platform.h"
+#include "xparameters.h"
+#include "MCP23S17.h"
+#include "sleep.h"
+#include "xspi.h"		/* SPI device driver */
+
+
+/*
+* Have to add Registers standard values, HAEN_ON, IODIR, BANK_ON
+ */
+void SPIStart(XSpi* spiPTR, u16 spiID){
+	int Status;
+	XSpi_Config *confPTR;
+
+	confPTR = XSpi_LookupConfig(spiID);
+	if(confPTR == NULL) {
+		return XST_DEVICE_NOT_FOUND;
+	}
+
+	Status = XSpi_CfgInitialize(spiPTR, confPTR, confPTR->BaseAddress);
+	if(Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	Status = XSpi_SetOptions(spiPTR, XSP_MASTER_OPTION |
+			XSP_MANUAL_SSELECT_OPTION );
+	if(Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	XSpi_Start(spiPTR);
+	XSpi_IntrGlobalDisable(spiPTR);
+
+	return XST_SUCCESS;
+}
+
+/*
+* sorts input array on GPIO adresses and sends SPI port selects to both of the registers(GPA&GPB).
+ */
+char portSelection(char arraySelection){
+	char arrayGPB[], arrayGPA[], dummyBuffer[BUFFER_SIZE] = {0x00, 0x00, 0x00};
+	int size = (int)(sizeof(arraySelection) / sizeof(arraySelection[0]));
+	int arrayposA, arraposB = 0;
+
+	for(int i=0;i<=size ;i++){
+		char Bcheck = arraySelection[i] && 0x00FF00;  // Mask for GPIO Register adress
+		if (Bcheck == 0x09) // GPIOA Register adress
+		{
+			arrayGPA[arrayposA]= arraySelection[i];
+			arraypos++;
+		}
+		else if(Bcheck == 0x19) // GPIOB Register adress
+		{
+			arrayGPB[arrayposB]= arraySelection[i];
+			arraypos++;
+		}
+	}
+	return (arrayGPA, arrayGPB);
+
+}
+
