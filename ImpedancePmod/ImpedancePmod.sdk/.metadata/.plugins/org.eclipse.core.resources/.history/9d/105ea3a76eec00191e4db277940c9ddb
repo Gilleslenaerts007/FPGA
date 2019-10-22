@@ -1,0 +1,19 @@
+#ifndef _MCP23S17_H_
+#define _MCP23S17_H_
+
+/*****************************************************************************/
+/***************************** Include Files *********************************/
+/*****************************************************************************/
+#include "xil_types.h"
+#include "xparameters.h"
+#include "sleep.h"
+#include "xspi_l.h"		/* SPI device driver */
+
+// MCP23S17 SPI Address
+#define SPI_BASEADDR 					XPAR_AXI_SPI_0_BASEADDR
+#define AD5933_I2C_ADDR      			0x0D
+// Registers Address
+#define AD5933_CONTROL_REG_HB           0x80
+#define AD5933_CONTROL_REG_LB           0x81
+
+#endif	// _MCP23S17_H_

@@ -1,0 +1,64 @@
+#include <stdio.h>
+#include <math.h>
+#include "platform_config.h"
+#include "xil_printf.h"
+#include "platform.h"
+#include "xparameters.h"
+#include "MCP23S17.h"
+#include "sleep.h"
+#include "xspi.h"		/* SPI device driver */
+
+
+#define gpioSelect 0x0000FF // mask for GPIO port selection
+
+#define SPI_DEVICE_ID		XPAR_SPI_0_DEVICE_ID
+static XSpi SpiInstance;
+
+
+/*
+* Have to add Registers standard values, HAEN_ON, IODIR, BANK_ON
+ */
+void SPIStart(){
+	int Status;
+	XSpi_Config *confPTR;
+
+	confPTR = XSpi_LookupConfig(spiID);
+	if(confPTR == NULL) {
+		return XST_DEVICE_NOT_FOUND;
+	}
+
+	Status = XSpi_CfgInitialize(spiPTR, confPTR, confPTR->BaseAddress);
+	if(Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	Status = XSpi_SetOptions(spiPTR, XSP_MASTER_OPTION |
+			XSP_MANUAL_SSELECT_OPTION );
+	if(Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	XSpi_Start(spiPTR);
+	XSpi_IntrGlobalDisable(spiPTR);
+
+	return XST_SUCCESS;
+}
+
+/*
+* sorts input array on GPIO adresses and sends SPI port selects to both of the registers(GPA&GPB).
+ */
+void portSelection(char arraySelection){
+	char arrayGPB[3];
+	char arrayGPA[3];
+
+	for(int i=0;i<=24;i++){
+		if (arraySelection[i] < 0x4012F8)
+		{
+			arrayGPA[3]= arraySelection[i] && gpioSelect;  //for last bits
+		}
+		else arrayGPB[3] = arraySelection[i] && gpioSelect; // for last bits
+	}
+	SPITransfer(arrayGPB);
+	SPITransfer(arrayGPA);
+
+}

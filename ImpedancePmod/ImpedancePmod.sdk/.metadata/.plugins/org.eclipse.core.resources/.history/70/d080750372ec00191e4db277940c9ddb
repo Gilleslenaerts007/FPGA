@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <math.h>
+#include "platform_config.h"
+#include "xil_printf.h"
+#include "platform.h"
+#include "xparameters.h"
+#include "sleep.h"
+#include "xspi.h"		/* SPI device driver */
+
+
+#define SPI_DEVICE_ID		XPAR_SPI_0_DEVICE_ID
+static XSpi SpiInstance;
+
+void SPIStart(){
+	int Status;
+	XSpi_Config *confPTR;
+
+	confPTR = XSpi_LookupConfig(spiID);
+	if(confPTR == NULL) {
+		return XST_DEVICE_NOT_FOUND;
+	}
+
+	Status = XSpi_CfgInitialize(spiPTR, confPTR, confPTR->BaseAddress);
+	if(Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	Status = XSpi_SetOptions(spiPTR, XSP_MASTER_OPTION |
+			XSP_MANUAL_SSELECT_OPTION );
+	if(Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	XSpi_Start(spiPTR);
+	XSpi_IntrGlobalDisable(spiPTR);
+
+	return XST_SUCCESS;
+}
