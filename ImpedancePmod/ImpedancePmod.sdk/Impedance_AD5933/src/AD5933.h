@@ -123,7 +123,7 @@
 /************************ Functions Declarations *****************************/
 /*****************************************************************************/
 
-void test(void);
+void AD5933_ConfigSweepCycle(void);
 void calibration(void);
 void measureImpedance(void);
 void AD5933_SetRegisterValue(int registerAddress,

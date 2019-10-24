@@ -1,49 +1,3 @@
-
-/***************************************************************************//**
-*   @file   AD5933.c
-*   @brief  AD5933 Driver.
-*   @author ATofan (alexandru.tofan@analog.com)
-********************************************************************************
-* Copyright 2012(c) Analog Devices, Inc.
-*
-* All rights reserved.
-*
-* Redistribution and use in source and binary forms, with or without
-* modification, are permitted provided that the following conditions are met:
-*  - Redistributions of source code must retain the above copyright
-*    notice, this list of conditions and the following disclaimer.
-*  - Redistributions in binary form must reproduce the above copyright
-*    notice, this list of conditions and the following disclaimer in
-*    the documentation and/or other materials provided with the
-*    distribution.
-*  - Neither the name of Analog Devices, Inc. nor the names of its
-*    contributors may be used to endorse or promote products derived
-*    from this software without specific prior written permission.
-*  - The use of this software may or may not infringe the patent rights
-*    of one or more patent holders.  This license does not release you
-*    from the requirement that you obtain separate licenses from these
-*    patent holders to use this software.
-*  - Use of the software either in source or binary form, must be run
-*    on or directly connected to an Analog Devices Inc. component.
-*
-* THIS SOFTWARE IS PROVIDED BY ANALOG DEVICES "AS IS" AND ANY EXPRESS OR
-* IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, NON-INFRINGEMENT,
-* MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-* IN NO EVENT SHALL ANALOG DEVICES BE LIABLE FOR ANY DIRECT, INDIRECT,
-* INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-* LIMITED TO, INTELLECTUAL PROPERTY RIGHTS, PROCUREMENT OF SUBSTITUTE GOODS OR
-* SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-* CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-* OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-* OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-*
-********************************************************************************
-*   SVN Revision: $WCREV$
-*******************************************************************************/
-
-/*****************************************************************************/
-/***************************** Include Files *********************************/
-/*****************************************************************************/
 #include <stdio.h>
 #include <math.h>
 #include "platform_config.h"
@@ -54,10 +8,10 @@
 #include "xiic_l.h"
 
 #define IIC_DEVICE_ID		XPAR_IIC_0_DEVICE_ID
-
-#define startFrequentie 		0x005CFF 	//0x0F5C28  //0x015C28 -> Starts really low Freq. // hoe hoger getal = lager freq? //0x00FC63 -> 24Khz
-#define aantalSteps 			0xFFFF		//0x01F4
-#define frequentiePerStep  		0x00990	//0x000D16 //0x000500 -> 200Hz per stap
+//0x005CFF
+#define startFrequentie 		0x051EB8	//0x051EB8 = 10k, 0x0F5C28 = 30K //Adres, High bits, Lowbits
+#define stepCount 				0x00B4		//0x00B4 = 180 steps
+#define frequentiePerStep  		0x004189	//0x008312 = 1KHz, 0x004189 = 500Hz //0x000500 -> 200Hz per stap
 #define recordFreqSteps			500			// aantal freq steps per meting
 #define sleepTime				5			// in microSec.
 
@@ -67,6 +21,45 @@ unsigned long  impedanceKohms  = 0;
 unsigned long  impedanceOhms   = 0;
 float          impedance       = 0.0f;
 float          gainFactor      = 0.0f;
+
+
+void AD5933_ConfigSweepCycle()
+{
+
+
+	// Configure starting frequency
+	AD5933_SetRegisterValue(AD5933_START_FREQ_REG_HB,
+							startFrequentie,
+							3);
+
+	// Configure number of steps
+	AD5933_SetRegisterValue(AD5933_NR_INCR_REG_HB,
+							stepCount,
+							2);
+
+	// Configure frequency increment step
+	AD5933_SetRegisterValue(AD5933_FREQ_INCR_REG_HB,
+							frequentiePerStep,
+							3);
+
+
+	// Place AD5933 in standby
+	AD5933_SetRegisterValue(AD5933_CONTROL_REG_HB,
+							AD5933_CONTROL_FUNCTION(AD5933_STANDBY),
+							1);
+
+	// Select internal system clock
+	AD5933_SetRegisterValue(AD5933_CONTROL_REG_LB,
+							0x00,
+							1);
+
+	// Initialize starting frequency
+	AD5933_SetRegisterValue(AD5933_CONTROL_REG_HB,
+							AD5933_CONTROL_FUNCTION(AD5933_INIT_START_FREQ),
+							1);
+
+}
+
 
 /******************************************************************************
 * @brief Set an AD5933 internal register value.
@@ -311,7 +304,6 @@ double AD5933_CalculateImpedance(double gainFactor,
 		AD5933_ConfigSweep(0x0F5C28,
 					   0x01F4,
 					   0x000D16);
-
 	AD5933_ConfigSweep(startFrequentie,
 					   aantalSteps,
 					   frequentiePerStep);
@@ -345,26 +337,34 @@ double AD5933_CalculateImpedance(double gainFactor,
 		{
 			status = AD5933_GetRegisterValue(AD5933_STATUS_REG,1);
 		}
-
 		// Read real and imaginary data
 		realData = AD5933_GetRegisterValue(AD5933_REAL_REG_HB,2);
 		imgData  = AD5933_GetRegisterValue(AD5933_IMG_REG_HB,2);
-
 		// Calculate magnitude
 		magnitude = sqrtf((realData * realData) + (imgData * imgData));
-
 		// Calculate impedance
 		impedance = 1 / (magnitude * gainFactor / 1000000000);
 		printf("\n\r <%d,%d,%0.2f,%0.2f>  \n\r",realData, imgData, magnitude,impedance);
 		//usleep_A9(sleepTime);
 	}
 	*/
-	AD5933_StartSweep();
+
+	//AD5933_StartSweep();
+
+
+	// Start frequency sweep
+	AD5933_SetRegisterValue(AD5933_CONTROL_REG_HB,
+							0x21,  //AD5933_CONTROL_FUNCTION(AD5933_START_FREQ_SWEEP)
+							1);
+
+
+	// Wait for data to be valid
 	while((status & AD5933_STATUS_DATA_VALID) == 0)
 	{
 		status = AD5933_GetRegisterValue(AD5933_STATUS_REG,1);
+	}
 
-		// Read real and imaginary data
+	// Read real and imaginary data
 		realData = AD5933_GetRegisterValue(AD5933_REAL_REG_HB,2);
 		imgData  = AD5933_GetRegisterValue(AD5933_IMG_REG_HB,2);
 
@@ -374,7 +374,6 @@ double AD5933_CalculateImpedance(double gainFactor,
 		// Calculate impedance
 		impedance = 1 / (magnitude * gainFactor / 1000000000);
 		printf("\n\r <%d,%d,%0.2f,%0.2f>  \n\r",realData, imgData, magnitude,impedance);
-	}
 	return(impedance);
 
 }
@@ -398,7 +397,7 @@ void calibration(void)
 	//#define aantalSteps 			0x01F4
 	//#define frequentiePerStep 	0x000D16
 	AD5933_ConfigSweep(startFrequentie,
-						aantalSteps,
+						stepCount,
 						frequentiePerStep);
 
 	// Start the sweep
@@ -427,6 +426,11 @@ void measureImpedance(void)
 	temperature = AD5933_GetTemperature();
 	xil_printf("\n\rTemperature on board: %d C\n\r",temperature);
 
+	AD5933_ConfigSweepCycle();
+
+	int steps = 0;
+	while(steps < 150)
+	{
 	// Calculate impedance between Vout and Vin
 	impedance = AD5933_CalculateImpedance(gainFactor,
 										  AD5933_REPEAT_FREQ);
@@ -454,4 +458,9 @@ void measureImpedance(void)
 	}
 
 	xil_printf("Measurement complete.\n\r\n\r");
+	AD5933_SetRegisterValue(AD5933_CONTROL_REG_HB,
+							0x31,
+							1 );
+	steps++;
+	}
 }

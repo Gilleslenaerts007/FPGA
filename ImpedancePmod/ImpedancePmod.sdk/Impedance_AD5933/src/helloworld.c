@@ -79,7 +79,7 @@ int main()
     print("Calibrating AD5933 using RCAL1..\n\r");
     portSelection(GPIOA_ADR,(GPA6 | GPA7));
     XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
-   // calibration();
+    calibration();
 
     while(1){
 
@@ -115,6 +115,8 @@ int main()
     	{
 
     	}
+
+    	measureImpedance();
 
     	if (probeVoltCycle > 5)
     		{

@@ -9,3 +9,5 @@ set_property src_info {type:XDC file:1 line:14 export:INPUT save:INPUT read:READ
 set_property PACKAGE_PIN P14 [get_ports spi_rtl_io0_io]
 set_property src_info {type:XDC file:1 line:15 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN N11 [get_ports spi_rtl_io1_io]
+set_property src_info {type:XDC file:1 line:18 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N12 [get_ports spi_rtl_sck_io]
