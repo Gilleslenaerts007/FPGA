@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-// Date        : Tue Nov  5 14:36:25 2019
+// Date        : Tue Nov  5 15:50:48 2019
 // Host        : Gilles-Lenaerts running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               c:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/ip/design_1_WS2812_0_2/design_1_WS2812_0_2_sim_netlist.v
+//               C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/ip/design_1_WS2812_0_2/design_1_WS2812_0_2_sim_netlist.v
 // Design      : design_1_WS2812_0_2
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -424,17 +424,16 @@ module design_1_WS2812_0_2_WS2812
   wire \delay_low_cntr[28]_i_3_n_0 ;
   wire \delay_low_cntr[28]_i_4_n_0 ;
   wire \delay_low_cntr[28]_i_5_n_0 ;
-  wire \delay_low_cntr[2]_i_1_n_0 ;
+  wire \delay_low_cntr[2]_i_2_n_0 ;
+  wire \delay_low_cntr[2]_i_3_n_0 ;
+  wire \delay_low_cntr[2]_i_4_n_0 ;
+  wire \delay_low_cntr[2]_i_5_n_0 ;
   wire \delay_low_cntr[31]_i_1_n_0 ;
   wire \delay_low_cntr[31]_i_3_n_0 ;
   wire \delay_low_cntr[31]_i_4_n_0 ;
   wire \delay_low_cntr[31]_i_5_n_0 ;
   wire \delay_low_cntr[3]_i_1_n_0 ;
   wire \delay_low_cntr[4]_i_1_n_0 ;
-  wire \delay_low_cntr[4]_i_3_n_0 ;
-  wire \delay_low_cntr[4]_i_4_n_0 ;
-  wire \delay_low_cntr[4]_i_5_n_0 ;
-  wire \delay_low_cntr[4]_i_6_n_0 ;
   wire \delay_low_cntr[5]_i_1_n_0 ;
   wire \delay_low_cntr[6]_i_1_n_0 ;
   wire \delay_low_cntr[7]_i_1_n_0 ;
@@ -463,12 +462,12 @@ module design_1_WS2812_0_2_WS2812
   wire \delay_low_cntr_reg[28]_i_1_n_1 ;
   wire \delay_low_cntr_reg[28]_i_1_n_2 ;
   wire \delay_low_cntr_reg[28]_i_1_n_3 ;
+  wire \delay_low_cntr_reg[2]_i_1_n_0 ;
+  wire \delay_low_cntr_reg[2]_i_1_n_1 ;
+  wire \delay_low_cntr_reg[2]_i_1_n_2 ;
+  wire \delay_low_cntr_reg[2]_i_1_n_3 ;
   wire \delay_low_cntr_reg[31]_i_2_n_2 ;
   wire \delay_low_cntr_reg[31]_i_2_n_3 ;
-  wire \delay_low_cntr_reg[4]_i_2_n_0 ;
-  wire \delay_low_cntr_reg[4]_i_2_n_1 ;
-  wire \delay_low_cntr_reg[4]_i_2_n_2 ;
-  wire \delay_low_cntr_reg[4]_i_2_n_3 ;
   wire \delay_low_cntr_reg[8]_i_2_n_0 ;
   wire \delay_low_cntr_reg[8]_i_2_n_1 ;
   wire \delay_low_cntr_reg[8]_i_2_n_2 ;
@@ -2240,9 +2239,9 @@ module design_1_WS2812_0_2_WS2812
     \delay_low_cntr[16]_i_5 
        (.I0(delay_low_cntr[13]),
         .O(\delay_low_cntr[16]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
   LUT4 #(
-    .INIT(16'hB888)) 
+    .INIT(16'h88B8)) 
     \delay_low_cntr[1]_i_1 
        (.I0(delay_low_cntr0[1]),
         .I1(\state_reg_n_0_[1] ),
@@ -2309,15 +2308,26 @@ module design_1_WS2812_0_2_WS2812
     \delay_low_cntr[28]_i_5 
        (.I0(delay_low_cntr[25]),
         .O(\delay_low_cntr[28]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
-  LUT4 #(
-    .INIT(16'hB8BB)) 
-    \delay_low_cntr[2]_i_1 
-       (.I0(delay_low_cntr0[2]),
-        .I1(\state_reg_n_0_[1] ),
-        .I2(\delay_high_cntr_reg[5]_i_2_n_0 ),
-        .I3(\state_reg[1]_i_3_n_0 ),
-        .O(\delay_low_cntr[2]_i_1_n_0 ));
+  LUT1 #(
+    .INIT(2'h1)) 
+    \delay_low_cntr[2]_i_2 
+       (.I0(delay_low_cntr[4]),
+        .O(\delay_low_cntr[2]_i_2_n_0 ));
+  LUT1 #(
+    .INIT(2'h1)) 
+    \delay_low_cntr[2]_i_3 
+       (.I0(delay_low_cntr[3]),
+        .O(\delay_low_cntr[2]_i_3_n_0 ));
+  LUT1 #(
+    .INIT(2'h1)) 
+    \delay_low_cntr[2]_i_4 
+       (.I0(delay_low_cntr[2]),
+        .O(\delay_low_cntr[2]_i_4_n_0 ));
+  LUT1 #(
+    .INIT(2'h1)) 
+    \delay_low_cntr[2]_i_5 
+       (.I0(delay_low_cntr[1]),
+        .O(\delay_low_cntr[2]_i_5_n_0 ));
   LUT4 #(
     .INIT(16'h00A2)) 
     \delay_low_cntr[31]_i_1 
@@ -2341,13 +2351,14 @@ module design_1_WS2812_0_2_WS2812
     \delay_low_cntr[31]_i_5 
        (.I0(delay_low_cntr[29]),
         .O(\delay_low_cntr[31]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair3" *) 
-  LUT3 #(
-    .INIT(8'hB8)) 
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  LUT4 #(
+    .INIT(16'hB888)) 
     \delay_low_cntr[3]_i_1 
        (.I0(delay_low_cntr0[3]),
         .I1(\state_reg_n_0_[1] ),
         .I2(\state_reg[1]_i_3_n_0 ),
+        .I3(\delay_high_cntr_reg[5]_i_2_n_0 ),
         .O(\delay_low_cntr[3]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair0" *) 
   LUT4 #(
@@ -2358,26 +2369,6 @@ module design_1_WS2812_0_2_WS2812
         .I2(\state_reg[1]_i_3_n_0 ),
         .I3(\delay_high_cntr_reg[5]_i_2_n_0 ),
         .O(\delay_low_cntr[4]_i_1_n_0 ));
-  LUT1 #(
-    .INIT(2'h1)) 
-    \delay_low_cntr[4]_i_3 
-       (.I0(delay_low_cntr[4]),
-        .O(\delay_low_cntr[4]_i_3_n_0 ));
-  LUT1 #(
-    .INIT(2'h1)) 
-    \delay_low_cntr[4]_i_4 
-       (.I0(delay_low_cntr[3]),
-        .O(\delay_low_cntr[4]_i_4_n_0 ));
-  LUT1 #(
-    .INIT(2'h1)) 
-    \delay_low_cntr[4]_i_5 
-       (.I0(delay_low_cntr[2]),
-        .O(\delay_low_cntr[4]_i_5_n_0 ));
-  LUT1 #(
-    .INIT(2'h1)) 
-    \delay_low_cntr[4]_i_6 
-       (.I0(delay_low_cntr[1]),
-        .O(\delay_low_cntr[4]_i_6_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair1" *) 
   LUT4 #(
     .INIT(16'h88B8)) 
@@ -2387,6 +2378,7 @@ module design_1_WS2812_0_2_WS2812
         .I2(\state_reg[1]_i_3_n_0 ),
         .I3(\delay_high_cntr_reg[5]_i_2_n_0 ),
         .O(\delay_low_cntr[5]_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair3" *) 
   LUT3 #(
     .INIT(8'h8B)) 
     \delay_low_cntr[6]_i_1 
@@ -2641,14 +2633,21 @@ module design_1_WS2812_0_2_WS2812
         .D(delay_low_cntr0[29]),
         .Q(delay_low_cntr[29]),
         .R(\delay_low_cntr[31]_i_1_n_0 ));
-  FDRE #(
+  FDSE #(
     .INIT(1'b0)) 
     \delay_low_cntr_reg[2] 
        (.C(clk),
         .CE(\delay_low_cntr[11]_i_1_n_0 ),
-        .D(\delay_low_cntr[2]_i_1_n_0 ),
+        .D(delay_low_cntr0[2]),
         .Q(delay_low_cntr[2]),
-        .R(1'b0));
+        .S(\delay_low_cntr[31]_i_1_n_0 ));
+  CARRY4 \delay_low_cntr_reg[2]_i_1 
+       (.CI(1'b0),
+        .CO({\delay_low_cntr_reg[2]_i_1_n_0 ,\delay_low_cntr_reg[2]_i_1_n_1 ,\delay_low_cntr_reg[2]_i_1_n_2 ,\delay_low_cntr_reg[2]_i_1_n_3 }),
+        .CYINIT(delay_low_cntr[0]),
+        .DI(delay_low_cntr[4:1]),
+        .O(delay_low_cntr0[4:1]),
+        .S({\delay_low_cntr[2]_i_2_n_0 ,\delay_low_cntr[2]_i_3_n_0 ,\delay_low_cntr[2]_i_4_n_0 ,\delay_low_cntr[2]_i_5_n_0 }));
   FDRE #(
     .INIT(1'b0)) 
     \delay_low_cntr_reg[30] 
@@ -2688,13 +2687,6 @@ module design_1_WS2812_0_2_WS2812
         .D(\delay_low_cntr[4]_i_1_n_0 ),
         .Q(delay_low_cntr[4]),
         .R(1'b0));
-  CARRY4 \delay_low_cntr_reg[4]_i_2 
-       (.CI(1'b0),
-        .CO({\delay_low_cntr_reg[4]_i_2_n_0 ,\delay_low_cntr_reg[4]_i_2_n_1 ,\delay_low_cntr_reg[4]_i_2_n_2 ,\delay_low_cntr_reg[4]_i_2_n_3 }),
-        .CYINIT(delay_low_cntr[0]),
-        .DI(delay_low_cntr[4:1]),
-        .O(delay_low_cntr0[4:1]),
-        .S({\delay_low_cntr[4]_i_3_n_0 ,\delay_low_cntr[4]_i_4_n_0 ,\delay_low_cntr[4]_i_5_n_0 ,\delay_low_cntr[4]_i_6_n_0 }));
   FDRE #(
     .INIT(1'b0)) 
     \delay_low_cntr_reg[5] 
@@ -2728,7 +2720,7 @@ module design_1_WS2812_0_2_WS2812
         .Q(delay_low_cntr[8]),
         .R(1'b0));
   CARRY4 \delay_low_cntr_reg[8]_i_2 
-       (.CI(\delay_low_cntr_reg[4]_i_2_n_0 ),
+       (.CI(\delay_low_cntr_reg[2]_i_1_n_0 ),
         .CO({\delay_low_cntr_reg[8]_i_2_n_0 ,\delay_low_cntr_reg[8]_i_2_n_1 ,\delay_low_cntr_reg[8]_i_2_n_2 ,\delay_low_cntr_reg[8]_i_2_n_3 }),
         .CYINIT(1'b0),
         .DI(delay_low_cntr[8:5]),

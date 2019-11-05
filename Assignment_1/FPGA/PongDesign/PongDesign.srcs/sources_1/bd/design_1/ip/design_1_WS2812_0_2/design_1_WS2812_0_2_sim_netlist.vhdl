@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
--- Date        : Tue Nov  5 14:36:26 2019
+-- Date        : Tue Nov  5 15:50:48 2019
 -- Host        : Gilles-Lenaerts running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               c:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/ip/design_1_WS2812_0_2/design_1_WS2812_0_2_sim_netlist.vhdl
+--               C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/ip/design_1_WS2812_0_2/design_1_WS2812_0_2_sim_netlist.vhdl
 -- Design      : design_1_WS2812_0_2
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -329,17 +329,16 @@ architecture STRUCTURE of design_1_WS2812_0_2_WS2812 is
   signal \delay_low_cntr[28]_i_3_n_0\ : STD_LOGIC;
   signal \delay_low_cntr[28]_i_4_n_0\ : STD_LOGIC;
   signal \delay_low_cntr[28]_i_5_n_0\ : STD_LOGIC;
-  signal \delay_low_cntr[2]_i_1_n_0\ : STD_LOGIC;
+  signal \delay_low_cntr[2]_i_2_n_0\ : STD_LOGIC;
+  signal \delay_low_cntr[2]_i_3_n_0\ : STD_LOGIC;
+  signal \delay_low_cntr[2]_i_4_n_0\ : STD_LOGIC;
+  signal \delay_low_cntr[2]_i_5_n_0\ : STD_LOGIC;
   signal \delay_low_cntr[31]_i_1_n_0\ : STD_LOGIC;
   signal \delay_low_cntr[31]_i_3_n_0\ : STD_LOGIC;
   signal \delay_low_cntr[31]_i_4_n_0\ : STD_LOGIC;
   signal \delay_low_cntr[31]_i_5_n_0\ : STD_LOGIC;
   signal \delay_low_cntr[3]_i_1_n_0\ : STD_LOGIC;
   signal \delay_low_cntr[4]_i_1_n_0\ : STD_LOGIC;
-  signal \delay_low_cntr[4]_i_3_n_0\ : STD_LOGIC;
-  signal \delay_low_cntr[4]_i_4_n_0\ : STD_LOGIC;
-  signal \delay_low_cntr[4]_i_5_n_0\ : STD_LOGIC;
-  signal \delay_low_cntr[4]_i_6_n_0\ : STD_LOGIC;
   signal \delay_low_cntr[5]_i_1_n_0\ : STD_LOGIC;
   signal \delay_low_cntr[6]_i_1_n_0\ : STD_LOGIC;
   signal \delay_low_cntr[7]_i_1_n_0\ : STD_LOGIC;
@@ -368,12 +367,12 @@ architecture STRUCTURE of design_1_WS2812_0_2_WS2812 is
   signal \delay_low_cntr_reg[28]_i_1_n_1\ : STD_LOGIC;
   signal \delay_low_cntr_reg[28]_i_1_n_2\ : STD_LOGIC;
   signal \delay_low_cntr_reg[28]_i_1_n_3\ : STD_LOGIC;
+  signal \delay_low_cntr_reg[2]_i_1_n_0\ : STD_LOGIC;
+  signal \delay_low_cntr_reg[2]_i_1_n_1\ : STD_LOGIC;
+  signal \delay_low_cntr_reg[2]_i_1_n_2\ : STD_LOGIC;
+  signal \delay_low_cntr_reg[2]_i_1_n_3\ : STD_LOGIC;
   signal \delay_low_cntr_reg[31]_i_2_n_2\ : STD_LOGIC;
   signal \delay_low_cntr_reg[31]_i_2_n_3\ : STD_LOGIC;
-  signal \delay_low_cntr_reg[4]_i_2_n_0\ : STD_LOGIC;
-  signal \delay_low_cntr_reg[4]_i_2_n_1\ : STD_LOGIC;
-  signal \delay_low_cntr_reg[4]_i_2_n_2\ : STD_LOGIC;
-  signal \delay_low_cntr_reg[4]_i_2_n_3\ : STD_LOGIC;
   signal \delay_low_cntr_reg[8]_i_2_n_0\ : STD_LOGIC;
   signal \delay_low_cntr_reg[8]_i_2_n_1\ : STD_LOGIC;
   signal \delay_low_cntr_reg[8]_i_2_n_2\ : STD_LOGIC;
@@ -528,11 +527,11 @@ architecture STRUCTURE of design_1_WS2812_0_2_WS2812 is
   signal \NLW_state_reg[1]_i_9_O_UNCONNECTED\ : STD_LOGIC_VECTOR ( 3 downto 0 );
   attribute SOFT_HLUTNM : string;
   attribute SOFT_HLUTNM of \delay_low_cntr[11]_i_2\ : label is "soft_lutpair2";
-  attribute SOFT_HLUTNM of \delay_low_cntr[1]_i_1\ : label is "soft_lutpair1";
-  attribute SOFT_HLUTNM of \delay_low_cntr[2]_i_1\ : label is "soft_lutpair0";
-  attribute SOFT_HLUTNM of \delay_low_cntr[3]_i_1\ : label is "soft_lutpair3";
+  attribute SOFT_HLUTNM of \delay_low_cntr[1]_i_1\ : label is "soft_lutpair0";
+  attribute SOFT_HLUTNM of \delay_low_cntr[3]_i_1\ : label is "soft_lutpair1";
   attribute SOFT_HLUTNM of \delay_low_cntr[4]_i_1\ : label is "soft_lutpair0";
   attribute SOFT_HLUTNM of \delay_low_cntr[5]_i_1\ : label is "soft_lutpair1";
+  attribute SOFT_HLUTNM of \delay_low_cntr[6]_i_1\ : label is "soft_lutpair3";
   attribute SOFT_HLUTNM of \delay_low_cntr[7]_i_1\ : label is "soft_lutpair3";
   attribute SOFT_HLUTNM of \delay_low_cntr[8]_i_1\ : label is "soft_lutpair2";
 begin
@@ -3082,7 +3081,7 @@ d_out_reg_i_49: unisim.vcomponents.CARRY4
     );
 \delay_low_cntr[1]_i_1\: unisim.vcomponents.LUT4
     generic map(
-      INIT => X"B888"
+      INIT => X"88B8"
     )
         port map (
       I0 => delay_low_cntr0(1),
@@ -3187,16 +3186,37 @@ d_out_reg_i_49: unisim.vcomponents.CARRY4
       I0 => delay_low_cntr(25),
       O => \delay_low_cntr[28]_i_5_n_0\
     );
-\delay_low_cntr[2]_i_1\: unisim.vcomponents.LUT4
+\delay_low_cntr[2]_i_2\: unisim.vcomponents.LUT1
     generic map(
-      INIT => X"B8BB"
+      INIT => X"1"
     )
         port map (
-      I0 => delay_low_cntr0(2),
-      I1 => \state_reg_n_0_[1]\,
-      I2 => \delay_high_cntr_reg[5]_i_2_n_0\,
-      I3 => \state_reg[1]_i_3_n_0\,
-      O => \delay_low_cntr[2]_i_1_n_0\
+      I0 => delay_low_cntr(4),
+      O => \delay_low_cntr[2]_i_2_n_0\
+    );
+\delay_low_cntr[2]_i_3\: unisim.vcomponents.LUT1
+    generic map(
+      INIT => X"1"
+    )
+        port map (
+      I0 => delay_low_cntr(3),
+      O => \delay_low_cntr[2]_i_3_n_0\
+    );
+\delay_low_cntr[2]_i_4\: unisim.vcomponents.LUT1
+    generic map(
+      INIT => X"1"
+    )
+        port map (
+      I0 => delay_low_cntr(2),
+      O => \delay_low_cntr[2]_i_4_n_0\
+    );
+\delay_low_cntr[2]_i_5\: unisim.vcomponents.LUT1
+    generic map(
+      INIT => X"1"
+    )
+        port map (
+      I0 => delay_low_cntr(1),
+      O => \delay_low_cntr[2]_i_5_n_0\
     );
 \delay_low_cntr[31]_i_1\: unisim.vcomponents.LUT4
     generic map(
@@ -3233,14 +3253,15 @@ d_out_reg_i_49: unisim.vcomponents.CARRY4
       I0 => delay_low_cntr(29),
       O => \delay_low_cntr[31]_i_5_n_0\
     );
-\delay_low_cntr[3]_i_1\: unisim.vcomponents.LUT3
+\delay_low_cntr[3]_i_1\: unisim.vcomponents.LUT4
     generic map(
-      INIT => X"B8"
+      INIT => X"B888"
     )
         port map (
       I0 => delay_low_cntr0(3),
       I1 => \state_reg_n_0_[1]\,
       I2 => \state_reg[1]_i_3_n_0\,
+      I3 => \delay_high_cntr_reg[5]_i_2_n_0\,
       O => \delay_low_cntr[3]_i_1_n_0\
     );
 \delay_low_cntr[4]_i_1\: unisim.vcomponents.LUT4
@@ -3253,38 +3274,6 @@ d_out_reg_i_49: unisim.vcomponents.CARRY4
       I2 => \state_reg[1]_i_3_n_0\,
       I3 => \delay_high_cntr_reg[5]_i_2_n_0\,
       O => \delay_low_cntr[4]_i_1_n_0\
-    );
-\delay_low_cntr[4]_i_3\: unisim.vcomponents.LUT1
-    generic map(
-      INIT => X"1"
-    )
-        port map (
-      I0 => delay_low_cntr(4),
-      O => \delay_low_cntr[4]_i_3_n_0\
-    );
-\delay_low_cntr[4]_i_4\: unisim.vcomponents.LUT1
-    generic map(
-      INIT => X"1"
-    )
-        port map (
-      I0 => delay_low_cntr(3),
-      O => \delay_low_cntr[4]_i_4_n_0\
-    );
-\delay_low_cntr[4]_i_5\: unisim.vcomponents.LUT1
-    generic map(
-      INIT => X"1"
-    )
-        port map (
-      I0 => delay_low_cntr(2),
-      O => \delay_low_cntr[4]_i_5_n_0\
-    );
-\delay_low_cntr[4]_i_6\: unisim.vcomponents.LUT1
-    generic map(
-      INIT => X"1"
-    )
-        port map (
-      I0 => delay_low_cntr(1),
-      O => \delay_low_cntr[4]_i_6_n_0\
     );
 \delay_low_cntr[5]_i_1\: unisim.vcomponents.LUT4
     generic map(
@@ -3676,16 +3665,31 @@ d_out_reg_i_49: unisim.vcomponents.CARRY4
       Q => delay_low_cntr(29),
       R => \delay_low_cntr[31]_i_1_n_0\
     );
-\delay_low_cntr_reg[2]\: unisim.vcomponents.FDRE
+\delay_low_cntr_reg[2]\: unisim.vcomponents.FDSE
     generic map(
       INIT => '0'
     )
         port map (
       C => clk,
       CE => \delay_low_cntr[11]_i_1_n_0\,
-      D => \delay_low_cntr[2]_i_1_n_0\,
+      D => delay_low_cntr0(2),
       Q => delay_low_cntr(2),
-      R => '0'
+      S => \delay_low_cntr[31]_i_1_n_0\
+    );
+\delay_low_cntr_reg[2]_i_1\: unisim.vcomponents.CARRY4
+     port map (
+      CI => '0',
+      CO(3) => \delay_low_cntr_reg[2]_i_1_n_0\,
+      CO(2) => \delay_low_cntr_reg[2]_i_1_n_1\,
+      CO(1) => \delay_low_cntr_reg[2]_i_1_n_2\,
+      CO(0) => \delay_low_cntr_reg[2]_i_1_n_3\,
+      CYINIT => delay_low_cntr(0),
+      DI(3 downto 0) => delay_low_cntr(4 downto 1),
+      O(3 downto 0) => delay_low_cntr0(4 downto 1),
+      S(3) => \delay_low_cntr[2]_i_2_n_0\,
+      S(2) => \delay_low_cntr[2]_i_3_n_0\,
+      S(1) => \delay_low_cntr[2]_i_4_n_0\,
+      S(0) => \delay_low_cntr[2]_i_5_n_0\
     );
 \delay_low_cntr_reg[30]\: unisim.vcomponents.FDRE
     generic map(
@@ -3747,21 +3751,6 @@ d_out_reg_i_49: unisim.vcomponents.CARRY4
       Q => delay_low_cntr(4),
       R => '0'
     );
-\delay_low_cntr_reg[4]_i_2\: unisim.vcomponents.CARRY4
-     port map (
-      CI => '0',
-      CO(3) => \delay_low_cntr_reg[4]_i_2_n_0\,
-      CO(2) => \delay_low_cntr_reg[4]_i_2_n_1\,
-      CO(1) => \delay_low_cntr_reg[4]_i_2_n_2\,
-      CO(0) => \delay_low_cntr_reg[4]_i_2_n_3\,
-      CYINIT => delay_low_cntr(0),
-      DI(3 downto 0) => delay_low_cntr(4 downto 1),
-      O(3 downto 0) => delay_low_cntr0(4 downto 1),
-      S(3) => \delay_low_cntr[4]_i_3_n_0\,
-      S(2) => \delay_low_cntr[4]_i_4_n_0\,
-      S(1) => \delay_low_cntr[4]_i_5_n_0\,
-      S(0) => \delay_low_cntr[4]_i_6_n_0\
-    );
 \delay_low_cntr_reg[5]\: unisim.vcomponents.FDRE
     generic map(
       INIT => '0'
@@ -3808,7 +3797,7 @@ d_out_reg_i_49: unisim.vcomponents.CARRY4
     );
 \delay_low_cntr_reg[8]_i_2\: unisim.vcomponents.CARRY4
      port map (
-      CI => \delay_low_cntr_reg[4]_i_2_n_0\,
+      CI => \delay_low_cntr_reg[2]_i_1_n_0\,
       CO(3) => \delay_low_cntr_reg[8]_i_2_n_0\,
       CO(2) => \delay_low_cntr_reg[8]_i_2_n_1\,
       CO(1) => \delay_low_cntr_reg[8]_i_2_n_2\,

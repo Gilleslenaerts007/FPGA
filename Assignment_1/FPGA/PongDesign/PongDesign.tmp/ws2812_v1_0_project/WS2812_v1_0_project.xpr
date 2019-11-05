@@ -6,7 +6,7 @@
 <Project Version="7" Minor="40" Path="c:/fpga/assignment_1/fpga/pongdesign/pongdesign.tmp/ws2812_v1_0_project/WS2812_v1_0_project.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="1368616fd6e64c09809ccbf696e9db0d"/>
+    <Option Name="Id" Val="3896c455a30f4a589c659816929c4eb7"/>
     <Option Name="Part" Val="xc7z007sclg225-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>

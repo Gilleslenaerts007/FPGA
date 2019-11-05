@@ -73,7 +73,7 @@ set rc [catch {
   set_param project.singleFileAddWarning.threshold 0
   set_property webtalk.parent_dir C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.cache/wt [current_project]
   set_property parent.project_path C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.xpr [current_project]
-  set_property ip_repo_paths c:/FPGA/Assignment_1/ip_repo [current_project]
+  set_property ip_repo_paths C:/FPGA/Assignment_1/ip_repo [current_project]
   update_ip_catalog
   set_property ip_output_repo C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]

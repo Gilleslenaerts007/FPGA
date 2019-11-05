@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date             : Tue Nov  5 14:38:35 2019
+| Date             : Tue Nov  5 15:53:07 2019
 | Host             : Gilles-Lenaerts running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.387        |
+| Total On-Chip Power (W)  | 1.302        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.269        |
+| Dynamic (W)              | 1.184        |
 | Device Static (W)        | 0.118        |
 | Effective TJA (C/W)      | 11.5         |
-| Max Ambient (C)          | 69.0         |
-| Junction Temperature (C) | 41.0         |
+| Max Ambient (C)          | 70.0         |
+| Junction Temperature (C) | 40.0         |
 | Confidence Level         | Medium       |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,20 +52,20 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.004 |        3 |       --- |             --- |
-| Slice Logic              |     0.001 |     5681 |       --- |             --- |
-|   LUT as Logic           |    <0.001 |     1609 |     14400 |           11.17 |
+| Clocks                   |     0.004 |        4 |       --- |             --- |
+| Slice Logic              |    <0.001 |     5748 |       --- |             --- |
+|   LUT as Logic           |    <0.001 |     1652 |     14400 |           11.47 |
 |   CARRY4                 |    <0.001 |       93 |      4400 |            2.11 |
-|   Register               |    <0.001 |     3113 |     28800 |           10.81 |
+|   Register               |    <0.001 |     3118 |     28800 |           10.83 |
 |   LUT as Distributed RAM |    <0.001 |       16 |      6000 |            0.27 |
 |   F7/F8 Muxes            |    <0.001 |      385 |     17600 |            2.19 |
 |   LUT as Shift Register  |    <0.001 |       62 |      6000 |            1.03 |
-|   Others                 |     0.000 |      157 |       --- |             --- |
-| Signals                  |     0.002 |     4140 |       --- |             --- |
+|   Others                 |     0.000 |      158 |       --- |             --- |
+| Signals                  |     0.001 |     4173 |       --- |             --- |
 | I/O                      |    <0.001 |        2 |        54 |            3.70 |
-| PS7                      |     1.262 |        1 |       --- |             --- |
+| PS7                      |     1.178 |        1 |       --- |             --- |
 | Static Power             |     0.118 |          |           |                 |
-| Total                    |     1.387 |          |           |                 |
+| Total                    |     1.302 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -75,8 +75,8 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.013 |       0.007 |      0.006 |
-| Vccaux    |       1.800 |     0.008 |       0.000 |      0.008 |
+| Vccint    |       1.000 |     0.012 |       0.006 |      0.006 |
+| Vccaux    |       1.800 |     0.007 |       0.000 |      0.007 |
 | Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
@@ -88,12 +88,12 @@ Table of Contents
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccpint   |       1.000 |     0.680 |       0.653 |      0.027 |
+| Vccpint   |       1.000 |     0.691 |       0.665 |      0.026 |
 | Vccpaux   |       1.800 |     0.036 |       0.026 |      0.010 |
 | Vccpll    |       1.800 |     0.018 |       0.015 |      0.003 |
-| Vcco_ddr  |       1.500 |     0.354 |       0.352 |      0.002 |
+| Vcco_ddr  |       1.350 |     0.321 |       0.319 |      0.002 |
 | Vcco_mio0 |       3.300 |     0.003 |       0.002 |      0.001 |
-| Vcco_mio1 |       1.800 |     0.002 |       0.001 |      0.001 |
+| Vcco_mio1 |       3.300 |     0.002 |       0.001 |      0.001 |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
 +-----------+-------------+-----------+-------------+------------+
 
@@ -151,14 +151,14 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| design_1_wrapper         |     1.269 |
-|   design_1_i             |     1.269 |
-|     WS2812_0             |     0.004 |
-|       U0                 |     0.004 |
-|     processing_system7_0 |     1.263 |
-|       inst               |     1.263 |
+| design_1_wrapper         |     1.184 |
+|   design_1_i             |     1.184 |
+|     WS2812_0             |     0.003 |
+|       U0                 |     0.003 |
+|     processing_system7_0 |     1.178 |
+|       inst               |     1.178 |
 |     ps7_0_axi_periph     |     0.002 |
-|       s00_couplers       |     0.002 |
+|       s01_couplers       |     0.001 |
 +--------------------------+-----------+
 
 

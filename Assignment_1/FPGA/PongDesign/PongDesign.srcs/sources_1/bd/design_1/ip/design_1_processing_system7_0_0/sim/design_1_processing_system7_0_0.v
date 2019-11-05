@@ -56,14 +56,36 @@
 `timescale 1ns/1ps
 
 module design_1_processing_system7_0_0 (
-ENET0_MDIO_MDC, 
-ENET0_MDIO_O, 
-ENET0_MDIO_T, 
-ENET0_MDIO_I, 
+GPIO_I, 
+GPIO_O, 
+GPIO_T, 
+I2C0_SDA_I, 
+I2C0_SDA_O, 
+I2C0_SDA_T, 
+I2C0_SCL_I, 
+I2C0_SCL_O, 
+I2C0_SCL_T, 
+SDIO0_CLK, 
+SDIO0_CLK_FB, 
+SDIO0_CMD_O, 
+SDIO0_CMD_I, 
+SDIO0_CMD_T, 
+SDIO0_DATA_I, 
+SDIO0_DATA_O, 
+SDIO0_DATA_T, 
+SDIO0_LED, 
+SDIO0_CDN, 
 SDIO0_WP, 
-TTC0_WAVE0_OUT, 
-TTC0_WAVE1_OUT, 
-TTC0_WAVE2_OUT, 
+SDIO0_BUSPOW, 
+SDIO0_BUSVOLT, 
+UART0_DTRN, 
+UART0_RTSN, 
+UART0_TX, 
+UART0_CTSN, 
+UART0_DCDN, 
+UART0_DSRN, 
+UART0_RIN, 
+UART0_RX, 
 USB0_PORT_INDCTL, 
 USB0_VBUS_PWRSELECT, 
 USB0_VBUS_PWRFAULT, 
@@ -107,6 +129,7 @@ M_AXI_GP0_BRESP,
 M_AXI_GP0_RRESP, 
 M_AXI_GP0_RDATA, 
 FCLK_CLK0, 
+FCLK_CLK1, 
 FCLK_RESET0_N, 
 MIO, 
 DDR_CAS_n, 
@@ -130,14 +153,36 @@ PS_SRSTB,
 PS_CLK, 
 PS_PORB 
 );
-output ENET0_MDIO_MDC;
-output ENET0_MDIO_O;
-output ENET0_MDIO_T;
-input ENET0_MDIO_I;
+input [15 : 0] GPIO_I;
+output [15 : 0] GPIO_O;
+output [15 : 0] GPIO_T;
+input I2C0_SDA_I;
+output I2C0_SDA_O;
+output I2C0_SDA_T;
+input I2C0_SCL_I;
+output I2C0_SCL_O;
+output I2C0_SCL_T;
+output SDIO0_CLK;
+input SDIO0_CLK_FB;
+output SDIO0_CMD_O;
+input SDIO0_CMD_I;
+output SDIO0_CMD_T;
+input [3 : 0] SDIO0_DATA_I;
+output [3 : 0] SDIO0_DATA_O;
+output [3 : 0] SDIO0_DATA_T;
+output SDIO0_LED;
+input SDIO0_CDN;
 input SDIO0_WP;
-output TTC0_WAVE0_OUT;
-output TTC0_WAVE1_OUT;
-output TTC0_WAVE2_OUT;
+output SDIO0_BUSPOW;
+output [2 : 0] SDIO0_BUSVOLT;
+output UART0_DTRN;
+output UART0_RTSN;
+output UART0_TX;
+input UART0_CTSN;
+input UART0_DCDN;
+input UART0_DSRN;
+input UART0_RIN;
+input UART0_RX;
 output [1 : 0] USB0_PORT_INDCTL;
 output USB0_VBUS_PWRSELECT;
 input USB0_VBUS_PWRFAULT;
@@ -181,6 +226,7 @@ input [1 : 0] M_AXI_GP0_BRESP;
 input [1 : 0] M_AXI_GP0_RRESP;
 input [31 : 0] M_AXI_GP0_RDATA;
 output FCLK_CLK0;
+output FCLK_CLK1;
 output FCLK_RESET0_N;
 input [31 : 0] MIO;
 input DDR_CAS_n;
@@ -220,7 +266,7 @@ input PS_PORB;
     .C_S_AXI_HP3_DATA_WIDTH(64),
     .C_HIGH_OCM_EN(0),
     .C_FCLK_CLK0_FREQ(50.0),
-    .C_FCLK_CLK1_FREQ(10.0),
+    .C_FCLK_CLK1_FREQ(100.0),
     .C_FCLK_CLK2_FREQ(10.0),
     .C_FCLK_CLK3_FREQ(10.0),
 	.C_M_AXI_GP0_ENABLE_STATIC_REMAP(0),
@@ -583,7 +629,7 @@ input PS_PORB;
     .S_AXI_HP3_WSTRB(8'B0),
     .FCLK_CLK0(FCLK_CLK0),
 	
-    .FCLK_CLK1(),
+    .FCLK_CLK1(FCLK_CLK1),
 	
     .FCLK_CLK2(),
 	
