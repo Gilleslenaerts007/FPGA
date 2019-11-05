@@ -1,0 +1,343 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov  5 14:36:29 2019
+# Process ID: 7612
+# Current directory: C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1/design_1_wrapper.vds
+# Journal file: C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/FPGA/Assignment_1/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top design_1_wrapper -part xc7z007sclg225-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Device 21-403] Loading part xc7z007sclg225-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19276 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 726.539 ; gain = 176.215
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:21]
+INFO: [Synth 8-3491] module 'design_1' declared at 'C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:1121' bound to instance 'design_1_i' of component 'design_1' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'design_1' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:1132]
+INFO: [Synth 8-3491] module 'design_1_DigiLED_0_0' declared at 'C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1/.Xil/Vivado-7612-Gilles-Lenaerts/realtime/design_1_DigiLED_0_0_stub.vhdl:5' bound to instance 'DigiLED_0' of component 'design_1_DigiLED_0_0' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:1394]
+INFO: [Synth 8-638] synthesizing module 'design_1_DigiLED_0_0' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1/.Xil/Vivado-7612-Gilles-Lenaerts/realtime/design_1_DigiLED_0_0_stub.vhdl:33]
+INFO: [Synth 8-3491] module 'design_1_WS2812_0_2' declared at 'C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1/.Xil/Vivado-7612-Gilles-Lenaerts/realtime/design_1_WS2812_0_2_stub.vhdl:5' bound to instance 'WS2812_0' of component 'design_1_WS2812_0_2' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:1419]
+INFO: [Synth 8-638] synthesizing module 'design_1_WS2812_0_2' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1/.Xil/Vivado-7612-Gilles-Lenaerts/realtime/design_1_WS2812_0_2_stub.vhdl:34]
+INFO: [Synth 8-3491] module 'design_1_processing_system7_0_0' declared at 'C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1/.Xil/Vivado-7612-Gilles-Lenaerts/realtime/design_1_processing_system7_0_0_stub.vhdl:5' bound to instance 'processing_system7_0' of component 'design_1_processing_system7_0_0' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:1445]
+INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1/.Xil/Vivado-7612-Gilles-Lenaerts/realtime/design_1_processing_system7_0_0_stub.vhdl:84]
+INFO: [Synth 8-638] synthesizing module 'design_1_ps7_0_axi_periph_0' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:641]
+INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_15SPJYW' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_15SPJYW' (1#1) [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_XU9C55' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:172]
+INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_XU9C55' (2#1) [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:172]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_UYSKKA' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:302]
+INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at 'C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1/.Xil/Vivado-7612-Gilles-Lenaerts/realtime/design_1_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:485]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1/.Xil/Vivado-7612-Gilles-Lenaerts/realtime/design_1_auto_pc_0_stub.vhdl:70]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_UYSKKA' (3#1) [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:302]
+INFO: [Synth 8-3491] module 'design_1_xbar_0' declared at 'C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1/.Xil/Vivado-7612-Gilles-Lenaerts/realtime/design_1_xbar_0_stub.vhdl:5' bound to instance 'xbar' of component 'design_1_xbar_0' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:1054]
+INFO: [Synth 8-638] synthesizing module 'design_1_xbar_0' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1/.Xil/Vivado-7612-Gilles-Lenaerts/realtime/design_1_xbar_0_stub.vhdl:51]
+INFO: [Synth 8-256] done synthesizing module 'design_1_ps7_0_axi_periph_0' (4#1) [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:641]
+INFO: [Synth 8-3491] module 'design_1_rst_ps7_0_50M_0' declared at 'C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1/.Xil/Vivado-7612-Gilles-Lenaerts/realtime/design_1_rst_ps7_0_50M_0_stub.vhdl:5' bound to instance 'rst_ps7_0_50M' of component 'design_1_rst_ps7_0_50M_0' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:1608]
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_50M_0' [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1/.Xil/Vivado-7612-Gilles-Lenaerts/realtime/design_1_rst_ps7_0_50M_0_stub.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (5#1) [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/synth/design_1.vhd:1132]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (6#1) [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:21]
+WARNING: [Synth 8-3331] design s00_couplers_imp_UYSKKA has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_UYSKKA has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_15SPJYW has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_15SPJYW has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_15SPJYW has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_15SPJYW has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port S00_ACLK
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port S00_ARESETN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 794.867 ; gain = 244.543
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 794.867 ; gain = 244.543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 794.867 ; gain = 244.543
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'design_1_i/processing_system7_0'
+Finished Parsing XDC File [c:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'design_1_i/processing_system7_0'
+Parsing XDC File [c:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/ip/design_1_WS2812_0_2/design_1_WS2812_0_2/design_1_WS2812_0_2_in_context.xdc] for cell 'design_1_i/WS2812_0'
+Finished Parsing XDC File [c:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/ip/design_1_WS2812_0_2/design_1_WS2812_0_2/design_1_WS2812_0_2_in_context.xdc] for cell 'design_1_i/WS2812_0'
+Parsing XDC File [c:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
+Finished Parsing XDC File [c:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
+Parsing XDC File [c:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/xbar'
+Finished Parsing XDC File [c:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/xbar'
+Parsing XDC File [c:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/ip/design_1_DigiLED_0_0/design_1_DigiLED_0_0/design_1_DigiLED_0_0_in_context.xdc] for cell 'design_1_i/DigiLED_0'
+Finished Parsing XDC File [c:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/ip/design_1_DigiLED_0_0/design_1_DigiLED_0_0/design_1_DigiLED_0_0_in_context.xdc] for cell 'design_1_i/DigiLED_0'
+Parsing XDC File [c:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [c:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Parsing XDC File [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/constrs_1/new/ponger.xdc]
+Finished Parsing XDC File [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/constrs_1/new/ponger.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/constrs_1/new/ponger.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 858.828 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 858.828 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 858.828 ; gain = 308.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z007sclg225-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 858.828 ; gain = 308.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/WS2812_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/rst_ps7_0_50M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/DigiLED_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 858.828 ; gain = 308.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 858.828 ; gain = 308.504
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 66 (col length:40)
+BRAMs: 100 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port S00_ACLK
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port S00_ARESETN
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 858.828 ; gain = 308.504
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/processing_system7_0/FCLK_CLK0' to pin 'design_1_i/processing_system7_0/bbstub_FCLK_CLK0/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 872.098 ; gain = 321.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 872.172 ; gain = 321.848
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 882.207 ; gain = 331.883
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 897.000 ; gain = 346.676
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 897.000 ; gain = 346.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 897.000 ; gain = 346.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 897.000 ; gain = 346.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 897.000 ; gain = 346.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 897.000 ; gain = 346.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------------------+----------+
+|      |BlackBox name                   |Instances |
++------+--------------------------------+----------+
+|1     |design_1_xbar_0                 |         1|
+|2     |design_1_auto_pc_0              |         1|
+|3     |design_1_DigiLED_0_0            |         1|
+|4     |design_1_WS2812_0_2             |         1|
+|5     |design_1_processing_system7_0_0 |         1|
+|6     |design_1_rst_ps7_0_50M_0        |         1|
++------+--------------------------------+----------+
+
+Report Cell Usage: 
++------+---------------------------------------+------+
+|      |Cell                                   |Count |
++------+---------------------------------------+------+
+|1     |design_1_DigiLED_0_0_bbox_0            |     1|
+|2     |design_1_WS2812_0_2_bbox_1             |     1|
+|3     |design_1_auto_pc_0_bbox_3              |     1|
+|4     |design_1_processing_system7_0_0_bbox_2 |     1|
+|5     |design_1_rst_ps7_0_50M_0_bbox_5        |     1|
+|6     |design_1_xbar_0_bbox_4                 |     1|
+|7     |OBUF                                   |     2|
++------+---------------------------------------+------+
+
+Report Instance Areas: 
++------+---------------------+----------------------------+------+
+|      |Instance             |Module                      |Cells |
++------+---------------------+----------------------------+------+
+|1     |top                  |                            |   728|
+|2     |  design_1_i         |design_1                    |   726|
+|3     |    ps7_0_axi_periph |design_1_ps7_0_axi_periph_0 |   440|
+|4     |      s00_couplers   |s00_couplers_imp_UYSKKA     |   177|
++------+---------------------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 897.000 ; gain = 346.676
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 897.000 ; gain = 282.715
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 897.000 ; gain = 346.676
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 915.875 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+40 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 915.875 ; gain = 619.805
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 915.875 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  5 14:37:07 2019...

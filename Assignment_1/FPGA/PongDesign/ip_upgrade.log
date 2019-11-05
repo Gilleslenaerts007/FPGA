@@ -1,0 +1,100 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Nov  5 14:34:45 2019
+| Host         : Gilles-Lenaerts running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_WS2812_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_WS2812_0_2 (xilinx.com:user:WS2812:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Nov  5 14:18:56 2019
+| Host         : Gilles-Lenaerts running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_WS2812_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_WS2812_0_2 (xilinx.com:user:WS2812:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Nov  5 14:10:35 2019
+| Host         : Gilles-Lenaerts running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_WS2812_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_WS2812_0_2 (xilinx.com:user:WS2812:1.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Nov  5 13:42:31 2019
+| Host         : Gilles-Lenaerts running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_WS2812_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_WS2812_0_2 (xilinx.com:user:WS2812:1.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Nov  5 12:01:37 2019
+| Host         : Gilles-Lenaerts running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_WS2812_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_WS2812_0_2 (xilinx.com:user:WS2812:1.0) from (Rev. 3) to (Rev. 4)
+
