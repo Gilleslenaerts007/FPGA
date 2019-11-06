@@ -1,8 +1,8 @@
 --Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
---Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
---Date        : Tue Nov  5 15:49:31 2019
---Host        : Gilles-Lenaerts running 64-bit major release  (build 9200)
+--Tool Version: Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+--Date        : Wed Nov  6 22:44:16 2019
+--Host        : DESKTOP-LVJ56DR running 64-bit major release  (build 9200)
 --Command     : generate_target design_1_wrapper.bd
 --Design      : design_1_wrapper
 --Purpose     : IP block netlist
@@ -35,7 +35,7 @@ entity design_1_wrapper is
     FIXED_IO_ps_porb : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     d_out_0 : out STD_LOGIC;
-    led_out_0 : out STD_LOGIC
+    d_out_1 : out STD_LOGIC
   );
 end design_1_wrapper;
 
@@ -43,7 +43,7 @@ architecture STRUCTURE of design_1_wrapper is
   component design_1 is
   port (
     d_out_0 : out STD_LOGIC;
-    led_out_0 : out STD_LOGIC;
+    d_out_1 : out STD_LOGIC;
     DDR_cas_n : inout STD_LOGIC;
     DDR_cke : inout STD_LOGIC;
     DDR_ck_n : inout STD_LOGIC;
@@ -92,6 +92,6 @@ design_1_i: component design_1
       FIXED_IO_ps_porb => FIXED_IO_ps_porb,
       FIXED_IO_ps_srstb => FIXED_IO_ps_srstb,
       d_out_0 => d_out_0,
-      led_out_0 => led_out_0
+      d_out_1 => d_out_1
     );
 end STRUCTURE;

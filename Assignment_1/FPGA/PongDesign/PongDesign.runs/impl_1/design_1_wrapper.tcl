@@ -65,8 +65,7 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 1
-  set_param xicom.use_bs_reader 1
+  set_param chipscope.maxJobs 4
   create_project -in_memory -part xc7z007sclg225-1
   set_property board_part em.avnet.com:minized:part0:1.2 [current_project]
   set_property design_mode GateLvl [current_fileset]
@@ -83,7 +82,7 @@ set rc [catch {
   set_param project.isImplRun true
   add_files C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/sources_1/bd/design_1/design_1.bd
   set_param project.isImplRun false
-  read_xdc C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/constrs_1/new/ponger.xdc
+  read_xdc C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/constrs_1/new/Neopixel.xdc
   set_param project.isImplRun true
   link_design -top design_1_wrapper -part xc7z007sclg225-1
   set_param project.isImplRun false
