@@ -361,11 +361,6 @@ double AD5933_CalculateImpedance(double gainFactor,
 	// Wait for data to be valid
 	while((status & AD5933_STATUS_DATA_VALID) == 0)
 	{
-		if ((AD5933_GetRegisterValue(AD5933_STATUS_REG, 1) & 0x02))
-		{
-			realData = AD5933_GetRegisterValue(AD5933_REAL_REG_HB,2);
-			imgData  = AD5933_GetRegisterValue(AD5933_IMG_REG_HB,2);
-		}
 		status = AD5933_GetRegisterValue(AD5933_STATUS_REG,1);
 	}
 
@@ -393,8 +388,6 @@ double AD5933_CalculateImpedance(double gainFactor,
 void calibration(void)
 {
 
-	int rcalval = 0;
-	char portSEL = 0x00;
 	// Read temperature from device
 	temperature = AD5933_GetTemperature();
 	xil_printf("\n\rCalibrating with a temperature of %d C°.\n\r",temperature);
@@ -410,42 +403,8 @@ void calibration(void)
 	// Start the sweep
 	AD5933_StartSweep();
 
-	switch(RCAL)
-	{
-		case 1:     print("Calibrating AD5933 using RCAL1..");
-					portSEL = (GPA6 | GPA7);   //Rcal 1
-					rcalval = 5000;
-					break;
-		case 2:     print("Calibrating AD5933 using RCAL2..");
-					portSEL = (GPA7);   //Rcal 1
-					rcalval = 10000;
-					break;
-		case 3:     print("Calibrating AD5933 using RCAL3..");
-					portSEL = (GPA6);   //Rcal 1
-					rcalval = 40000;
-					break;
-	}
-
-	switch(RFB)
-	{
-		case 1:     print("&RFB1..\n\r");
-					break;
-		case 2:     print("&RFB2..\n\r");
-					portSEL |= (GPA5);   //RFB 2
-					break;
-		case 3:     print("&RFB3..\n\r");
-					portSEL |= (GPA4);   //Rcal 1
-					break;
-		case 4:     print("&RFB4..\n\r");
-					portSEL |= (GPA4 | GPA5);   //Rcal 1
-					break;
-	}
-
-	portSelection(GPIOA_ADR, portSEL);
-	XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
-
 	// Calculate gain factor for an impedance of 47kohms, change value here for chosen resistor
-	gainFactor = AD5933_CalculateGainFactor(rcalval,
+	gainFactor = AD5933_CalculateGainFactor(10000,
 											AD5933_REPEAT_FREQ);
 
 	// Change the resistor used for calibration with the one you wish to measure

@@ -17739,3 +17739,10 @@ con
 
 12:50:56 INFO  : Launch script is exported to file 'C:\FPGA\ImpedancePmod\ImpedancePmod.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_impedance_ad5933.elf_on_local.tcl'
 12:52:02 INFO  : Disconnected from the channel tcfchan#1.
+09:40:30 INFO  : Registering command handlers for SDK TCF services
+09:40:32 INFO  : Launching XSCT server: xsct.bat -interactive C:\FPGA\ImpedancePmod\ImpedancePmod.sdk\temp_xsdb_launch_script.tcl
+09:40:39 INFO  : XSCT server has started successfully.
+09:40:45 INFO  : Processing command line option -hwspec C:/FPGA/ImpedancePmod/ImpedancePmod.sdk/design_1_wrapper.hdf.
+09:40:45 INFO  : Successfully done setting XSCT server connection channel  
+09:40:45 INFO  : Successfully done setting SDK workspace  
+09:40:45 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.

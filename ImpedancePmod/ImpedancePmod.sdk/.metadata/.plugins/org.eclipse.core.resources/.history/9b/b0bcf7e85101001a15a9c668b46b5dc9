@@ -361,11 +361,6 @@ double AD5933_CalculateImpedance(double gainFactor,
 	// Wait for data to be valid
 	while((status & AD5933_STATUS_DATA_VALID) == 0)
 	{
-		if ((AD5933_GetRegisterValue(AD5933_STATUS_REG, 1) & 0x02))
-		{
-			realData = AD5933_GetRegisterValue(AD5933_REAL_REG_HB,2);
-			imgData  = AD5933_GetRegisterValue(AD5933_IMG_REG_HB,2);
-		}
 		status = AD5933_GetRegisterValue(AD5933_STATUS_REG,1);
 	}
 

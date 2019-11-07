@@ -73,7 +73,7 @@ int main()
 	init_platform();
 
 	int probeVoltCycle, probeCurrentCycle = 0;  //cycle
-	char RA, aPortSEL, bPortSEL = 0;
+	char RA, Port = 0;
 
     int Status;
     startGPIOPS();
@@ -99,27 +99,23 @@ int main()
     	{
 			switch (probeVoltCycle)
 			{
-				case 1: aPortSEL = GPA1 | GPA2;
-						bPortSEL = GPB0 | GPB7;
+				case 1: portSelection(GPIOA_ADR,(GPA1 | GPA2));
+						portSelection(GPIOB_ADR,(GPB0 | GPB7));
 						break;
 
-				case 2: aPortSEL = GPA3;
-						bPortSEL = GPB0 | GPB6 | GPB7;
+				case 2: portSelection(GPIOA_ADR,(GPA3));
+						portSelection(GPIOB_ADR,(GPB0 | GPB6 | GPB7));
 						break;
 
-				case 3: aPortSEL = GPA0 | GPA1 | GPA3;
-						bPortSEL = GPB0;
-						break;
+				case 3: GPB0&GPA0&GPA1&GPA3;
 
-				case 4: aPortSEL = GPA0 | GPA2 | GPA3;
-						bPortSEL=  GPB0 | GPB6;
-						break;
+				case 4: GPB0&GPB6&GPA0&GPA2&GPA3;
 
-				case 5:	aPortSEL = GPA0 | GPA1 | GPA2 | GPA3;
-						bPortSEL=  GPB0 | GPB7;
+				case 5: GPB0&GPB7&GPA0&GPA1&GPA2&GPA3;
 						break;
 
 				default: break;
+
 			}
     	}
     	if(probeCurrentCycle == 2)
@@ -127,17 +123,8 @@ int main()
 
     	}
 
-
-    	//Transfer & measure stage
-    	portSelection(GPIOA_ADR,aPortSEL);
-    	portSelection(GPIOB_ADR,bPortSEL);
-    	XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
-    	XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
-
     	measureImpedance();
 
-
-    	// Prepare next cycle
     	if (probeVoltCycle > 5)
     		{
     			probeVoltCycle = 1;
@@ -149,6 +136,8 @@ int main()
     		}
     	else probeVoltCycle++;
     	//XSpi_SetSlaveSelect(&SpiInstance, 0x01);
+    	XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+    	XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
 
     	//in = getchar();
  //   sleep_A9(3);
