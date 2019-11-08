@@ -1,5 +1,0 @@
-set_property SRC_FILE_INFO {cfile:C:/FPGA/Assignment_1/FPGA/PongDesign/PongDesign.srcs/constrs_1/new/Neopixel.xdc rfile:../../../PongDesign.srcs/constrs_1/new/Neopixel.xdc id:1} [current_design]
-set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN M15 [get_ports d_out_0]
-set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN L15 [get_ports d_out_1]

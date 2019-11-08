@@ -2,35 +2,27 @@
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
 #  -string -flagsOSRD
-preplace port DDR -pg 1 -lvl 4 -x 1150 -y 180 -defaultsOSRD
-preplace port FIXED_IO -pg 1 -lvl 4 -x 1150 -y 200 -defaultsOSRD
-preplace port d_out_0 -pg 1 -lvl 4 -x 1150 -y 420 -defaultsOSRD
-preplace port d_out_1 -pg 1 -lvl 4 -x 1150 -y 90 -defaultsOSRD
-preplace inst processing_system7_0 -pg 1 -lvl 1 -x 220 -y 260 -defaultsOSRD
-preplace inst NeoTestPixel_0 -pg 1 -lvl 3 -x 960 -y 90 -defaultsOSRD
-preplace inst ps7_0_axi_periph -pg 1 -lvl 3 -x 960 -y 340 -defaultsOSRD
-preplace inst rst_ps7_0_50M -pg 1 -lvl 2 -x 600 -y 400 -defaultsOSRD
-preplace inst axi_gpio_0 -pg 1 -lvl 1 -x 220 -y 670 -defaultsOSRD
-preplace inst WS2812_0 -pg 1 -lvl 3 -x 960 -y 580 -defaultsOSRD
-preplace netloc WS2812_0_d_out 1 3 1 1130J 420n
-preplace netloc NeoTestPixel_0_d_out 1 3 1 NJ 90
-preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 10 100 430 100 800
-preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 420 360n
-preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 3 20 750 N 750 780
-preplace netloc axi_gpio_0_gpio_io_o 1 1 2 420 580 NJ
-preplace netloc processing_system7_0_DDR 1 1 3 NJ 180 NJ 180 NJ
-preplace netloc processing_system7_0_FIXED_IO 1 1 3 420J -20 NJ -20 1130J
-preplace netloc processing_system7_0_M_AXI_GP0 1 1 2 NJ 300 790
-preplace netloc ps7_0_axi_periph_M00_AXI 1 2 2 800 -10 1120
-preplace netloc ps7_0_axi_periph_M01_AXI 1 2 2 810 0 1110
-preplace netloc ps7_0_axi_periph_M02_AXI 1 0 4 20 590 NJ 590 770J 680 1110
-levelinfo -pg 1 -10 220 600 960 1150
-pagesize -pg 1 -db -bbox -sgen -10 -80 1270 820
+preplace port DDR -pg 1 -lvl 4 -x 970 -y 270 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 970 -y 300 -defaultsOSRD
+preplace port d_out_0 -pg 1 -lvl 4 -x 970 -y 180 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 220 -y 360 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 580 -y 150 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -x 220 -y 120 -defaultsOSRD
+preplace inst WS2812_0 -pg 1 -lvl 3 -x 840 -y 180 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 10 420 20 730
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 30 20 410
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 2 440 30 720J
+preplace netloc WS2812_0_d_out 1 3 1 NJ 180
+preplace netloc processing_system7_0_DDR 1 1 3 440J 270 NJ 270 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 NJ 300 NJ 300 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 430 90n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 N 150
+levelinfo -pg 1 0 220 580 840 970
+pagesize -pg 1 -db -bbox -sgen 0 0 1080 520
 "
 }
 {
-   "da_axi4_cnt":"13",
-   "da_board_cnt":"2",
-   "da_clkrst_cnt":"14",
-   "da_ps7_cnt":"4"
+   "da_axi4_cnt":"1",
+   "da_clkrst_cnt":"1",
+   "da_ps7_cnt":"1"
 }
