@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:WS2812:1.0
--- IP Revision: 16
+-- IP Revision: 35
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -57,6 +57,8 @@ ENTITY design_1_WS2812_0_0 IS
   PORT (
     clk : IN STD_LOGIC;
     d_out : OUT STD_LOGIC;
+    led_r : OUT STD_LOGIC;
+    led_g : OUT STD_LOGIC;
     s00_axi_awaddr : IN STD_LOGIC_VECTOR(8 DOWNTO 0);
     s00_axi_awprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
     s00_axi_awvalid : IN STD_LOGIC;
@@ -92,6 +94,8 @@ ARCHITECTURE design_1_WS2812_0_0_arch OF design_1_WS2812_0_0 IS
     PORT (
       clk : IN STD_LOGIC;
       d_out : OUT STD_LOGIC;
+      led_r : OUT STD_LOGIC;
+      led_g : OUT STD_LOGIC;
       s00_axi_awaddr : IN STD_LOGIC_VECTOR(8 DOWNTO 0);
       s00_axi_awprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
       s00_axi_awvalid : IN STD_LOGIC;
@@ -116,11 +120,11 @@ ARCHITECTURE design_1_WS2812_0_0_arch OF design_1_WS2812_0_0 IS
     );
   END COMPONENT WS2812_v1_0;
   ATTRIBUTE X_CORE_INFO : STRING;
-  ATTRIBUTE X_CORE_INFO OF design_1_WS2812_0_0_arch: ARCHITECTURE IS "WS2812_v1_0,Vivado 2019.1";
+  ATTRIBUTE X_CORE_INFO OF design_1_WS2812_0_0_arch: ARCHITECTURE IS "WS2812_v1_0,Vivado 2019.1.3";
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF design_1_WS2812_0_0_arch : ARCHITECTURE IS "design_1_WS2812_0_0,WS2812_v1_0,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF design_1_WS2812_0_0_arch: ARCHITECTURE IS "design_1_WS2812_0_0,WS2812_v1_0,{x_ipProduct=Vivado 2019.1,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=WS2812,x_ipVersion=1.0,x_ipCoreRevision=16,x_ipLanguage=VHDL,x_ipSimLanguage=MIXED,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=9}";
+  ATTRIBUTE CORE_GENERATION_INFO OF design_1_WS2812_0_0_arch: ARCHITECTURE IS "design_1_WS2812_0_0,WS2812_v1_0,{x_ipProduct=Vivado 2019.1.3,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=WS2812,x_ipVersion=1.0,x_ipCoreRevision=35,x_ipLanguage=VHDL,x_ipSimLanguage=MIXED,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=9}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_PARAMETER : STRING;
   ATTRIBUTE X_INTERFACE_PARAMETER OF s00_axi_aresetn: SIGNAL IS "XIL_INTERFACENAME S00_AXI_RST, POLARITY ACTIVE_LOW, INSERT_VIP 0";
@@ -159,6 +163,8 @@ BEGIN
     PORT MAP (
       clk => clk,
       d_out => d_out,
+      led_r => led_r,
+      led_g => led_g,
       s00_axi_awaddr => s00_axi_awaddr,
       s00_axi_awprot => s00_axi_awprot,
       s00_axi_awvalid => s00_axi_awvalid,

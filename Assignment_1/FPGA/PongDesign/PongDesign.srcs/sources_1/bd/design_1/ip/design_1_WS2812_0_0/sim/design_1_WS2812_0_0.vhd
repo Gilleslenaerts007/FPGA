@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:WS2812:1.0
--- IP Revision: 16
+-- IP Revision: 35
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -57,6 +57,8 @@ ENTITY design_1_WS2812_0_0 IS
   PORT (
     clk : IN STD_LOGIC;
     d_out : OUT STD_LOGIC;
+    led_r : OUT STD_LOGIC;
+    led_g : OUT STD_LOGIC;
     s00_axi_awaddr : IN STD_LOGIC_VECTOR(8 DOWNTO 0);
     s00_axi_awprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
     s00_axi_awvalid : IN STD_LOGIC;
@@ -92,6 +94,8 @@ ARCHITECTURE design_1_WS2812_0_0_arch OF design_1_WS2812_0_0 IS
     PORT (
       clk : IN STD_LOGIC;
       d_out : OUT STD_LOGIC;
+      led_r : OUT STD_LOGIC;
+      led_g : OUT STD_LOGIC;
       s00_axi_awaddr : IN STD_LOGIC_VECTOR(8 DOWNTO 0);
       s00_axi_awprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
       s00_axi_awvalid : IN STD_LOGIC;
@@ -153,6 +157,8 @@ BEGIN
     PORT MAP (
       clk => clk,
       d_out => d_out,
+      led_r => led_r,
+      led_g => led_g,
       s00_axi_awaddr => s00_axi_awaddr,
       s00_axi_awprot => s00_axi_awprot,
       s00_axi_awvalid => s00_axi_awvalid,

@@ -282,7 +282,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>e98abd4a</spirit:value>
+            <spirit:value>d7a1442a</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -298,7 +298,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>e98abd4a</spirit:value>
+            <spirit:value>d7a1442a</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -361,6 +361,32 @@
       </spirit:port>
       <spirit:port>
         <spirit:name>d_out</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>led_r</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>led_g</spirit:name>
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:wireTypeDefs>
@@ -727,7 +753,7 @@
       <spirit:file>
         <spirit:name>hdl/WS2812_v1_0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_09a86087</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_24f42be8</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -860,8 +886,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>WS2812_v1.0</xilinx:displayName>
-      <xilinx:coreRevision>16</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2019-11-08T15:12:17Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>35</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2019-11-09T22:45:36Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@21f192db_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@75b1348d_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
@@ -1077,14 +1103,215 @@
         <xilinx:tag xilinx:name="ui.data.coregen.dd@62fc1bb7_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@638e2c19_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@6ee775bb_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1ba9589d_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5bb9b26e_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@37a96c64_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e73acf4_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2de92733_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@617620e4_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@336a31ad_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1880918c_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@235895d1_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6181697c_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@717b9720_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@42b501e8_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@65a9d661_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@64b2e9b0_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@548abdea_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5e556ee5_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@429a5ece_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@344e1a06_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@14e229d5_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@52feeadc_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e70cc16_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c422218_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@13d3d9fc_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4b8103ac_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f6e9865_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b483b44_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d3c7547_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@28931e52_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@f1e688a_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@79fff014_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6914370d_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@65fbd9a1_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2787ed45_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@64860672_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@327b2ef4_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@78a74930_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2569147b_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@199aeed2_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1418938e_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@42a35f4a_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4b826b38_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@76d2d412_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4536016a_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7a28501c_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@65530979_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@331d5cc5_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@66c0502e_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7bdd6de_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6743ed26_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e3b8e78_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7d308a19_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@67912597_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d6dcd08_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d5200dc_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@67783a6a_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@12dc1aa4_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d98100c_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e95dfb4_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@51b749d2_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@690b8d2_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@40065e91_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@283901d3_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2fef1e9c_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@46be27bf_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@e221602_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5ad0d57_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5d999ec6_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@ddaac92_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b162318_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@54c2aa15_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3c709b2e_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@136551b1_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@746c60d8_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3b4e12b0_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4fa0136_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c126148_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5502d987_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@66839dca_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@21f268b6_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4556694_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5acccf9f_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5dbb2fef_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6ca1cecc_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2943728f_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3dbba866_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1cda9685_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@26294711_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6dbf2df5_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@9d6952d_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4787c4f0_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@40c78160_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@9c721d3_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5cef9168_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@68aa66f6_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@371528ca_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5120bc8b_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@23ff62f3_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6b118b03_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74d68991_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@29854d76_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@71d37a94_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c674b5b_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@16bb9461_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5d6cb458_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3aa31051_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@292f0e6f_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@47a7b716_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6d2dd3ec_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2be61526_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@548fea36_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@42ab11b9_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@36ce6b87_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@50467ede_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4ad1ccd9_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2c66bed_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@281437a0_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7b7971e0_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@47aaea32_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@66c00caa_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@159c4a00_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4290b4a7_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@52763228_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4618b577_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6a43697b_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@f6c2e7b_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e113272_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5686bb62_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7b16ef49_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5cf0b422_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@30c55b52_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7e69fd5e_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2f4ccd73_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@37952248_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7dab1bcc_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3886e20c_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@50d5f011_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@43492e47_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b8293a8_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@75caaf5b_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2634e4cc_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@51f1a852_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d43a54c_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7cd65c6a_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d1f397b_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@37d02201_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a10ef99_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@19bccd3d_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@75d9a88c_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2fcdb011_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@fb85b35_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5163539c_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1ddc9c88_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6f4e7282_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@16346dfb_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6ee5a740_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3a920b67_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2cbe9179_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@55a1d3d7_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1181681a_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7ec125c2_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1b852f55_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@14d88b3e_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@72ab06d2_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@335df371_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@29841e6d_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@15a0524a_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@12c718ef_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@50775798_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b04ad54_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1be482d7_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74c140a7_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1c7a7fa7_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@41b02fe1_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@39bae007_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@16c30747_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@de2f34_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@419f1dd7_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@65422940_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4828bee5_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3a8c694b_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2f15c0cd_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c96e36_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5211b294_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4b73d09f_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c16371f_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@fc5bc60_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@54e0df9b_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7e493cf_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4012bb3f_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@86bbe76_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6ccf88c3_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@12002358_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7328ebf_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@799852c4_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@43b1ccb_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@37ad9157_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d8c877e_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5ad26048_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@9bc9a53_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@65a6fd6e_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d3836e8_ARCHIVE_LOCATION">c:/FPGA/Assignment_1/ip_repo/WS2812_1.0</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
-      <xilinx:xilinxVersion>2019.1</xilinx:xilinxVersion>
+      <xilinx:xilinxVersion>2019.1.3</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="3f004658"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="ed1368d5"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="fb4a55b6"/>
-      <xilinx:checksum xilinx:scope="ports" xilinx:value="6de08261"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="270c5140"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="b28b9c86"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="bcb37c3f"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="ec31412c"/>
     </xilinx:packagingInfo>

@@ -1,8 +1,8 @@
 --Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
---Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
---Date        : Fri Nov  8 16:13:27 2019
---Host        : Gilles-Lenaerts running 64-bit major release  (build 9200)
+--Tool Version: Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+--Date        : Sat Nov  9 23:45:52 2019
+--Host        : DESKTOP-LVJ56DR running 64-bit major release  (build 9200)
 --Command     : generate_target design_1.bd
 --Design      : design_1
 --Purpose     : IP block netlist
@@ -611,10 +611,12 @@ entity design_1 is
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
-    d_out_0 : out STD_LOGIC
+    d_out_0 : out STD_LOGIC;
+    led_g_0 : out STD_LOGIC;
+    led_r_0 : out STD_LOGIC
   );
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of design_1 : entity is "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=6,numReposBlks=4,numNonXlnxBlks=0,numHierBlks=2,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=1,da_clkrst_cnt=1,da_ps7_cnt=1,synth_mode=OOC_per_IP}";
+  attribute CORE_GENERATION_INFO of design_1 : entity is "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=7,numReposBlks=5,numNonXlnxBlks=0,numHierBlks=2,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=1,da_clkrst_cnt=3,da_ps7_cnt=1,synth_mode=OOC_per_IP}";
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of design_1 : entity is "design_1.hwdef";
 end design_1;
@@ -734,10 +736,18 @@ architecture STRUCTURE of design_1 is
     peripheral_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
   end component design_1_rst_ps7_0_50M_0;
+  component design_1_ila_0_1 is
+  port (
+    clk : in STD_LOGIC;
+    probe0 : in STD_LOGIC_VECTOR ( 23 downto 0 )
+  );
+  end component design_1_ila_0_1;
   component design_1_WS2812_0_0 is
   port (
     clk : in STD_LOGIC;
     d_out : out STD_LOGIC;
+    led_r : out STD_LOGIC;
+    led_g : out STD_LOGIC;
     s00_axi_awaddr : in STD_LOGIC_VECTOR ( 8 downto 0 );
     s00_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
     s00_axi_awvalid : in STD_LOGIC;
@@ -762,6 +772,8 @@ architecture STRUCTURE of design_1 is
   );
   end component design_1_WS2812_0_0;
   signal WS2812_0_d_out : STD_LOGIC;
+  signal WS2812_0_led_g : STD_LOGIC;
+  signal WS2812_0_led_r : STD_LOGIC;
   signal processing_system7_0_DDR_ADDR : STD_LOGIC_VECTOR ( 14 downto 0 );
   signal processing_system7_0_DDR_BA : STD_LOGIC_VECTOR ( 2 downto 0 );
   signal processing_system7_0_DDR_CAS_N : STD_LOGIC;
@@ -894,10 +906,14 @@ architecture STRUCTURE of design_1 is
   attribute X_INTERFACE_INFO of FIXED_IO_mio : signal is "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO MIO";
 begin
   d_out_0 <= WS2812_0_d_out;
+  led_g_0 <= WS2812_0_led_g;
+  led_r_0 <= WS2812_0_led_r;
 WS2812_0: component design_1_WS2812_0_0
      port map (
       clk => processing_system7_0_FCLK_CLK0,
       d_out => WS2812_0_d_out,
+      led_g => WS2812_0_led_g,
+      led_r => WS2812_0_led_r,
       s00_axi_aclk => processing_system7_0_FCLK_CLK0,
       s00_axi_araddr(8 downto 0) => ps7_0_axi_periph_M00_AXI_ARADDR(8 downto 0),
       s00_axi_aresetn => rst_ps7_0_50M_peripheral_aresetn(0),
@@ -919,6 +935,34 @@ WS2812_0: component design_1_WS2812_0_0
       s00_axi_wready => ps7_0_axi_periph_M00_AXI_WREADY,
       s00_axi_wstrb(3 downto 0) => ps7_0_axi_periph_M00_AXI_WSTRB(3 downto 0),
       s00_axi_wvalid => ps7_0_axi_periph_M00_AXI_WVALID
+    );
+ila_0: component design_1_ila_0_1
+     port map (
+      clk => processing_system7_0_FCLK_CLK0,
+      probe0(23) => WS2812_0_d_out,
+      probe0(22) => WS2812_0_d_out,
+      probe0(21) => WS2812_0_d_out,
+      probe0(20) => WS2812_0_d_out,
+      probe0(19) => WS2812_0_d_out,
+      probe0(18) => WS2812_0_d_out,
+      probe0(17) => WS2812_0_d_out,
+      probe0(16) => WS2812_0_d_out,
+      probe0(15) => WS2812_0_d_out,
+      probe0(14) => WS2812_0_d_out,
+      probe0(13) => WS2812_0_d_out,
+      probe0(12) => WS2812_0_d_out,
+      probe0(11) => WS2812_0_d_out,
+      probe0(10) => WS2812_0_d_out,
+      probe0(9) => WS2812_0_d_out,
+      probe0(8) => WS2812_0_d_out,
+      probe0(7) => WS2812_0_d_out,
+      probe0(6) => WS2812_0_d_out,
+      probe0(5) => WS2812_0_d_out,
+      probe0(4) => WS2812_0_d_out,
+      probe0(3) => WS2812_0_d_out,
+      probe0(2) => WS2812_0_d_out,
+      probe0(1) => WS2812_0_d_out,
+      probe0(0) => WS2812_0_d_out
     );
 processing_system7_0: component design_1_processing_system7_0_0
      port map (
