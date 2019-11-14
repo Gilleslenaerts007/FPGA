@@ -4,22 +4,23 @@
 /*****************************************************************************/
 /***************************** Include Files *********************************/
 /*****************************************************************************/
-#include "xil_types.h"
-#include "xparameters.h"
-#include "xspi.h"		/* SPI device driver */
-//#include "xiic.h"
-#include "xil_exception.h"
-#include "xgpiops.h"
-#include "sleep.h"
-#include "platform_config.h"
-#include "xil_printf.h"
-#include "platform.h"
 
-// MCP23S17 SPI Address
-//#define SPI_BASEADDR 					XPAR_AXI_SPI_0_BASEADDR
+#include "xspi.h"
+
+/*****************************************************************************/
+/***************************** SPI Configs *********************************/
+/*****************************************************************************/
+#define SPI_BASEADDR 					XPAR_AXI_SPI_0_BASEADDR
 #define MCP23S17_SPI_ADDR      			0x40
-
-// Registers Address
+#define SPI_DEVICE_ID		XPAR_SPI_0_DEVICE_ID
+#define BUFFER_SIZE 3
+static XSpi SpiInstance;
+char readBuffer[BUFFER_SIZE];
+char dummybuffer[BUFFER_SIZE];
+char arrayGPB[3], arrayGPA[3];
+/*****************************************************************************/
+/***************************** Register Adresses *********************************/
+/*****************************************************************************/
 #define    IODIRA    (0x00)      // MCP23x17 I/O Direction Register
 #define    IODIRB    (0x01)      // 1 = Input (default), 0 = Output
 #define GPIOA_ADR 0x12  // port A
@@ -49,28 +50,36 @@
 #define	GPA6	0x40
 #define	GPA7	0x80
 
-// User DEFINES
+/*****************************************************************************/
+/***************************** S *********************************/
+/*****************************************************************************/
+
+//MCP Variables
+int probeVoltCycle, probeCurrentCycle;  //cycle
+
 #define BUFFER_SIZE 3
 #define gpioSelect 0x0000FF // mask for GPIO port selection
 
-#define SPI_DEVICE_ID		XPAR_SPI_0_DEVICE_ID
-static XSpi SpiInstance;
-
-static XGpioPs Gpio; /* The Instance of the GPIO Driver */
-#define GPIO_BANK	XGPIOPS_BANK0
-u32 Input_Pin;
-
-typedef u8 dataBuffer[BUFFER_SIZE];
-char readBuffer[BUFFER_SIZE];
-u8 writeBuffer[BUFFER_SIZE];
-char dummybuffer[BUFFER_SIZE];
-
-char arrayGPB[3], arrayGPA[3];
 
 /**
 * sorts input array on GPIO adresses and sends SPI port selects to both registers(GPA&GPB).
  */
 void portSelection(char RegisterADR, char Port);
+
+/**
+* Select Rcal & RFB Values. //In debugging uart input chooses 1,2,3.
+ */
+int RCal_RFB_Select(int RCAL, int RFB);
+
+/**
+* This function does a full measurement cycle of 8 probes with the MCP23S17 Port selects from a truth table.
+ */
+void probeMeasureSelect();
+
+/**
+* Transfer SPI port selects to both registers(GPA&GPB).
+ */
+void portTransfer();
 
 /*
 * Start SPI module with correct register values.

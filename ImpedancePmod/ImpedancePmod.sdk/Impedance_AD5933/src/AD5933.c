@@ -1,13 +1,8 @@
 #include <stdio.h>
 #include <math.h>
-#include "platform_config.h"
-#include "xil_printf.h"
-#include "platform.h"
-#include "xparameters.h"
 #include "AD5933.h"
 #include "xiic_l.h"
 
-#define IIC_DEVICE_ID		XPAR_IIC_0_DEVICE_ID
 //0x005CFF
 #define startFrequentie 		0x051EB8	//0x051EB8 = 10k, 0x0F5C28 = 30K //Adres, High bits, Lowbits
 #define stepCount 				0x00B4		//0x00B4 = 180 steps
@@ -21,7 +16,6 @@ unsigned long  impedanceKohms  = 0;
 unsigned long  impedanceOhms   = 0;
 float          impedance       = 0.0f;
 float          gainFactor      = 0.0f;
-
 
 void AD5933_ConfigSweepCycle()
 {
@@ -390,11 +384,9 @@ double AD5933_CalculateImpedance(double gainFactor,
 *
 * @return none.
 ******************************************************************************/
-void calibration(void)
+void calibration(int rcalval)
 {
 
-	int rcalval = 0;
-	char portSEL = 0x00;
 	// Read temperature from device
 	temperature = AD5933_GetTemperature();
 	xil_printf("\n\rCalibrating with a temperature of %d C°.\n\r",temperature);
@@ -409,40 +401,6 @@ void calibration(void)
 
 	// Start the sweep
 	AD5933_StartSweep();
-
-	switch(RCAL)
-	{
-		case 1:     print("Calibrating AD5933 using RCAL1..");
-					portSEL = (GPA6 | GPA7);   //Rcal 1
-					rcalval = 5000;
-					break;
-		case 2:     print("Calibrating AD5933 using RCAL2..");
-					portSEL = (GPA7);   //Rcal 1
-					rcalval = 10000;
-					break;
-		case 3:     print("Calibrating AD5933 using RCAL3..");
-					portSEL = (GPA6);   //Rcal 1
-					rcalval = 40000;
-					break;
-	}
-
-	switch(RFB)
-	{
-		case 1:     print("&RFB1..\n\r");
-					break;
-		case 2:     print("&RFB2..\n\r");
-					portSEL |= (GPA5);   //RFB 2
-					break;
-		case 3:     print("&RFB3..\n\r");
-					portSEL |= (GPA4);   //Rcal 1
-					break;
-		case 4:     print("&RFB4..\n\r");
-					portSEL |= (GPA4 | GPA5);   //Rcal 1
-					break;
-	}
-
-	portSelection(GPIOA_ADR, portSEL);
-	XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
 
 	// Calculate gain factor for an impedance of 47kohms, change value here for chosen resistor
 	gainFactor = AD5933_CalculateGainFactor(rcalval,

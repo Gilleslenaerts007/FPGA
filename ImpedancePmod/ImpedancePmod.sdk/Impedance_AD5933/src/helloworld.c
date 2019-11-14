@@ -48,33 +48,28 @@
 #include <stdio.h>
 #include "platform.h"
 #include "xil_printf.h"
+#include "xil_types.h"
+#include "xil_exception.h"
 #include "AD5933.h"
 #include "MCP23S17.h"
 #include "platform.h"
 #include "xparameters.h"
 #include "sleep.h"
-//#include "xspi.h"		/* SPI device driver */
-//#include "xiic.h"
-//#include "xil_exception.h"
-//#include "xgpiops.h"
 
-#define RCAL 1		// choose 1,2,3
-//#define RCAL2 2
-//#define RCAL3 3
+#include "xuartps_hw.h"
+#include "xgpiops.h"
 
-#define RFB 1		//choose 1,2,3,4
-//#define RFB1 1
-//#define RFB2 2
-//#define RFB3 3
-//#define RFB4 4
+//GPIOPS
+static XGpioPs Gpio; /* The Instance of the GPIO Driver */
+#define GPIO_BANK	XGPIOPS_BANK0
+u32 Input_Pin;
+
+void startGPIOPS();
 
 int main()
 {
 	init_platform();
-
-	int probeVoltCycle, probeCurrentCycle = 0;  //cycle
-	char RA, aPortSEL, bPortSEL = 0;
-
+	int rcalChoice;
     int Status;
     startGPIOPS();
     Status = SPIStart(&SpiInstance, SPI_DEVICE_ID);
@@ -85,78 +80,41 @@ int main()
     print("EIT: Impedance measurement program by Gilles Lenaerts.\n\r");
 
     //Calibrate AD5933 with x resistor (41K now)
-    calibration();
-
 
     while(1){
 
     	if (XGpioPs_ReadPin(&Gpio, Input_Pin))
     	{
+    		rcalChoice=0;
     		probeCurrentCycle++;
-    	}
-
-    	if(probeCurrentCycle == 1)
-    	{
-			switch (probeVoltCycle)
-			{
-				case 1: aPortSEL = GPA1 | GPA2;
-						bPortSEL = GPB0 | GPB7;
-						break;
-
-				case 2: aPortSEL = GPA3;
-						bPortSEL = GPB0 | GPB6 | GPB7;
-						break;
-
-				case 3: aPortSEL = GPA0 | GPA1 | GPA3;
-						bPortSEL = GPB0;
-						break;
-
-				case 4: aPortSEL = GPA0 | GPA2 | GPA3;
-						bPortSEL=  GPB0 | GPB6;
-						break;
-
-				case 5:	aPortSEL = GPA0 | GPA1 | GPA2 | GPA3;
-						bPortSEL=  GPB0 | GPB7;
-						break;
-
-				default: break;
-			}
-    	}
-    	if(probeCurrentCycle == 2)
-    	{
-
-    	}
-
-
-    	//Transfer & measure stage
-    	portSelection(GPIOA_ADR,aPortSEL);
-    	portSelection(GPIOB_ADR,bPortSEL);
-    	XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
-    	XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
-
-    	measureImpedance();
-
-
-    	// Prepare next cycle
-    	if (probeVoltCycle > 5)
+    		print("Choose Rcal for measurement..1,2 or 3. //Debugging\n\r");  //Printf print niet
+    		while (rcalChoice == 0)
     		{
-    			probeVoltCycle = 1;
-    			if (probeCurrentCycle >= 8)
-    			{
-    				probeCurrentCycle = 0;
-    			}
-    			else probeCurrentCycle++;
+    			rcalChoice = inbyte(); //krijgt een Decimal 49 bij 1, 50 bij 2 -> -48 bij transfer naar func.
     		}
-    	else probeVoltCycle++;
-    	//XSpi_SetSlaveSelect(&SpiInstance, 0x01);
-
-    	//in = getchar();
- //   sleep_A9(3);
+    		calibration(RCal_RFB_Select(rcalChoice-48,1)); // Loopt vast als er geen hw connected is bij AD5933GetTemp(), logisch :)
+        	//Measurement Cycle
+        	while (probeCurrentCycle < 8){
+            	probeMeasureSelect();
+            	measureImpedance();
+        		if (probeVoltCycle >= 5)
+        			{
+        				probeVoltCycle = 1;
+        				if (probeCurrentCycle >= 8)
+        				{
+        					probeCurrentCycle = 0;
+        					break;
+        				}
+        				else probeCurrentCycle++;
+        			}
+        		else probeVoltCycle++;
+        	}
+    	}
     }
-
     cleanup_platform();
     return 0;
 }
+
 void startGPIOPS()
 {
 	volatile int Delay;
@@ -172,14 +130,8 @@ void startGPIOPS()
 		return XST_FAILURE;
 	}
 
-    printf("Starting GPIO PS\n\r");
-
-    printf("Running on MiniZED\n\r");
-    	Input_Pin = 0;
-
+    printf("Starting GPIO PS..\n\r");
 	// Set Input pin
+    Input_Pin = 0;
 	XGpioPs_SetDirectionPin(&Gpio,Input_Pin,0);
-	//Data = XGpioPs_ReadPin(&Gpio, Input_Pin);
-
-    return;
 }

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Impedance_AD5933/Debug&apos; to &apos;Debug2&apos;" description="Rename resource &apos;Debug&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Debug" name="Debug2" stamp="1573728121898" updateReferences="true"/>
+</session>

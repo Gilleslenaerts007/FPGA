@@ -48,13 +48,19 @@
 /*****************************************************************************/
 #include "xil_types.h"
 #include "xparameters.h"
+#include "xiic.h"
+
+/*****************************************************************************/
+/******************* I2C INIT & AD5933 ADR ***************************/
+/*****************************************************************************/
+#define I2C_BASEADDR 					XPAR_AXI_IIC_0_BASEADDR
+#define AD5933_I2C_ADDR      			0x0D
+#define IIC_DEVICE_ID					XPAR_IIC_0_DEVICE_ID
 
 /*****************************************************************************/
 /******************* ADP5589 Registers Definitions ***************************/
 /*****************************************************************************/
-// AD5933 IIC Address
-#define I2C_BASEADDR 					XPAR_AXI_IIC_0_BASEADDR
-#define AD5933_I2C_ADDR      			0x0D
+
 // Registers Address
 #define AD5933_CONTROL_REG_HB           0x80
 #define AD5933_CONTROL_REG_LB           0x81
@@ -124,7 +130,7 @@
 /*****************************************************************************/
 
 void AD5933_ConfigSweepCycle(void);
-void calibration(void);
+void calibration(int rcalval);
 void measureImpedance(void);
 void AD5933_SetRegisterValue(int registerAddress,
 							 int registerValue,
