@@ -11,33 +11,18 @@
 #include "xgpiops.h"
 
 /*
- * The following constants map to the XPAR parameters created in the
- * xparameters.h file. They are defined here such that a user can easily
- * change all the needed parameters in one place.
+GPIO INCLUDES
  */
 #define GPIO_DEVICE_ID	XPAR_XGPIOPS_0_DEVICE_ID
-
-/*
- * Following constant define the Input and Output pins.
- */
 #define OUTPUT_PIN		52	/* Pin connected to LED/Output */
-
 #define BLINK_PERIOD	100 /* Delay duration before next state transition */
+
+XGpioPs Gpio;	/* The driver instance for GPIO Device. */
+XGpioPs_Config *ConfigPtr; /* The driver config instance for GPIO Device. */
 
 /* Priorities at which the tasks are created. */
 #define mainLED_ON_TASK_PRIORITY		( tskIDLE_PRIORITY + 1 )
 #define	mainLED_OFF_TASK_PRIORITY		( tskIDLE_PRIORITY + 1 )
-
-/*-----------------------------------------------------------*/
-static void prvLed_ON( void *pvParameters );
-static void prvLed_OFF( void *pvParameters );
-void prvSetGpioHardware(void);
-void prvLed_Toggle (int Mode);
-/*
- * The following are declared globally so they are zeroed.
- */
-XGpioPs Gpio;	/* The driver instance for GPIO Device. */
-XGpioPs_Config *ConfigPtr; /* The driver config instance for GPIO Device. */
 
 /* Mutex for synchronization */
 xSemaphoreHandle xMutex_Led = NULL;
@@ -62,9 +47,16 @@ xSemaphoreHandle xMutex_Led = NULL;
  */
 
 /*-----------------------------------------------------------*/
+static void prvLed_ON( void *pvParameters );
+static void prvLed_OFF( void *pvParameters );
+void prvSetGpioHardware(void);
+void prvLed_Toggle (int Mode);
+
+/*-----------------------------------------------------------*/
 
 int main( void )
 {
+	xil_printf( "Hello from Gilles.. Oefening 9 MUTEX. \r\n" );
 	//prvInitializeExceptions();
 	xMutex_Led = xSemaphoreCreateMutex();
 

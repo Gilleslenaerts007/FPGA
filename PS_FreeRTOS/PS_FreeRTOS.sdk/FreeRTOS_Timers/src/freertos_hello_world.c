@@ -65,6 +65,7 @@ static void vTimerCallback( TimerHandle_t pxTimer )
 
 int main( void )
 {
+	xil_printf( "Hello from Gilles.. Oefening 11 TIMERS. \r\n" );
 	xMutex_Led = xSemaphoreCreateMutex();
 
 	configASSERT( xMutex_Led );

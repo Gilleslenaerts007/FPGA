@@ -75,7 +75,7 @@ int main( void )
 	startGPIOPS();
 	const TickType_t x10seconds = pdMS_TO_TICKS( DELAY_10_SECONDS );
 
-	xil_printf( "Hello from Freertos example main\r\n" );
+	xil_printf( "Hello from Gilles.. Oefening 7. \r\n" );
 
 	/* Create the two tasks.  The Tx task is given a lower priority than the
 	Rx task, so the Rx task will leave the Blocked state and pre-empt the Tx
@@ -98,39 +98,15 @@ int main( void )
 	than the Tx task, so will preempt the Tx task and remove values from the
 	queue as soon as the Tx task writes to the queue - therefore the queue can
 	never have more than one item in it. */
-	xQueue = xQueueCreate( 	1,						/* There is only one space in the queue. */
+	xQueue = xQueueCreate( 	3,						/* There is only one space in the queue. */
 							sizeof( Data ) );	/* Each space in the queue is large enough to hold a uint32_t. */
 
 	/* Check the queue was created. */
 	configASSERT( xQueue );
 
-	/* Create a timer with a timer expiry of 10 seconds. The timer would expire
-	 after 10 seconds and the timer call back would get called. In the timer call back
-	 checks are done to ensure that the tasks have been running properly till then.
-	 The tasks are deleted in the timer call back and a message is printed to convey that
-	 the example has run successfully.
-	 The timer expiry is set to 10 seconds and the timer set to not auto reload. */
-	xTimer = xTimerCreate( (const char *) "Timer",
-							x10seconds,
-							pdFALSE,
-							(void *) TIMER_ID,
-							vTimerCallback);
-	/* Check the timer was created. */
-	configASSERT( xTimer );
-
-	/* start the timer with a block time of 0 ticks. This means as soon
-	   as the schedule starts the timer will start running and will expire after
-	   10 seconds */
-	//xTimerStart( xTimer, 0 );
-
 	/* Start the tasks and timer running. */
 	vTaskStartScheduler();
 
-	/* If all is well, the scheduler will now be running, and the following line
-	will never be reached.  If the following line does execute, then there was
-	insufficient FreeRTOS heap memory available for the idle and/or timer tasks
-	to be created.  See the memory management section on the FreeRTOS web site
-	for more details. */
 	for( ;; );
 }
 
@@ -171,7 +147,6 @@ u32 recData;
 		//xil_printf( "Rx task received string from Tx task: %s\r\n", Recdstring );
 		printf("Value of Switch: %d\r\n",(int) recData);
 		XGpioPs_WritePin(&Gpio, Output_Pin, recData);
-		RxtaskCntr++;
 	}
 }
 
@@ -220,8 +195,8 @@ void startGPIOPS()
     printf("Starting GPIO PS\n\r");
 
     	printf("Running on MiniZED\n\r");
-    	Input_Pin = 0;
-    	Output_Pin = 52;
+    	Input_Pin = 0;		//Switch
+    	Output_Pin = 52;	//LED onboard
 
     // Set Output pin
 	XGpioPs_SetDirectionPin(&Gpio, Output_Pin, 1);

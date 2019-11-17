@@ -8,18 +8,10 @@
 
 /* App includes. */
 #include "xgpiops.h"
-
-/*
- * The following constants map to the XPAR parameters created in the
- * xparameters.h file. They are defined here such that a user can easily
- * change all the needed parameters in one place.
- */
 #define GPIO_DEVICE_ID	XPAR_XGPIOPS_0_DEVICE_ID
-
-/*
- * Following constant define the Input and Output pins.
- */
 #define OUTPUT_PIN		52	/* Pin connected to LED/Output */
+XGpioPs Gpio;	/* The driver instance for GPIO Device. */
+XGpioPs_Config *ConfigPtr; /* The driver config instance for GPIO Device. */
 
 /* Priorities at which the tasks are created. */
 #define mainLED_TASK_PRIORITY		( tskIDLE_PRIORITY + 1 )
@@ -35,12 +27,6 @@
  */
 #define TIMER_PERIOD	100 /* No of ticks before timer expires */
 #define TIMER_ID		123 /* Timer ID*/
-
-/*
- * The following are declared globally so they are zeroed.
- */
-XGpioPs Gpio;	/* The driver instance for GPIO Device. */
-XGpioPs_Config *ConfigPtr; /* The driver config instance for GPIO Device. */
 
 /* Timer handle */
 xTimerHandle xTimer;
@@ -68,7 +54,8 @@ void vTimerCallback( xTimerHandle pxTimer )
 
 int main( void )
 {
-	 prvInitializeExceptions();
+	 xil_printf( "Hello from Gilles.. Oefening 10 SEMAPHORE. \r\n" );
+	 //prvInitializeExceptions();
 
 	 /* Create Binary Semaphore */
 	 vSemaphoreCreateBinary(xSemaphore_led);
@@ -122,18 +109,10 @@ static void prvLed_Task( void *pvParameters )
 						( portTickType ) portMAX_DELAY ) == pdTRUE )
 			{
 				uiLedFlag ^= 1;
-				if (uiLedFlag) {
-					/*
-					 * Set the GPIO Output to High.
-					 */
-					XGpioPs_WritePin(&Gpio, OUTPUT_PIN, 0x1);
-				 } else {
-					/*
-					 * Set the GPIO Output to Low.
-					 */
-					XGpioPs_WritePin(&Gpio, OUTPUT_PIN, 0x0);
-				 }
-			} else {
+				XGpioPs_WritePin(&Gpio, OUTPUT_PIN, uiLedFlag);
+			}
+			else
+			{
 				xil_printf("xSemaphore_led take fail\r\n");
 				/* Call shutdown */
 				prvShutdown();
