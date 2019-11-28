@@ -66,6 +66,8 @@ u32 Input_Pin;
 
 void startGPIOPS();
 
+int temper;
+
 int main()
 {
 	init_platform();
@@ -83,10 +85,15 @@ int main()
 
     while(1){
 
+    	//Debugging AD5933 Chip.
+    	//temper = AD5933_GetTemperature();
+    	//printf("temp.:%d\n\r", temper);
+
     	if (XGpioPs_ReadPin(&Gpio, Input_Pin))
     	{
     		rcalChoice=0;
-    		probeCurrentCycle++;
+    		probeCurrentCycle=1;
+    		probeVoltCycle = 0;
     		print("Choose Rcal for measurement..1,2 or 3. //Debugging\n\r");  //Printf print niet
     		while (rcalChoice == 0)
     		{
@@ -94,20 +101,9 @@ int main()
     		}
     		calibration(RCal_RFB_Select(rcalChoice-48,1)); // Loopt vast als er geen hw connected is bij AD5933GetTemp(), logisch :)
         	//Measurement Cycle
-        	while (probeCurrentCycle < 8){
+        	while (probeCurrentCycle <= 8){
             	probeMeasureSelect();
             	measureImpedance();
-        		if (probeVoltCycle >= 5)
-        			{
-        				probeVoltCycle = 1;
-        				if (probeCurrentCycle >= 8)
-        				{
-        					probeCurrentCycle = 0;
-        					break;
-        				}
-        				else probeCurrentCycle++;
-        			}
-        		else probeVoltCycle++;
         	}
     	}
     }

@@ -1,8 +1,27 @@
-12:35:43 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+11:57:11 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-make: Nothing to be done for 'main-build'.
+'Building file: ../src/MCP23S17.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MCP23S17.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MCP23S17.d" -MT"src/MCP23S17.o" -o "src/MCP23S17.o" "../src/MCP23S17.c"
+In file included from ../src/MCP23S17.c:3:
+../src/MCP23S17.h:17:13: warning: 'SpiInstance' defined but not used [-Wunused-variable]
+ static XSpi SpiInstance;
+             ^~~~~~~~~~~
+'Finished building: ../src/MCP23S17.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76048	   2624	  23616	 102288	  18f90	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
 
-12:35:43 Build Finished (took 210ms)
+11:57:13 Build Finished (took 1s.746ms)
 

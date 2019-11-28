@@ -1,2 +1,2 @@
    text	   data	    bss	    dec	    hex	filename
-  85080	   3376	  89456	 177912	  2b6f8	FreeRTOS_Timers.elf
+  85192	   3376	  89456	 178024	  2b768	FreeRTOS_Timers.elf

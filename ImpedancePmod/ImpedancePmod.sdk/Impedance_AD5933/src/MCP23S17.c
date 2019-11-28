@@ -55,6 +55,15 @@ void probeMeasureSelect(){
 	aPortSEL=0x00;
 	bPortSEL=0x00;
 
+	// Prepare next cycle
+	probeVoltCycle++;
+	if (probeVoltCycle > 5)
+		{
+			probeVoltCycle = 0;
+			probeCurrentCycle++;
+		}
+	xil_printf("VoltCycle:%d, CurrentCycle:%d\n\r", probeVoltCycle, probeCurrentCycle);
+
 	if(probeCurrentCycle == 1)
 	{
 		switch (probeVoltCycle)
@@ -114,17 +123,6 @@ void probeMeasureSelect(){
 	//Transfer stage
 	portTransfer();
 
-	// Prepare next cycle
-	if (probeVoltCycle > 5)
-		{
-			probeVoltCycle = 1;
-			if (probeCurrentCycle >= 8)
-			{
-				probeCurrentCycle = 0;
-			}
-			else probeCurrentCycle++;
-		}
-	else probeVoltCycle++;
   }
 
 /*
