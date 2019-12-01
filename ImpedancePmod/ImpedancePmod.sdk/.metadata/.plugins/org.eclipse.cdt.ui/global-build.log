@@ -1,210 +1,129 @@
-10:54:37 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+21:23:11 **** Incremental Build of project Impedance_AD5933_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/iic_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/spi_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling iic"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/spi_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+21:23:32 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-'Building file: ../src/helloworld.c'
+'Building file: ../src/AD5933.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
-                 from ../src/AD5933.h:51,
-                 from ../src/helloworld.c:53:
-../src/helloworld.c: In function 'startGPIOPS':
-../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
- #define XST_FAILURE                     1L
-                                         ^~
-../src/helloworld.c:130:10: note: in expansion of macro 'XST_FAILURE'
-   return XST_FAILURE;
-          ^~~~~~~~~~~
-../src/helloworld.c:118:6: note: declared here
- void startGPIOPS()
-      ^~~~~~~~~~~
-../src/helloworld.c:120:15: warning: unused variable 'Delay' [-Wunused-variable]
-  volatile int Delay;
-               ^~~~~
-'Finished building: ../src/helloworld.c'
-' '
-'Building target: Impedance_AD5933.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: Impedance_AD5933.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  76144	   2624	  23616	 102384	  18ff0	Impedance_AD5933.elf
-'Finished building: Impedance_AD5933.elf.size'
-' '
-10:57:50 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-make: Nothing to be done for 'main-build'.
-10:58:33 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-make: Nothing to be done for 'main-build'.
-11:00:05 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-make: Nothing to be done for 'main-build'.
-11:01:03 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-make: Nothing to be done for 'main-build'.
-11:02:51 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
-                 from ../src/AD5933.h:51,
-                 from ../src/helloworld.c:53:
-../src/helloworld.c: In function 'startGPIOPS':
-../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
- #define XST_FAILURE                     1L
-                                         ^~
-../src/helloworld.c:131:10: note: in expansion of macro 'XST_FAILURE'
-   return XST_FAILURE;
-          ^~~~~~~~~~~
-../src/helloworld.c:119:6: note: declared here
- void startGPIOPS()
-      ^~~~~~~~~~~
-../src/helloworld.c:121:15: warning: unused variable 'Delay' [-Wunused-variable]
-  volatile int Delay;
-               ^~~~~
-'Finished building: ../src/helloworld.c'
-' '
-'Building target: Impedance_AD5933.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: Impedance_AD5933.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  76144	   2624	  23616	 102384	  18ff0	Impedance_AD5933.elf
-'Finished building: Impedance_AD5933.elf.size'
-' '
-11:04:26 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
-                 from ../src/AD5933.h:51,
-                 from ../src/helloworld.c:53:
-../src/helloworld.c: In function 'startGPIOPS':
-../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
- #define XST_FAILURE                     1L
-                                         ^~
-../src/helloworld.c:136:10: note: in expansion of macro 'XST_FAILURE'
-   return XST_FAILURE;
-          ^~~~~~~~~~~
-../src/helloworld.c:124:6: note: declared here
- void startGPIOPS()
-      ^~~~~~~~~~~
-../src/helloworld.c:126:15: warning: unused variable 'Delay' [-Wunused-variable]
-  volatile int Delay;
-               ^~~~~
-'Finished building: ../src/helloworld.c'
-' '
-'Building target: Impedance_AD5933.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: Impedance_AD5933.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  76224	   2624	  23616	 102464	  19040	Impedance_AD5933.elf
-'Finished building: Impedance_AD5933.elf.size'
-' '
-11:04:47 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-make: Nothing to be done for 'main-build'.
-11:05:20 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-make: Nothing to be done for 'main-build'.
-11:05:46 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-make: Nothing to be done for 'main-build'.
-11:06:28 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-make: Nothing to be done for 'main-build'.
-11:06:45 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-make: Nothing to be done for 'main-build'.
-11:08:57 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-make: Nothing to be done for 'main-build'.
-11:12:25 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-make: Nothing to be done for 'main-build'.
-11:40:15 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-make: Nothing to be done for 'main-build'.
-11:44:52 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
-                 from ../src/AD5933.h:51,
-                 from ../src/helloworld.c:53:
-../src/helloworld.c: In function 'startGPIOPS':
-../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
- #define XST_FAILURE                     1L
-                                         ^~
-../src/helloworld.c:138:10: note: in expansion of macro 'XST_FAILURE'
-   return XST_FAILURE;
-          ^~~~~~~~~~~
-../src/helloworld.c:126:6: note: declared here
- void startGPIOPS()
-      ^~~~~~~~~~~
-../src/helloworld.c:128:15: warning: unused variable 'Delay' [-Wunused-variable]
-  volatile int Delay;
-               ^~~~~
-'Finished building: ../src/helloworld.c'
-' '
-'Building target: Impedance_AD5933.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: Impedance_AD5933.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  76224	   2624	  23616	 102464	  19040	Impedance_AD5933.elf
-'Finished building: Impedance_AD5933.elf.size'
-' '
-11:52:56 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:201:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:201:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:291:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:291:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+'Finished building: ../src/AD5933.c'
 ' '
 'Building file: ../src/MCP23S17.c'
 'Invoking: ARM v7 gcc compiler'
@@ -236,29 +155,10 @@ In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:3
                ^~~~~
 'Finished building: ../src/helloworld.c'
 ' '
-'Building target: Impedance_AD5933.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: Impedance_AD5933.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  75952	   2624	  23616	 102192	  18f30	Impedance_AD5933.elf
-'Finished building: Impedance_AD5933.elf.size'
-' '
-11:55:54 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/MCP23S17.c'
+'Building file: ../src/platform.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MCP23S17.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MCP23S17.d" -MT"src/MCP23S17.o" -o "src/MCP23S17.o" "../src/MCP23S17.c"
-In file included from ../src/MCP23S17.c:3:
-../src/MCP23S17.h:17:13: warning: 'SpiInstance' defined but not used [-Wunused-variable]
- static XSpi SpiInstance;
-             ^~~~~~~~~~~
-'Finished building: ../src/MCP23S17.c'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
 ' '
 'Building target: Impedance_AD5933.elf'
 'Invoking: ARM v7 gcc linker'
@@ -271,37 +171,276 @@ arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
   76048	   2624	  23616	 102288	  18f90	Impedance_AD5933.elf
 'Finished building: Impedance_AD5933.elf.size'
 ' '
-11:56:11 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+21:24:27 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:53:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:126:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:114:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76048	   2624	  23616	 102288	  18f90	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+21:24:41 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:53:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:125:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:113:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76064	   2624	  23616	 102304	  18fa0	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+21:25:04 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for 'main-build'.
-11:56:35 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+21:25:18 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-'Building file: ../src/MCP23S17.c'
+make: Nothing to be done for 'main-build'.
+21:25:49 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:41:37 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:41:49 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:42:01 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:42:54 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:43:09 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:46:17 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:59:01 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:13:23 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:16:25 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:16:50 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:17:08 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:17:25 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:24:24 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:38:38 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:41:05 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:41:11 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:44:01 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:44:11 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:44:39 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:45:17 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:28:24 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:29:46 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:47:15 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+10:49:45 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:05:01 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:13:27 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:13:47 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MCP23S17.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MCP23S17.d" -MT"src/MCP23S17.o" -o "src/MCP23S17.o" "../src/MCP23S17.c"
-../src/MCP23S17.c: In function 'probeMeasureSelect':
-../src/MCP23S17.c:65:2: error: too many arguments to function 'print'
-  print("VoltCycle:%d, CurrentCycle:%d\n\r", probeVoltCycle, probeCurrentCycle);
-  ^~~~~
-In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xil_io.h:61,
-                 from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi_l.h:72,
-                 from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:314,
-                 from ../src/MCP23S17.h:8,
-                 from ../src/MCP23S17.c:3:
-../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
- void print( const char8 *ptr);
-      ^~~~~
-In file included from ../src/MCP23S17.c:3:
-At top level:
-../src/MCP23S17.h:17:13: warning: 'SpiInstance' defined but not used [-Wunused-variable]
- static XSpi SpiInstance;
-             ^~~~~~~~~~~
-make: *** [src/subdir.mk:32: src/MCP23S17.o] Error 1
-11:57:11 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:53:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:125:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:113:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76064	   2624	  23616	 102304	  18fa0	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+11:28:07 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:08:45 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:25:54 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:26:09 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:26:24 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:31:06 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
@@ -322,6 +461,1502 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  76048	   2624	  23616	 102288	  18f90	Impedance_AD5933.elf
+  76064	   2624	  23616	 102304	  18fa0	Impedance_AD5933.elf
 'Finished building: Impedance_AD5933.elf.size'
 ' '
+15:12:21 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/MCP23S17.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MCP23S17.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MCP23S17.d" -MT"src/MCP23S17.o" -o "src/MCP23S17.o" "../src/MCP23S17.c"
+In file included from ../src/MCP23S17.c:3:
+../src/MCP23S17.h:17:13: warning: 'SpiInstance' defined but not used [-Wunused-variable]
+ static XSpi SpiInstance;
+             ^~~~~~~~~~~
+'Finished building: ../src/MCP23S17.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:103:7: error: 'aPortSEL' undeclared (first use in this function)
+       aPortSEL=0x00;
+       ^~~~~~~~
+../src/helloworld.c:103:7: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:104:7: error: 'bPortSEL' undeclared (first use in this function)
+       bPortSEL=0x00
+       ^~~~~~~~
+../src/helloworld.c:104:20: error: expected ';' before 'aPortSEL'
+       bPortSEL=0x00
+                    ^
+                    ;
+       aPortSEL = (GPA6 | GPA7);
+       ~~~~~~~~      
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:53:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:132:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:120:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/helloworld.o] Error 1
+15:12:39 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:103:7: error: 'aPortSEL' undeclared (first use in this function)
+       aPortSEL=0x00;
+       ^~~~~~~~
+../src/helloworld.c:103:7: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:104:7: error: 'bPortSEL' undeclared (first use in this function)
+       bPortSEL=0x00;
+       ^~~~~~~~
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:53:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:132:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:120:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/helloworld.o] Error 1
+15:14:03 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:53:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:128:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:116:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77848	   2624	  23616	 104088	  19698	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+15:14:49 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:15:05 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:15:19 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:24:52 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:201:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:201:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:291:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:291:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+'Finished building: ../src/AD5933.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77784	   2624	  23616	 104024	  19658	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+15:25:38 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:28:37 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:202:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:202:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:292:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:292:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+'Finished building: ../src/AD5933.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77912	   2624	  23616	 104152	  196d8	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+15:29:39 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:31:04 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:203:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:203:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:293:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:293:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+'Finished building: ../src/AD5933.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77912	   2624	  23616	 104152	  196d8	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+15:38:30 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:204:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:204:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:294:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:294:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+'Finished building: ../src/AD5933.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77976	   2624	  25056	 105656	  19cb8	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+15:41:06 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:204:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:204:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:294:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:294:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+'Finished building: ../src/AD5933.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77944	   2624	  25056	 105624	  19c98	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+15:46:58 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:196:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:196:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:286:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:286:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+'Finished building: ../src/AD5933.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:53:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:137:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:125:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/helloworld.o:C:\FPGA\ImpedancePmod\ImpedancePmod.sdk\Impedance_AD5933\Debug/../src/AD5933.h:69: multiple definition of `currentFreq'; ./src/AD5933.o:C:\FPGA\ImpedancePmod\ImpedancePmod.sdk\Impedance_AD5933\Debug/../src/AD5933.h:69: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Impedance_AD5933.elf] Error 1
+15:47:18 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/helloworld.o:C:\FPGA\ImpedancePmod\ImpedancePmod.sdk\Impedance_AD5933\Debug/../src/AD5933.h:69: multiple definition of `currentFreq'; ./src/AD5933.o:C:\FPGA\ImpedancePmod\ImpedancePmod.sdk\Impedance_AD5933\Debug/../src/AD5933.h:69: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Impedance_AD5933.elf] Error 1
+15:49:19 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:196:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:196:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:286:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:286:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+'Finished building: ../src/AD5933.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:53:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:137:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:125:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79696	   2624	  25056	 107376	  1a370	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+15:58:27 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:196:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:196:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:286:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:286:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+'Finished building: ../src/AD5933.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'writeImpedanceArray':
+../src/helloworld.c:127:12: error: 'lines' undeclared (first use in this function); did you mean 'rindex'?
+  for(i=0;i<lines;i++) {
+            ^~~~~
+            rindex
+../src/helloworld.c:127:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:128:12: error: 'num' undeclared (first use in this function)
+  for(j=0;j<num;j++) {
+            ^~~
+../src/helloworld.c:129:14: error: 'file' undeclared (first use in this function); did you mean 'fls'?
+      fprintf(file,"%d ",array[i][j]);
+              ^~~~
+              fls
+../src/helloworld.c:129:25: error: 'array' undeclared (first use in this function); did you mean 'arrayGPA'?
+      fprintf(file,"%d ",array[i][j]);
+                         ^~~~~
+                         arrayGPA
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:53:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:148:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:136:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/helloworld.o] Error 1
+16:00:11 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'writeImpedanceArray':
+../src/helloworld.c:127:51: error: expected ';' before ')' token
+  fwrite(Freq_ImpArray, sizeof(int), stepCount, fp));
+                                                   ^
+                                                   ;
+../src/helloworld.c:127:51: error: expected statement before ')' token
+../src/helloworld.c:121:9: warning: unused variable 'j' [-Wunused-variable]
+  int i, j;
+         ^
+../src/helloworld.c:121:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, j;
+      ^
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:53:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:144:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:132:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/helloworld.o] Error 1
+16:00:20 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'writeImpedanceArray':
+../src/helloworld.c:121:9: warning: unused variable 'j' [-Wunused-variable]
+  int i, j;
+         ^
+../src/helloworld.c:121:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, j;
+      ^
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:53:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:144:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:132:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79892	   2624	  25056	 107572	  1a434	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+16:05:17 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:53:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:146:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:134:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   2624	  25056	 107580	  1a43c	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+16:21:41 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:49:10: fatal error: fstream: No such file or directory
+ #include <fstream>
+          ^~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:32: src/helloworld.o] Error 1
+16:38:03 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:54:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:147:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:135:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   2624	  25056	 107580	  1a43c	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+16:45:14 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:196:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:196:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:370:45: error: request for member 'ToString' in something not a structure or union
+   printf("\n\r <%s,%s,%s,%s>  \n\r",realData.ToString(), imgData.ToString(), magnitude.ToString(),impedance.ToString());
+                                             ^
+../src/AD5933.c:370:65: error: request for member 'ToString' in something not a structure or union
+   printf("\n\r <%s,%s,%s,%s>  \n\r",realData.ToString(), imgData.ToString(), magnitude.ToString(),impedance.ToString());
+                                                                 ^
+../src/AD5933.c:370:87: error: request for member 'ToString' in something not a structure or union
+   printf("\n\r <%s,%s,%s,%s>  \n\r",realData.ToString(), imgData.ToString(), magnitude.ToString(),impedance.ToString());
+                                                                                       ^
+../src/AD5933.c:370:108: error: request for member 'ToString' in something not a structure or union
+   printf("\n\r <%s,%s,%s,%s>  \n\r",realData.ToString(), imgData.ToString(), magnitude.ToString(),impedance.ToString());
+                                                                                                            ^
+../src/AD5933.c:286:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:286:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+make: *** [src/subdir.mk:32: src/AD5933.o] Error 1
+16:48:46 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:196:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:196:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:286:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:286:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+'Finished building: ../src/AD5933.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   2624	  25056	 107580	  1a43c	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+16:51:06 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:02:31 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:03:30 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:03:46 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:06:22 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:06:42 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:07:15 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:15:06 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:19:18 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:20:43 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:26:23 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:26:44 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:27:08 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:28:39 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:54:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:147:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:135:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79892	   2624	  25056	 107572	  1a434	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+17:28:49 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:29:33 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:34:37 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:35:50 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:36:04 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:54:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:147:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:135:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   2624	  25056	 107580	  1a43c	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+17:36:26 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:36:50 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:37:23 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:38:22 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:38:38 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:39:12 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:39:31 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:43:39 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:46:27 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:54:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:146:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:134:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   2624	  25056	 107580	  1a43c	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+17:47:48 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:49:10 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:54:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:146:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:134:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79900	   2624	  25056	 107580	  1a43c	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+18:09:52 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:196:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:196:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:286:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:286:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+'Finished building: ../src/AD5933.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:54:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:130:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:118:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77984	   2624	  27232	 107840	  1a540	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+18:12:02 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:196:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:196:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:286:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:286:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+../src/AD5933.c: In function 'writeSerialImpedanceArray':
+../src/AD5933.c:480:17: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%d, Imaginary:%d, Real:%d\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                ~^                                                       ~~~~~~~~~~~~~~~~~~~
+                %f
+../src/AD5933.c:480:31: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%d, Imaginary:%d, Real:%d\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                              ~^                                                              ~~~~~~~~~~~~~~~~~~~
+                              %f
+../src/AD5933.c:480:45: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%d, Imaginary:%d, Real:%d\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                                            ~^                                                                     ~~~~~~~~~~~~~~~~~~~
+                                            %f
+../src/AD5933.c:480:59: warning: format '%d' expects argument of type 'int', but argument 5 has type 'double' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%d, Imaginary:%d, Real:%d\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                                                          ~^                                                                            ~~~~~~~~~~~~~~~~~~~
+                                                          %f
+../src/AD5933.c:480:68: warning: format '%d' expects argument of type 'int', but argument 6 has type 'double' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%d, Imaginary:%d, Real:%d\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                                                                   ~^                                                                                        ~~~~~~~~~~~~~~~~~~~
+                                                                   %f
+'Finished building: ../src/AD5933.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:54:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:130:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:118:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78048	   2624	  27232	 107904	  1a580	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+18:12:49 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:196:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:196:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:286:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:286:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+../src/AD5933.c: In function 'writeSerialImpedanceArray':
+../src/AD5933.c:480:17: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%d, Imaginary:%d, Real:%d\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                ~^                                                       ~~~~~~~~~~~~~~~~~~~
+                %f
+../src/AD5933.c:480:31: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%d, Imaginary:%d, Real:%d\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                              ~^                                                              ~~~~~~~~~~~~~~~~~~~
+                              %f
+../src/AD5933.c:480:45: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%d, Imaginary:%d, Real:%d\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                                            ~^                                                                     ~~~~~~~~~~~~~~~~~~~
+                                            %f
+../src/AD5933.c:480:59: warning: format '%d' expects argument of type 'int', but argument 5 has type 'double' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%d, Imaginary:%d, Real:%d\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                                                          ~^                                                                            ~~~~~~~~~~~~~~~~~~~
+                                                          %f
+../src/AD5933.c:480:68: warning: format '%d' expects argument of type 'int', but argument 6 has type 'double' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%d, Imaginary:%d, Real:%d\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                                                                   ~^                                                                                        ~~~~~~~~~~~~~~~~~~~
+                                                                   %f
+'Finished building: ../src/AD5933.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:54:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:130:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:118:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78048	   2624	  30832	 111504	  1b390	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+18:15:41 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:196:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:196:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:286:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:286:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+'Finished building: ../src/AD5933.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:54:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:130:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:118:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77976	   2624	  27232	 107832	  1a538	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+18:17:28 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:196:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:196:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:286:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:286:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+../src/AD5933.c: In function 'writeSerialImpedanceArray':
+../src/AD5933.c:480:115: error: expected expression before 'double'
+   printf("Freq:%d, Impedance:%d, Magnitude:%d, Imaginary:%d, Real:%d\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], double(Freq_ImpArray[i][2]), float(Freq_ImpArray[i][3]), float(Freq_ImpArray[i][4]) );
+                                                                                                                   ^~~~~~
+make: *** [src/subdir.mk:32: src/AD5933.o] Error 1
+18:19:05 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:196:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:196:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:286:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:286:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+../src/AD5933.c: In function 'writeSerialImpedanceArray':
+../src/AD5933.c:480:115: error: expected expression before 'double'
+   printf("Freq:%d, Impedance:%d, Magnitude:%d, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], double()Freq_ImpArray[i][2], float(Freq_ImpArray[i][3]), float(Freq_ImpArray[i][4]) );
+                                                                                                                   ^~~~~~
+make: *** [src/subdir.mk:32: src/AD5933.o] Error 1
+18:19:42 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:196:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:196:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:286:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:286:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+../src/AD5933.c: In function 'writeSerialImpedanceArray':
+../src/AD5933.c:480:136: error: expected expression before 'float'
+   printf("Freq:%d, Impedance:%d, Magnitude:%d, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], float(Freq_ImpArray[i][3]), float(Freq_ImpArray[i][4]) );
+                                                                                                                                        ^~~~~
+make: *** [src/subdir.mk:32: src/AD5933.o] Error 1
+18:20:52 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:196:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:196:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:286:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:286:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+../src/AD5933.c: In function 'writeSerialImpedanceArray':
+../src/AD5933.c:480:45: warning: format '%f' expects argument of type 'double', but argument 4 has type 'int' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3]), Freq_ImpArray[i][4]);
+                                            ~^                                                                     ~~~~~~~~~~~~~~~~~~~
+                                            %d
+../src/AD5933.c:480:59: warning: format '%f' expects argument of type 'double', but argument 5 has type 'int' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3]), Freq_ImpArray[i][4]);
+                                                          ~^                                                                            ~~~~~~~~~~~~~~~~~~~
+                                                          %d
+../src/AD5933.c:480:68: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3]), Freq_ImpArray[i][4]);
+                                                                   ~^
+../src/AD5933.c:480:156: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+   printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3]), Freq_ImpArray[i][4]);
+                                                                                                                                                            ^
+../src/AD5933.c:480:177: error: expected ';' before ')' token
+   printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3]), Freq_ImpArray[i][4]);
+                                                                                                                                                                                 ^
+                                                                                                                                                                                 ;
+../src/AD5933.c:480:177: error: expected statement before ')' token
+make: *** [src/subdir.mk:32: src/AD5933.o] Error 1
+18:21:01 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:196:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:196:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:286:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:286:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+../src/AD5933.c: In function 'writeSerialImpedanceArray':
+../src/AD5933.c:480:45: warning: format '%f' expects argument of type 'double', but argument 4 has type 'int' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                                            ~^                                                                     ~~~~~~~~~~~~~~~~~~~
+                                            %d
+../src/AD5933.c:480:59: warning: format '%f' expects argument of type 'double', but argument 5 has type 'int' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                                                          ~^                                                                            ~~~~~~~~~~~~~~~~~~~
+                                                          %d
+../src/AD5933.c:480:68: warning: format '%f' expects argument of type 'double', but argument 6 has type 'int' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                                                                   ~^                                                                                        ~~~~~~~~~~~~~~~~~~~
+                                                                   %d
+'Finished building: ../src/AD5933.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78040	   2624	  27232	 107896	  1a578	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+18:21:50 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:196:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:196:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:286:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:286:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+../src/AD5933.c: In function 'writeSerialImpedanceArray':
+../src/AD5933.c:480:17: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                ~^                                                       ~~~~~~~~~~~~~~~~~~~
+                %f
+../src/AD5933.c:480:31: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                              ~^                                                              ~~~~~~~~~~~~~~~~~~~
+                              %f
+'Finished building: ../src/AD5933.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:54:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:130:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:118:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78040	   2624	  27232	 107896	  1a578	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+18:22:19 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:196:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:196:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:286:32: warning: unused variable 'stap' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                                ^~~~
+../src/AD5933.c:286:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen, stap     = 0;
+                       ^~~~~~~
+../src/AD5933.c: In function 'writeSerialImpedanceArray':
+../src/AD5933.c:480:45: warning: format '%f' expects argument of type 'double', but argument 4 has type 'int' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                                            ~^                                                                     ~~~~~~~~~~~~~~~~~~~
+                                            %d
+../src/AD5933.c:480:59: warning: format '%f' expects argument of type 'double', but argument 5 has type 'int' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                                                          ~^                                                                            ~~~~~~~~~~~~~~~~~~~
+                                                          %d
+../src/AD5933.c:480:68: warning: format '%f' expects argument of type 'double', but argument 6 has type 'int' [-Wformat=]
+   printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+                                                                   ~^                                                                                        ~~~~~~~~~~~~~~~~~~~
+                                                                   %d
+'Finished building: ../src/AD5933.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:54:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:130:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:118:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78040	   2624	  27232	 107896	  1a578	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+18:22:32 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

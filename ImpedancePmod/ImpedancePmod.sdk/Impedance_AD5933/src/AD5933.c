@@ -4,11 +4,6 @@
 #include "xiic_l.h"
 
 //0x005CFF
-#define startFrequentie 		0x051EB8	//0x051EB8 = 10k, 0x0F5C28 = 30K //Adres, High bits, Lowbits
-#define stepCount 				0x00B4		//0x00B4 = 180 steps
-#define frequentiePerStep  		0x004189	//0x008312 = 1KHz, 0x004189 = 500Hz //0x000500 -> 200Hz per stap
-#define recordFreqSteps			500			// aantal freq steps per meting
-#define sleepTime				5			// in microSec.
 
 volatile int   rxData;
 int            temperature     = 0;
@@ -372,7 +367,16 @@ double AD5933_CalculateImpedance(double gainFactor,
 
 		// Calculate impedance
 		impedance = 1 / (magnitude * gainFactor / 1000000000);
-		printf("\n\r <%d,%d,%0.2f,%0.2f>  \n\r",realData, imgData, magnitude,impedance);
+
+
+		// Keep record of the data
+		Freq_ImpArray[steps][0] = (float) currentFreq;
+
+		Freq_ImpArray[steps][2] = (float) magnitude;
+		Freq_ImpArray[steps][3] = (float) imgData;
+		Freq_ImpArray[steps][4] = (float) realData;
+
+		//printf("\n\r <%d,%d,%0.2f,%0.2f>  \n\r",realData, imgData, magnitude,impedance);
 	return(impedance);
 
 }
@@ -408,7 +412,7 @@ void calibration(int rcalval)
 
 	// Change the resistor used for calibration with the one you wish to measure
 	xil_printf("Calibration complete.\n\r");
-	printf("\n\r GainFactor : %0.2f	,  \n\r",gainFactor);
+	printf("\n\r GainFactor : %0.2f\n\r",gainFactor);
 
 }
 
@@ -427,17 +431,18 @@ void measureImpedance(void)
 
 	AD5933_ConfigSweepCycle();
 
-	int steps = 0;
-	while(steps < 150)
+	steps = 0;
+	currentFreq = 10000;
+	while(steps <= stepCount)
 	{
 	// Calculate impedance between Vout and Vin
 	impedance = AD5933_CalculateImpedance(gainFactor,
 										  AD5933_REPEAT_FREQ);
+
+
 	impedanceOhms = (unsigned long)impedance;
-
-	// Print impedance
-	xil_printf("Impedance read: %d ohms\n\r", impedanceOhms);
-
+	Freq_ImpArray[steps][1] = impedanceOhms;
+	/*
 	// Calculate impedance in kohm
 	impedanceKohms = impedanceOhms / 1000;
 	impedanceOhms %= 1000;
@@ -457,9 +462,23 @@ void measureImpedance(void)
 	}
 
 	xil_printf("Measurement complete.\n\r\n\r");
+	 */
+
+	//increase freq for next sweep.
 	AD5933_SetRegisterValue(AD5933_CONTROL_REG_HB,
 							0x31,
 							1 );
 	steps++;
+	currentFreq +=200;
 	}
+}
+
+void writeSerialImpedanceArray()
+{
+
+	for(int i=0;i<=stepCount;i++)
+	{
+		printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+	}
+
 }

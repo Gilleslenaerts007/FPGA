@@ -46,6 +46,7 @@
  */
 
 #include <stdio.h>
+
 #include "platform.h"
 #include "xil_printf.h"
 #include "xil_types.h"
@@ -81,26 +82,29 @@ int main()
 
     print("EIT: Impedance measurement program by Gilles Lenaerts.\n\r");
 
-    //Calibrate AD5933 with x resistor (41K now)
-
     while(1){
 
     	//Debugging AD5933 Chip.
     	//temper = AD5933_GetTemperature();
-    	//printf("temp.:%d\n\r", temper);
-
+    	//xil_printf("temp.:%d\n\r", temper);
     	if (XGpioPs_ReadPin(&Gpio, Input_Pin))
     	{
     		rcalChoice=0;
     		probeCurrentCycle=1;
     		probeVoltCycle = 0;
-    		print("Choose Rcal for measurement..1,2 or 3. //Debugging\n\r");  //Printf print niet
+    		print("Choose Rcal for measurement..1,2 or 3. //Debugging\n\r");
+
+    	    //Calibrate AD5933 with x resistor (10K Rcal 1)
     		while (rcalChoice == 0)
     		{
     			rcalChoice = inbyte(); //krijgt een Decimal 49 bij 1, 50 bij 2 -> -48 bij transfer naar func.
     		}
     		calibration(RCal_RFB_Select(rcalChoice-48,1)); // Loopt vast als er geen hw connected is bij AD5933GetTemp(), logisch :)
-        	//Measurement Cycle
+    		//debugging rcal for reference
+    		measureImpedance();
+    		writeSerialImpedanceArray();
+
+    		//Measurement Cycle
         	while (probeCurrentCycle <= 8){
             	probeMeasureSelect();
             	measureImpedance();
@@ -113,7 +117,7 @@ int main()
 
 void startGPIOPS()
 {
-	volatile int Delay;
+	//volatile int Delay;
 
 	int status;
 	XGpioPs_Config *GPIOConfigPtr;

@@ -4,7 +4,7 @@
 
 char aPortSEL, bPortSEL = 0x00;
 int rcalval = 0;
-uint8_t RCAL, RFB =  1;
+uint8_t RCAL, RFB;
 
 /*
 * Rcal & RFB selects
@@ -18,21 +18,21 @@ int RCal_RFB_Select(int RCAL, int RFB){
 		{
 			case 1:     print("Calibrating AD5933 using RCAL1..");
 						aPortSEL = (GPA6 | GPA7);   //Rcal 1
-						rcalval = 5000;
+						rcalval = 10000;
 						break;
 			case 2:     print("Calibrating AD5933 using RCAL2..");
 						aPortSEL = (GPA7);   //Rcal 1
-						rcalval = 10000;
+						rcalval = 20000;
 						break;
 			case 3:     print("Calibrating AD5933 using RCAL3..");
 						aPortSEL = (GPA6);   //Rcal 1
-						rcalval = 40000;
+						rcalval = 47700;
 						break;
 		}
 
 		switch(RFB)
 		{
-			case 1:     print("&RFB1..Zoveel ohm..\n\r");
+			case 1:     print("&RFB1..Zoveel ohm.. 20000\n\r");
 						break;
 			case 2:     print("&RFB2..Zoveel ohm..\n\r");
 						aPortSEL |= (GPA5);   //RFB 2
@@ -88,10 +88,12 @@ void probeMeasureSelect(){
 					bPortSEL=  GPB0 | GPB7;
 					break;
 
-			default: break;
+			default: aPortSEL = 0x00;
+					 bPortSEL = 0x00;
+					 break;
 		}
 	}
-	if(probeCurrentCycle == 2)
+	else if(probeCurrentCycle == 2)
 	{
 		switch (probeVoltCycle)
 		{
@@ -115,8 +117,190 @@ void probeMeasureSelect(){
 					bPortSEL=  GPB1 | GPB3 | GPB6 | GPB7;
 					break;
 
-			default: break;
+			default: aPortSEL = 0x00;
+			 	 	 bPortSEL = 0x00;
+			 	 	 break;
 		}
+	}
+	else if(probeCurrentCycle == 3)
+	{
+
+		switch (probeVoltCycle)
+		{
+			case 1: aPortSEL = GPA1;
+					bPortSEL = GPB1 | GPB0 | GPB4;
+					break;
+
+			case 2: aPortSEL = GPA0 | GPA1 | GPA3;
+					bPortSEL = GPB0 | GPB1 | GPB4;
+					break;
+
+			case 3: aPortSEL = GPA0 | GPA2 | GPA3;
+					bPortSEL = GPB0 | GPB1 | GPB4 | GPB6;
+					break;
+
+			case 4: aPortSEL = GPA0 | GPA1 | GPA2 | GPA3;
+					bPortSEL=  GPB0 | GPB1 | GPB4 | GPB7;
+					break;
+
+			case 5:	aPortSEL = GPA0;
+					bPortSEL=  GPB0 | GPB1 | GPB4 | GPB6 | GPB7;
+					break;
+
+			default: aPortSEL = 0x00;
+					 bPortSEL = 0x00;
+					 break;
+		}
+	}
+	else if(probeCurrentCycle == 4)
+	{
+		switch (probeVoltCycle)
+		{
+			case 1: aPortSEL = GPA1;
+					bPortSEL = GPB2 | GPB3 | GPB4;
+					break;
+
+			case 2: aPortSEL = GPA2;
+					bPortSEL = GPB2 | GPB3 | GPB4 | GPB6;
+					break;
+
+			case 3: aPortSEL = GPA0 | GPA2 | GPA3;
+					bPortSEL = GPB2 | GPB3 | GPB4  | GPB6;
+					break;
+
+			case 4: aPortSEL = GPA0 | GPA1 | GPA2 | GPA3;
+					bPortSEL=  GPB2 | GPB3 | GPB4 |  GPB7;
+					break;
+
+			case 5:	aPortSEL = GPA0;
+					bPortSEL=  GPB2 | GPB3 | GPB4 | GPB6 | GPB7;
+					break;
+
+			default: aPortSEL = 0x00;
+					 bPortSEL = 0x00;
+					 break;
+		}
+	}
+	else if(probeCurrentCycle == 5)
+	{
+		switch (probeVoltCycle)
+		{
+			case 1: aPortSEL = GPA1;
+					bPortSEL = GPB0 | GPB2 | GPB5;
+					break;
+
+			case 2: aPortSEL = GPA2;
+					bPortSEL = GPB0 | GPB2 | GPB5 | GPB6;
+					break;
+
+			case 3: aPortSEL = GPA1 | GPA2;
+					bPortSEL = GPB0 | GPB2 | GPB5  | GPB7;
+					break;
+
+			case 4: aPortSEL = GPA0 | GPA1 | GPA2 | GPA3;
+					bPortSEL=  GPB2 | GPB3 | GPB4 |  GPB7;
+					break;
+
+			case 5:	aPortSEL = GPA0;
+					bPortSEL=  GPB0 | GPB2 | GPB5 | GPB6 | GPB7;
+					break;
+
+			default: aPortSEL = 0x00;
+			 	 	 bPortSEL = 0x00;
+			 	 	 break;
+		}
+	}
+	else if(probeCurrentCycle == 6)
+	{
+		switch (probeVoltCycle)
+		{
+			case 1: aPortSEL = GPA1;
+					bPortSEL = GPB1 | GPB2 | GPB3 | GPB5;
+					break;
+
+			case 2: aPortSEL = GPA2;
+					bPortSEL = GPB1 | GPB2 | GPB3 | GPB5 | GPB6;
+					break;
+
+			case 3: aPortSEL = GPA1 | GPA2;
+					bPortSEL = GPB1 | GPB2 | GPB3  | GPB5 | GPB7;
+					break;
+
+			case 4: aPortSEL = GPA3;
+					bPortSEL=  GPB1 | GPB2 | GPB3  | GPB5 | GPB6 | GPB7;
+					break;
+
+			case 5:	aPortSEL = GPA0;
+					bPortSEL=  GPB1 | GPB2 | GPB3 | GPB5 | GPB6 | GPB7;
+					break;
+
+			default: aPortSEL = 0x00;
+					 bPortSEL = 0x00;
+					 break;
+		}
+	}
+	else if(probeCurrentCycle == 7)
+	{
+		switch (probeVoltCycle)
+		{
+			case 1: aPortSEL = GPA1;
+					bPortSEL = GPB0 | GPB1 | GPB2 | GPB4 | GPB5;
+					break;
+
+			case 2: aPortSEL = GPA2;
+					bPortSEL = GPB0 | GPB1 | GPB2 | GPB4 | GPB5 | GPB6;
+					break;
+
+			case 3: aPortSEL = GPA1 | GPA2;
+					bPortSEL = GPB0 | GPB1 | GPB2  | GPB4 | GPB5 | GPB7;
+					break;
+
+			case 4: aPortSEL = GPA3;
+					bPortSEL=  GPB0 | GPB1 | GPB2  | GPB4 | GPB5 | GPB6 | GPB7;
+					break;
+
+			case 5:	aPortSEL = GPA0 | GPA1 | GPA3;
+					bPortSEL=  GPB0 | GPB1 | GPB2 | GPB4 | GPB5;
+					break;
+
+			default: aPortSEL = 0x00;
+			 	 	 bPortSEL = 0x00;
+			 	 	 break;
+		}
+	}
+	else if(probeCurrentCycle == 8)
+	{
+		switch (probeVoltCycle)
+		{
+			case 1: aPortSEL = GPA2;
+					bPortSEL = GPB0 | GPB1 | GPB2 | GPB6;
+					break;
+
+			case 2: aPortSEL = GPA1 | GPA2;
+					bPortSEL = GPB0 | GPB1 | GPB2 | GPB7;
+					break;
+
+			case 3: aPortSEL = GPA3;
+					bPortSEL = GPB0 | GPB1 | GPB2  | GPB6 | GPB7;
+					break;
+
+			case 4: aPortSEL = GPA0 | GPA1 | GPA3;
+					bPortSEL=  GPB0 | GPB1 | GPB2;
+					break;
+
+			case 5:	aPortSEL = GPA0 | GPA2 | GPA3;
+					bPortSEL=  GPB0 | GPB1 | GPB2 | GPB6;
+					break;
+
+			default: aPortSEL = 0x00;
+					 bPortSEL = 0x00;
+					 break;
+		}
+	}
+	else
+	{
+		aPortSEL = 0x00;
+		bPortSEL = 0x00;
 	}
 
 

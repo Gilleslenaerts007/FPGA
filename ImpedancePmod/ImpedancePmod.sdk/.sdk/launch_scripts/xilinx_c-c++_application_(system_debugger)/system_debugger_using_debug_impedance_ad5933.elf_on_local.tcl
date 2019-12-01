@@ -14,5 +14,4 @@ rst -processor
 targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A"} -index 0
 dow C:/FPGA/ImpedancePmod/ImpedancePmod.sdk/Impedance_AD5933/Debug/Impedance_AD5933.elf
 configparams force-mem-access 0
-targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A"} -index 0
-con
+bpadd -addr &main
