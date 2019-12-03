@@ -16,23 +16,23 @@ int RCal_RFB_Select(int RCAL, int RFB){
 
 	switch(RCAL)
 		{
-			case 1:     print("Calibrating AD5933 using RCAL1..");
+			case 1:     print("Calibrating AD5933 using RCAL1 10K");
 						aPortSEL = (GPA6 | GPA7);   //Rcal 1
 						rcalval = 10000;
 						break;
-			case 2:     print("Calibrating AD5933 using RCAL2..");
+			case 2:     print("Calibrating AD5933 using RCAL2 22K");
 						aPortSEL = (GPA7);   //Rcal 1
-						rcalval = 20000;
+						rcalval = 22000;
 						break;
-			case 3:     print("Calibrating AD5933 using RCAL3..");
+			case 3:     print("Calibrating AD5933 using RCAL3 47K");
 						aPortSEL = (GPA6);   //Rcal 1
-						rcalval = 47700;
+						rcalval = 47000;
 						break;
 		}
 
 		switch(RFB)
 		{
-			case 1:     print("&RFB1..Zoveel ohm.. 20000\n\r");
+			case 1:     print("&RFB1..20000\n\r");
 						break;
 			case 2:     print("&RFB2..Zoveel ohm..\n\r");
 						aPortSEL |= (GPA5);   //RFB 2

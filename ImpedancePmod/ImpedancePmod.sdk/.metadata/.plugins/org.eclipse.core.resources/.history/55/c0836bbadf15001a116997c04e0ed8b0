@@ -58,6 +58,20 @@
 #define IIC_DEVICE_ID					XPAR_IIC_0_DEVICE_ID
 
 /*****************************************************************************/
+/******************* USER VARIABLES ***************************/
+/*****************************************************************************/
+#define startFrequentie 		0x051EB8	//0x051EB8 = 10k, 0x0F5C28 = 30K //Adres, High bits, Lowbits
+#define stepCount 				0x00B4		//0x00B4 = 180 steps
+#define frequentiePerStep  		0x004189	//0x008312 = 1KHz, 0x004189 = 500Hz //0x000500 -> 200Hz per stap
+#define recordFreqSteps			500			// aantal freq steps per meting
+#define sleepTime				5			// in microSec.
+
+int steps, currentFreq;
+int arrayFreq_Imp[StepCount][2];
+double arrayMagn_ImaReal[stepCount][3];
+
+
+/*****************************************************************************/
 /******************* ADP5589 Registers Definitions ***************************/
 /*****************************************************************************/
 
@@ -129,6 +143,7 @@
 /************************ Functions Declarations *****************************/
 /*****************************************************************************/
 
+void writeSerialImpedanceArray();
 void AD5933_ConfigSweepCycle(void);
 void calibration(int rcalval);
 void measureImpedance(void);
