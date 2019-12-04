@@ -11,7 +11,12 @@ src/MCP23S17.o src/MCP23S17.o: ../src/MCP23S17.c ../src/MCP23S17.h \
  ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/bspconfig.h \
  ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xpseudo_asm.h \
  ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xreg_cortexa9.h \
- ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xpseudo_asm_gcc.h
+ ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xpseudo_asm_gcc.h \
+ ../src/AD5933.h \
+ ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xil_types.h \
+ ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xparameters.h \
+ ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h \
+ ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic_l.h
 
 ../src/MCP23S17.h:
 
@@ -40,3 +45,13 @@ src/MCP23S17.o src/MCP23S17.o: ../src/MCP23S17.c ../src/MCP23S17.h \
 ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xreg_cortexa9.h:
 
 ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xpseudo_asm_gcc.h:
+
+../src/AD5933.h:
+
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xil_types.h:
+
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xparameters.h:
+
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:
+
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic_l.h:

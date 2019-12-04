@@ -11,7 +11,7 @@ int            temperature     = 0;
 unsigned long  impedanceKohms  = 0;
 unsigned long  impedanceOhms   = 0;
 float          impedance       = 0.0f;
-float          gainFactor      = 0.0f;
+float          gainFactor[stepCount];
 
 void AD5933_ConfigSweepCycle()
 {
@@ -243,9 +243,9 @@ double AD5933_CalculateGainFactor(unsigned long calibrationImpedance,
 	signed short realData   = 0;
 	signed short imgData    = 0;
 
-	// Repeat frequency sweep with last set parameters
+	// Start frequency sweep
 	AD5933_SetRegisterValue(AD5933_CONTROL_REG_HB,
-							AD5933_CONTROL_FUNCTION(freqFunction),
+							0x21,  //AD5933_CONTROL_FUNCTION(AD5933_START_FREQ_SWEEP)
 							1);
 
 	// Wait for data received to be valid
@@ -284,63 +284,7 @@ double AD5933_CalculateImpedance(double gainFactor,
 	signed short imgData    = 0;
 	double       magnitude  = 0;
 	double       impedance  = 0;
-	int          status, frequen, stap     = 0;
-
-	/*
-	//Default settings for resistors (1MHZ Freq.)
-	startFreq = 0x0F5C28;
-	incSteps = 0x01F4;
-	incFreq =  0x000D16;
-		AD5933_ConfigSweep(0x0F5C28,
-					   0x01F4,
-					   0x000D16);
-	AD5933_ConfigSweep(startFrequentie,
-					   aantalSteps,
-					   frequentiePerStep);
-*/
-	// Start the sweep
-	//AD5933_StartSweep();
-/*
-	while (1)
-	{
-		AD5933_StartSweep();
-		// Repeat frequency sweep with last set parameters
-		if(stap == 0)
-		{
-			AD5933_SetRegisterValue(AD5933_CONTROL_REG_HB,
-									AD5933_CONTROL_FUNCTION(AD5933_REPEAT_FREQ),
-									1);
-		}
-		if(stap < recordFreqSteps)
-		{
-		AD5933_SetRegisterValue(AD5933_CONTROL_REG_HB,
-								AD5933_CONTROL_FUNCTION(AD5933_INCR_FREQ),
-								1);
-		}
-		if(stap > recordFreqSteps)
-		{
-			break;
-		}
-		stap ++;
-		// Wait for data received to be valid
-		while((status & AD5933_STATUS_DATA_VALID) == 0)
-		{
-			status = AD5933_GetRegisterValue(AD5933_STATUS_REG,1);
-		}
-		// Read real and imaginary data
-		realData = AD5933_GetRegisterValue(AD5933_REAL_REG_HB,2);
-		imgData  = AD5933_GetRegisterValue(AD5933_IMG_REG_HB,2);
-		// Calculate magnitude
-		magnitude = sqrtf((realData * realData) + (imgData * imgData));
-		// Calculate impedance
-		impedance = 1 / (magnitude * gainFactor / 1000000000);
-		printf("\n\r <%d,%d,%0.2f,%0.2f>  \n\r",realData, imgData, magnitude,impedance);
-		//usleep_A9(sleepTime);
-	}
-	*/
-
-	//AD5933_StartSweep();
-
+	int          status, frequen = 0;
 
 	// Start frequency sweep
 	AD5933_SetRegisterValue(AD5933_CONTROL_REG_HB,
@@ -370,11 +314,15 @@ double AD5933_CalculateImpedance(double gainFactor,
 		impedance = 1 / (magnitude * gainFactor / 1000000000);
 
 
+		// Keep record Freq and Impedance
+		impedanceOhms = (unsigned long)impedance;
+		measuredData[probeCurrentCycle-1][probeVoltCycle-1][steps].frequency = currentFreq;
+		measuredData[probeCurrentCycle-1][probeVoltCycle-1][steps].impedance = impedanceOhms;
 
 		//Keep track of Magnitude, Real, Imaginary data
-		Freq_ImpArray[steps][2] = magnitude;
-		Freq_ImpArray[steps][3] = imgData;
-		Freq_ImpArray[steps][4] = realData;
+		measuredData[probeCurrentCycle-1][probeVoltCycle-1][steps].magnitude = magnitude;
+		measuredData[probeCurrentCycle-1][probeVoltCycle-1][steps].imaginary = imgData;
+		measuredData[probeCurrentCycle-1][probeVoltCycle-1][steps].real = realData;
 
 		//printf("\n\r <%d,%d,%0.2f,%0.2f>  \n\r",realData, imgData, magnitude,impedance);
 	return(impedance);
@@ -391,6 +339,7 @@ double AD5933_CalculateImpedance(double gainFactor,
 void calibration(int rcalval)
 {
 
+	static int stap = 0;
 	// Read temperature from device
 	temperature = AD5933_GetTemperature();
 	xil_printf("\n\rCalibrating with a temperature of %d C°.\n\r",temperature);
@@ -399,20 +348,31 @@ void calibration(int rcalval)
 	//startFrequentie 		0x0F5C28
 	//#define aantalSteps 			0x01F4
 	//#define frequentiePerStep 	0x000D16
-	AD5933_ConfigSweep(startFrequentie,
+	/*AD5933_ConfigSweep(startFrequentie,
 						stepCount,
 						frequentiePerStep);
+						*/
 
 	// Start the sweep
-	AD5933_StartSweep();
+	//AD5933_StartSweep();
 
-	// Calculate gain factor for an impedance of 47kohms, change value here for chosen resistor
-	gainFactor = AD5933_CalculateGainFactor(rcalval,
-											AD5933_REPEAT_FREQ);
+	AD5933_ConfigSweepCycle();
+	stap = 0;
+	while (stap <= stepCount)
+	{
+				// Calculate gain factor for an impedance of 47kohms, change value here for chosen resistor
+		gainFactor[stap] = AD5933_CalculateGainFactor(rcalval,
+												AD5933_REPEAT_FREQ);
+		stap++;
+		//increase freq
+		AD5933_SetRegisterValue(AD5933_CONTROL_REG_HB,
+								0x31,
+								1 );
+	}
 
 	// Change the resistor used for calibration with the one you wish to measure
-	xil_printf("Calibration complete.\n\r");
-	printf("\n\r GainFactor : %0.2f\n\r",gainFactor);
+	xil_printf("Calibration complete.\n\r\n\r First GainFactor: %0.2f AND Last GainFactor: %0.2f\n\r",gainFactor[0], gainFactor[stepCount-1]);
+	//printf("\n\r First GainFactor: %0.2f AND Last GainFactor: %0.2f\n\r",gainFactor[0], gainFactor[stepCount-1]);
 
 }
 
@@ -433,18 +393,13 @@ void measureImpedance(void)
 
 	steps = 0;
 	currentFreq = 10000;
-	while(steps <= stepCount)
+	//Start at 10K Frequency and increase as much steps we defined
+	while(steps < stepCount)
 	{
 
 	// Calculate impedance between Vout and Vin
-	impedance = AD5933_CalculateImpedance(gainFactor,
-										  AD5933_REPEAT_FREQ);
+	impedance = AD5933_CalculateImpedance(gainFactor[steps], AD5933_REPEAT_FREQ);
 
-
-	// Keep record Freq and Impedance
-	Freq_ImpArray[steps][0] = currentFreq;
-	impedanceOhms = (unsigned long)impedance;
-	Freq_ImpArray[steps][1] = impedanceOhms;
 	/*
 	// Calculate impedance in kohm
 	impedanceKohms = impedanceOhms / 1000;
@@ -472,7 +427,7 @@ void measureImpedance(void)
 							0x31,
 							1 );
 	steps++;
-	currentFreq +=200;
+	currentFreq +=500; //Add formula here for calculating freq per step.
 	}
 }
 
@@ -481,7 +436,7 @@ void writeSerialImpedanceArray()
 
 	for(int i=0;i<=stepCount;i++)
 	{
-		printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+		//printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
 	}
 
 }

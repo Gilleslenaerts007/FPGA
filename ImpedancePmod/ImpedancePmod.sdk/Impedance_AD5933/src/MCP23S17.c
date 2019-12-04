@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include "MCP23S17.h"
+#include "AD5933.h"
 
 char aPortSEL, bPortSEL = 0x00;
 int rcalval = 0;
@@ -13,6 +14,7 @@ int RCal_RFB_Select(int RCAL, int RFB){
 	rcalval = 0;
 	aPortSEL=0x00;
 	bPortSEL=0x00;
+    //portTransfer();
 
 	switch(RCAL)
 		{
@@ -56,12 +58,13 @@ void probeMeasureSelect(){
 	bPortSEL=0x00;
 
 	// Prepare next cycle
-	probeVoltCycle++;
-	if (probeVoltCycle > 5)
+	if (probeVoltCycle >= 5)
 		{
 			probeVoltCycle = 0;
 			probeCurrentCycle++;
 		}
+	probeVoltCycle++;
+
 	xil_printf("VoltCycle:%d, CurrentCycle:%d\n\r", probeVoltCycle, probeCurrentCycle);
 
 	if(probeCurrentCycle == 1)
@@ -372,12 +375,18 @@ void portTransfer(){
 	arrayGPA[0] = MCP23S17_SPI_ADDR;
 
 	arrayGPA[1] = GPIOA_ADR;
-	arrayGPA[2] = aPortSEL;
-
 	arrayGPB[1] = GPIOB_ADR;
+
+	arrayGPA[2] = 0x00;
+	arrayGPB[2] = 0x00;
+
+	XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+	XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+
+	arrayGPA[2] = aPortSEL;
 	arrayGPB[2] = bPortSEL;
 
 	//Transfer SPI buffers COMMENTED FOR DEBUGGING
-	//XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
-	//XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+	XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+	XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
 }

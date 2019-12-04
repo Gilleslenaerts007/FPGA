@@ -14,23 +14,36 @@
 #define MCP23S17_SPI_ADDR      			0x40
 #define SPI_DEVICE_ID		XPAR_SPI_0_DEVICE_ID
 #define BUFFER_SIZE 3
-static XSpi SpiInstance;
+XSpi *SpiInstance;
 char readBuffer[BUFFER_SIZE];
 char dummybuffer[BUFFER_SIZE];
-char arrayGPB[3], arrayGPA[3];
+char arrayGPB[3], arrayGPA[3], setConfig[3],setDirections[3], setPullupsB[3];
 /*****************************************************************************/
 /***************************** Register Adresses *********************************/
 /*****************************************************************************/
 #define    IODIRA    (0x00)      // MCP23x17 I/O Direction Register
 #define    IODIRB    (0x01)      // 1 = Input (default), 0 = Output
+#define GPPUA 0x0C  // port A pullups
+#define GPPUB 0x0D  // port B pullups
 #define GPIOA_ADR 0x12  // port A
 #define GPIOB_ADR 0x13  // port B
+#define IOCON 0x0A  // I/O config (also 0x0B)
 
 // I/O config
 #define BANK_OFF 0x00  // addressing mode
 #define BANK_ON 0x80
 #define HAEN_ON 0x08  // hardware addressing (A2,A1,A0) all GND IF ON
 #define HAEN_OFF 0x00
+#define ODR_ON 0x04  // open drain for interupts
+#define ODR_OFF 0x00
+#define INTPOL_HIGH 0x02  // interupt polarity
+#define INTPOL_LOW 0x00
+#define DISSLW_ON 0x10  // slew rate
+#define DISSLW_OFF 0x00
+#define SEQOP_OFF 0x20  // incrementing address pointer
+#define SEQOP_ON 0x00
+#define INT_MIRROR_ON 0x40  // interupt mirror (INTa|INTb)
+#define INT_MIRROR_OFF 0x00
 
 // MCP GPIO Port Selection Defines
 #define	GPB0	0x01

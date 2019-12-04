@@ -70,8 +70,42 @@ int main()
     	return XST_FAILURE;
     }
 
-    print("EIT: Impedance measurement program by Gilles Lenaerts.\n\r");
+    //Init MCPS GPIO EXAPNDER WITH CORRECT CONFIG
+    setConfig[0] = MCP23S17_SPI_ADDR;
+    setConfig[1] = IOCON;
+    setConfig[2] = BANK_OFF | INT_MIRROR_OFF | SEQOP_OFF | DISSLW_OFF | HAEN_ON |  ODR_OFF |  INTPOL_LOW;
+    XSpi_Transfer(&SpiInstance, setConfig, readBuffer, BUFFER_SIZE);
 
+    //Set IO Directions
+    setDirections[0] = MCP23S17_SPI_ADDR;
+    setDirections[1] = IODIRA;
+    setDirections[2] = 0x00;
+    XSpi_Transfer(&SpiInstance, setDirections, readBuffer, BUFFER_SIZE);
+    setDirections[1] = IODIRB;
+    XSpi_Transfer(&SpiInstance, setDirections, readBuffer, BUFFER_SIZE);
+
+    //Set Pullups
+    setPullupsB[0] = MCP23S17_SPI_ADDR;
+    setPullupsB[1] = GPPUA;
+    setPullupsB[2] = 0x00;
+    XSpi_Transfer(&SpiInstance, setPullupsB, readBuffer, BUFFER_SIZE);
+    setPullupsB[1] = GPPUB;
+    XSpi_Transfer(&SpiInstance, setPullupsB, readBuffer, BUFFER_SIZE);
+
+	//Select ports
+	arrayGPB[0] = MCP23S17_SPI_ADDR;
+	arrayGPA[0] = MCP23S17_SPI_ADDR;
+
+	arrayGPA[1] = GPIOA_ADR;
+	arrayGPB[1] = GPIOB_ADR;
+
+	arrayGPA[2] = 0x00;
+	arrayGPB[2] = 0x00;
+
+	XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+	XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+
+    print("EIT: Impedance measurement program by Gilles Lenaerts.\n\r");
     while(1){
 
     	//Debugging AD5933 Chip.
@@ -91,13 +125,15 @@ int main()
     		}
     		calibration(RCal_RFB_Select(rcalChoice-48,1)); // Loopt vast als er geen hw connected is bij AD5933GetTemp(), logisch :)
     		//debugging rcal for reference
-    		measureImpedance();
-    		writeSerialImpedanceArray();
+    		//measureImpedance();
+    		//writeSerialImpedanceArray();
 
     		//Measurement Cycle
         	while (probeCurrentCycle <= 8){
             	probeMeasureSelect();
+            	if (probeCurrentCycle > 8) break;
             	measureImpedance();
+
         	}
     	}
     }
