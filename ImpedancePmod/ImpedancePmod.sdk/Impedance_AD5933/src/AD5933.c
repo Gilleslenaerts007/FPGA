@@ -342,7 +342,7 @@ void calibration(int rcalval)
 	static int stap = 0;
 	// Read temperature from device
 	temperature = AD5933_GetTemperature();
-	xil_printf("\n\rCalibrating with a temperature of %d C°.\n\r",temperature);
+	xil_printf("Temperature: %d Celcius\r",temperature);
 
 	// Set sweep parameters
 	//startFrequentie 		0x0F5C28
@@ -371,7 +371,16 @@ void calibration(int rcalval)
 	}
 
 	// Change the resistor used for calibration with the one you wish to measure
-	xil_printf("Calibration complete.\n\r\n\r First GainFactor: %0.2f AND Last GainFactor: %0.2f\n\r",gainFactor[0], gainFactor[stepCount-1]);
+	print("Calibration complete.\r");//First GainFactor: %0.2f AND Last GainFactor: %0.2f\n\r",gainFactor[0], gainFactor[stepCount-1]);
+
+	/*
+	xil_printf("Remove Calibration caps on PCB, press enter to continue");
+	rcalChoice = 0;
+	while (rcalChoice == 0)
+	{
+		rcalChoice = inbyte();
+	}
+	*/
 	//printf("\n\r First GainFactor: %0.2f AND Last GainFactor: %0.2f\n\r",gainFactor[0], gainFactor[stepCount-1]);
 
 }
@@ -387,7 +396,7 @@ void measureImpedance(void)
 {
 	// Read temperature from device
 	temperature = AD5933_GetTemperature();
-	xil_printf("\n\rTemperature on board: %d C\n\r",temperature);
+	printf("Temperature on board: %d Celcius.\n\r",temperature);
 
 	AD5933_ConfigSweepCycle();
 
@@ -433,10 +442,14 @@ void measureImpedance(void)
 
 void writeSerialImpedanceArray()
 {
-
-	for(int i=0;i<=stepCount;i++)
+	for(int j=0;j<=8;j++)
 	{
-		//printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%f, Real:%f\n",Freq_ImpArray[i][0], Freq_ImpArray[i][1], Freq_ImpArray[i][2], Freq_ImpArray[i][3], Freq_ImpArray[i][4]);
+		for(int y=0;y<=5;y++)
+		{
+			for(int i=0;i<=stepCount;i++)
+			{
+				printf("Cycle:%d, Probe:%d, Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",j, y, measuredData[j][y][i].frequency, measuredData[j][y][i].impedance, measuredData[j][y][i].magnitude, measuredData[j][y][i].real, measuredData[j][y][i].imaginary);
+			}
+		}
 	}
-
 }

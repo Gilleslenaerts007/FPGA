@@ -18,15 +18,15 @@ int RCal_RFB_Select(int RCAL, int RFB){
 
 	switch(RCAL)
 		{
-			case 1:     print("Calibrating AD5933 using RCAL1 10K");
+			case 1:     print("Calibrate using RCAL1 10K.");
 						aPortSEL = (GPA6 | GPA7);   //Rcal 1
 						rcalval = 10000;
 						break;
-			case 2:     print("Calibrating AD5933 using RCAL2 22K");
+			case 2:     print("Calibrate using RCAL2 22K.");
 						aPortSEL = (GPA7);   //Rcal 1
 						rcalval = 22000;
 						break;
-			case 3:     print("Calibrating AD5933 using RCAL3 47K");
+			case 3:     print("Calibrate using RCAL3 47K.");
 						aPortSEL = (GPA6);   //Rcal 1
 						rcalval = 47000;
 						break;
@@ -34,15 +34,15 @@ int RCal_RFB_Select(int RCAL, int RFB){
 
 		switch(RFB)
 		{
-			case 1:     print("&RFB1..20000\n\r");
+			case 1:     print("&RFB1..20000.\r");
 						break;
-			case 2:     print("&RFB2..Zoveel ohm..\n\r");
+			case 2:     print("&RFB2.\r");
 						aPortSEL |= (GPA5);   //RFB 2
 						break;
-			case 3:     print("&RFB3..\n\r");
+			case 3:     print("&RFB3.\r");
 						aPortSEL |= (GPA4);   //Rcal 1
 						break;
-			case 4:     print("&RFB4..\n\r");
+			case 4:     print("&RFB4.\r");
 						aPortSEL |= (GPA4 | GPA5);   //Rcal 1
 						break;
 		}
@@ -64,8 +64,9 @@ void probeMeasureSelect(){
 			probeCurrentCycle++;
 		}
 	probeVoltCycle++;
+	if (probeCurrentCycle > 8) return;
 
-	xil_printf("VoltCycle:%d, CurrentCycle:%d\n\r", probeVoltCycle, probeCurrentCycle);
+	xil_printf("VoltCycle:%d, CurrentCycle:%d\r", probeVoltCycle, probeCurrentCycle);
 
 	if(probeCurrentCycle == 1)
 	{
@@ -312,34 +313,6 @@ void probeMeasureSelect(){
 
   }
 
-/*
-* Have to add Registers standard values, HAEN_ON, IODIR, BANK_ON
- */
-int SPIStart(XSpi* spiPTR, u16 spiID){
-	int Status;
-	XSpi_Config *confPTR;
-
-	confPTR = XSpi_LookupConfig(spiID);
-	if(confPTR == NULL) {
-		return XST_DEVICE_NOT_FOUND;
-	}
-
-	Status = XSpi_CfgInitialize(spiPTR, confPTR, confPTR->BaseAddress);
-	if(Status != XST_SUCCESS) {
-		return XST_FAILURE;
-	}
-
-	Status = XSpi_SetOptions(spiPTR, XSP_MASTER_OPTION |
-			XSP_MANUAL_SSELECT_OPTION );
-	if(Status != XST_SUCCESS) {
-		return XST_FAILURE;
-	}
-
-	XSpi_Start(spiPTR);
-	XSpi_IntrGlobalDisable(spiPTR);
-
-	return XST_SUCCESS;
-}
 
 /*
 * sorts input array on GPIO adresses.
@@ -386,7 +359,77 @@ void portTransfer(){
 	arrayGPA[2] = aPortSEL;
 	arrayGPB[2] = bPortSEL;
 
-	//Transfer SPI buffers COMMENTED FOR DEBUGGING
+	XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+	XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+}
+
+
+/*
+* Have to add Registers standard values, HAEN_ON, IODIR, BANK_ON
+ */
+int SPIStart(XSpi* spiPTR, u16 spiID){
+	int Status;
+	XSpi_Config *confPTR;
+
+	confPTR = XSpi_LookupConfig(spiID);
+	if(confPTR == NULL) {
+		return XST_DEVICE_NOT_FOUND;
+	}
+
+	Status = XSpi_CfgInitialize(spiPTR, confPTR, confPTR->BaseAddress);
+	if(Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	Status = XSpi_SetOptions(spiPTR, XSP_MASTER_OPTION |
+			XSP_MANUAL_SSELECT_OPTION );
+	if(Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	XSpi_Start(spiPTR);
+	XSpi_IntrGlobalDisable(spiPTR);
+
+	return XST_SUCCESS;
+}
+
+/*
+* initialze MCP23S17 for measurement
+ */
+void initMCSP()
+{
+    //Init MCPS GPIO EXAPNDER WITH CORRECT CONFIG
+    setConfig[0] = MCP23S17_SPI_ADDR;
+    setConfig[1] = IOCON;
+    setConfig[2] = BANK_OFF | INT_MIRROR_OFF | SEQOP_OFF | DISSLW_OFF | HAEN_ON |  ODR_OFF |  INTPOL_LOW;
+    XSpi_Transfer(&SpiInstance, setConfig, readBuffer, BUFFER_SIZE);
+
+    //Set IO Directions
+    setDirections[0] = MCP23S17_SPI_ADDR;
+    setDirections[1] = IODIRA;
+    setDirections[2] = 0x00;
+    XSpi_Transfer(&SpiInstance, setDirections, readBuffer, BUFFER_SIZE);
+    setDirections[1] = IODIRB;
+    XSpi_Transfer(&SpiInstance, setDirections, readBuffer, BUFFER_SIZE);
+
+    //Set Pullups
+    setPullupsB[0] = MCP23S17_SPI_ADDR;
+    setPullupsB[1] = GPPUA;
+    setPullupsB[2] = 0x00;
+    XSpi_Transfer(&SpiInstance, setPullupsB, readBuffer, BUFFER_SIZE);
+    setPullupsB[1] = GPPUB;
+    XSpi_Transfer(&SpiInstance, setPullupsB, readBuffer, BUFFER_SIZE);
+
+	//Select ports
+	arrayGPB[0] = MCP23S17_SPI_ADDR;
+	arrayGPA[0] = MCP23S17_SPI_ADDR;
+
+	arrayGPA[1] = GPIOA_ADR;
+	arrayGPB[1] = GPIOB_ADR;
+
+	arrayGPA[2] = 0x00;
+	arrayGPB[2] = 0x00;
+
 	XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
 	XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
 }

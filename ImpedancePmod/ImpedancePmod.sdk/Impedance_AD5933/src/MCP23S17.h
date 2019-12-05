@@ -99,4 +99,9 @@ void portTransfer();
  */
 int SPIStart(XSpi* spiPTR, u16 spiID);
 
+/*
+* Start SPI module with correct register values.
+ */
+void initMCSP();
+
 #endif	// _MCP23S17_H_
