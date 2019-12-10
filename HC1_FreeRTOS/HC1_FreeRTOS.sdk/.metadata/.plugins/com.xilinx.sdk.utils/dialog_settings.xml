@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="D:\BootLinux\bkup" key="bootgen_files_selection"/>
+	<item value="D:\BootLinux\bkup" key="zynq_flash_files_selection"/>
+	<item value="D:\BootLinux\bkup" key="last_stored_selection"/>
 </section>
