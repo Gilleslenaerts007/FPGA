@@ -62,7 +62,8 @@ int temper;
 int main()
 {
 	init_platform();
-	int rcalChoice, Status;
+	int rcalChoice;
+    int Status;
 
     print("EIT program by Gilles Lenaerts.");
 
@@ -77,8 +78,8 @@ int main()
     while(1){
 
     	//Debugging AD5933 Chip.
-    	temper = AD5933_GetTemperature();
-    	xil_printf("temp.:%d\n\r", temper);
+    	//temper = AD5933_GetTemperature();
+    	//xil_printf("temp.:%d\n\r", temper);
     	if (XGpioPs_ReadPin(&Gpio, Input_Pin))
     	{
     		rcalChoice=0;
@@ -97,24 +98,13 @@ int main()
     		//measureImpedance();
     		//writeSerialImpedanceArray();
 
-    		mode = 2;
-    		//Mode 1 for single frequency, mode 2 for sweeping freqs.
-    		if (mode == 1)
-    		{
-				//Measurement Cycle
-				while (probeCurrentCycle <= 8){
-					probeMeasureSelect();
-					if (probeCurrentCycle > 8) break;
-					measureImpedance();
-				}
-    		}
-    		//Sweep on the RCAL for sweeping data.
-    		else if(mode == 2)
-    		{
-    			measureImpedance();
-    		}
-
-			writeSerialImpedanceArray();
+    		//Measurement Cycle
+        	while (probeCurrentCycle <= 8){
+            	probeMeasureSelect();
+            	if (probeCurrentCycle > 8) break;
+            	measureImpedance();
+        	}
+        	writeSerialImpedanceArray();
     	}
     }
     cleanup_platform();

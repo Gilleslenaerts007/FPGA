@@ -295,14 +295,11 @@ double AD5933_CalculateImpedance(double gainFactor,
 	// Wait for data to be valid
 	while((status & AD5933_STATUS_DATA_VALID) == 0)
 	{
-
-		/*
 		if ((AD5933_GetRegisterValue(AD5933_STATUS_REG, 1) & 0x02))
 		{
 			realData = AD5933_GetRegisterValue(AD5933_REAL_REG_HB,2);
 			imgData  = AD5933_GetRegisterValue(AD5933_IMG_REG_HB,2);
 		}
-		*/
 		status = AD5933_GetRegisterValue(AD5933_STATUS_REG,1);
 	}
 
@@ -340,6 +337,7 @@ double AD5933_CalculateImpedance(double gainFactor,
 
 		else if (mode == 1)
 		{
+
 			measuredData[probeCurrentCycle-1][probeVoltCycle-1].frequency = currentFreq;
 			measuredData[probeCurrentCycle-1][probeVoltCycle-1].impedance = impedanceOhms;
 
@@ -448,8 +446,6 @@ void measureImpedance(void)
 
 	else if (mode == 1)
 	{
-		currentFreq = 10000;
-		AD5933_ConfigFixedSweep(startFrequentie, 0x00, 0x00);
 		// Calculate impedance on fixed frequency for prototype
 		impedance = AD5933_CalculateImpedance(gainFactor[0], AD5933_REPEAT_FREQ);
 
@@ -472,31 +468,69 @@ void measureImpedance(void)
 	}
 }
 
+double AD5933_CalculateFixedFreqImpedance(double gainFactor)
+{
+	signed short realData   = 0;
+	signed short imgData    = 0;
+	double       magnitude  = 0;
+	double       impedance  = 0;
+	int          status, frequen = 0;
+
+	AD5933_ConfigFixedSweep(startFrequentie, 0x00, 0x00);
+
+	// Start frequency sweep
+	AD5933_SetRegisterValue(AD5933_CONTROL_REG_HB,
+							0x21,  //AD5933_CONTROL_FUNCTION(AD5933_START_FREQ_SWEEP)
+							1);
+
+
+	// Wait for data to be valid
+	while((status & AD5933_STATUS_DATA_VALID) == 0)
+	{
+		if ((AD5933_GetRegisterValue(AD5933_STATUS_REG, 1) & 0x02))
+		{
+			realData = AD5933_GetRegisterValue(AD5933_REAL_REG_HB,2);
+			imgData  = AD5933_GetRegisterValue(AD5933_IMG_REG_HB,2);
+		}
+		status = AD5933_GetRegisterValue(AD5933_STATUS_REG,1);
+	}
+
+	// Read real and imaginary data
+		realData = AD5933_GetRegisterValue(AD5933_REAL_REG_HB,2);
+		imgData  = AD5933_GetRegisterValue(AD5933_IMG_REG_HB,2);
+
+		// Calculate magnitude
+		magnitude = sqrtf((realData * realData) + (imgData * imgData));
+
+		// Calculate impedance
+		impedance = 1 / (magnitude * gainFactor / 1000000000);
+
+
+		// Keep record Freq and Impedance
+		impedanceOhms = (unsigned long)impedance;
+		measuredData[probeCurrentCycle-1][probeVoltCycle-1][steps].frequency = currentFreq;
+		measuredData[probeCurrentCycle-1][probeVoltCycle-1][steps].impedance = impedanceOhms;
+
+		//Keep track of Magnitude, Real, Imaginary data
+		measuredData[probeCurrentCycle-1][probeVoltCycle-1][steps].magnitude = magnitude;
+		measuredData[probeCurrentCycle-1][probeVoltCycle-1][steps].imaginary = imgData;
+		measuredData[probeCurrentCycle-1][probeVoltCycle-1][steps].real = realData;
+
+		//printf("\n\r <%d,%d,%0.2f,%0.2f>  \n\r",realData, imgData, magnitude,impedance);
+	return(impedance);
+
+}
 
 void writeSerialImpedanceArray()
 {
-	if (mode == 1)
+	for(int j=0;j<=8;j++)
 	{
-		for(int j=0;j<=8;j++)
+		for(int y=0;y<=5;y++)
 		{
-			for(int y=0;y<=5;y++)
+			for(int i=0;i<=stepCount;i++)
 			{
-				printf("Cycle:%d, Probe:%d, Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",j, y, measuredData[j][y].frequency, measuredData[j][y].impedance, measuredData[j][y].magnitude, measuredData[j][y].real, measuredData[j][y].imaginary);
-				/* for 3D end array
-				for(int i=0;i<=stepCount;i++)
-				{
-					printf("Cycle:%d, Probe:%d, Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",j, y, measuredData[j][y][i].frequency, measuredData[j][y][i].impedance, measuredData[j][y][i].magnitude, measuredData[j][y][i].real, measuredData[j][y][i].imaginary);
-				}
-				*/
+				printf("Cycle:%d, Probe:%d, Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",j, y, measuredData[j][y][i].frequency, measuredData[j][y][i].impedance, measuredData[j][y][i].magnitude, measuredData[j][y][i].real, measuredData[j][y][i].imaginary);
 			}
-		}
-	}
-
-	else if (mode == 2)
-	{
-		for(int i=0;i<=stepCount;i++)
-		{
-			printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i]->frequency, measuredData[i]->impedance, measuredData[i]->magnitude, measuredData[i]->real, measuredData[i]->imaginary);
 		}
 	}
 }

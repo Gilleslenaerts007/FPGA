@@ -9299,3 +9299,1006 @@ make pre-build main-build
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for 'main-build'.
+16:17:05 **** Incremental Build of project Impedance_AD5933_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/iic_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/spi_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling iic"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/spi_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+16:17:56 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:197:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:197:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:287:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen = 0;
+                       ^~~~~~~
+'Finished building: ../src/AD5933.c'
+' '
+'Building file: ../src/MCP23S17.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MCP23S17.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MCP23S17.d" -MT"src/MCP23S17.o" -o "src/MCP23S17.o" "../src/MCP23S17.c"
+../src/MCP23S17.c: In function 'portTransfer':
+../src/MCP23S17.c:356:16: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:356:30: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                              ^~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:356:40: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                                        ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:357:16: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:357:30: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                              ^~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:357:40: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                                        ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:362:16: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:362:30: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                              ^~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:362:40: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                                        ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:363:16: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:363:30: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                              ^~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:363:40: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                                        ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c: In function 'initMCSP':
+../src/MCP23S17.c:405:19: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+     XSpi_Transfer(&SpiInstance, setConfig, readBuffer, BUFFER_SIZE);
+                   ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:405:33: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setConfig, readBuffer, BUFFER_SIZE);
+                                 ^~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:405:44: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setConfig, readBuffer, BUFFER_SIZE);
+                                            ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:411:19: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+     XSpi_Transfer(&SpiInstance, setDirections, readBuffer, BUFFER_SIZE);
+                   ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:411:33: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setDirections, readBuffer, BUFFER_SIZE);
+                                 ^~~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:411:48: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setDirections, readBuffer, BUFFER_SIZE);
+                                                ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:413:19: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+     XSpi_Transfer(&SpiInstance, setDirections, readBuffer, BUFFER_SIZE);
+                   ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:413:33: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setDirections, readBuffer, BUFFER_SIZE);
+                                 ^~~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:413:48: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setDirections, readBuffer, BUFFER_SIZE);
+                                                ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:419:19: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+     XSpi_Transfer(&SpiInstance, setPullupsB, readBuffer, BUFFER_SIZE);
+                   ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:419:33: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setPullupsB, readBuffer, BUFFER_SIZE);
+                                 ^~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:419:46: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setPullupsB, readBuffer, BUFFER_SIZE);
+                                              ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:421:19: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+     XSpi_Transfer(&SpiInstance, setPullupsB, readBuffer, BUFFER_SIZE);
+                   ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:421:33: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setPullupsB, readBuffer, BUFFER_SIZE);
+                                 ^~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:421:46: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setPullupsB, readBuffer, BUFFER_SIZE);
+                                              ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:433:16: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:433:30: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                              ^~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:433:40: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                                        ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:434:16: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:434:30: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                              ^~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:434:40: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                                        ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+'Finished building: ../src/MCP23S17.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:72:23: warning: passing argument 1 of 'SPIStart' from incompatible pointer type [-Wincompatible-pointer-types]
+     Status = SPIStart(&SpiInstance, SPI_DEVICE_ID);
+                       ^~~~~~~~~~~~
+In file included from ../src/helloworld.c:45:
+../src/MCP23S17.h:100:20: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int SPIStart(XSpi* spiPTR, u16 spiID);
+              ~~~~~~^~~~~~
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:44:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:126:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:114:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79264	   2624	 196976	 278864	  44150	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+16:19:20 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:21:18 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:23:23 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:23:40 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:24:17 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:25:10 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:25:34 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:25:52 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:26:20 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:34:04 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:37:32 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:37:51 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:38:59 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:39:17 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:40:17 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:40:43 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:51:53 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:50:07 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:197:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:197:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:320:7: error: 'mode' undeclared (first use in this function); did you mean 'modf'?
+   if (mode == 2)
+       ^~~~
+       modf
+../src/AD5933.c:320:7: note: each undeclared identifier is reported only once for each function it appears in
+../src/AD5933.c:287:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen = 0;
+                       ^~~~~~~
+../src/AD5933.c: In function 'measureImpedance':
+../src/AD5933.c:427:6: error: 'mode' undeclared (first use in this function); did you mean 'modf'?
+  if (mode == 2)
+      ^~~~
+      modf
+../src/AD5933.c: In function 'writeSerialImpedanceArray':
+../src/AD5933.c:478:6: error: 'mode' undeclared (first use in this function); did you mean 'modf'?
+  if (mode == 1)
+      ^~~~
+      modf
+../src/AD5933.c:499:92: error: '(measuredRecord *)&measuredData[i]' is a pointer; did you mean to use '->'?
+    printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
+                                                                                            ^
+                                                                                            ->
+../src/AD5933.c:499:119: error: '(measuredRecord *)&measuredData[i]' is a pointer; did you mean to use '->'?
+    printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
+                                                                                                                       ^
+                                                                                                                       ->
+../src/AD5933.c:499:146: error: '(measuredRecord *)&measuredData[i]' is a pointer; did you mean to use '->'?
+    printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
+                                                                                                                                                  ^
+                                                                                                                                                  ->
+../src/AD5933.c:499:173: error: '(measuredRecord *)&measuredData[i]' is a pointer; did you mean to use '->'?
+    printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
+                                                                                                                                                                             ^
+                                                                                                                                                                             ->
+../src/AD5933.c:499:195: error: '(measuredRecord *)&measuredData[i]' is a pointer; did you mean to use '->'?
+    printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
+                                                                                                                                                                                                   ^
+                                                                                                                                                                                                   ->
+make: *** [src/subdir.mk:32: src/AD5933.o] Error 1
+12:50:53 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:197:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:197:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:320:7: error: 'mode' undeclared (first use in this function); did you mean 'modf'?
+   if (mode == 2)
+       ^~~~
+       modf
+../src/AD5933.c:320:7: note: each undeclared identifier is reported only once for each function it appears in
+../src/AD5933.c:287:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen = 0;
+                       ^~~~~~~
+../src/AD5933.c: In function 'measureImpedance':
+../src/AD5933.c:427:6: error: 'mode' undeclared (first use in this function); did you mean 'modf'?
+  if (mode == 2)
+      ^~~~
+      modf
+../src/AD5933.c: In function 'writeSerialImpedanceArray':
+../src/AD5933.c:478:6: error: 'mode' undeclared (first use in this function); did you mean 'modf'?
+  if (mode == 1)
+      ^~~~
+      modf
+../src/AD5933.c:499:92: error: '(measuredRecord *)&measuredData[i]' is a pointer; did you mean to use '->'?
+    printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
+                                                                                            ^
+                                                                                            ->
+../src/AD5933.c:499:119: error: '(measuredRecord *)&measuredData[i]' is a pointer; did you mean to use '->'?
+    printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
+                                                                                                                       ^
+                                                                                                                       ->
+../src/AD5933.c:499:146: error: '(measuredRecord *)&measuredData[i]' is a pointer; did you mean to use '->'?
+    printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
+                                                                                                                                                  ^
+                                                                                                                                                  ->
+../src/AD5933.c:499:173: error: '(measuredRecord *)&measuredData[i]' is a pointer; did you mean to use '->'?
+    printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
+                                                                                                                                                                             ^
+                                                                                                                                                                             ->
+../src/AD5933.c:499:195: error: '(measuredRecord *)&measuredData[i]' is a pointer; did you mean to use '->'?
+    printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
+                                                                                                                                                                                                   ^
+                                                                                                                                                                                                   ->
+make: *** [src/subdir.mk:32: src/AD5933.o] Error 1
+12:51:54 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:197:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:197:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:287:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen = 0;
+                       ^~~~~~~
+../src/AD5933.c: In function 'writeSerialImpedanceArray':
+../src/AD5933.c:499:92: error: '(measuredRecord *)&measuredData[i]' is a pointer; did you mean to use '->'?
+    printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
+                                                                                            ^
+                                                                                            ->
+../src/AD5933.c:499:119: error: '(measuredRecord *)&measuredData[i]' is a pointer; did you mean to use '->'?
+    printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
+                                                                                                                       ^
+                                                                                                                       ->
+../src/AD5933.c:499:146: error: '(measuredRecord *)&measuredData[i]' is a pointer; did you mean to use '->'?
+    printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
+                                                                                                                                                  ^
+                                                                                                                                                  ->
+../src/AD5933.c:499:173: error: '(measuredRecord *)&measuredData[i]' is a pointer; did you mean to use '->'?
+    printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
+                                                                                                                                                                             ^
+                                                                                                                                                                             ->
+../src/AD5933.c:499:195: error: '(measuredRecord *)&measuredData[i]' is a pointer; did you mean to use '->'?
+    printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
+                                                                                                                                                                                                   ^
+                                                                                                                                                                                                   ->
+make: *** [src/subdir.mk:32: src/AD5933.o] Error 1
+12:53:24 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD5933.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD5933.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD5933.d" -MT"src/AD5933.o" -o "src/AD5933.o" "../src/AD5933.c"
+../src/AD5933.c: In function 'AD5933_StartSweep':
+../src/AD5933.c:197:16: warning: unused variable 'imgData' [-Wunused-variable]
+  int realData, imgData = 0;
+                ^~~~~~~
+../src/AD5933.c:197:6: warning: unused variable 'realData' [-Wunused-variable]
+  int realData, imgData = 0;
+      ^~~~~~~~
+../src/AD5933.c: In function 'AD5933_CalculateImpedance':
+../src/AD5933.c:287:23: warning: unused variable 'frequen' [-Wunused-variable]
+  int          status, frequen = 0;
+                       ^~~~~~~
+'Finished building: ../src/AD5933.c'
+' '
+'Building file: ../src/MCP23S17.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MCP23S17.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MCP23S17.d" -MT"src/MCP23S17.o" -o "src/MCP23S17.o" "../src/MCP23S17.c"
+../src/MCP23S17.c: In function 'portTransfer':
+../src/MCP23S17.c:356:16: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:356:30: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                              ^~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:356:40: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                                        ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:357:16: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:357:30: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                              ^~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:357:40: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                                        ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:362:16: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:362:30: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                              ^~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:362:40: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                                        ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:363:16: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:363:30: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                              ^~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:363:40: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                                        ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c: In function 'initMCSP':
+../src/MCP23S17.c:405:19: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+     XSpi_Transfer(&SpiInstance, setConfig, readBuffer, BUFFER_SIZE);
+                   ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:405:33: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setConfig, readBuffer, BUFFER_SIZE);
+                                 ^~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:405:44: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setConfig, readBuffer, BUFFER_SIZE);
+                                            ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:411:19: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+     XSpi_Transfer(&SpiInstance, setDirections, readBuffer, BUFFER_SIZE);
+                   ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:411:33: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setDirections, readBuffer, BUFFER_SIZE);
+                                 ^~~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:411:48: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setDirections, readBuffer, BUFFER_SIZE);
+                                                ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:413:19: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+     XSpi_Transfer(&SpiInstance, setDirections, readBuffer, BUFFER_SIZE);
+                   ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:413:33: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setDirections, readBuffer, BUFFER_SIZE);
+                                 ^~~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:413:48: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setDirections, readBuffer, BUFFER_SIZE);
+                                                ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:419:19: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+     XSpi_Transfer(&SpiInstance, setPullupsB, readBuffer, BUFFER_SIZE);
+                   ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:419:33: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setPullupsB, readBuffer, BUFFER_SIZE);
+                                 ^~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:419:46: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setPullupsB, readBuffer, BUFFER_SIZE);
+                                              ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:421:19: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+     XSpi_Transfer(&SpiInstance, setPullupsB, readBuffer, BUFFER_SIZE);
+                   ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:421:33: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setPullupsB, readBuffer, BUFFER_SIZE);
+                                 ^~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:421:46: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+     XSpi_Transfer(&SpiInstance, setPullupsB, readBuffer, BUFFER_SIZE);
+                                              ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:433:16: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:433:30: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                              ^~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:433:40: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
+                                        ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:434:16: warning: passing argument 1 of 'XSpi_Transfer' from incompatible pointer type [-Wincompatible-pointer-types]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                ^~~~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:25: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+                   ~~~~~~^~~~~~~~~~~
+../src/MCP23S17.c:434:30: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                              ^~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+../src/MCP23S17.c:434:40: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+                                        ^~~~~~~~~~
+In file included from ../src/MCP23S17.h:8,
+                 from ../src/MCP23S17.c:3:
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xspi.h:822:5: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+     ^~~~~~~~~~~~~
+'Finished building: ../src/MCP23S17.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Impedance_AD5933_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:71:23: warning: passing argument 1 of 'SPIStart' from incompatible pointer type [-Wincompatible-pointer-types]
+     Status = SPIStart(&SpiInstance, SPI_DEVICE_ID);
+                       ^~~~~~~~~~~~
+In file included from ../src/helloworld.c:45:
+../src/MCP23S17.h:100:20: note: expected 'XSpi *' {aka 'struct <anonymous> *'} but argument is of type 'XSpi **' {aka 'struct <anonymous> **'}
+ int SPIStart(XSpi* spiPTR, u16 spiID);
+              ~~~~~~^~~~~~
+In file included from ../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xiic.h:323,
+                 from ../src/AD5933.h:51,
+                 from ../src/helloworld.c:44:
+../src/helloworld.c: In function 'startGPIOPS':
+../../Impedance_AD5933_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^~
+../src/helloworld.c:136:10: note: in expansion of macro 'XST_FAILURE'
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/helloworld.c:124:6: note: declared here
+ void startGPIOPS()
+      ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Impedance_AD5933.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Impedance_AD5933_bsp/ps7_cortexa9_0/lib -o "Impedance_AD5933.elf"  ./src/AD5933.o ./src/MCP23S17.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Impedance_AD5933.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79968	   2624	  29456	 112048	  1b5b0	Impedance_AD5933.elf
+'Finished building: Impedance_AD5933.elf.size'
+' '
+12:53:59 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

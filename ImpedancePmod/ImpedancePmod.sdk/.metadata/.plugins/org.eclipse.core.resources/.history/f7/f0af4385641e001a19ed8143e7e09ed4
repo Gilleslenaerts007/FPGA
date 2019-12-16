@@ -66,16 +66,15 @@
 #define recordFreqSteps			500			// aantal freq steps per meting
 #define sleepTime				5			// in microSec.
 
-int steps, currentFreq, mode;
+int steps, currentFreq;
 typedef struct sweepPoint{
 	int frequency;
 	int impedance;
 	double magnitude;
 	signed short real;
 	signed short imaginary;
-} measuredRecord;
-measuredRecord measuredData[8][5]; //For end design add stepcount for 3D array: measuredData[8][5][stepCount]
-measuredRecord RcalMeasuredData[stepCount];
+} measureRecord;
+measureRecord measuredData[8][5][stepCount];
 
 
 /*****************************************************************************/

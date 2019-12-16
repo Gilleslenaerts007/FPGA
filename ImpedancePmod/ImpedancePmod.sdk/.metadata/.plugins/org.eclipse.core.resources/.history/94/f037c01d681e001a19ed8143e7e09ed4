@@ -66,7 +66,7 @@
 #define recordFreqSteps			500			// aantal freq steps per meting
 #define sleepTime				5			// in microSec.
 
-int steps, currentFreq, mode;
+int steps, currentFreq;
 typedef struct sweepPoint{
 	int frequency;
 	int impedance;

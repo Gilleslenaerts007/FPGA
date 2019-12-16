@@ -62,7 +62,8 @@ int temper;
 int main()
 {
 	init_platform();
-	int rcalChoice, Status;
+	int rcalChoice;
+    int Status;
 
     print("EIT program by Gilles Lenaerts.");
 
@@ -97,7 +98,6 @@ int main()
     		//measureImpedance();
     		//writeSerialImpedanceArray();
 
-    		mode = 2;
     		//Mode 1 for single frequency, mode 2 for sweeping freqs.
     		if (mode == 1)
     		{
@@ -107,14 +107,13 @@ int main()
 					if (probeCurrentCycle > 8) break;
 					measureImpedance();
 				}
+				writeSerialImpedanceArray();
     		}
     		//Sweep on the RCAL for sweeping data.
     		else if(mode == 2)
     		{
     			measureImpedance();
     		}
-
-			writeSerialImpedanceArray();
     	}
     }
     cleanup_platform();

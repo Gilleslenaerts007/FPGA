@@ -62,7 +62,7 @@ int temper;
 int main()
 {
 	init_platform();
-	int rcalChoice, Status;
+	int rcalChoice, mode, Status;
 
     print("EIT program by Gilles Lenaerts.");
 

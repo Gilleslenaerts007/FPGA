@@ -496,7 +496,7 @@ void writeSerialImpedanceArray()
 	{
 		for(int i=0;i<=stepCount;i++)
 		{
-			printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i]->frequency, measuredData[i]->impedance, measuredData[i]->magnitude, measuredData[i]->real, measuredData[i]->imaginary);
+			printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
 		}
 	}
 }

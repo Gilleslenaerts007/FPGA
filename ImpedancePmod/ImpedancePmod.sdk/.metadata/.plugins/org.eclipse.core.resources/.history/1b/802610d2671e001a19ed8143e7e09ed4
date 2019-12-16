@@ -472,6 +472,58 @@ void measureImpedance(void)
 	}
 }
 
+double AD5933_CalculateFixedFreqImpedance(double gainFactor)
+{
+	signed short realData   = 0;
+	signed short imgData    = 0;
+	double       magnitude  = 0;
+	double       impedance  = 0;
+	int          status, frequen = 0;
+
+	AD5933_ConfigFixedSweep(startFrequentie, 0x00, 0x00);
+
+	// Start frequency sweep
+	AD5933_SetRegisterValue(AD5933_CONTROL_REG_HB,
+							0x21,  //AD5933_CONTROL_FUNCTION(AD5933_START_FREQ_SWEEP)
+							1);
+
+
+	// Wait for data to be valid
+	while((status & AD5933_STATUS_DATA_VALID) == 0)
+	{
+		if ((AD5933_GetRegisterValue(AD5933_STATUS_REG, 1) & 0x02))
+		{
+			realData = AD5933_GetRegisterValue(AD5933_REAL_REG_HB,2);
+			imgData  = AD5933_GetRegisterValue(AD5933_IMG_REG_HB,2);
+		}
+		status = AD5933_GetRegisterValue(AD5933_STATUS_REG,1);
+	}
+
+	// Read real and imaginary data
+		realData = AD5933_GetRegisterValue(AD5933_REAL_REG_HB,2);
+		imgData  = AD5933_GetRegisterValue(AD5933_IMG_REG_HB,2);
+
+		// Calculate magnitude
+		magnitude = sqrtf((realData * realData) + (imgData * imgData));
+
+		// Calculate impedance
+		impedance = 1 / (magnitude * gainFactor / 1000000000);
+
+
+		// Keep record Freq and Impedance
+		impedanceOhms = (unsigned long)impedance;
+		measuredData[probeCurrentCycle-1][probeVoltCycle-1][steps].frequency = currentFreq;
+		measuredData[probeCurrentCycle-1][probeVoltCycle-1][steps].impedance = impedanceOhms;
+
+		//Keep track of Magnitude, Real, Imaginary data
+		measuredData[probeCurrentCycle-1][probeVoltCycle-1][steps].magnitude = magnitude;
+		measuredData[probeCurrentCycle-1][probeVoltCycle-1][steps].imaginary = imgData;
+		measuredData[probeCurrentCycle-1][probeVoltCycle-1][steps].real = realData;
+
+		//printf("\n\r <%d,%d,%0.2f,%0.2f>  \n\r",realData, imgData, magnitude,impedance);
+	return(impedance);
+
+}
 
 void writeSerialImpedanceArray()
 {
@@ -496,7 +548,7 @@ void writeSerialImpedanceArray()
 	{
 		for(int i=0;i<=stepCount;i++)
 		{
-			printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i]->frequency, measuredData[i]->impedance, measuredData[i]->magnitude, measuredData[i]->real, measuredData[i]->imaginary);
+			printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i].frequency, measuredData[i].impedance, measuredData[i].magnitude, measuredData[i].real, measuredData[i].imaginary);
 		}
 	}
 }

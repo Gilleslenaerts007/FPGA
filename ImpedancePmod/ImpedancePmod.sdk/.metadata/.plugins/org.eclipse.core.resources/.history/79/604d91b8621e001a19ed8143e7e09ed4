@@ -66,16 +66,15 @@
 #define recordFreqSteps			500			// aantal freq steps per meting
 #define sleepTime				5			// in microSec.
 
-int steps, currentFreq, mode;
+int steps, currentFreq;
 typedef struct sweepPoint{
 	int frequency;
 	int impedance;
 	double magnitude;
 	signed short real;
 	signed short imaginary;
-} measuredRecord;
-measuredRecord measuredData[8][5]; //For end design add stepcount for 3D array: measuredData[8][5][stepCount]
-measuredRecord RcalMeasuredData[stepCount];
+} measureRecord;
+measureRecord measuredData[8][5][stepCount];
 
 
 /*****************************************************************************/
@@ -160,7 +159,7 @@ void AD5933_SetRegisterValue(int registerAddress,
 int AD5933_GetRegisterValue(int registerAddress,
 							char numberOfBytes);
 int AD5933_GetTemperature(void);
-void AD5933_ConfigFixedSweep(int startFreq,
+void AD5933_ConfigSweep(int startFreq,
 						int incSteps,
 						int incFreq);
 void AD5933_StartSweep(void);
@@ -168,5 +167,4 @@ double AD5933_CalculateGainFactor(unsigned long calibrationImpedance,
 							   char freqFunction);
 double AD5933_CalculateImpedance(double gainFactor,
 								 char freqFunction);
-double AD5933_CalculateFixedFreqImpedance(double gainFactor);
 #endif	// _AD5933_H_
