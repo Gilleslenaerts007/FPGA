@@ -422,7 +422,7 @@ void measureImpedance(void)
 {
 	// Read temperature from device
 	temperature = AD5933_GetTemperature();
-	printf("Temperature on board: %d Celcius.\n\r",temperature);
+	printf("Measuring..Temperature chip: %d Celcius.\n",temperature);
 
 	if (mode == 2)
 	{
@@ -435,7 +435,7 @@ void measureImpedance(void)
 		{
 
 		// Calculate impedance between Vout and Vin
-		impedance = AD5933_CalculateImpedance(gainFactor[steps], AD5933_REPEAT_FREQ);
+		impedance = AD5933_CalculateImpedance(gainFactor[0], AD5933_REPEAT_FREQ);
 
 		//increase freq for next sweep.
 		AD5933_SetRegisterValue(AD5933_CONTROL_REG_HB,
@@ -470,6 +470,7 @@ void measureImpedance(void)
 		xil_printf("Measurement complete.\n\r\n\r");
 		 */
 	}
+	print("Measure Impedance Completed.\n");
 }
 
 
@@ -481,7 +482,7 @@ void writeSerialImpedanceArray()
 		{
 			for(int y=0;y<=5;y++)
 			{
-				printf("Cycle:%d, Probe:%d, Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",j, y, measuredData[j][y].frequency, measuredData[j][y].impedance, measuredData[j][y].magnitude, measuredData[j][y].real, measuredData[j][y].imaginary);
+				printf("Cycle:%d, Probe:%d, Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu;\n",j, y, measuredData[j][y].frequency, measuredData[j][y].impedance, measuredData[j][y].magnitude, measuredData[j][y].real, measuredData[j][y].imaginary);
 				/* for 3D end array
 				for(int i=0;i<=stepCount;i++)
 				{
@@ -494,9 +495,10 @@ void writeSerialImpedanceArray()
 
 	else if (mode == 2)
 	{
-		for(int i=0;i<=stepCount;i++)
+		for(int i=0;i<stepCount;i++)
 		{
-			printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu ;\r",measuredData[i]->frequency, measuredData[i]->impedance, measuredData[i]->magnitude, measuredData[i]->real, measuredData[i]->imaginary);
+			printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu;\n",RcalMeasuredData[i].frequency, RcalMeasuredData[i].impedance, RcalMeasuredData[i].magnitude, RcalMeasuredData[i].real, RcalMeasuredData[i].imaginary);
 		}
 	}
+	print("\n");
 }

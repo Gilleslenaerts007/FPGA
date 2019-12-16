@@ -1,0 +1,18 @@
+16/12/19 21:59:18 ... Choose Rcal..1,2 or 3.16/12/19 21:59:22 ... Calibrate using RCAL2 22K.&RFB1..20000.Temperature: 32 Celcius16/12/19 21:59:31 ... Calibration complete.Measuring..Temperature chip: 32 Celcius.
+16/12/19 21:59:32 ... Measure Impedance Completed.
+16/12/19 22:00:02 ... itude:1.414214, ce:21999
+Is data ok? Type y/n.
+16/12/19 22:05:49 ... EIT program by Gilles Lenaerts.... Starting Hardware.16/12/19 22:05:56 ... Choose Rcal..1,2 or 3.16/12/19 22:05:58 ... Calibrate using RCAL2 22K.&RFB1..20000.Temperature: 32 Celcius16/12/19 22:06:08 ... Calibration complete.Measuring..Temperature chip: 32 Celcius.
+16/12/19 22:06:08 ... Measure Impedance Completed.
+16/12/19 22:06:09 ... 5535 Real:65535;
+16/12/19 22:06:09 ... l:65535;
+16/12/19 22:06:09 ... dance:21999, Magnitude:1.414214, Imaginary:65535 Real:65535;
+16/12/19 22:06:10 ... :65535 Real:6553
+16/12/19 22:07:34 ... 9, Magnitude:1.414214, Imaginary:65535 Real:65535;
+16/12/19 22:07:34 ... 99, Magnitude:1.414214, Imaginary:65535 Real:65535;
+16/12/19 22:07:35 ... Real:65535;
+16/12/19 22:07:56 ... 21999, Magnitude:1.414214, Imaginary:65535 Real:65535;
+16/12/19 22:07:57 ... aginary:65535 Real:65535;
+16/12/19 22:07:57 ... Magnitude:1.414214, Imaginary:65535 Real:65535;
+16/12/19 22:07:58 ... 5535;
+16/12/19 22:07:58 ... Freq:9250

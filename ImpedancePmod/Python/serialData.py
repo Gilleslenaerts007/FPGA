@@ -19,28 +19,31 @@ def getTimestamp():
 def read():
     while True:
         try:
-            data = serial_port.read(serial_port.in_waiting)
-            if (len(data) > 1 and len(data) < 80):
+            data = serial_port.readline(serial_port.in_waiting)
+            if data == b'':
+                sleep(1) # be sure we don't try too often to request data
+                continue
+            if (len(data) > 1 and len(data) < 66):
                 timestamp = getTimestamp() + '... '
-                print(data)
+                #print(len(data))
                 data = timestamp + (data.decode())
                 file1 = open("log.txt","a")
                 file1.write(data)
                 file1.close()
                 print(data)
-                sleep(0.6)
+                #sleep(0.4)
                 #print ('Got:', data)
-            elif (len(data) > 1 and len(data) > 80):
+            elif (len(data) > 1 and len(data) > 66):
                 #timestamp = getTimestamp() + '... '
                 #data = timestamp + (data.decode())
                 data = data.decode()
                 file2 = open("data.txt","a")
                 file2.write(data)
                 file2.close()
-               # print(len(data))
+                #print(len(data))
+                serial_port.flushInput()
+            data = 0
             #sleep(0.2)
-            data = 0;
-			#print ('not blocked')
         except KeyboardInterrupt:
             break
 
@@ -55,7 +58,7 @@ def main():
     while True:
         try:
             command = input('Enter a command to send to the Keyfob: \n\t')
-            if (command == "1" or command == "2" or command == "3"):
+            if (command == "1" or command == "2" or command == "3" or command == "y" or command == "n"):
                 serial_port.write(command.encode())
         except KeyboardInterrupt:
             break

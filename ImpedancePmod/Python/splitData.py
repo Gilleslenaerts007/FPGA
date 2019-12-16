@@ -45,10 +45,8 @@ def lookfor(f):
         print(int(splitvalue))
         return
 
-f = open('data.txt')
+f = open('data.txt') #dataRcal for Example
 
-CurrentCycle = []
-VoltCycle = []
 Frequency = []
 Impedance = []
 Magnitude = []
@@ -58,47 +56,35 @@ savedData = []
 for line in f:
   fields = line.split(",")
   #and let's extract the data:
-  CurrentCycle.append(formatvalue(fields[0:1]))
-  VoltCycle.append(formatvalue(fields[1:2]))
-  Frequency.append(formatvalue(fields[2:3]))
-  Impedance.append(formatvalue(fields[3:4]))
-  Magnitude.append(formatvalue(fields[4:5]))
+  if (fields[0] != '\n'):
+      Frequency.append(formatvalue(fields[0:1]))
+      Impedance.append(formatvalue(fields[1:2]))
+      Magnitude.append(formatvalue(fields[2:3]))
 f.close()
 
-'''
-print (CurrentCycle)
-print (VoltCycle)
-print (Frequency)
-print (Impedance)
-print (Magnitude)
-'''
-
-print (type(CurrentCycle))
-
 Ordered_list = pd.DataFrame(
-    {'CurrentProbe': CurrentCycle,
-     'VoltProbe': VoltCycle,
-     'Frequency': Frequency,
+    {'Frequency': Frequency,
      'Impedance': Impedance,    
      'Magnitude': Magnitude,
     })
 
+#Change values from list to string
 Ordered_list.dropna
-Ordered_list.dropna(axis='columns')
-Ordered_list.drop([0, 1])
-print(Ordered_list.iloc[0:1])
-Ordered_list['CurrentProbe'] = pd.to_numeric(Ordered_list['CurrentProbe'])
+print(Ordered_list.head())
+print (type(Ordered_list.loc[0, 'Frequency']))
+Ordered_list['Frequency'] = Ordered_list['Frequency'].str.get(0)
+Ordered_list['Impedance'] = Ordered_list['Impedance'].str.get(0) 
+Ordered_list['Magnitude'] = Ordered_list['Magnitude'].str.get(0)
+
+Ordered_list['Frequency'] = Ordered_list['Frequency'].astype(int)
+Ordered_list['Impedance'] = Ordered_list['Impedance'].astype(int)
+Ordered_list['Magnitude'] = Ordered_list['Magnitude'].astype(float)
+
+print(Ordered_list.head())
+ax = plt.gca()
+Ordered_list.plot(kind='line',x='Frequency',y='Impedance',ax=ax)
+Ordered_list.plot(kind='line',x='Frequency',y='Magnitude', color='red', ax=ax)
+plt.show()
 
 
-print(Ordered_list[Ordered_list.Magnitude != '-nan'])
-#print(type(Ordered_list.iloc[0, 2]))
-
-loop = 0
-for match in Ordered_list.iterrows():
-    Specific = lookfor(Ordered_list.iloc[loop, 2])
-    loop= loop+1
-    
-print(type(savedData))
-print(savedData)
- 
 

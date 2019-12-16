@@ -49,6 +49,9 @@
 #include "xil_types.h"
 #include "xparameters.h"
 #include "xiic.h"
+#include "xil_printf.h"
+#include "xil_exception.h"
+#include "sleep.h"
 
 /*****************************************************************************/
 /******************* I2C INIT & AD5933 ADR ***************************/
@@ -61,7 +64,7 @@
 /******************* USER VARIABLES ***************************/
 /*****************************************************************************/
 #define startFrequentie 		0x051EB8	//0x051EB8 = 10k, 0x0F5C28 = 30K //Adres, High bits, Lowbits
-#define stepCount 				0x00B4		//0x00B4 = 180 steps
+#define stepCount 				0x00B5		//0x00B4 = 180 steps
 #define frequentiePerStep  		0x004189	//0x008312 = 1KHz, 0x004189 = 500Hz //0x000500 -> 200Hz per stap
 #define recordFreqSteps			500			// aantal freq steps per meting
 #define sleepTime				5			// in microSec.
