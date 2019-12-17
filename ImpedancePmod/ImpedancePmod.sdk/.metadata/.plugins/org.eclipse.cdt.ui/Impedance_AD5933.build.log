@@ -1,4 +1,4 @@
-22:05:42 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+16:31:42 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
@@ -26,9 +26,9 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size Impedance_AD5933.elf  |tee "Impedance_AD5933.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  80128	   2624	  29488	 112240	  1b670	Impedance_AD5933.elf
+  80240	   2624	  29488	 112352	  1b6e0	Impedance_AD5933.elf
 'Finished building: Impedance_AD5933.elf.size'
 ' '
 
-22:05:43 Build Finished (took 819ms)
+16:31:44 Build Finished (took 1s.938ms)
 

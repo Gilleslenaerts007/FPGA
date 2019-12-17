@@ -367,7 +367,7 @@ void calibration(int rcalval)
 	static int stap = 0;
 	// Read temperature from device
 	temperature = AD5933_GetTemperature();
-	xil_printf("Temperature: %d Celcius\r",temperature);
+	printf("Temperature: %d Celcius\n\r",temperature);
 
 	// Set sweep parameters
 	//startFrequentie 		0x0F5C28
@@ -397,7 +397,7 @@ void calibration(int rcalval)
 	}
 
 	// Change the resistor used for calibration with the one you wish to measure
-	print("Calibration complete.\r");//First GainFactor: %0.2f AND Last GainFactor: %0.2f\n\r",gainFactor[0], gainFactor[stepCount-1]);
+	print("Calibration complete.\n\r");//First GainFactor: %0.2f AND Last GainFactor: %0.2f\n\r",gainFactor[0], gainFactor[stepCount-1]);
 
 	/*
 	xil_printf("Remove Calibration caps on PCB, press enter to continue");
@@ -470,19 +470,20 @@ void measureImpedance(void)
 		xil_printf("Measurement complete.\n\r\n\r");
 		 */
 	}
-	print("Measure Impedance Completed.\n");
+	print("Measure Impedance Completed.\r\n");
 }
 
 
 void writeSerialImpedanceArray()
 {
+	static int i = 0;
 	if (mode == 1)
 	{
 		for(int j=0;j<=8;j++)
 		{
 			for(int y=0;y<=5;y++)
 			{
-				printf("Cycle:%d, Probe:%d, Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu;\n",j, y, measuredData[j][y].frequency, measuredData[j][y].impedance, measuredData[j][y].magnitude, measuredData[j][y].real, measuredData[j][y].imaginary);
+				printf("Cycle:%d, Probe:%d, Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu;\r",j, y, measuredData[j][y].frequency, measuredData[j][y].impedance, measuredData[j][y].magnitude, measuredData[j][y].real, measuredData[j][y].imaginary);
 				/* for 3D end array
 				for(int i=0;i<=stepCount;i++)
 				{
@@ -495,10 +496,11 @@ void writeSerialImpedanceArray()
 
 	else if (mode == 2)
 	{
-		for(int i=0;i<stepCount;i++)
+		for(i=0;i<stepCount;i++)
 		{
-			printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu;\n",RcalMeasuredData[i].frequency, RcalMeasuredData[i].impedance, RcalMeasuredData[i].magnitude, RcalMeasuredData[i].real, RcalMeasuredData[i].imaginary);
+			printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu;\r",RcalMeasuredData[i].frequency, RcalMeasuredData[i].impedance, RcalMeasuredData[i].magnitude, RcalMeasuredData[i].real, RcalMeasuredData[i].imaginary);
 		}
+		usleep(900);
+		print("\r\n");
 	}
-	print("\n");
 }

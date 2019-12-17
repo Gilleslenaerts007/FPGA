@@ -9,10 +9,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd 
 
+'''
 import pyeit.mesh as mesh
 from pyeit.eit.fem import Forward
 from pyeit.eit.utils import eit_scan_lines
 import pyeit.eit.bp as bp
+'''
 
 def split_list(a_list):
     half = len(a_list)//2
@@ -45,7 +47,7 @@ def lookfor(f):
         print(int(splitvalue))
         return
 
-f = open('data.txt') #dataRcal for Example
+f = open('dataRcal.txt') #dataRcal for Example
 
 Frequency = []
 Impedance = []
@@ -84,6 +86,18 @@ print(Ordered_list.head())
 ax = plt.gca()
 Ordered_list.plot(kind='line',x='Frequency',y='Impedance',ax=ax)
 Ordered_list.plot(kind='line',x='Frequency',y='Magnitude', color='red', ax=ax)
+plt.show()
+
+c1 = Ordered_list.loc[:,'Frequency']
+c2 = Ordered_list.loc[:,'Impedance']
+fig = plt.figure()
+ax = fig.add_subplot(111)
+
+plt.plot(c1,c2,'k--')
+plt.yscale('log')
+plt.grid(True,which="both")
+plt.xlabel(r"Scattering Angle $\Theta$ ($^\circ$)")
+plt.ylabel(r"$P_{11}$")
 plt.show()
 
 

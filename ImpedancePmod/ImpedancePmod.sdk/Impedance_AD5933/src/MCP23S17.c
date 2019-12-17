@@ -34,15 +34,15 @@ int RCal_RFB_Select(int RCAL, int RFB){
 
 		switch(RFB)
 		{
-			case 1:     print("&RFB1..20000.\r");
+			case 1:     print(" & RFB1 20K.\n\r");
 						break;
-			case 2:     print("&RFB2.\r");
+			case 2:     print(" & RFB1 10K.\n\r");
 						aPortSEL |= (GPA5);   //RFB 2
 						break;
-			case 3:     print("&RFB3.\r");
+			case 3:     print(" & RFB1 47K.\n\r");
 						aPortSEL |= (GPA4);   //Rcal 1
 						break;
-			case 4:     print("&RFB4.\r");
+			case 4:     print(" & RFB1 66K.\n\r");
 						aPortSEL |= (GPA4 | GPA5);   //Rcal 1
 						break;
 		}

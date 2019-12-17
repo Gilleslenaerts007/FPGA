@@ -86,7 +86,17 @@ Ordered_list = pd.DataFrame(
 
     
 Ordered_list.dropna
+Ordered_list['CurrentProbe'] = Ordered_list['CurrentProbe'].str.get(0)
+Ordered_list['VoltProbe'] = Ordered_list['VoltProbe'].str.get(0)
+Ordered_list['Frequency'] = Ordered_list['Frequency'].str.get(0)
+Ordered_list['Impedance'] = Ordered_list['Impedance'].str.get(0) 
+Ordered_list['Magnitude'] = Ordered_list['Magnitude'].str.get(0)
+
+Ordered_list['Frequency'] = Ordered_list['Frequency'].astype(int)
+Ordered_list['Impedance'] = Ordered_list['Impedance'].astype(int)
+Ordered_list['Magnitude'] = Ordered_list['Magnitude'].astype(float)
 print(Ordered_list.head())
+
 
 '''
 Ordered_list.dropna(axis='columns')

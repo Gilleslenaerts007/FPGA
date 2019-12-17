@@ -61,7 +61,7 @@ int main()
 	char DataOK= 0x00;
 	int Status;
 
-    print("EIT program by Gilles Lenaerts.");
+    print("EIT program by Gilles Lenaerts.Starting HW..\n\r");
 
     //Start hardware
     startGPIOPS();
@@ -81,7 +81,7 @@ int main()
     		rcalChoice=0;
     		probeCurrentCycle=1;
     		probeVoltCycle = 0;
-    		print("Choose Rcal..1,2 or 3.\r");
+    		print("Choose Rcal..1,2 or 3.\n\r");
 
     	    //Calibrate AD5933 with x resistor (10K Rcal 1)
     		while (rcalChoice == 0)
@@ -114,7 +114,7 @@ int main()
     		writeSerialImpedanceArray();
     		while (DataOK != 'y')
 			{
-    			print("Is data ok? Type y/n.\n");
+    			print("Is data ok? Type y/n.\n\r");
     			DataOK = 0x00;
     			DataOK = inbyte(); //krijgt een Decimal 49 bij 1, 50 bij 2 -> -48 bij transfer naar func.
     			//DataOK = rcalChoice-48;
@@ -124,7 +124,7 @@ int main()
     			}
     			else if(DataOK == 'y') break;
 			}
-    		print("Program Completed. EIT By Gilles Lenaerts.\n");
+    		print("Program Completed. EIT By Gilles Lenaerts.\n\r");
     	}
     }
     cleanup_platform();
@@ -146,7 +146,7 @@ void startGPIOPS()
 		return XST_FAILURE;
 	}
 
-    print("... Starting Hardware.\r");
+    print("Press PS for start.\n\r");
 	// Set Input pin
     Input_Pin = 0;
 	XGpioPs_SetDirectionPin(&Gpio,Input_Pin,0);
