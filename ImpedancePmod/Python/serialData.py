@@ -22,16 +22,17 @@ def read():
     file1 = open("log.txt","a")
     file1.close()
     file2.close()
-    teller =0
     while True:
         string = ''
         try:
-            line = serial_port.readline()
-            #rawData = serial_port.read()
-            if (len(line) > 0):
+            #line = serial_port.readline()
+            dataSize = serial_port.in_waiting      
+            if (dataSize > 0):
                 file2 = open("data.txt","a")
                 file1 = open("log.txt","a")
                 while True:
+                    line = serial_port.readline()
+                    #print(line)
                     if( len(line) > 0 and len(line) < 70):
                         line = line.decode()
                         timestamp = getTimestamp() + '... '
@@ -42,44 +43,38 @@ def read():
                         line = line.decode()
                         file2.write(line)
                     if (len(line) <= 0):
-                        sleep(0.2) # be sure we don't try too often to request data
-                        print("exit loop")
-                        break;
-                        '''
-                        teller+=1
-                        if (teller > 4):
-                            '''
+                        #sleep(2) # be sure we don't try too often to request data
+                        #print("exit loop")
+                        break
+                            
                     sleep(0.2)
-                    line = serial_port.readline()
-                    print(line)
                 file1.close()
                 file2.close()
                 serial_port.flush()
+                serial_port.flushInput()
         except KeyboardInterrupt:
             break
 
 def main():	
     serial_port.baudrate = 115200
-    serial_port.port = 'COM6'
-    serial_port.timeout = 0.4
+    serial_port.port = 'COM4' #com6 on laptop.
+    serial_port.timeout = 0.05
     if serial_port.isOpen(): serial_port.close()
     serial_port.open()
-    '''
     serial_port.flushInput()
     serial_port.flush()
     serial_port.flushOutput()
-    '''
     t1 = threading.Thread(target=read, args=())
     t1.start()
     while True:
         try:
-            command = input('Enter a command to send to the Keyfob: \n\t')
-            if (command == "1" or command == "2" or command == "3" or command == "y" or command == "n"):
+            command = input('Enter a command to MiniZed: \n')
+            if (command == "1" or command == "2" or command == "3" or command == "y" or command == "n" or command== "m"):
                 serial_port.write(command.encode())
                 #sleep(5)
         except KeyboardInterrupt:
             break
-        #sleep(5)
+        #sleep(10)
     serial_port.close()	
 
 while True:

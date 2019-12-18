@@ -14,20 +14,37 @@
 #define MCP23S17_SPI_ADDR      			0x40
 #define SPI_DEVICE_ID		XPAR_SPI_0_DEVICE_ID
 #define BUFFER_SIZE 3
-XSpi *SpiInstance;
+XSpi SpiInstance;
 char readBuffer[BUFFER_SIZE];
 char dummybuffer[BUFFER_SIZE];
 char arrayGPB[3], arrayGPA[3], setConfig[3],setDirections[3], setPullupsB[3];
+
 /*****************************************************************************/
 /***************************** Register Adresses *********************************/
 /*****************************************************************************/
-#define    IODIRA    (0x00)      // MCP23x17 I/O Direction Register
-#define    IODIRB    (0x01)      // 1 = Input (default), 0 = Output
+#define IODIRA 0x00     // MCP23x17 I/O Direction Register
+#define IODIRB 0x01     // 1 = Input (default), 0 = Output
 #define GPPUA 0x0C  // port A pullups
 #define GPPUB 0x0D  // port B pullups
 #define GPIOA_ADR 0x12  // port A
 #define GPIOB_ADR 0x13  // port B
-#define IOCON 0x0A  // I/O config (also 0x0B)
+#define IOCON 		  0x0A  // I/O config (also 0x0B)
+#define IPOLA         0x02      //Input Polarity Register for PORTA
+#define IPOLB         0x03      //Input Polarity Register for PORTB
+#define GPINTENA      0x04      //Interrupt-on-change enable Register for PORTA
+#define GPINTENB      0x05      //Interrupt-on-change enable Register for PORTB
+#define DEFVALA       0x06      //Default Value Register for PORTA
+#define DEFVALB       0x07      //Default Value Register for PORTB
+#define INTCONA       0x08      //Interrupt-on-change control Register for PORTA
+#define INTCONB       0x09      //Interrupt-on-change control Register for PORTB
+#define INTFA         0x0E      //Interrupt flag Register for PORTA
+#define INTFB         0x0F      //Interrupt flag Register for PORTB
+#define INTCAPA       0x10      //Interrupt captured value Register for PORTA
+#define INTCAPB       0x11      //Interrupt captured value Register for PORTB
+#define GPIOA         0x12      //General purpose I/O Register for PORTA
+#define GPIOB         0x13      //General purpose I/O Register for PORTB
+#define OLATA         0x14      //Output latch Register for PORTA
+#define OLATB         0x15      //Output latch Register for PORTB
 
 // I/O config
 #define BANK_OFF 0x00  // addressing mode
@@ -102,6 +119,6 @@ int SPIStart(XSpi* spiPTR, u16 spiID);
 /*
 * Start SPI module with correct register values.
  */
-void initMCSP();
+void initMCSP(XSpi* spiPTR);
 
 #endif	// _MCP23S17_H_

@@ -17,6 +17,7 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param chipscope.maxJobs 4
 create_project -in_memory -part xc7z007sclg225-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -36,15 +37,21 @@ add_files C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/design_
 set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]
 set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/design_1_axi_iic_0_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/design_1_axi_iic_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0.xdc]
-set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_axi_quad_spi_0_0/design_1_axi_quad_spi_0_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_axi_quad_spi_0_0/design_1_axi_quad_spi_0_0.xdc]
 set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_axi_quad_spi_0_0/design_1_axi_quad_spi_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_axi_quad_spi_0_0/design_1_axi_quad_spi_0_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_10M_0/design_1_rst_ps7_0_10M_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_10M_0/design_1_rst_ps7_0_10M_0.xdc]
+set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_10M_0/design_1_rst_ps7_0_10M_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_xbar_2/design_1_xbar_2_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_2/design_1_rst_ps7_0_50M_2_board.xdc]
+set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_2/design_1_rst_ps7_0_50M_2.xdc]
+set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_2/design_1_rst_ps7_0_50M_2_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_2/design_1_auto_pc_2_ooc.xdc]
+set_property used_in_synthesis false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/design_1_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being

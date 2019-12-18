@@ -61,15 +61,17 @@ int main()
 	char DataOK= 0x00;
 	int Status;
 
-    print("EIT program by Gilles Lenaerts.Starting HW..\n\r");
+    print("EIT program by Gilles Lenaerts.\n");
 
     //Start hardware
     startGPIOPS();
+
     Status = SPIStart(&SpiInstance, SPI_DEVICE_ID);
     if(Status != XST_SUCCESS) {
     	return XST_FAILURE;
     }
-    initMCSP();
+    initMCSP(&SpiInstance);
+
 
     while(1){
 
@@ -81,7 +83,7 @@ int main()
     		rcalChoice=0;
     		probeCurrentCycle=1;
     		probeVoltCycle = 0;
-    		print("Choose Rcal..1,2 or 3.\n\r");
+    		print("Choose Rcal: 1,2 or 3.\n");
 
     	    //Calibrate AD5933 with x resistor (10K Rcal 1)
     		while (rcalChoice == 0)
@@ -111,20 +113,49 @@ int main()
     			measureImpedance();
     		}
 
-    		writeSerialImpedanceArray();
+			writeSerialImpedanceArray();
+
     		while (DataOK != 'y')
 			{
-    			print("Is data ok? Type y/n.\n\r");
+    			//usleep(300);
+    			print("Is data ok? Type y/n or m(measure again).\n");
     			DataOK = 0x00;
     			DataOK = inbyte(); //krijgt een Decimal 49 bij 1, 50 bij 2 -> -48 bij transfer naar func.
     			//DataOK = rcalChoice-48;
-    			if(DataOK == 'n')
+    			if(DataOK == 'y')
     			{
-    			writeSerialImpedanceArray();
+    				DataOK = 0x00;
+    				break;
     			}
-    			else if(DataOK == 'y') break;
+    			else if(DataOK == 'n')
+    			{
+    				writeSerialImpedanceArray();
+    				DataOK = 0x00;
+    			}
+    			else if(DataOK == 'm')
+    			{
+    	    		if (mode == 1)
+    	    		{
+    	        		probeCurrentCycle=1;
+    	        		probeVoltCycle = 0;
+    					//Measurement Cycle
+    					while (probeCurrentCycle <= 8){
+    						probeMeasureSelect();
+    						if (probeCurrentCycle > 8) break;
+    						measureImpedance();
+    					}
+    	    		}
+    	    		else
+    	    		{
+    				calibration(RCal_RFB_Select(rcalChoice,1));
+    				measureImpedance();
+    	    		}
+
+        			writeSerialImpedanceArray();
+    				DataOK = 0x00;
+    			}
 			}
-    		print("Program Completed. EIT By Gilles Lenaerts.\n\r");
+    		print("EIT program completed by Gilles Lenaerts.\n");
     	}
     }
     cleanup_platform();
@@ -146,7 +177,7 @@ void startGPIOPS()
 		return XST_FAILURE;
 	}
 
-    print("Press PS for start.\n\r");
+    print("Started HW.. Press PS to start program..\n");
 	// Set Input pin
     Input_Pin = 0;
 	XGpioPs_SetDirectionPin(&Gpio,Input_Pin,0);

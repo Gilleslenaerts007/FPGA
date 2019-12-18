@@ -1,44 +1,602 @@
-17/12/19 16:23:41 ... Is data ok? Type y/n.
-17/12/19 16:23:42 ... 17/12/19 16:24:13 ... EIT program by Gilles Lenaerts.Starting HW..
-17/12/19 16:24:13 ... Press PS for start.
-17/12/19 16:24:13 ... Choose Rcal..1,2 or 3.
-17/12/19 16:24:14 ... Calibrate using RCAL2 22K. & RFB1 20K.
-17/12/19 16:24:14 ... Temperature: 28 Celcius
-17/12/19 16:24:23 ... Calibration complete.
-17/12/19 16:24:23 ... Measuring..Temperature chip: 29 Celcius.
-17/12/19 16:24:24 ... Measure Impedance Completed.
-17/12/19 16:24:25 ... Is data ok? Type y/n.
-17/12/19 16:24:26 ... 17/12/19 16:24:57 ... Is data ok? Type y/n.
-17/12/19 16:24:58 ... 17/12/19 16:25:07 ... Is data ok? Type y/n.
-17/12/19 16:25:08 ... 17/12/19 16:25:43 ... Is data ok? Type y/n.
-17/12/19 16:25:44 ... 17/12/19 16:26:04 ... Is data ok? Type y/n.
-17/12/19 16:26:05 ... 17/12/19 16:26:28 ... Is data ok? Type y/n.
-17/12/19 16:26:29 ... 17/12/19 16:26:44 ... Is data ok? Type y/n.
-17/12/19 16:26:45 ... 17/12/19 16:27:04 ... Is data ok? Type y/n.
-17/12/19 16:27:04 ... 17/12/19 16:28:51 ... Is data ok? Type y/n.
-17/12/19 16:28:51 ... 17/12/19 16:29:11 ... Is data ok? Type y/n.
-17/12/19 16:29:12 ... 17/12/19 16:29:50 ... EIT program by Gilles Lenaerts.Starting HW..
-17/12/19 16:29:51 ... Press PS for start.
-17/12/19 16:29:51 ... Choose Rcal..1,2 or 3.
-17/12/19 16:29:52 ... 17/12/19 16:29:52 ... Calibrate using RCAL2 22K. & RFB1 20K.
-17/12/19 16:29:52 ... Temperature: 29 Celcius
-17/12/19 16:30:01 ... Calibration complete.
-17/12/19 16:30:01 ... Measuring..Temperature chip: 29 Celcius.
-17/12/19 16:30:02 ... Measure Impedance Completed.
-17/12/19 16:30:04 ... 17/12/19 16:31:07 ... Choose Rcal..1,2 or 3.
-17/12/19 16:31:07 ... 17/12/19 16:31:09 ... Calibrate using RCAL2 22K. & RFB1 20K.
-17/12/19 16:31:09 ... Temperature: 28 Celcius
-17/12/19 16:31:18 ... Calibration complete.
-17/12/19 16:31:18 ... Measuring..Temperature chip: 29 Celcius.
-17/12/19 16:31:19 ... Measure Impedance Completed.
-17/12/19 16:31:21 ... 17/12/19 16:31:57 ... EIT program by Gilles Lenaerts.Starting HW..
-17/12/19 16:31:57 ... Press PS for start.
-17/12/19 16:31:57 ... 17/12/19 16:31:58 ... Choose Rcal..1,2 or 3.
-17/12/19 16:31:58 ... 17/12/19 16:31:59 ... Calibrate using RCAL2 22K. & RFB1 20K.
-17/12/19 16:32:00 ... Temperature: 29 Celcius
-17/12/19 16:32:09 ... Calibration complete.
-17/12/19 16:32:09 ... Measuring..Temperature chip: 28 Celcius.
-17/12/19 16:32:09 ... Measure Impedance Completed.
-17/12/19 16:32:10 ... Is data ok? Type y/n.
-17/12/19 16:32:11 ... 17/12/19 16:32:30 ... Is data ok? Type y/n.
-17/12/19 16:32:31 ... 
+18/12/19 22:03:40 ... EIT program by Gilles Lenaerts.
+18/12/19 22:03:41 ... Started HW.. Press PS to start program..
+18/12/19 22:04:12 ... EIT program by Gilles Lenaerts.
+18/12/19 22:04:12 ... Started HW.. Press PS to start program..
+18/12/19 22:05:09 ... EIT program by Gilles Lenaerts.
+18/12/19 22:05:09 ... Started HW.. Press PS to start program..
+18/12/19 22:05:27 ... EIT program by Gilles Lenaerts.
+18/12/19 22:05:27 ... Started HW.. Press PS to start program..
+18/12/19 22:06:07 ... EIT program by Gilles Lenaerts.
+18/12/19 22:06:07 ... Started HW.. Press PS to start program..
+18/12/19 22:07:14 ... EIT program by Gilles Lenaerts.
+18/12/19 22:07:14 ... Started HW.. Press PS to start program..
+18/12/19 22:07:24 ... EIT program by Gilles Lenaerts.
+18/12/19 22:07:24 ... Started HW.. Press PS to start program..
+18/12/19 22:08:11 ... EIT program by Gilles Lenaerts.
+18/12/19 22:08:16 ... Started HW.. Press PS to start program..
+18/12/19 22:08:16 ... Choose Rcal: 1,2 or 3.
+18/12/19 22:08:20 ... Calibrate using RCAL2 22K. & RFB1 20K.
+18/12/19 22:08:20 ... Temperature: 26 Celcius
+18/12/19 22:08:29 ... Calibration complete.
+18/12/19 22:08:29 ... Measure Impedance Completed.
+18/12/19 22:08:30 ... Measure Impedance Completed.
+18/12/19 22:08:30 ... Measure Impedance Completed.
+18/12/19 22:08:31 ... Measure Impedance Completed.
+18/12/19 22:08:31 ... Measure Impedance Completed.
+18/12/19 22:08:31 ... Measure Impedance Completed.
+18/12/19 22:08:32 ... Measure Impedance Completed.
+18/12/19 22:08:32 ... Measure Impedance Completed.
+18/12/19 22:08:33 ... Measure Impedance Completed.
+18/12/19 22:08:33 ... Measure Impedance Completed.
+18/12/19 22:08:33 ... Measure Impedance Completed.
+18/12/19 22:08:34 ... Measure Impedance Completed.
+18/12/19 22:08:34 ... Measure Impedance Completed.
+18/12/19 22:08:35 ... Measure Impedance Completed.
+18/12/19 22:08:35 ... Measure Impedance Completed.
+18/12/19 22:08:36 ... Measure Impedance Completed.
+18/12/19 22:08:36 ... Measure Impedance Completed.
+18/12/19 22:08:36 ... Measure Impedance Completed.
+18/12/19 22:08:37 ... Measure Impedance Completed.
+18/12/19 22:08:37 ... Measure Impedance Completed.
+18/12/19 22:08:38 ... Measure Impedance Completed.
+18/12/19 22:08:38 ... Measure Impedance Completed.
+18/12/19 22:08:38 ... Measure Impedance Completed.
+18/12/19 22:08:39 ... Measure Impedance Completed.
+18/12/19 22:08:39 ... Measure Impedance Completed.
+18/12/19 22:08:40 ... Measure Impedance Completed.
+18/12/19 22:08:40 ... Measure Impedance Completed.
+18/12/19 22:08:40 ... Measure Impedance Completed.
+18/12/19 22:08:41 ... Measure Impedance Completed.
+18/12/19 22:08:41 ... Measure Impedance Completed.
+18/12/19 22:08:42 ... Measure Impedance Completed.
+18/12/19 22:08:42 ... Measure Impedance Completed.
+18/12/19 22:08:42 ... Measure Impedance Completed.
+18/12/19 22:08:43 ... Measure Impedance Completed.
+18/12/19 22:08:43 ... Measure Impedance Completed.
+18/12/19 22:08:44 ... Measure Impedance Completed.
+18/12/19 22:08:44 ... Measure Impedance Completed.
+18/12/19 22:08:44 ... Measure Impedance Completed.
+18/12/19 22:08:45 ... Measure Impedance Completed.
+18/12/19 22:08:45 ... Measure Impedance Completed.
+18/12/19 22:08:46 ... Is data ok? Type y/n or m(measure again).
+18/12/19 22:12:39 ... EIT program by Gilles Lenaerts.
+18/12/19 22:12:40 ... Started HW.. Press PS to start program..
+18/12/19 22:12:48 ... Choose Rcal: 1,2 or 3.
+18/12/19 22:12:50 ... Calibrate using RCAL2 22K. & RFB1 20K.
+18/12/19 22:12:50 ... Temperature: 32 Celcius
+18/12/19 22:12:59 ... Calibration complete.
+18/12/19 22:12:59 ... Measure Impedance Completed.
+18/12/19 22:13:00 ... Measure Impedance Completed.
+18/12/19 22:13:00 ... Measure Impedance Completed.
+18/12/19 22:13:00 ... Measure Impedance Completed.
+18/12/19 22:13:01 ... Measure Impedance Completed.
+18/12/19 22:13:01 ... Measure Impedance Completed.
+18/12/19 22:13:02 ... Measure Impedance Completed.
+18/12/19 22:13:02 ... Measure Impedance Completed.
+18/12/19 22:13:02 ... Measure Impedance Completed.
+18/12/19 22:13:03 ... Measure Impedance Completed.
+18/12/19 22:13:03 ... Measure Impedance Completed.
+18/12/19 22:13:04 ... Measure Impedance Completed.
+18/12/19 22:13:04 ... Measure Impedance Completed.
+18/12/19 22:13:04 ... Measure Impedance Completed.
+18/12/19 22:13:05 ... Measure Impedance Completed.
+18/12/19 22:13:05 ... Measure Impedance Completed.
+18/12/19 22:13:06 ... Measure Impedance Completed.
+18/12/19 22:13:06 ... Measure Impedance Completed.
+18/12/19 22:13:06 ... Measure Impedance Completed.
+18/12/19 22:13:07 ... Measure Impedance Completed.
+18/12/19 22:13:07 ... Measure Impedance Completed.
+18/12/19 22:13:08 ... Measure Impedance Completed.
+18/12/19 22:13:08 ... Measure Impedance Completed.
+18/12/19 22:13:08 ... Measure Impedance Completed.
+18/12/19 22:13:09 ... Measure Impedance Completed.
+18/12/19 22:13:09 ... Measure Impedance Completed.
+18/12/19 22:13:10 ... Measure Impedance Completed.
+18/12/19 22:13:10 ... Measure Impedance Completed.
+18/12/19 22:13:10 ... Measure Impedance Completed.
+18/12/19 22:13:11 ... Measure Impedance Completed.
+18/12/19 22:13:11 ... Measure Impedance Completed.
+18/12/19 22:13:12 ... Measure Impedance Completed.
+18/12/19 22:13:12 ... Measure Impedance Completed.
+18/12/19 22:13:12 ... Measure Impedance Completed.
+18/12/19 22:13:13 ... Measure Impedance Completed.
+18/12/19 22:13:13 ... Measure Impedance Completed.
+18/12/19 22:13:14 ... Measure Impedance Completed.
+18/12/19 22:13:14 ... Measure Impedance Completed.
+18/12/19 22:13:14 ... Measure Impedance Completed.
+18/12/19 22:13:15 ... Measure Impedance Completed.
+18/12/19 22:13:15 ... Is data ok? Type y/n or m(measure again).
+18/12/19 22:14:08 ... Measure Impedance Completed.
+18/12/19 22:14:08 ... Measure Impedance Completed.
+18/12/19 22:14:09 ... Measure Impedance Completed.
+18/12/19 22:14:09 ... Measure Impedance Completed.
+18/12/19 22:14:09 ... Measure Impedance Completed.
+18/12/19 22:14:10 ... Measure Impedance Completed.
+18/12/19 22:14:10 ... Measure Impedance Completed.
+18/12/19 22:14:11 ... Measure Impedance Completed.
+18/12/19 22:14:11 ... Measure Impedance Completed.
+18/12/19 22:14:11 ... Measure Impedance Completed.
+18/12/19 22:14:12 ... Measure Impedance Completed.
+18/12/19 22:14:12 ... Measure Impedance Completed.
+18/12/19 22:14:13 ... Measure Impedance Completed.
+18/12/19 22:14:13 ... Measure Impedance Completed.
+18/12/19 22:14:13 ... Measure Impedance Completed.
+18/12/19 22:14:14 ... Measure Impedance Completed.
+18/12/19 22:14:14 ... Measure Impedance Completed.
+18/12/19 22:14:15 ... Measure Impedance Completed.
+18/12/19 22:14:15 ... Measure Impedance Completed.
+18/12/19 22:14:15 ... Measure Impedance Completed.
+18/12/19 22:14:16 ... Measure Impedance Completed.
+18/12/19 22:14:16 ... Measure Impedance Completed.
+18/12/19 22:14:17 ... Measure Impedance Completed.
+18/12/19 22:14:17 ... Measure Impedance Completed.
+18/12/19 22:14:17 ... Measure Impedance Completed.
+18/12/19 22:14:18 ... Measure Impedance Completed.
+18/12/19 22:14:18 ... Measure Impedance Completed.
+18/12/19 22:14:19 ... Measure Impedance Completed.
+18/12/19 22:14:19 ... Measure Impedance Completed.
+18/12/19 22:14:19 ... Measure Impedance Completed.
+18/12/19 22:14:20 ... Measure Impedance Completed.
+18/12/19 22:14:20 ... Measure Impedance Completed.
+18/12/19 22:14:21 ... Measure Impedance Completed.
+18/12/19 22:14:21 ... Measure Impedance Completed.
+18/12/19 22:14:22 ... Measure Impedance Completed.
+18/12/19 22:14:22 ... Measure Impedance Completed.
+18/12/19 22:14:22 ... Measure Impedance Completed.
+18/12/19 22:14:23 ... Measure Impedance Completed.
+18/12/19 22:14:23 ... Measure Impedance Completed.
+18/12/19 22:14:24 ... Measure Impedance Completed.
+18/12/19 22:14:24 ... Is data ok? Type y/n or m(measure again).
+18/12/19 22:15:22 ... EIT program by Gilles Lenaerts.
+18/12/19 22:15:23 ... Started HW.. Press PS to start program..
+18/12/19 22:54:44 ... EIT program by Gilles Lenaerts.
+18/12/19 22:54:44 ... Started HW.. Press PS to start program..
+18/12/19 22:54:51 ... Choose Rcal: 1,2 or 3.
+18/12/19 22:54:53 ... Calibrate using RCAL3 47K. & RFB1 20K.
+18/12/19 22:54:53 ... Temperature: 28 Celcius
+18/12/19 22:55:02 ... Calibration complete.
+18/12/19 22:55:02 ... Measure Impedance Completed.
+18/12/19 22:55:03 ... Measure Impedance Completed.
+18/12/19 22:55:03 ... Measure Impedance Completed.
+18/12/19 22:55:04 ... Measure Impedance Completed.
+18/12/19 22:55:04 ... Measure Impedance Completed.
+18/12/19 22:55:04 ... Measure Impedance Completed.
+18/12/19 22:55:05 ... Measure Impedance Completed.
+18/12/19 22:55:05 ... Measure Impedance Completed.
+18/12/19 22:55:06 ... Measure Impedance Completed.
+18/12/19 22:55:06 ... Measure Impedance Completed.
+18/12/19 22:55:06 ... Measure Impedance Completed.
+18/12/19 22:55:07 ... Measure Impedance Completed.
+18/12/19 22:55:07 ... Measure Impedance Completed.
+18/12/19 22:55:08 ... Measure Impedance Completed.
+18/12/19 22:55:08 ... Measure Impedance Completed.
+18/12/19 22:55:08 ... Measure Impedance Completed.
+18/12/19 22:55:09 ... Measure Impedance Completed.
+18/12/19 22:55:09 ... Measure Impedance Completed.
+18/12/19 22:55:10 ... Measure Impedance Completed.
+18/12/19 22:55:10 ... Measure Impedance Completed.
+18/12/19 22:55:10 ... Measure Impedance Completed.
+18/12/19 22:55:11 ... Measure Impedance Completed.
+18/12/19 22:55:11 ... Measure Impedance Completed.
+18/12/19 22:55:12 ... Measure Impedance Completed.
+18/12/19 22:55:12 ... Measure Impedance Completed.
+18/12/19 22:55:12 ... Measure Impedance Completed.
+18/12/19 22:55:13 ... Measure Impedance Completed.
+18/12/19 22:55:13 ... Measure Impedance Completed.
+18/12/19 22:55:14 ... Measure Impedance Completed.
+18/12/19 22:55:14 ... Measure Impedance Completed.
+18/12/19 22:55:14 ... Measure Impedance Completed.
+18/12/19 22:55:15 ... Measure Impedance Completed.
+18/12/19 22:55:15 ... Measure Impedance Completed.
+18/12/19 22:55:16 ... Measure Impedance Completed.
+18/12/19 22:55:16 ... Measure Impedance Completed.
+18/12/19 22:55:16 ... Measure Impedance Completed.
+18/12/19 22:55:17 ... Measure Impedance Completed.
+18/12/19 22:55:17 ... Measure Impedance Completed.
+18/12/19 22:55:18 ... Measure Impedance Completed.
+18/12/19 22:55:18 ... Measure Impedance Completed.
+18/12/19 22:55:18 ... Is data ok? Type y/n or m(measure again).
+18/12/19 22:55:53 ... Measure Impedance Completed.
+18/12/19 22:55:53 ... Measure Impedance Completed.
+18/12/19 22:55:54 ... Measure Impedance Completed.
+18/12/19 22:55:54 ... Measure Impedance Completed.
+18/12/19 22:55:54 ... Measure Impedance Completed.
+18/12/19 22:55:55 ... Measure Impedance Completed.
+18/12/19 22:55:55 ... Measure Impedance Completed.
+18/12/19 22:55:56 ... Measure Impedance Completed.
+18/12/19 22:55:56 ... Measure Impedance Completed.
+18/12/19 22:55:56 ... Measure Impedance Completed.
+18/12/19 22:55:57 ... Measure Impedance Completed.
+18/12/19 22:55:57 ... Measure Impedance Completed.
+18/12/19 22:55:58 ... Measure Impedance Completed.
+18/12/19 22:55:58 ... Measure Impedance Completed.
+18/12/19 22:55:58 ... Measure Impedance Completed.
+18/12/19 22:55:59 ... Measure Impedance Completed.
+18/12/19 22:55:59 ... Measure Impedance Completed.
+18/12/19 22:56:00 ... Measure Impedance Completed.
+18/12/19 22:56:00 ... Measure Impedance Completed.
+18/12/19 22:56:01 ... Measure Impedance Completed.
+18/12/19 22:56:01 ... Measure Impedance Completed.
+18/12/19 22:56:01 ... Measure Impedance Completed.
+18/12/19 22:56:02 ... Measure Impedance Completed.
+18/12/19 22:56:02 ... Measure Impedance Completed.
+18/12/19 22:56:03 ... Measure Impedance Completed.
+18/12/19 22:56:03 ... Measure Impedance Completed.
+18/12/19 22:56:03 ... Measure Impedance Completed.
+18/12/19 22:56:04 ... Measure Impedance Completed.
+18/12/19 22:56:04 ... Measure Impedance Completed.
+18/12/19 22:56:05 ... Measure Impedance Completed.
+18/12/19 22:56:05 ... Measure Impedance Completed.
+18/12/19 22:56:05 ... Measure Impedance Completed.
+18/12/19 22:56:06 ... Measure Impedance Completed.
+18/12/19 22:56:06 ... Measure Impedance Completed.
+18/12/19 22:56:07 ... Measure Impedance Completed.
+18/12/19 22:56:07 ... Measure Impedance Completed.
+18/12/19 22:56:07 ... Measure Impedance Completed.
+18/12/19 22:56:08 ... Measure Impedance Completed.
+18/12/19 22:56:08 ... Measure Impedance Completed.
+18/12/19 22:56:09 ... Measure Impedance Completed.
+18/12/19 22:56:09 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:00:59 ... EIT program by Gilles Lenaerts.
+18/12/19 23:00:59 ... Started HW.. Press PS to start program..
+18/12/19 23:06:57 ... EIT program by Gilles Lenaerts.
+18/12/19 23:06:57 ... Started HW.. Press PS to start program..
+18/12/19 23:07:20 ... Choose Rcal: 1,2 or 3.
+18/12/19 23:07:30 ... Calibrate using RCAL3 47K. & RFB1 20K.
+18/12/19 23:07:30 ... Temperature: 34 Celcius
+18/12/19 23:07:39 ... Calibration complete.
+18/12/19 23:07:40 ... Measure Impedance Completed.
+18/12/19 23:07:40 ... Measure Impedance Completed.
+18/12/19 23:07:40 ... Measure Impedance Completed.
+18/12/19 23:07:41 ... Measure Impedance Completed.
+18/12/19 23:07:41 ... Measure Impedance Completed.
+18/12/19 23:07:42 ... Measure Impedance Completed.
+18/12/19 23:07:42 ... Measure Impedance Completed.
+18/12/19 23:07:43 ... Measure Impedance Completed.
+18/12/19 23:07:43 ... Measure Impedance Completed.
+18/12/19 23:07:43 ... Measure Impedance Completed.
+18/12/19 23:07:44 ... Measure Impedance Completed.
+18/12/19 23:07:44 ... Measure Impedance Completed.
+18/12/19 23:07:45 ... Measure Impedance Completed.
+18/12/19 23:07:45 ... Measure Impedance Completed.
+18/12/19 23:07:45 ... Measure Impedance Completed.
+18/12/19 23:07:46 ... Measure Impedance Completed.
+18/12/19 23:07:46 ... Measure Impedance Completed.
+18/12/19 23:07:47 ... Measure Impedance Completed.
+18/12/19 23:07:47 ... Measure Impedance Completed.
+18/12/19 23:07:47 ... Measure Impedance Completed.
+18/12/19 23:07:48 ... Measure Impedance Completed.
+18/12/19 23:07:48 ... Measure Impedance Completed.
+18/12/19 23:07:49 ... Measure Impedance Completed.
+18/12/19 23:07:49 ... Measure Impedance Completed.
+18/12/19 23:07:49 ... Measure Impedance Completed.
+18/12/19 23:07:50 ... Measure Impedance Completed.
+18/12/19 23:07:50 ... Measure Impedance Completed.
+18/12/19 23:07:51 ... Measure Impedance Completed.
+18/12/19 23:07:51 ... Measure Impedance Completed.
+18/12/19 23:07:51 ... Measure Impedance Completed.
+18/12/19 23:07:52 ... Measure Impedance Completed.
+18/12/19 23:07:52 ... Measure Impedance Completed.
+18/12/19 23:07:53 ... Measure Impedance Completed.
+18/12/19 23:07:53 ... Measure Impedance Completed.
+18/12/19 23:07:53 ... Measure Impedance Completed.
+18/12/19 23:07:54 ... Measure Impedance Completed.
+18/12/19 23:07:54 ... Measure Impedance Completed.
+18/12/19 23:07:55 ... Measure Impedance Completed.
+18/12/19 23:07:55 ... Measure Impedance Completed.
+18/12/19 23:07:55 ... Measure Impedance Completed.
+18/12/19 23:07:56 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:20:45 ... Measure Impedance Completed.
+18/12/19 23:20:46 ... Measure Impedance Completed.
+18/12/19 23:20:46 ... Measure Impedance Completed.
+18/12/19 23:20:47 ... Measure Impedance Completed.
+18/12/19 23:20:47 ... Measure Impedance Completed.
+18/12/19 23:20:47 ... Measure Impedance Completed.
+18/12/19 23:20:48 ... Measure Impedance Completed.
+18/12/19 23:20:48 ... Measure Impedance Completed.
+18/12/19 23:20:49 ... Measure Impedance Completed.
+18/12/19 23:20:49 ... Measure Impedance Completed.
+18/12/19 23:20:49 ... Measure Impedance Completed.
+18/12/19 23:20:50 ... Measure Impedance Completed.
+18/12/19 23:20:50 ... Measure Impedance Completed.
+18/12/19 23:20:51 ... Measure Impedance Completed.
+18/12/19 23:20:51 ... Measure Impedance Completed.
+18/12/19 23:20:51 ... Measure Impedance Completed.
+18/12/19 23:20:52 ... Measure Impedance Completed.
+18/12/19 23:20:52 ... Measure Impedance Completed.
+18/12/19 23:20:53 ... Measure Impedance Completed.
+18/12/19 23:20:53 ... Measure Impedance Completed.
+18/12/19 23:20:53 ... Measure Impedance Completed.
+18/12/19 23:20:54 ... Measure Impedance Completed.
+18/12/19 23:20:54 ... Measure Impedance Completed.
+18/12/19 23:20:55 ... Measure Impedance Completed.
+18/12/19 23:20:55 ... Measure Impedance Completed.
+18/12/19 23:20:55 ... Measure Impedance Completed.
+18/12/19 23:20:56 ... Measure Impedance Completed.
+18/12/19 23:20:56 ... Measure Impedance Completed.
+18/12/19 23:20:57 ... Measure Impedance Completed.
+18/12/19 23:20:57 ... Measure Impedance Completed.
+18/12/19 23:20:57 ... Measure Impedance Completed.
+18/12/19 23:20:58 ... Measure Impedance Completed.
+18/12/19 23:20:58 ... Measure Impedance Completed.
+18/12/19 23:20:59 ... Measure Impedance Completed.
+18/12/19 23:20:59 ... Measure Impedance Completed.
+18/12/19 23:20:59 ... Measure Impedance Completed.
+18/12/19 23:21:00 ... Measure Impedance Completed.
+18/12/19 23:21:00 ... Measure Impedance Completed.
+18/12/19 23:21:01 ... Measure Impedance Completed.
+18/12/19 23:21:01 ... Measure Impedance Completed.
+18/12/19 23:21:02 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:22:13 ... Measure Impedance Completed.
+18/12/19 23:22:13 ... Measure Impedance Completed.
+18/12/19 23:22:14 ... Measure Impedance Completed.
+18/12/19 23:22:14 ... Measure Impedance Completed.
+18/12/19 23:22:14 ... Measure Impedance Completed.
+18/12/19 23:22:15 ... Measure Impedance Completed.
+18/12/19 23:22:15 ... Measure Impedance Completed.
+18/12/19 23:22:16 ... Measure Impedance Completed.
+18/12/19 23:22:16 ... Measure Impedance Completed.
+18/12/19 23:22:16 ... Measure Impedance Completed.
+18/12/19 23:22:17 ... Measure Impedance Completed.
+18/12/19 23:22:17 ... Measure Impedance Completed.
+18/12/19 23:22:18 ... Measure Impedance Completed.
+18/12/19 23:22:18 ... Measure Impedance Completed.
+18/12/19 23:22:18 ... Measure Impedance Completed.
+18/12/19 23:22:19 ... Measure Impedance Completed.
+18/12/19 23:22:19 ... Measure Impedance Completed.
+18/12/19 23:22:20 ... Measure Impedance Completed.
+18/12/19 23:22:20 ... Measure Impedance Completed.
+18/12/19 23:22:20 ... Measure Impedance Completed.
+18/12/19 23:22:21 ... Measure Impedance Completed.
+18/12/19 23:22:21 ... Measure Impedance Completed.
+18/12/19 23:22:22 ... Measure Impedance Completed.
+18/12/19 23:22:22 ... Measure Impedance Completed.
+18/12/19 23:22:22 ... Measure Impedance Completed.
+18/12/19 23:22:23 ... Measure Impedance Completed.
+18/12/19 23:22:23 ... Measure Impedance Completed.
+18/12/19 23:22:24 ... Measure Impedance Completed.
+18/12/19 23:22:24 ... Measure Impedance Completed.
+18/12/19 23:22:24 ... Measure Impedance Completed.
+18/12/19 23:22:25 ... Measure Impedance Completed.
+18/12/19 23:22:25 ... Measure Impedance Completed.
+18/12/19 23:22:26 ... Measure Impedance Completed.
+18/12/19 23:22:26 ... Measure Impedance Completed.
+18/12/19 23:22:27 ... Measure Impedance Completed.
+18/12/19 23:22:27 ... Measure Impedance Completed.
+18/12/19 23:22:27 ... Measure Impedance Completed.
+18/12/19 23:22:28 ... Measure Impedance Completed.
+18/12/19 23:22:28 ... Measure Impedance Completed.
+18/12/19 23:22:29 ... Measure Impedance Completed.
+18/12/19 23:22:29 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:23:40 ... Measure Impedance Completed.
+18/12/19 23:23:41 ... Measure Impedance Completed.
+18/12/19 23:23:41 ... Measure Impedance Completed.
+18/12/19 23:23:42 ... Measure Impedance Completed.
+18/12/19 23:23:42 ... Measure Impedance Completed.
+18/12/19 23:23:42 ... Measure Impedance Completed.
+18/12/19 23:23:43 ... Measure Impedance Completed.
+18/12/19 23:23:43 ... Measure Impedance Completed.
+18/12/19 23:23:44 ... Measure Impedance Completed.
+18/12/19 23:23:44 ... Measure Impedance Completed.
+18/12/19 23:23:44 ... Measure Impedance Completed.
+18/12/19 23:23:45 ... Measure Impedance Completed.
+18/12/19 23:23:45 ... Measure Impedance Completed.
+18/12/19 23:23:46 ... Measure Impedance Completed.
+18/12/19 23:23:46 ... Measure Impedance Completed.
+18/12/19 23:23:46 ... Measure Impedance Completed.
+18/12/19 23:23:47 ... Measure Impedance Completed.
+18/12/19 23:23:47 ... Measure Impedance Completed.
+18/12/19 23:23:48 ... Measure Impedance Completed.
+18/12/19 23:23:48 ... Measure Impedance Completed.
+18/12/19 23:23:48 ... Measure Impedance Completed.
+18/12/19 23:23:49 ... Measure Impedance Completed.
+18/12/19 23:23:49 ... Measure Impedance Completed.
+18/12/19 23:23:50 ... Measure Impedance Completed.
+18/12/19 23:23:50 ... Measure Impedance Completed.
+18/12/19 23:23:51 ... Measure Impedance Completed.
+18/12/19 23:23:51 ... Measure Impedance Completed.
+18/12/19 23:23:51 ... Measure Impedance Completed.
+18/12/19 23:23:52 ... Measure Impedance Completed.
+18/12/19 23:23:52 ... Measure Impedance Completed.
+18/12/19 23:23:53 ... Measure Impedance Completed.
+18/12/19 23:23:53 ... Measure Impedance Completed.
+18/12/19 23:23:53 ... Measure Impedance Completed.
+18/12/19 23:23:54 ... Measure Impedance Completed.
+18/12/19 23:23:54 ... Measure Impedance Completed.
+18/12/19 23:23:55 ... Measure Impedance Completed.
+18/12/19 23:23:55 ... Measure Impedance Completed.
+18/12/19 23:23:55 ... Measure Impedance Completed.
+18/12/19 23:23:56 ... Measure Impedance Completed.
+18/12/19 23:23:56 ... Measure Impedance Completed.
+18/12/19 23:23:57 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:24:03 ... Measure Impedance Completed.
+18/12/19 23:24:04 ... Measure Impedance Completed.
+18/12/19 23:24:04 ... Measure Impedance Completed.
+18/12/19 23:24:05 ... Measure Impedance Completed.
+18/12/19 23:24:05 ... Measure Impedance Completed.
+18/12/19 23:24:05 ... Measure Impedance Completed.
+18/12/19 23:24:06 ... Measure Impedance Completed.
+18/12/19 23:24:06 ... Measure Impedance Completed.
+18/12/19 23:24:07 ... Measure Impedance Completed.
+18/12/19 23:24:07 ... Measure Impedance Completed.
+18/12/19 23:24:07 ... Measure Impedance Completed.
+18/12/19 23:24:08 ... Measure Impedance Completed.
+18/12/19 23:24:08 ... Measure Impedance Completed.
+18/12/19 23:24:09 ... Measure Impedance Completed.
+18/12/19 23:24:09 ... Measure Impedance Completed.
+18/12/19 23:24:10 ... Measure Impedance Completed.
+18/12/19 23:24:10 ... Measure Impedance Completed.
+18/12/19 23:24:10 ... Measure Impedance Completed.
+18/12/19 23:24:11 ... Measure Impedance Completed.
+18/12/19 23:24:11 ... Measure Impedance Completed.
+18/12/19 23:24:12 ... Measure Impedance Completed.
+18/12/19 23:24:12 ... Measure Impedance Completed.
+18/12/19 23:24:12 ... Measure Impedance Completed.
+18/12/19 23:24:13 ... Measure Impedance Completed.
+18/12/19 23:24:13 ... Measure Impedance Completed.
+18/12/19 23:24:14 ... Measure Impedance Completed.
+18/12/19 23:24:14 ... Measure Impedance Completed.
+18/12/19 23:24:14 ... Measure Impedance Completed.
+18/12/19 23:24:15 ... Measure Impedance Completed.
+18/12/19 23:24:15 ... Measure Impedance Completed.
+18/12/19 23:24:16 ... Measure Impedance Completed.
+18/12/19 23:24:16 ... Measure Impedance Completed.
+18/12/19 23:24:16 ... Measure Impedance Completed.
+18/12/19 23:24:17 ... Measure Impedance Completed.
+18/12/19 23:24:17 ... Measure Impedance Completed.
+18/12/19 23:24:18 ... Measure Impedance Completed.
+18/12/19 23:24:18 ... Measure Impedance Completed.
+18/12/19 23:24:18 ... Measure Impedance Completed.
+18/12/19 23:24:19 ... Measure Impedance Completed.
+18/12/19 23:24:19 ... Measure Impedance Completed.
+18/12/19 23:24:20 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:25:12 ... Measure Impedance Completed.
+18/12/19 23:25:12 ... Measure Impedance Completed.
+18/12/19 23:25:13 ... Measure Impedance Completed.
+18/12/19 23:25:13 ... Measure Impedance Completed.
+18/12/19 23:25:14 ... Measure Impedance Completed.
+18/12/19 23:25:14 ... Measure Impedance Completed.
+18/12/19 23:25:14 ... Measure Impedance Completed.
+18/12/19 23:25:15 ... Measure Impedance Completed.
+18/12/19 23:25:15 ... Measure Impedance Completed.
+18/12/19 23:25:16 ... Measure Impedance Completed.
+18/12/19 23:25:16 ... Measure Impedance Completed.
+18/12/19 23:25:16 ... Measure Impedance Completed.
+18/12/19 23:25:17 ... Measure Impedance Completed.
+18/12/19 23:25:17 ... Measure Impedance Completed.
+18/12/19 23:25:18 ... Measure Impedance Completed.
+18/12/19 23:25:18 ... Measure Impedance Completed.
+18/12/19 23:25:18 ... Measure Impedance Completed.
+18/12/19 23:25:19 ... Measure Impedance Completed.
+18/12/19 23:25:19 ... Measure Impedance Completed.
+18/12/19 23:25:20 ... Measure Impedance Completed.
+18/12/19 23:25:20 ... Measure Impedance Completed.
+18/12/19 23:25:20 ... Measure Impedance Completed.
+18/12/19 23:25:21 ... Measure Impedance Completed.
+18/12/19 23:25:21 ... Measure Impedance Completed.
+18/12/19 23:25:22 ... Measure Impedance Completed.
+18/12/19 23:25:22 ... Measure Impedance Completed.
+18/12/19 23:25:22 ... Measure Impedance Completed.
+18/12/19 23:25:23 ... Measure Impedance Completed.
+18/12/19 23:25:23 ... Measure Impedance Completed.
+18/12/19 23:25:24 ... Measure Impedance Completed.
+18/12/19 23:25:24 ... Measure Impedance Completed.
+18/12/19 23:25:25 ... Measure Impedance Completed.
+18/12/19 23:25:25 ... Measure Impedance Completed.
+18/12/19 23:25:25 ... Measure Impedance Completed.
+18/12/19 23:25:26 ... Measure Impedance Completed.
+18/12/19 23:25:26 ... Measure Impedance Completed.
+18/12/19 23:25:27 ... Measure Impedance Completed.
+18/12/19 23:25:27 ... Measure Impedance Completed.
+18/12/19 23:25:27 ... Measure Impedance Completed.
+18/12/19 23:25:28 ... Measure Impedance Completed.
+18/12/19 23:25:28 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:26:35 ... Measure Impedance Completed.
+18/12/19 23:26:35 ... Measure Impedance Completed.
+18/12/19 23:26:36 ... Measure Impedance Completed.
+18/12/19 23:26:36 ... Measure Impedance Completed.
+18/12/19 23:26:37 ... Measure Impedance Completed.
+18/12/19 23:26:37 ... Measure Impedance Completed.
+18/12/19 23:26:37 ... Measure Impedance Completed.
+18/12/19 23:26:38 ... Measure Impedance Completed.
+18/12/19 23:26:38 ... Measure Impedance Completed.
+18/12/19 23:26:39 ... Measure Impedance Completed.
+18/12/19 23:26:39 ... Measure Impedance Completed.
+18/12/19 23:26:39 ... Measure Impedance Completed.
+18/12/19 23:26:40 ... Measure Impedance Completed.
+18/12/19 23:26:40 ... Measure Impedance Completed.
+18/12/19 23:26:41 ... Measure Impedance Completed.
+18/12/19 23:26:41 ... Measure Impedance Completed.
+18/12/19 23:26:41 ... Measure Impedance Completed.
+18/12/19 23:26:42 ... Measure Impedance Completed.
+18/12/19 23:26:42 ... Measure Impedance Completed.
+18/12/19 23:26:43 ... Measure Impedance Completed.
+18/12/19 23:26:43 ... Measure Impedance Completed.
+18/12/19 23:26:43 ... Measure Impedance Completed.
+18/12/19 23:26:44 ... Measure Impedance Completed.
+18/12/19 23:26:44 ... Measure Impedance Completed.
+18/12/19 23:26:45 ... Measure Impedance Completed.
+18/12/19 23:26:45 ... Measure Impedance Completed.
+18/12/19 23:26:45 ... Measure Impedance Completed.
+18/12/19 23:26:46 ... Measure Impedance Completed.
+18/12/19 23:26:46 ... Measure Impedance Completed.
+18/12/19 23:26:47 ... Measure Impedance Completed.
+18/12/19 23:26:47 ... Measure Impedance Completed.
+18/12/19 23:26:47 ... Measure Impedance Completed.
+18/12/19 23:26:48 ... Measure Impedance Completed.
+18/12/19 23:26:48 ... Measure Impedance Completed.
+18/12/19 23:26:49 ... Measure Impedance Completed.
+18/12/19 23:26:49 ... Measure Impedance Completed.
+18/12/19 23:26:49 ... Measure Impedance Completed.
+18/12/19 23:26:50 ... Measure Impedance Completed.
+18/12/19 23:26:50 ... Measure Impedance Completed.
+18/12/19 23:26:51 ... Measure Impedance Completed.
+18/12/19 23:26:51 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:27:02 ... EIT program completed by Gilles Lenaerts.
+18/12/19 23:27:04 ... Choose Rcal: 1,2 or 3.
+18/12/19 23:27:19 ... EIT program by Gilles Lenaerts.
+18/12/19 23:27:19 ... Started HW.. Press PS to start program..
+18/12/19 23:27:28 ... Choose Rcal: 1,2 or 3.
+18/12/19 23:27:41 ... Calibrate using RCAL3 47K. & RFB1 20K.
+18/12/19 23:27:42 ... Temperature: 33 Celcius
+18/12/19 23:27:51 ... Calibration complete.
+18/12/19 23:27:51 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:27:51 ... Measure Impedance Completed.
+18/12/19 23:27:52 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:28:18 ... Calibrate using RCAL3 47K. & RFB1 20K.
+18/12/19 23:28:18 ... Temperature: 33 Celcius
+18/12/19 23:28:27 ... Calibration complete.
+18/12/19 23:28:28 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:28:28 ... Measure Impedance Completed.
+18/12/19 23:28:29 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:30:24 ... Calibrate using RCAL3 47K. & RFB1 20K.
+18/12/19 23:30:24 ... Temperature: 33 Celcius
+18/12/19 23:30:33 ... Calibration complete.
+18/12/19 23:30:33 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:30:34 ... Measure Impedance Completed.
+18/12/19 23:30:35 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:31:03 ... EIT program by Gilles Lenaerts.
+18/12/19 23:31:03 ... Started HW.. Press PS to start program..
+18/12/19 23:31:06 ... Choose Rcal: 1,2 or 3.
+18/12/19 23:31:09 ... Calibrate using RCAL3 47K. & RFB1 20K.
+18/12/19 23:31:09 ... Temperature: 33 Celcius
+18/12/19 23:31:18 ... Calibration complete.
+18/12/19 23:31:18 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:31:19 ... Measure Impedance Completed.
+18/12/19 23:31:20 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:32:32 ... Calibrate using RCAL3 47K. & RFB1 20K.
+18/12/19 23:32:32 ... Temperature: 33 Celcius
+18/12/19 23:32:41 ... Calibration complete.
+18/12/19 23:32:41 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:32:42 ... Measure Impedance Completed.
+18/12/19 23:32:43 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:33:33 ... EIT program by Gilles Lenaerts.
+18/12/19 23:33:34 ... Started HW.. Press PS to start program..
+18/12/19 23:33:36 ... Choose Rcal: 1,2 or 3.
+18/12/19 23:33:39 ... Calibrate using RCAL2 22K. & RFB1 20K.
+18/12/19 23:33:39 ... Temperature: 33 Celcius
+18/12/19 23:33:48 ... Calibration complete.
+18/12/19 23:33:48 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:33:48 ... Measure Impedance Completed.
+18/12/19 23:33:50 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:33:58 ... Calibrate using RCAL2 22K. & RFB1 20K.
+18/12/19 23:33:58 ... Temperature: 33 Celcius
+18/12/19 23:34:07 ... Calibration complete.
+18/12/19 23:34:07 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:34:08 ... Measure Impedance Completed.
+18/12/19 23:34:09 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:35:20 ... Calibrate using RCAL2 22K. & RFB1 20K.
+18/12/19 23:35:20 ... Temperature: 33 Celcius
+18/12/19 23:35:29 ... Calibration complete.
+18/12/19 23:35:29 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:35:29 ... Measure Impedance Completed.
+18/12/19 23:35:31 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:35:58 ... EIT program by Gilles Lenaerts.
+18/12/19 23:35:58 ... Started HW.. Press PS to start program..
+18/12/19 23:36:01 ... Choose Rcal: 1,2 or 3.
+18/12/19 23:36:02 ... Calibrate using RCAL1 10K. & RFB1 20K.
+18/12/19 23:36:03 ... Temperature: 33 Celcius
+18/12/19 23:36:12 ... Calibration complete.
+18/12/19 23:36:12 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:36:12 ... Measure Impedance Completed.
+18/12/19 23:36:13 ... Is data ok? Type y/n or m(measure again).

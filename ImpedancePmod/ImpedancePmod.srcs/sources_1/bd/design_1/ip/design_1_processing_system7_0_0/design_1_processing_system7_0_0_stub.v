@@ -1,8 +1,8 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-// Date        : Thu Sep 26 10:22:27 2019
-// Host        : Gilles-Lenaerts running 64-bit major release  (build 9200)
+// Tool Version: Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+// Date        : Wed Dec 18 21:10:21 2019
+// Host        : DESKTOP-LVJ56DR running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
 //               C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_stub.v
 // Design      : design_1_processing_system7_0_0
@@ -13,7 +13,7 @@
 // This empty module with port declaration file causes synthesis tools to infer a black box for IP.
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
-(* X_CORE_INFO = "processing_system7_v5_5_processing_system7,Vivado 2019.1" *)
+(* X_CORE_INFO = "processing_system7_v5_5_processing_system7,Vivado 2019.1.3" *)
 module design_1_processing_system7_0_0(GPIO_I, GPIO_O, GPIO_T, SDIO0_CLK, SDIO0_CLK_FB, 
   SDIO0_CMD_O, SDIO0_CMD_I, SDIO0_CMD_T, SDIO0_DATA_I, SDIO0_DATA_O, SDIO0_DATA_T, SDIO0_LED, 
   SDIO0_CDN, SDIO0_WP, SDIO0_BUSPOW, SDIO0_BUSVOLT, UART0_DTRN, UART0_RTSN, UART0_TX, UART0_CTSN, 

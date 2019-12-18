@@ -365,9 +365,10 @@ void calibration(int rcalval)
 {
 
 	static int stap = 0;
+	static int wholeFactor1, wholeFactor2 = 0;
 	// Read temperature from device
 	temperature = AD5933_GetTemperature();
-	printf("Temperature: %d Celcius\n\r",temperature);
+	printf("Temperature: %d Celcius\n",temperature);
 
 	// Set sweep parameters
 	//startFrequentie 		0x0F5C28
@@ -383,12 +384,13 @@ void calibration(int rcalval)
 
 	AD5933_ConfigSweepCycle();
 	stap = 0;
+	wholeFactor1 = 0;
+	wholeFactor2 = 0;
 	while (stap <= stepCount)
 	{
-		// Calculate gain factor for an chosen RCAL on all frequencies set.
+		// Calculate gain factor for an chosen RCAL on all frequencies of sweep.
 		gainFactor[stap] = AD5933_CalculateGainFactor(rcalval,
 												AD5933_REPEAT_FREQ);
-		//Measure Impedance from this step
 		stap++;
 		//increase freq
 		AD5933_SetRegisterValue(AD5933_CONTROL_REG_HB,
@@ -396,18 +398,11 @@ void calibration(int rcalval)
 								1 );
 	}
 
+	wholeFactor1 = gainFactor[0];
+    wholeFactor2 = gainFactor[stap];
 	// Change the resistor used for calibration with the one you wish to measure
-	print("Calibration complete.\n\r");//First GainFactor: %0.2f AND Last GainFactor: %0.2f\n\r",gainFactor[0], gainFactor[stepCount-1]);
-
-	/*
-	xil_printf("Remove Calibration caps on PCB, press enter to continue");
-	rcalChoice = 0;
-	while (rcalChoice == 0)
-	{
-		rcalChoice = inbyte();
-	}
-	*/
-	//printf("\n\r First GainFactor: %0.2f AND Last GainFactor: %0.2f\n\r",gainFactor[0], gainFactor[stepCount-1]);
+	print("Calibration complete.\n");//First GainFactor: %0.2f AND Last GainFactor: %0.2f\n\r",gainFactor[0], gainFactor[stepCount-1]);
+	//xil_printf("First GainFactor: %d AND Last GainFactor: %d\r",wholeFactor1, wholeFactor2);
 
 }
 
@@ -434,6 +429,7 @@ void measureImpedance(void)
 		while(steps < stepCount)
 		{
 
+		//Gives correcte values with the first gainfcator of 10KHz
 		// Calculate impedance between Vout and Vin
 		impedance = AD5933_CalculateImpedance(gainFactor[0], AD5933_REPEAT_FREQ);
 
@@ -470,20 +466,20 @@ void measureImpedance(void)
 		xil_printf("Measurement complete.\n\r\n\r");
 		 */
 	}
-	print("Measure Impedance Completed.\r\n");
+	print("Measure Impedance Completed.\n");
 }
 
 
 void writeSerialImpedanceArray()
 {
-	static int i = 0;
+	static int i, wholeMagn, thousandthsMagn = 0;
 	if (mode == 1)
 	{
 		for(int j=0;j<=8;j++)
 		{
 			for(int y=0;y<=5;y++)
 			{
-				printf("Cycle:%d, Probe:%d, Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu;\r",j, y, measuredData[j][y].frequency, measuredData[j][y].impedance, measuredData[j][y].magnitude, measuredData[j][y].real, measuredData[j][y].imaginary);
+				xil_printf("Cycle:%d, Probe:%d, Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu;\r",j, y, measuredData[j][y].frequency, measuredData[j][y].impedance, measuredData[j][y].magnitude, measuredData[j][y].real, measuredData[j][y].imaginary);
 				/* for 3D end array
 				for(int i=0;i<=stepCount;i++)
 				{
@@ -492,15 +488,19 @@ void writeSerialImpedanceArray()
 				*/
 			}
 		}
+		print("\n");
 	}
 
 	else if (mode == 2)
 	{
 		for(i=0;i<stepCount;i++)
 		{
-			printf("Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu;\r",RcalMeasuredData[i].frequency, RcalMeasuredData[i].impedance, RcalMeasuredData[i].magnitude, RcalMeasuredData[i].real, RcalMeasuredData[i].imaginary);
+			//Need to find new print variable with float. %".
+		    wholeMagn = RcalMeasuredData[i].magnitude;
+		    thousandthsMagn = (RcalMeasuredData[i].magnitude - wholeMagn) * 1000;
+			xil_printf("Freq:%d, Impedance:%d, Magnitude:%d.%3d, Imaginary:%hu Real:%hu;\r",RcalMeasuredData[i].frequency, RcalMeasuredData[i].impedance, wholeMagn, thousandthsMagn, RcalMeasuredData[i].real, RcalMeasuredData[i].imaginary);
 		}
-		usleep(900);
-		print("\r\n");
+		print("\n");
+		//usleep(900);
 	}
 }

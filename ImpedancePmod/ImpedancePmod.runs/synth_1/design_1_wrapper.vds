@@ -1,9 +1,9 @@
 #-----------------------------------------------------------
-# Vivado v2019.1 (64-bit)
-# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
-# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Thu Oct 24 09:15:04 2019
-# Process ID: 13756
+# Vivado v2019.1.3 (64-bit)
+# SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
+# IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+# Start of session at: Wed Dec 18 21:22:02 2019
+# Process ID: 16952
 # Current directory: C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1
 # Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
 # Log file: C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/design_1_wrapper.vds
@@ -13,16 +13,15 @@ source design_1_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
-add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 295.738 ; gain = 1.473
 Command: synth_design -top design_1_wrapper -part xc7z007sclg225-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z007s'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z007s'
 INFO: [Device 21-403] Loading part xc7z007sclg225-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 6480 
+INFO: Helper process launched with PID 17824 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 728.457 ; gain = 176.133
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 728.520 ; gain = 176.887
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:46]
 INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:36115' bound to instance 'IIC_0_scl_iobuf' of component 'IOBUF' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:118]
@@ -33,29 +32,33 @@ INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2019.1/script
 	Parameter SLEW bound to: SLOW - type: string 
 INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (1#1) [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:36115]
 INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:36115' bound to instance 'IIC_0_sda_iobuf' of component 'IOBUF' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:125]
-INFO: [Synth 8-3491] module 'design_1' declared at 'C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1077' bound to instance 'design_1_i' of component 'design_1' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:132]
-INFO: [Synth 8-638] synthesizing module 'design_1' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1125]
-INFO: [Synth 8-3491] module 'design_1_axi_iic_0_0' declared at 'C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-13756-Gilles-Lenaerts/realtime/design_1_axi_iic_0_0_stub.vhdl:5' bound to instance 'axi_iic_0' of component 'design_1_axi_iic_0_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1501]
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_iic_0_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-13756-Gilles-Lenaerts/realtime/design_1_axi_iic_0_0_stub.vhdl:38]
-INFO: [Synth 8-3491] module 'design_1_axi_quad_spi_0_0' declared at 'C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-13756-Gilles-Lenaerts/realtime/design_1_axi_quad_spi_0_0_stub.vhdl:5' bound to instance 'axi_quad_spi_0' of component 'design_1_axi_quad_spi_0_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1531]
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_quad_spi_0_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-13756-Gilles-Lenaerts/realtime/design_1_axi_quad_spi_0_0_stub.vhdl:44]
-INFO: [Synth 8-3491] module 'design_1_processing_system7_0_0' declared at 'C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-13756-Gilles-Lenaerts/realtime/design_1_processing_system7_0_0_stub.vhdl:5' bound to instance 'processing_system7_0' of component 'design_1_processing_system7_0_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1567]
-INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-13756-Gilles-Lenaerts/realtime/design_1_processing_system7_0_0_stub.vhdl:101]
-INFO: [Synth 8-638] synthesizing module 'design_1_ps7_0_axi_periph_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:617]
+INFO: [Synth 8-3491] module 'design_1' declared at 'C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1219' bound to instance 'design_1_i' of component 'design_1' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:132]
+INFO: [Synth 8-638] synthesizing module 'design_1' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1267]
+INFO: [Synth 8-3491] module 'design_1_axi_iic_0_0' declared at 'C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-16952-DESKTOP-LVJ56DR/realtime/design_1_axi_iic_0_0_stub.vhdl:5' bound to instance 'axi_iic_0' of component 'design_1_axi_iic_0_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1662]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_iic_0_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-16952-DESKTOP-LVJ56DR/realtime/design_1_axi_iic_0_0_stub.vhdl:38]
+INFO: [Synth 8-3491] module 'design_1_axi_quad_spi_0_0' declared at 'C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-16952-DESKTOP-LVJ56DR/realtime/design_1_axi_quad_spi_0_0_stub.vhdl:5' bound to instance 'axi_quad_spi_0' of component 'design_1_axi_quad_spi_0_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1692]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_quad_spi_0_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-16952-DESKTOP-LVJ56DR/realtime/design_1_axi_quad_spi_0_0_stub.vhdl:44]
+INFO: [Synth 8-3491] module 'design_1_processing_system7_0_0' declared at 'C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-16952-DESKTOP-LVJ56DR/realtime/design_1_processing_system7_0_0_stub.vhdl:5' bound to instance 'processing_system7_0' of component 'design_1_processing_system7_0_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1728]
+INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-16952-DESKTOP-LVJ56DR/realtime/design_1_processing_system7_0_0_stub.vhdl:101]
+INFO: [Synth 8-638] synthesizing module 'design_1_ps7_0_axi_periph_2' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:741]
 INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_15SPJYW' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:57]
 INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_15SPJYW' (2#1) [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:57]
-INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_XU9C55' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:158]
-INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_XU9C55' (3#1) [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:158]
-INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_UYSKKA' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:282]
-INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at 'C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-13756-Gilles-Lenaerts/realtime/design_1_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:465]
-INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-13756-Gilles-Lenaerts/realtime/design_1_auto_pc_0_stub.vhdl:70]
-INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_UYSKKA' (4#1) [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:282]
-INFO: [Synth 8-3491] module 'design_1_xbar_0' declared at 'C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-13756-Gilles-Lenaerts/realtime/design_1_xbar_0_stub.vhdl:5' bound to instance 'xbar' of component 'design_1_xbar_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1012]
-INFO: [Synth 8-638] synthesizing module 'design_1_xbar_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-13756-Gilles-Lenaerts/realtime/design_1_xbar_0_stub.vhdl:51]
-INFO: [Synth 8-256] done synthesizing module 'design_1_ps7_0_axi_periph_0' (5#1) [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:617]
-INFO: [Synth 8-3491] module 'design_1_rst_ps7_0_50M_0' declared at 'C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-13756-Gilles-Lenaerts/realtime/design_1_rst_ps7_0_50M_0_stub.vhdl:5' bound to instance 'rst_ps7_0_50M' of component 'design_1_rst_ps7_0_50M_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1743]
-INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_50M_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-13756-Gilles-Lenaerts/realtime/design_1_rst_ps7_0_50M_0_stub.vhdl:21]
-INFO: [Synth 8-256] done synthesizing module 'design_1' (6#1) [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1125]
+INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_XU9C55' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:160]
+INFO: [Synth 8-3491] module 'design_1_auto_cc_1' declared at 'C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-16952-DESKTOP-LVJ56DR/realtime/design_1_auto_cc_1_stub.vhdl:5' bound to instance 'auto_cc' of component 'design_1_auto_cc_1' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:290]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_cc_1' [C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-16952-DESKTOP-LVJ56DR/realtime/design_1_auto_cc_1_stub.vhdl:53]
+INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_XU9C55' (3#1) [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:160]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_UYSKKA' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:406]
+INFO: [Synth 8-3491] module 'design_1_auto_pc_2' declared at 'C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-16952-DESKTOP-LVJ56DR/realtime/design_1_auto_pc_2_stub.vhdl:5' bound to instance 'auto_pc' of component 'design_1_auto_pc_2' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:589]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_2' [C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-16952-DESKTOP-LVJ56DR/realtime/design_1_auto_pc_2_stub.vhdl:70]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_UYSKKA' (4#1) [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:406]
+INFO: [Synth 8-3491] module 'design_1_xbar_2' declared at 'C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-16952-DESKTOP-LVJ56DR/realtime/design_1_xbar_2_stub.vhdl:5' bound to instance 'xbar' of component 'design_1_xbar_2' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1152]
+INFO: [Synth 8-638] synthesizing module 'design_1_xbar_2' [C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-16952-DESKTOP-LVJ56DR/realtime/design_1_xbar_2_stub.vhdl:51]
+INFO: [Synth 8-256] done synthesizing module 'design_1_ps7_0_axi_periph_2' (5#1) [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:741]
+INFO: [Synth 8-3491] module 'design_1_rst_ps7_0_10M_0' declared at 'C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-16952-DESKTOP-LVJ56DR/realtime/design_1_rst_ps7_0_10M_0_stub.vhdl:5' bound to instance 'rst_ps7_0_10M' of component 'design_1_rst_ps7_0_10M_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1904]
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_10M_0' [C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-16952-DESKTOP-LVJ56DR/realtime/design_1_rst_ps7_0_10M_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'design_1_rst_ps7_0_50M_2' declared at 'C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-16952-DESKTOP-LVJ56DR/realtime/design_1_rst_ps7_0_50M_2_stub.vhdl:5' bound to instance 'rst_ps7_0_50M' of component 'design_1_rst_ps7_0_50M_2' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1917]
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_50M_2' [C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/.Xil/Vivado-16952-DESKTOP-LVJ56DR/realtime/design_1_rst_ps7_0_50M_2_stub.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (6#1) [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/synth/design_1.vhd:1267]
 INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:36115' bound to instance 'spi_rtl_io0_iobuf' of component 'IOBUF' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:174]
 INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:36115' bound to instance 'spi_rtl_io1_iobuf' of component 'IOBUF' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:181]
 INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:36115' bound to instance 'spi_rtl_sck_iobuf' of component 'IOBUF' [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:188]
@@ -63,22 +66,62 @@ INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2019.1/scripts
 INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (7#1) [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:46]
 WARNING: [Synth 8-3331] design s00_couplers_imp_UYSKKA has unconnected port M_ACLK
 WARNING: [Synth 8-3331] design s00_couplers_imp_UYSKKA has unconnected port M_ARESETN
-WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port M_ACLK
-WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port M_ARESETN
-WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_ACLK
-WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[31]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[30]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[29]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[28]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[27]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[26]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[25]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[24]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[23]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[22]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[21]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[20]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[19]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[18]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[17]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[16]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[15]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[14]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[13]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[12]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[11]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[10]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[9]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[8]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_araddr[7]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[31]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[30]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[29]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[28]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[27]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[26]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[25]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[24]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[23]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[22]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[21]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[20]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[19]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[18]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[17]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[16]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[15]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[14]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[13]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[12]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[11]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[10]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[9]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[8]
+WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_AXI_awaddr[7]
 WARNING: [Synth 8-3331] design m00_couplers_imp_15SPJYW has unconnected port M_ACLK
 WARNING: [Synth 8-3331] design m00_couplers_imp_15SPJYW has unconnected port M_ARESETN
 WARNING: [Synth 8-3331] design m00_couplers_imp_15SPJYW has unconnected port S_ACLK
 WARNING: [Synth 8-3331] design m00_couplers_imp_15SPJYW has unconnected port S_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M00_ACLK
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M00_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M01_ACLK
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M01_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port S00_ACLK
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port S00_ARESETN
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 799.609 ; gain = 247.285
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 799.141 ; gain = 247.508
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -91,10 +134,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 799.609 ; gain = 247.285
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 799.141 ; gain = 247.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 799.609 ; gain = 247.285
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 799.141 ; gain = 247.508
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -106,14 +149,18 @@ Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1
 Finished Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'design_1_i/processing_system7_0'
 Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/design_1_axi_iic_0_0/design_1_axi_iic_0_0_in_context.xdc] for cell 'design_1_i/axi_iic_0'
 Finished Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/design_1_axi_iic_0_0/design_1_axi_iic_0_0_in_context.xdc] for cell 'design_1_i/axi_iic_0'
-Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
-Finished Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
-Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/xbar'
-Finished Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/xbar'
 Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_axi_quad_spi_0_0/design_1_axi_quad_spi_0_0/design_1_axi_quad_spi_0_0_in_context.xdc] for cell 'design_1_i/axi_quad_spi_0'
 Finished Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_axi_quad_spi_0_0/design_1_axi_quad_spi_0_0/design_1_axi_quad_spi_0_0_in_context.xdc] for cell 'design_1_i/axi_quad_spi_0'
-Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
-Finished Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_10M_0/design_1_rst_ps7_0_10M_0/design_1_rst_ps7_0_10M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_10M'
+Finished Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_10M_0/design_1_rst_ps7_0_10M_0/design_1_rst_ps7_0_10M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_10M'
+Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_xbar_2/design_1_xbar_2/design_1_xbar_1_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/xbar'
+Finished Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_xbar_2/design_1_xbar_2/design_1_xbar_1_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/xbar'
+Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_2/design_1_rst_ps7_0_50M_2/design_1_rst_ps7_0_50M_1_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
+Finished Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_2/design_1_rst_ps7_0_50M_2/design_1_rst_ps7_0_50M_1_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
+Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_2/design_1_auto_pc_2/design_1_auto_pc_1_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_2/design_1_auto_pc_2/design_1_auto_pc_1_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1/design_1_auto_cc_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/m01_couplers/auto_cc'
+Finished Parsing XDC File [c:/FPGA/ImpedancePmod/ImpedancePmod.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1/design_1_auto_cc_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/m01_couplers/auto_cc'
 Parsing XDC File [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/constrs_2/new/Extern.xdc]
 Finished Parsing XDC File [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/constrs_2/new/Extern.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/FPGA/ImpedancePmod/ImpedancePmod.srcs/constrs_2/new/Extern.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
@@ -122,21 +169,21 @@ Parsing XDC File [C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/dont_touch.xd
 Finished Parsing XDC File [C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 863.000 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 863.328 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 6 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 6 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 863.000 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 863.328 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 863.000 ; gain = 310.676
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 863.328 ; gain = 311.695
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z007sclg225-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 863.000 ; gain = 310.676
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 863.328 ; gain = 311.695
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -316,16 +363,18 @@ Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_srstb. (constraint
 Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/axi_iic_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_quad_spi_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/rst_ps7_0_10M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/rst_ps7_0_50M. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/axi_quad_spi_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/m01_couplers/auto_cc. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 863.000 ; gain = 310.676
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 863.328 ; gain = 311.695
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 863.000 ; gain = 310.676
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 863.328 ; gain = 311.695
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -360,14 +409,10 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M00_ACLK
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M00_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M01_ACLK
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M01_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port S00_ACLK
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port S00_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_2 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_2 has unconnected port M00_ARESETN
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 863.000 ; gain = 310.676
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 863.328 ; gain = 311.695
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -382,13 +427,13 @@ INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/processing_sys
 INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/processing_system7_0/FCLK_CLK1' to pin 'design_1_i/processing_system7_0/bbstub_FCLK_CLK1/O'
 INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:00:54 . Memory (MB): peak = 876.293 ; gain = 323.969
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 873.090 ; gain = 321.457
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:54 . Memory (MB): peak = 876.441 ; gain = 324.117
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 873.238 ; gain = 321.605
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -400,7 +445,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:46 ; elapsed = 00:00:54 . Memory (MB): peak = 886.465 ; gain = 334.141
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 883.207 ; gain = 331.574
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -424,7 +469,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:51 ; elapsed = 00:00:59 . Memory (MB): peak = 901.277 ; gain = 348.953
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 899.020 ; gain = 347.387
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -437,7 +482,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:51 ; elapsed = 00:00:59 . Memory (MB): peak = 901.277 ; gain = 348.953
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 899.020 ; gain = 347.387
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -449,25 +494,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:51 ; elapsed = 00:00:59 . Memory (MB): peak = 901.277 ; gain = 348.953
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 899.020 ; gain = 347.387
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:51 ; elapsed = 00:00:59 . Memory (MB): peak = 901.277 ; gain = 348.953
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 899.020 ; gain = 347.387
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:51 ; elapsed = 00:00:59 . Memory (MB): peak = 901.277 ; gain = 348.953
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 899.020 ; gain = 347.387
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:51 ; elapsed = 00:00:59 . Memory (MB): peak = 901.277 ; gain = 348.953
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 899.020 ; gain = 347.387
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -477,59 +522,64 @@ Report BlackBoxes:
 +------+--------------------------------+----------+
 |      |BlackBox name                   |Instances |
 +------+--------------------------------+----------+
-|1     |design_1_xbar_0                 |         1|
-|2     |design_1_auto_pc_0              |         1|
-|3     |design_1_axi_iic_0_0            |         1|
-|4     |design_1_axi_quad_spi_0_0       |         1|
-|5     |design_1_processing_system7_0_0 |         1|
-|6     |design_1_rst_ps7_0_50M_0        |         1|
+|1     |design_1_xbar_2                 |         1|
+|2     |design_1_auto_cc_1              |         1|
+|3     |design_1_auto_pc_2              |         1|
+|4     |design_1_axi_iic_0_0            |         1|
+|5     |design_1_axi_quad_spi_0_0       |         1|
+|6     |design_1_processing_system7_0_0 |         1|
+|7     |design_1_rst_ps7_0_10M_0        |         1|
+|8     |design_1_rst_ps7_0_50M_2        |         1|
 +------+--------------------------------+----------+
 
 Report Cell Usage: 
 +------+---------------------------------------+------+
 |      |Cell                                   |Count |
 +------+---------------------------------------+------+
-|1     |design_1_auto_pc_0_bbox_3              |     1|
-|2     |design_1_axi_iic_0_0_bbox_0            |     1|
-|3     |design_1_axi_quad_spi_0_0_bbox_1       |     1|
-|4     |design_1_processing_system7_0_0_bbox_2 |     1|
-|5     |design_1_rst_ps7_0_50M_0_bbox_5        |     1|
-|6     |design_1_xbar_0_bbox_4                 |     1|
-|7     |IOBUF                                  |     6|
+|1     |design_1_auto_cc_1_bbox_3              |     1|
+|2     |design_1_auto_pc_2_bbox_4              |     1|
+|3     |design_1_axi_iic_0_0_bbox_0            |     1|
+|4     |design_1_axi_quad_spi_0_0_bbox_1       |     1|
+|5     |design_1_processing_system7_0_0_bbox_2 |     1|
+|6     |design_1_rst_ps7_0_10M_0_bbox_6        |     1|
+|7     |design_1_rst_ps7_0_50M_2_bbox_7        |     1|
+|8     |design_1_xbar_2_bbox_5                 |     1|
+|9     |IOBUF                                  |     6|
 +------+---------------------------------------+------+
 
 Report Instance Areas: 
 +------+---------------------+----------------------------+------+
 |      |Instance             |Module                      |Cells |
 +------+---------------------+----------------------------+------+
-|1     |top                  |                            |   791|
-|2     |  design_1_i         |design_1                    |   785|
-|3     |    ps7_0_axi_periph |design_1_ps7_0_axi_periph_0 |   440|
-|4     |      s00_couplers   |s00_couplers_imp_UYSKKA     |   177|
+|1     |top                  |                            |   898|
+|2     |  design_1_i         |design_1                    |   892|
+|3     |    ps7_0_axi_periph |design_1_ps7_0_axi_periph_2 |   542|
+|4     |      m01_couplers   |m01_couplers_imp_XU9C55     |   102|
+|5     |      s00_couplers   |s00_couplers_imp_UYSKKA     |   177|
 +------+---------------------+----------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:51 ; elapsed = 00:00:59 . Memory (MB): peak = 901.277 ; gain = 348.953
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 899.020 ; gain = 347.387
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:35 ; elapsed = 00:00:51 . Memory (MB): peak = 901.277 ; gain = 285.563
-Synthesis Optimization Complete : Time (s): cpu = 00:00:51 ; elapsed = 00:00:59 . Memory (MB): peak = 901.277 ; gain = 348.953
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 899.020 ; gain = 283.199
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 899.020 ; gain = 347.387
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 920.172 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 912.766 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 6 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 6 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-53 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
+57 Infos, 58 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:03 ; elapsed = 00:01:14 . Memory (MB): peak = 920.172 ; gain = 624.434
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 920.172 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 912.766 ; gain = 616.383
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 912.766 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/FPGA/ImpedancePmod/ImpedancePmod.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Oct 24 09:16:36 2019...
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 18 21:22:33 2019...
