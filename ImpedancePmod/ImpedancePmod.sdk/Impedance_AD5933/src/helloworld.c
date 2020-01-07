@@ -70,7 +70,7 @@ int main()
     if(Status != XST_SUCCESS) {
     	return XST_FAILURE;
     }
-    initMCSP(&SpiInstance);
+    initMCSP();
 
 
     while(1){
@@ -96,7 +96,7 @@ int main()
     		//measureImpedance();
     		//writeSerialImpedanceArray();
 
-    		mode = 2;
+    		mode = 1;
     		//Mode 1 for single frequency, mode 2 for sweeping freqs.
     		if (mode == 1)
     		{
@@ -156,6 +156,8 @@ int main()
     			}
 			}
     		print("EIT program completed by Gilles Lenaerts.\n");
+    	    sendMCSP(GPIOA_ADR, 0x00);
+    	    sendMCSP(GPIOB_ADR, 0x00);
     	}
     }
     cleanup_platform();

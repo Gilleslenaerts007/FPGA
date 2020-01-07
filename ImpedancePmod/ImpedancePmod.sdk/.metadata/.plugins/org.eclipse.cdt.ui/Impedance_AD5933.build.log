@@ -1,8 +1,8 @@
-16:43:12 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
+22:51:21 **** Incremental Build of configuration Debug for project Impedance_AD5933 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for 'main-build'.
 
-16:43:12 Build Finished (took 292ms)
+22:51:21 Build Finished (took 156ms)
 

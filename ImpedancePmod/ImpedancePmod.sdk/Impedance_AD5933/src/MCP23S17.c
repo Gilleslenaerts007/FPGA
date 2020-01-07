@@ -3,18 +3,18 @@
 #include "MCP23S17.h"
 #include "AD5933.h"
 
-char aPortSEL, bPortSEL, rcalSEL, rfbSEL = 0x00;
-int rcalval = 0;
-uint8_t RCAL, RFB;
+char rcalSEL = 0x00;
 
 /*
 * Rcal & RFB selects
  */
 int RCal_RFB_Select(int RCAL, int RFB){
+
+	static char aPortSEL=0x00;
+	static char bPortSEL=0x00;
+	static int rcalval;
+
 	rcalval = 0;
-	aPortSEL=0x00;
-	bPortSEL=0x00;
-    //portTransfer();
 
 	switch(RCAL)
 		{
@@ -47,13 +47,20 @@ int RCal_RFB_Select(int RCAL, int RFB){
 						break;
 		}
 		rcalSEL = aPortSEL;
-		portTransfer();
-		return rcalval;
+
+		//Transfer stage
+		sendMCSP(GPIOA_ADR, rcalSEL);
+		sendMCSP(GPIOB_ADR, bPortSEL);
+
+		return rcalval; 	//used in gainfactor
 }
 /*
 * Measurement main cycle program/function
  */
 void probeMeasureSelect(){
+
+	static char aPortSEL;
+	static char bPortSEL;
 
 	aPortSEL=0x00;
 	bPortSEL=0x00;
@@ -310,140 +317,78 @@ void probeMeasureSelect(){
 
 
 	//Transfer stage
-	portTransfer();
+	sendMCSP(GPIOA_ADR, aPortSEL | rcalSEL);
+	sendMCSP(GPIOB_ADR, bPortSEL);
 
   }
-
-
-/*
-* sorts input array on GPIO adresses.
- */
-void portSelection(char RegisterADR, char Port){
-
-	//arrayGPB[3], arrayGPA[3] = {0x00, 0x00, 0x00};
-	//int size = (int)(sizeof(arraySelection) / sizeof(arraySelection[0]));
-
-	if (RegisterADR == GPIOA_ADR) // GPIOA Register adress
-	{
-		arrayGPA[1] = GPIOA_ADR;
-		arrayGPA[2] = Port;
-	}
-	else if(RegisterADR == GPIOB_ADR) // GPIOB Register adress
-	{
-		arrayGPB[1] = GPIOB_ADR;
-		arrayGPB[2] = Port;
-	}
-
-	arrayGPB[0] = MCP23S17_SPI_ADDR;
-	arrayGPA[0] = MCP23S17_SPI_ADDR;
-
-	return;
-}
-
-/*
-* Prepare buffers & SPI Transfer.
- */
-void portTransfer(){
-	//Select ports
-	arrayGPB[0] = MCP23S17_SPI_ADDR;
-	arrayGPA[0] = MCP23S17_SPI_ADDR;
-
-	arrayGPA[1] = GPIOA_ADR;
-	arrayGPB[1] = GPIOB_ADR;
-
-	arrayGPA[2] = 0x00;
-	arrayGPB[2] = 0x00;
-
-	XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
-	XSpi_SetSlaveSelect(&SpiInstance, 0x00);
-
-	XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
-
-	arrayGPA[2] = aPortSEL | rcalSEL;
-	arrayGPB[2] = bPortSEL;
-
-	XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
-	XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
-
-}
-
 
 /*
 * Have to add Registers standard values, HAEN_ON, IODIR, BANK_ON
  */
-int SPIStart(XSpi* spiPTR, u16 spiID){
+int SPIStart(XSpi* spiPTR, u16 spiID)
+{
 	int Status;
-	XSpi_Config *confPTR;
+		XSpi_Config *confPTR;
 
-	confPTR = XSpi_LookupConfig(spiID);
-	if(confPTR == NULL) {
-		return XST_DEVICE_NOT_FOUND;
-	}
+		confPTR = XSpi_LookupConfig(spiID);
+		if(confPTR == NULL) {
+			return XST_DEVICE_NOT_FOUND;
+		}
 
-	Status = XSpi_CfgInitialize(spiPTR, confPTR, confPTR->BaseAddress);
-	if(Status != XST_SUCCESS) {
-		return XST_FAILURE;
-	}
+		Status = XSpi_CfgInitialize(spiPTR, confPTR, confPTR->BaseAddress);
+		if(Status != XST_SUCCESS) {
+			return XST_FAILURE;
+		}
 
-	Status = XSpi_SetOptions(spiPTR, XSP_MASTER_OPTION |
-			XSP_MANUAL_SSELECT_OPTION );
-	if(Status != XST_SUCCESS) {
-		return XST_FAILURE;
-	}
+		Status = XSpi_SetOptions(spiPTR, XSP_MASTER_OPTION |
+				XSP_MANUAL_SSELECT_OPTION );
+		if(Status != XST_SUCCESS) {
+			return XST_FAILURE;
+		}
 
-	XSpi_SetSlaveSelect(spiPTR, 0x01);
+		XSpi_SetSlaveSelect(spiPTR, 0x01);
 
-	XSpi_Start(spiPTR);
-	XSpi_IntrGlobalDisable(spiPTR);
+		XSpi_Start(spiPTR);
+		XSpi_IntrGlobalDisable(spiPTR);
 
-	return XST_SUCCESS;
+		return XST_SUCCESS;
+}
+
+/* mscpRegister : Register adress to be written to
+ * mcspRegValue : Value written to register
+ */
+void sendMCSP(char mcspRegister, char mcspRegValue)
+{
+	static char setConfigo[3];
+	setConfigo[0] = MCP23S17_SPI_ADDR;
+	setConfigo[1] = mcspRegister;
+	setConfigo[2] = mcspRegValue;
+	//XSpi_SetSlaveSelect(&SpiInstance, 0x01);
+	XSpi_Transfer(&SpiInstance,setConfigo, readBuffer, 3);
+	//XSpi_SetSlaveSelect(&SpiInstance, 0x00);
 }
 
 /*
 * initialze MCP23S17 for measurement
  */
-void initMCSP(XSpi* spiPTR)
+void initMCSP()
 {
-    //Init MCPS GPIO EXAPNDER WITH CORRECT CONFIG
-    setConfig[0] = MCP23S17_SPI_ADDR;
-    setConfig[1] = IOCON;
-    setConfig[2] = BANK_OFF | INT_MIRROR_OFF | SEQOP_OFF | DISSLW_OFF | HAEN_OFF |  ODR_OFF |  INTPOL_LOW;
-    XSpi_Transfer(spiPTR, setConfig, readBuffer, BUFFER_SIZE);
+	//Init MCPS GPIO EXAPNDER WITH CORRECT CONFIG
+	sendMCSP(IOCON, (BANK_OFF | INT_MIRROR_OFF | SEQOP_OFF | DISSLW_OFF | HAEN_OFF |  ODR_OFF |  INTPOL_LOW) );
 
     //Set IO Directions
-    setDirections[0] = MCP23S17_SPI_ADDR;
-    setDirections[1] = IODIRA;
-    setDirections[2] = 0x00;
-    XSpi_Transfer(spiPTR, setDirections, readBuffer, BUFFER_SIZE);
-    setDirections[1] = IODIRB;
-    XSpi_Transfer(spiPTR, setDirections, readBuffer, BUFFER_SIZE);
+    sendMCSP(IODIRA, 0x00);
+    sendMCSP(IODIRB, 0x00);
 
     //Set Pullups
-    setPullupsB[0] = MCP23S17_SPI_ADDR;
-    setPullupsB[1] = GPPUA;
-    setPullupsB[2] = 0x00;
-    XSpi_Transfer(spiPTR, setPullupsB, readBuffer, BUFFER_SIZE);
-    setPullupsB[1] = GPPUB;
-    XSpi_Transfer(spiPTR, setPullupsB, readBuffer, BUFFER_SIZE);
+    sendMCSP(GPPUA, 0x00);
+    sendMCSP(GPPUB, 0x00);
 
     //Set Pullups
-    setPullupsB[0] = MCP23S17_SPI_ADDR;
-    setPullupsB[1] = IPOLA;
-    setPullupsB[2] = 0x00;
-    XSpi_Transfer(spiPTR, setPullupsB, readBuffer, BUFFER_SIZE);
-    setPullupsB[1] = IPOLB;
-    XSpi_Transfer(spiPTR, setPullupsB, readBuffer, BUFFER_SIZE);
+    sendMCSP(IPOLA, 0x00);
+    sendMCSP(IPOLB, 0x00);
 
 	//Select ports
-	arrayGPB[0] = MCP23S17_SPI_ADDR;
-	arrayGPA[0] = MCP23S17_SPI_ADDR;
-
-	arrayGPA[1] = GPIOA_ADR;
-	arrayGPB[1] = GPIOB_ADR;
-
-	arrayGPA[2] = 0x00;
-	arrayGPB[2] = 0x00;
-
-	XSpi_Transfer(spiPTR, arrayGPB, readBuffer, BUFFER_SIZE);
-	XSpi_Transfer(spiPTR, arrayGPA, readBuffer, BUFFER_SIZE);
+    sendMCSP(GPIOA_ADR, 0x00);
+    sendMCSP(GPIOB_ADR, 0x00);
 }

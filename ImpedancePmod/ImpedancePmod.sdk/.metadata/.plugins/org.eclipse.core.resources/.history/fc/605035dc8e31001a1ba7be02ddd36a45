@@ -1,0 +1,120 @@
+#ifndef _MCP23S17_H_
+#define _MCP23S17_H_
+
+/*****************************************************************************/
+/***************************** Include Files *********************************/
+/*****************************************************************************/
+
+#include "xspi.h"
+
+/*****************************************************************************/
+/***************************** SPI Configs *********************************/
+/*****************************************************************************/
+#define SPI_BASEADDR 					XPAR_AXI_SPI_0_BASEADDR
+#define MCP23S17_SPI_ADDR      			0x40
+#define SPI_DEVICE_ID		XPAR_SPI_0_DEVICE_ID
+#define BUFFER_SIZE 3
+XSpi SpiInstance;
+char readBuffer[BUFFER_SIZE];
+char dummybuffer[BUFFER_SIZE];
+char arrayGPB[3], arrayGPA[3], setConfig[3],setDirections[3], setPullupsB[3];
+
+/*****************************************************************************/
+/***************************** Register Adresses *********************************/
+/*****************************************************************************/
+#define IODIRA 0x00     // MCP23x17 I/O Direction Register
+#define IODIRB 0x01     // 1 = Input (default), 0 = Output
+#define GPPUA 0x0C  // port A pullups
+#define GPPUB 0x0D  // port B pullups
+#define GPIOA_ADR 0x12  // port A
+#define GPIOB_ADR 0x13  // port B
+#define IOCON 		  0x0A  // I/O config (also 0x0B)
+#define IPOLA         0x02      //Input Polarity Register for PORTA
+#define IPOLB         0x03      //Input Polarity Register for PORTB
+#define GPINTENA      0x04      //Interrupt-on-change enable Register for PORTA
+#define GPINTENB      0x05      //Interrupt-on-change enable Register for PORTB
+#define DEFVALA       0x06      //Default Value Register for PORTA
+#define DEFVALB       0x07      //Default Value Register for PORTB
+#define INTCONA       0x08      //Interrupt-on-change control Register for PORTA
+#define INTCONB       0x09      //Interrupt-on-change control Register for PORTB
+#define INTFA         0x0E      //Interrupt flag Register for PORTA
+#define INTFB         0x0F      //Interrupt flag Register for PORTB
+#define INTCAPA       0x10      //Interrupt captured value Register for PORTA
+#define INTCAPB       0x11      //Interrupt captured value Register for PORTB
+#define GPIOA         0x12      //General purpose I/O Register for PORTA
+#define GPIOB         0x13      //General purpose I/O Register for PORTB
+#define OLATA         0x14      //Output latch Register for PORTA
+#define OLATB         0x15      //Output latch Register for PORTB
+
+// I/O config
+#define BANK_OFF 0x00  // addressing mode
+#define BANK_ON 0x80
+#define HAEN_ON 0x08  // hardware addressing (A2,A1,A0) all GND IF ON
+#define HAEN_OFF 0x00
+#define ODR_ON 0x04  // open drain for interupts
+#define ODR_OFF 0x00
+#define INTPOL_HIGH 0x02  // interupt polarity
+#define INTPOL_LOW 0x00
+#define DISSLW_ON 0x10  // slew rate
+#define DISSLW_OFF 0x00
+#define SEQOP_OFF 0x20  // incrementing address pointer
+#define SEQOP_ON 0x00
+#define INT_MIRROR_ON 0x40  // interupt mirror (INTa|INTb)
+#define INT_MIRROR_OFF 0x00
+
+// MCP GPIO Port Selection Defines
+#define	GPB0	0x01
+#define	GPB1	0x02
+#define	GPB2	0x04
+#define	GPB3	0x08
+#define	GPB4	0x10
+#define	GPB5	0x20
+#define	GPB6	0x40
+#define	GPB7	0x80
+#define	GPA0	0x01
+#define	GPA1	0x02
+#define	GPA2	0x04
+#define	GPA3	0x08
+#define	GPA4	0x10
+#define	GPA5	0x20
+#define	GPA6	0x40
+#define	GPA7	0x80
+
+/*****************************************************************************/
+/***************************** S *********************************/
+/*****************************************************************************/
+
+//MCP Variables
+int probeVoltCycle, probeCurrentCycle;  //cycle
+
+#define BUFFER_SIZE 3
+#define gpioSelect 0x0000FF // mask for GPIO port selection
+
+/**
+* Select Rcal & RFB Values. //In debugging uart input chooses 1,2,3.
+ */
+int RCal_RFB_Select(int RCAL, int RFB);
+
+/**
+* This function does a full measurement cycle of 8 probes with the MCP23S17 Port selects from a truth table.
+ */
+void probeMeasureSelect();
+
+/**
+* Transfer SPI port selects to both registers(GPA&GPB).
+ */
+void portTransfer();
+
+/*
+* Start SPI module with correct register values.
+ */
+int SPIStart(XSpi* spiPTR, u16 spiID);
+
+void sendMCSP(char mcspRegister, char mcspRegValue);
+
+/*
+* Start SPI module with correct register values.
+ */
+void initMCSP();
+
+#endif	// _MCP23S17_H_
