@@ -3,7 +3,7 @@
 #include "MCP23S17.h"
 #include "AD5933.h"
 
-char aPortSEL, bPortSEL, rcalSEL, rfbSEL = 0x00;
+char aPortSEL, bPortSEL = 0x00;
 int rcalval = 0;
 uint8_t RCAL, RFB;
 
@@ -34,19 +34,18 @@ int RCal_RFB_Select(int RCAL, int RFB){
 
 		switch(RFB)
 		{
-			case 1:     print(" & RFB1 10K.\n");
+			case 1:     print(" & RFB1 20K.\n");
 						break;
-			case 2:     print(" & RFB1 22K.\n");
+			case 2:     print(" & RFB1 10K.\n");
 						aPortSEL |= (GPA5);   //RFB 2
 						break;
-			case 3:     print(" & RFB1 1K.\n");
+			case 3:     print(" & RFB1 47K.\n");
 						aPortSEL |= (GPA4);   //Rcal 1
 						break;
 			case 4:     print(" & RFB1 66K.\n");
 						aPortSEL |= (GPA4 | GPA5);   //Rcal 1
 						break;
 		}
-		rcalSEL = aPortSEL;
 		portTransfer();
 		return rcalval;
 }
@@ -354,17 +353,24 @@ void portTransfer(){
 	arrayGPA[2] = 0x00;
 	arrayGPB[2] = 0x00;
 
+	XSpi_SetSlaveSelect(&SpiInstance, 0x01);
 	XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
 	XSpi_SetSlaveSelect(&SpiInstance, 0x00);
 
+	XSpi_SetSlaveSelect(&SpiInstance, 0x01);
 	XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+	XSpi_SetSlaveSelect(&SpiInstance, 0x00);
 
-	arrayGPA[2] = aPortSEL | rcalSEL;
+	arrayGPA[2] = aPortSEL;
 	arrayGPB[2] = bPortSEL;
 
+	XSpi_SetSlaveSelect(&SpiInstance, 0x01);
 	XSpi_Transfer(&SpiInstance, arrayGPB, readBuffer, BUFFER_SIZE);
-	XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+	XSpi_SetSlaveSelect(&SpiInstance, 0x00);
 
+	XSpi_SetSlaveSelect(&SpiInstance, 0x01);
+	XSpi_Transfer(&SpiInstance, arrayGPA, readBuffer, BUFFER_SIZE);
+	XSpi_SetSlaveSelect(&SpiInstance, 0x00);
 }
 
 

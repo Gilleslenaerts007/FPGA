@@ -57,7 +57,7 @@ def read():
 
 def main():	
     serial_port.baudrate = 115200
-    serial_port.port = 'COM4' #com6 on laptop.
+    serial_port.port = 'COM6' #com6 on laptop. COM4 on PC
     serial_port.timeout = 0.05
     if serial_port.isOpen(): serial_port.close()
     serial_port.open()

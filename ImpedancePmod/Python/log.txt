@@ -600,3 +600,123 @@
 18/12/19 23:36:12 ... Measuring..Temperature chip: 33 Celcius.
 18/12/19 23:36:12 ... Measure Impedance Completed.
 18/12/19 23:36:13 ... Is data ok? Type y/n or m(measure again).
+19/12/19 09:47:05 ... EIT program by Gilles Lenaerts.
+19/12/19 09:47:05 ... Started HW.. Press PS to start program..
+19/12/19 09:51:03 ... EIT program by Gilles Lenaerts.
+19/12/19 09:51:04 ... Started HW.. Press PS to start program..
+19/12/19 09:53:52 ... Choose Rcal: 1,2 or 3.
+19/12/19 09:54:05 ... Calibrate using RCAL2 22K. & RFB1 20K.
+19/12/19 09:54:05 ... Temperature: 24 Celcius
+19/12/19 09:54:14 ... Calibration complete.
+19/12/19 09:54:14 ... Measuring..Temperature chip: 27 Celcius.
+19/12/19 09:54:15 ... Measure Impedance Completed.
+19/12/19 09:54:16 ... Is data ok? Type y/n or m(measure again).
+19/12/19 09:54:43 ... Calibrate using RCAL2 22K. & RFB1 20K.
+19/12/19 09:54:44 ... Temperature: 29 Celcius
+19/12/19 09:54:53 ... Calibration complete.
+19/12/19 09:54:53 ... Measuring..Temperature chip: 29 Celcius.
+19/12/19 09:54:53 ... Measure Impedance Completed.
+19/12/19 09:54:54 ... Is data ok? Type y/n or m(measure again).
+19/12/19 09:55:10 ... Calibrate using RCAL2 22K. & RFB1 20K.
+19/12/19 09:55:10 ... Temperature: 29 Celcius
+19/12/19 09:55:19 ... Calibration complete.
+19/12/19 09:55:19 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 09:55:19 ... Measure Impedance Completed.
+19/12/19 09:55:21 ... Is data ok? Type y/n or m(measure again).
+19/12/19 09:58:28 ... Calibrate using RCAL2 22K. & RFB1 20K.
+19/12/19 09:58:28 ... Temperature: 30 Celcius
+19/12/19 09:58:37 ... Calibration complete.
+19/12/19 09:58:38 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 09:58:38 ... Measure Impedance Completed.
+19/12/19 09:58:39 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:07:38 ... Choose Rcal: 1,2 or 3.
+19/12/19 10:07:41 ... Calibrate using RCAL2 22K. & RFB1 20K.
+19/12/19 10:07:41 ... Temperature: 28 Celcius
+19/12/19 10:07:50 ... Calibration complete.
+19/12/19 10:07:50 ... Measuring..Temperature chip: 29 Celcius.
+19/12/19 10:07:51 ... Measure Impedance Completed.
+19/12/19 10:07:52 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:19:22 ... EIT program by Gilles Lenaerts.
+19/12/19 10:19:22 ... Started HW.. Press PS to start program..
+19/12/19 10:19:24 ... Choose Rcal: 1,2 or 3.
+19/12/19 10:19:26 ... Calibrate using RCAL2 22K. & RFB1 20K.
+19/12/19 10:19:26 ... Temperature: 25 Celcius
+19/12/19 10:19:35 ... Calibration complete.
+19/12/19 10:19:35 ... Measuring..Temperature chip: 27 Celcius.
+19/12/19 10:19:36 ... Measure Impedance Completed.
+19/12/19 10:19:37 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:21:39 ... Calibrate using RCAL2 22K. & RFB1 20K.
+19/12/19 10:21:39 ... Temperature: 30 Celcius
+19/12/19 10:21:48 ... Calibration complete.
+19/12/19 10:21:48 ... Measuring..Temperature chip: 29 Celcius.
+19/12/19 10:21:49 ... Measure Impedance Completed.
+19/12/19 10:21:50 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:23:18 ... EIT program by Gilles Lenaerts.
+19/12/19 10:23:18 ... Started HW.. Press PS to start program..
+19/12/19 10:23:20 ... Choose Rcal: 1,2 or 3.
+19/12/19 10:23:23 ... Calibrate using RCAL2 22K. & RFB1 10K.
+19/12/19 10:23:24 ... Temperature: 30 Celcius
+19/12/19 10:23:33 ... Calibration complete.
+19/12/19 10:23:33 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:23:33 ... Measure Impedance Completed.
+19/12/19 10:23:34 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:23:41 ... Calibrate using RCAL2 22K. & RFB1 10K.
+19/12/19 10:23:42 ... Temperature: 30 Celcius
+19/12/19 10:23:50 ... Calibration complete.
+19/12/19 10:23:51 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:23:51 ... Measure Impedance Completed.
+19/12/19 10:23:52 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:24:00 ... Calibrate using RCAL2 22K. & RFB1 10K.
+19/12/19 10:24:00 ... Temperature: 30 Celcius
+19/12/19 10:24:09 ... Calibration complete.
+19/12/19 10:24:09 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:24:09 ... Measure Impedance Completed.
+19/12/19 10:24:11 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:24:56 ... Calibrate using RCAL2 22K. & RFB1 10K.
+19/12/19 10:24:56 ... Temperature: 30 Celcius
+19/12/19 10:25:05 ... Calibration complete.
+19/12/19 10:25:05 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:25:06 ... Measure Impedance Completed.
+19/12/19 10:25:07 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:25:29 ... Calibrate using RCAL2 22K. & RFB1 10K.
+19/12/19 10:25:29 ... Temperature: 31 Celcius
+19/12/19 10:25:38 ... Calibration complete.
+19/12/19 10:25:39 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:25:39 ... Measure Impedance Completed.
+19/12/19 10:25:40 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:25:49 ... Calibrate using RCAL2 22K. & RFB1 10K.
+19/12/19 10:25:49 ... Temperature: 30 Celcius
+19/12/19 10:25:58 ... Calibration complete.
+19/12/19 10:25:58 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:25:58 ... Measure Impedance Completed.
+19/12/19 10:26:00 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:26:44 ... Calibrate using RCAL2 22K. & RFB1 10K.
+19/12/19 10:26:44 ... Temperature: 30 Celcius
+19/12/19 10:26:53 ... Calibration complete.
+19/12/19 10:26:53 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:26:53 ... Measure Impedance Completed.
+19/12/19 10:26:55 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:27:17 ... Calibrate using RCAL2 22K. & RFB1 10K.
+19/12/19 10:27:17 ... Temperature: 30 Celcius
+19/12/19 10:27:26 ... Calibration complete.
+19/12/19 10:27:26 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:27:26 ... Measure Impedance Completed.
+19/12/19 10:27:28 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:42:37 ... EIT program by Gilles Lenaerts.
+19/12/19 10:42:38 ... Started HW.. Press PS to start program..
+19/12/19 10:42:50 ... Choose Rcal: 1,2 or 3.
+19/12/19 10:42:57 ... Calibrate using RCAL3 47K. & RFB1 1K.
+19/12/19 10:42:57 ... Temperature: 30 Celcius
+19/12/19 10:43:06 ... Calibration complete.
+19/12/19 10:43:06 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:43:07 ... Measure Impedance Completed.
+19/12/19 10:43:08 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:45:09 ... EIT program by Gilles Lenaerts.
+19/12/19 10:45:09 ... Started HW.. Press PS to start program..
+19/12/19 10:45:20 ... Choose Rcal: 1,2 or 3.
+19/12/19 10:45:21 ... Calibrate using RCAL1 10K. & RFB1 1K.
+19/12/19 10:45:21 ... Temperature: 30 Celcius
+19/12/19 10:45:30 ... Calibration complete.
+19/12/19 10:45:31 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:45:31 ... Measure Impedance Completed.
+19/12/19 10:45:32 ... Is data ok? Type y/n or m(measure again).
