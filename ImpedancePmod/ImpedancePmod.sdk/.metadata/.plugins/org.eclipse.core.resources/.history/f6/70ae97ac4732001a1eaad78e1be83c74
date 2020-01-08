@@ -20,7 +20,7 @@ int RCal_RFB_Select(int RCAL, int RFB){
 		{
 			case 1:     print("Calibrate using RCAL1 10K.");
 						aPortSEL = (GPA6 | GPA7);   //Rcal 1
-						rcalval = 10000;
+						rcalval = 20000;
 						break;
 			case 2:     print("Calibrate using RCAL2 22K.");
 						aPortSEL = (GPA7);   //Rcal 1
@@ -317,7 +317,7 @@ void probeMeasureSelect(){
 
 
 	//Transfer stage
-	sendMCSP(GPIOA_ADR, aPortSEL);
+	sendMCSP(GPIOA_ADR, aPortSEL | rcalSEL);
 	sendMCSP(GPIOB_ADR, bPortSEL);
 
   }

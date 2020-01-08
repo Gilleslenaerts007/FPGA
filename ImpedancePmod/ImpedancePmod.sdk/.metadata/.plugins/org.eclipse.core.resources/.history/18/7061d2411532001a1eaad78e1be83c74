@@ -112,7 +112,6 @@ int main()
     		{
     			while (1){
     			measureImpedance();
-    			sleep(1);
     			}
     		}
 

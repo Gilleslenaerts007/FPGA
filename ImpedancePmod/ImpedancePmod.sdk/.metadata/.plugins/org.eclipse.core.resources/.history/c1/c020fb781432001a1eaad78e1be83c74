@@ -96,7 +96,7 @@ int main()
     		//measureImpedance();
     		//writeSerialImpedanceArray();
 
-    		mode = 2;
+    		mode = 1;
     		//Mode 1 for single frequency, mode 2 for sweeping freqs.
     		if (mode == 1)
     		{
@@ -110,10 +110,7 @@ int main()
     		//Sweep on the RCAL for sweeping data.
     		else if(mode == 2)
     		{
-    			while (1){
     			measureImpedance();
-    			sleep(1);
-    			}
     		}
 
 			writeSerialImpedanceArray();

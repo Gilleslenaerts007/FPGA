@@ -110,10 +110,7 @@ int main()
     		//Sweep on the RCAL for sweeping data.
     		else if(mode == 2)
     		{
-    			while (1){
     			measureImpedance();
-    			sleep(1);
-    			}
     		}
 
 			writeSerialImpedanceArray();

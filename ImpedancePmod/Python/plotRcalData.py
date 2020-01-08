@@ -118,7 +118,14 @@ c2 = dfplot.loc[:,'Rcal1']
 c3 = dfplot.loc[:,'Rcal2']
 c4 = dfplot.loc[:,'Rcal3']
 
+print(c1)
 
 plt.show()
+
+plt.loglog(c1, c2)
+plt.loglog(c1, c3)
+plt.loglog(c1, c4)
+plt.show
+
 
 

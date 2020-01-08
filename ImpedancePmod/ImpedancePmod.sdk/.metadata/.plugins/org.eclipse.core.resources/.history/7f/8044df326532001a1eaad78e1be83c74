@@ -317,7 +317,7 @@ void probeMeasureSelect(){
 
 
 	//Transfer stage
-	sendMCSP(GPIOA_ADR, aPortSEL);
+	sendMCSP(GPIOA_ADR, aPortSEL | rcalSEL);
 	sendMCSP(GPIOB_ADR, bPortSEL);
 
   }

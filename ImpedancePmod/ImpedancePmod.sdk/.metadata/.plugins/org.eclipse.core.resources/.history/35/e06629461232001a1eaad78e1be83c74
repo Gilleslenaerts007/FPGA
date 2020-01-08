@@ -91,12 +91,12 @@ int main()
     			rcalChoice = inbyte(); //krijgt een Decimal 49 bij 1, 50 bij 2 -> -48 bij transfer naar func.
     			rcalChoice = rcalChoice-48;
     		}
-    		calibration(RCal_RFB_Select(rcalChoice,1)); // Loopt vast als er geen hw connected is bij AD5933GetTemp(), logisch :)
+    		calibration(RCal_RFB_Select(rcalChoice,3)); // Loopt vast als er geen hw connected is bij AD5933GetTemp(), logisch :)
     		//debugging rcal for reference
     		//measureImpedance();
     		//writeSerialImpedanceArray();
 
-    		mode = 2;
+    		mode = 1;
     		//Mode 1 for single frequency, mode 2 for sweeping freqs.
     		if (mode == 1)
     		{
@@ -110,10 +110,7 @@ int main()
     		//Sweep on the RCAL for sweeping data.
     		else if(mode == 2)
     		{
-    			while (1){
     			measureImpedance();
-    			sleep(1);
-    			}
     		}
 
 			writeSerialImpedanceArray();
