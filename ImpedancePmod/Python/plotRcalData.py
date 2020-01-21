@@ -75,9 +75,9 @@ def makeDF(pandaFrame, filetoread):
     return pandaFrame
 
 #MAIN
-f1 = open('dataRcal1.txt')
-f2 = open('dataRcal2.txt')
-f3 = open('dataRcal3.txt')
+f1 = open('data1.txt')
+f2 = open('data2.txt')
+f3 = open('data3.txt')
 
 df1 = pd.DataFrame
 df2 = pd.DataFrame

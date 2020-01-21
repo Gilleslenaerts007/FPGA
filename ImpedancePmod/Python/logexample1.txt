@@ -1,0 +1,2731 @@
+18/12/19 22:03:40 ... EIT program by Gilles Lenaerts.
+18/12/19 22:03:41 ... Started HW.. Press PS to start program..
+18/12/19 22:04:12 ... EIT program by Gilles Lenaerts.
+18/12/19 22:04:12 ... Started HW.. Press PS to start program..
+18/12/19 22:05:09 ... EIT program by Gilles Lenaerts.
+18/12/19 22:05:09 ... Started HW.. Press PS to start program..
+18/12/19 22:05:27 ... EIT program by Gilles Lenaerts.
+18/12/19 22:05:27 ... Started HW.. Press PS to start program..
+18/12/19 22:06:07 ... EIT program by Gilles Lenaerts.
+18/12/19 22:06:07 ... Started HW.. Press PS to start program..
+18/12/19 22:07:14 ... EIT program by Gilles Lenaerts.
+18/12/19 22:07:14 ... Started HW.. Press PS to start program..
+18/12/19 22:07:24 ... EIT program by Gilles Lenaerts.
+18/12/19 22:07:24 ... Started HW.. Press PS to start program..
+18/12/19 22:08:11 ... EIT program by Gilles Lenaerts.
+18/12/19 22:08:16 ... Started HW.. Press PS to start program..
+18/12/19 22:08:16 ... Choose Rcal: 1,2 or 3.
+18/12/19 22:08:20 ... Calibrate using RCAL2 22K. & RFB1 20K.
+18/12/19 22:08:20 ... Temperature: 26 Celcius
+18/12/19 22:08:29 ... Calibration complete.
+18/12/19 22:08:29 ... Measure Impedance Completed.
+18/12/19 22:08:30 ... Measure Impedance Completed.
+18/12/19 22:08:30 ... Measure Impedance Completed.
+18/12/19 22:08:31 ... Measure Impedance Completed.
+18/12/19 22:08:31 ... Measure Impedance Completed.
+18/12/19 22:08:31 ... Measure Impedance Completed.
+18/12/19 22:08:32 ... Measure Impedance Completed.
+18/12/19 22:08:32 ... Measure Impedance Completed.
+18/12/19 22:08:33 ... Measure Impedance Completed.
+18/12/19 22:08:33 ... Measure Impedance Completed.
+18/12/19 22:08:33 ... Measure Impedance Completed.
+18/12/19 22:08:34 ... Measure Impedance Completed.
+18/12/19 22:08:34 ... Measure Impedance Completed.
+18/12/19 22:08:35 ... Measure Impedance Completed.
+18/12/19 22:08:35 ... Measure Impedance Completed.
+18/12/19 22:08:36 ... Measure Impedance Completed.
+18/12/19 22:08:36 ... Measure Impedance Completed.
+18/12/19 22:08:36 ... Measure Impedance Completed.
+18/12/19 22:08:37 ... Measure Impedance Completed.
+18/12/19 22:08:37 ... Measure Impedance Completed.
+18/12/19 22:08:38 ... Measure Impedance Completed.
+18/12/19 22:08:38 ... Measure Impedance Completed.
+18/12/19 22:08:38 ... Measure Impedance Completed.
+18/12/19 22:08:39 ... Measure Impedance Completed.
+18/12/19 22:08:39 ... Measure Impedance Completed.
+18/12/19 22:08:40 ... Measure Impedance Completed.
+18/12/19 22:08:40 ... Measure Impedance Completed.
+18/12/19 22:08:40 ... Measure Impedance Completed.
+18/12/19 22:08:41 ... Measure Impedance Completed.
+18/12/19 22:08:41 ... Measure Impedance Completed.
+18/12/19 22:08:42 ... Measure Impedance Completed.
+18/12/19 22:08:42 ... Measure Impedance Completed.
+18/12/19 22:08:42 ... Measure Impedance Completed.
+18/12/19 22:08:43 ... Measure Impedance Completed.
+18/12/19 22:08:43 ... Measure Impedance Completed.
+18/12/19 22:08:44 ... Measure Impedance Completed.
+18/12/19 22:08:44 ... Measure Impedance Completed.
+18/12/19 22:08:44 ... Measure Impedance Completed.
+18/12/19 22:08:45 ... Measure Impedance Completed.
+18/12/19 22:08:45 ... Measure Impedance Completed.
+18/12/19 22:08:46 ... Is data ok? Type y/n or m(measure again).
+18/12/19 22:12:39 ... EIT program by Gilles Lenaerts.
+18/12/19 22:12:40 ... Started HW.. Press PS to start program..
+18/12/19 22:12:48 ... Choose Rcal: 1,2 or 3.
+18/12/19 22:12:50 ... Calibrate using RCAL2 22K. & RFB1 20K.
+18/12/19 22:12:50 ... Temperature: 32 Celcius
+18/12/19 22:12:59 ... Calibration complete.
+18/12/19 22:12:59 ... Measure Impedance Completed.
+18/12/19 22:13:00 ... Measure Impedance Completed.
+18/12/19 22:13:00 ... Measure Impedance Completed.
+18/12/19 22:13:00 ... Measure Impedance Completed.
+18/12/19 22:13:01 ... Measure Impedance Completed.
+18/12/19 22:13:01 ... Measure Impedance Completed.
+18/12/19 22:13:02 ... Measure Impedance Completed.
+18/12/19 22:13:02 ... Measure Impedance Completed.
+18/12/19 22:13:02 ... Measure Impedance Completed.
+18/12/19 22:13:03 ... Measure Impedance Completed.
+18/12/19 22:13:03 ... Measure Impedance Completed.
+18/12/19 22:13:04 ... Measure Impedance Completed.
+18/12/19 22:13:04 ... Measure Impedance Completed.
+18/12/19 22:13:04 ... Measure Impedance Completed.
+18/12/19 22:13:05 ... Measure Impedance Completed.
+18/12/19 22:13:05 ... Measure Impedance Completed.
+18/12/19 22:13:06 ... Measure Impedance Completed.
+18/12/19 22:13:06 ... Measure Impedance Completed.
+18/12/19 22:13:06 ... Measure Impedance Completed.
+18/12/19 22:13:07 ... Measure Impedance Completed.
+18/12/19 22:13:07 ... Measure Impedance Completed.
+18/12/19 22:13:08 ... Measure Impedance Completed.
+18/12/19 22:13:08 ... Measure Impedance Completed.
+18/12/19 22:13:08 ... Measure Impedance Completed.
+18/12/19 22:13:09 ... Measure Impedance Completed.
+18/12/19 22:13:09 ... Measure Impedance Completed.
+18/12/19 22:13:10 ... Measure Impedance Completed.
+18/12/19 22:13:10 ... Measure Impedance Completed.
+18/12/19 22:13:10 ... Measure Impedance Completed.
+18/12/19 22:13:11 ... Measure Impedance Completed.
+18/12/19 22:13:11 ... Measure Impedance Completed.
+18/12/19 22:13:12 ... Measure Impedance Completed.
+18/12/19 22:13:12 ... Measure Impedance Completed.
+18/12/19 22:13:12 ... Measure Impedance Completed.
+18/12/19 22:13:13 ... Measure Impedance Completed.
+18/12/19 22:13:13 ... Measure Impedance Completed.
+18/12/19 22:13:14 ... Measure Impedance Completed.
+18/12/19 22:13:14 ... Measure Impedance Completed.
+18/12/19 22:13:14 ... Measure Impedance Completed.
+18/12/19 22:13:15 ... Measure Impedance Completed.
+18/12/19 22:13:15 ... Is data ok? Type y/n or m(measure again).
+18/12/19 22:14:08 ... Measure Impedance Completed.
+18/12/19 22:14:08 ... Measure Impedance Completed.
+18/12/19 22:14:09 ... Measure Impedance Completed.
+18/12/19 22:14:09 ... Measure Impedance Completed.
+18/12/19 22:14:09 ... Measure Impedance Completed.
+18/12/19 22:14:10 ... Measure Impedance Completed.
+18/12/19 22:14:10 ... Measure Impedance Completed.
+18/12/19 22:14:11 ... Measure Impedance Completed.
+18/12/19 22:14:11 ... Measure Impedance Completed.
+18/12/19 22:14:11 ... Measure Impedance Completed.
+18/12/19 22:14:12 ... Measure Impedance Completed.
+18/12/19 22:14:12 ... Measure Impedance Completed.
+18/12/19 22:14:13 ... Measure Impedance Completed.
+18/12/19 22:14:13 ... Measure Impedance Completed.
+18/12/19 22:14:13 ... Measure Impedance Completed.
+18/12/19 22:14:14 ... Measure Impedance Completed.
+18/12/19 22:14:14 ... Measure Impedance Completed.
+18/12/19 22:14:15 ... Measure Impedance Completed.
+18/12/19 22:14:15 ... Measure Impedance Completed.
+18/12/19 22:14:15 ... Measure Impedance Completed.
+18/12/19 22:14:16 ... Measure Impedance Completed.
+18/12/19 22:14:16 ... Measure Impedance Completed.
+18/12/19 22:14:17 ... Measure Impedance Completed.
+18/12/19 22:14:17 ... Measure Impedance Completed.
+18/12/19 22:14:17 ... Measure Impedance Completed.
+18/12/19 22:14:18 ... Measure Impedance Completed.
+18/12/19 22:14:18 ... Measure Impedance Completed.
+18/12/19 22:14:19 ... Measure Impedance Completed.
+18/12/19 22:14:19 ... Measure Impedance Completed.
+18/12/19 22:14:19 ... Measure Impedance Completed.
+18/12/19 22:14:20 ... Measure Impedance Completed.
+18/12/19 22:14:20 ... Measure Impedance Completed.
+18/12/19 22:14:21 ... Measure Impedance Completed.
+18/12/19 22:14:21 ... Measure Impedance Completed.
+18/12/19 22:14:22 ... Measure Impedance Completed.
+18/12/19 22:14:22 ... Measure Impedance Completed.
+18/12/19 22:14:22 ... Measure Impedance Completed.
+18/12/19 22:14:23 ... Measure Impedance Completed.
+18/12/19 22:14:23 ... Measure Impedance Completed.
+18/12/19 22:14:24 ... Measure Impedance Completed.
+18/12/19 22:14:24 ... Is data ok? Type y/n or m(measure again).
+18/12/19 22:15:22 ... EIT program by Gilles Lenaerts.
+18/12/19 22:15:23 ... Started HW.. Press PS to start program..
+18/12/19 22:54:44 ... EIT program by Gilles Lenaerts.
+18/12/19 22:54:44 ... Started HW.. Press PS to start program..
+18/12/19 22:54:51 ... Choose Rcal: 1,2 or 3.
+18/12/19 22:54:53 ... Calibrate using RCAL3 47K. & RFB1 20K.
+18/12/19 22:54:53 ... Temperature: 28 Celcius
+18/12/19 22:55:02 ... Calibration complete.
+18/12/19 22:55:02 ... Measure Impedance Completed.
+18/12/19 22:55:03 ... Measure Impedance Completed.
+18/12/19 22:55:03 ... Measure Impedance Completed.
+18/12/19 22:55:04 ... Measure Impedance Completed.
+18/12/19 22:55:04 ... Measure Impedance Completed.
+18/12/19 22:55:04 ... Measure Impedance Completed.
+18/12/19 22:55:05 ... Measure Impedance Completed.
+18/12/19 22:55:05 ... Measure Impedance Completed.
+18/12/19 22:55:06 ... Measure Impedance Completed.
+18/12/19 22:55:06 ... Measure Impedance Completed.
+18/12/19 22:55:06 ... Measure Impedance Completed.
+18/12/19 22:55:07 ... Measure Impedance Completed.
+18/12/19 22:55:07 ... Measure Impedance Completed.
+18/12/19 22:55:08 ... Measure Impedance Completed.
+18/12/19 22:55:08 ... Measure Impedance Completed.
+18/12/19 22:55:08 ... Measure Impedance Completed.
+18/12/19 22:55:09 ... Measure Impedance Completed.
+18/12/19 22:55:09 ... Measure Impedance Completed.
+18/12/19 22:55:10 ... Measure Impedance Completed.
+18/12/19 22:55:10 ... Measure Impedance Completed.
+18/12/19 22:55:10 ... Measure Impedance Completed.
+18/12/19 22:55:11 ... Measure Impedance Completed.
+18/12/19 22:55:11 ... Measure Impedance Completed.
+18/12/19 22:55:12 ... Measure Impedance Completed.
+18/12/19 22:55:12 ... Measure Impedance Completed.
+18/12/19 22:55:12 ... Measure Impedance Completed.
+18/12/19 22:55:13 ... Measure Impedance Completed.
+18/12/19 22:55:13 ... Measure Impedance Completed.
+18/12/19 22:55:14 ... Measure Impedance Completed.
+18/12/19 22:55:14 ... Measure Impedance Completed.
+18/12/19 22:55:14 ... Measure Impedance Completed.
+18/12/19 22:55:15 ... Measure Impedance Completed.
+18/12/19 22:55:15 ... Measure Impedance Completed.
+18/12/19 22:55:16 ... Measure Impedance Completed.
+18/12/19 22:55:16 ... Measure Impedance Completed.
+18/12/19 22:55:16 ... Measure Impedance Completed.
+18/12/19 22:55:17 ... Measure Impedance Completed.
+18/12/19 22:55:17 ... Measure Impedance Completed.
+18/12/19 22:55:18 ... Measure Impedance Completed.
+18/12/19 22:55:18 ... Measure Impedance Completed.
+18/12/19 22:55:18 ... Is data ok? Type y/n or m(measure again).
+18/12/19 22:55:53 ... Measure Impedance Completed.
+18/12/19 22:55:53 ... Measure Impedance Completed.
+18/12/19 22:55:54 ... Measure Impedance Completed.
+18/12/19 22:55:54 ... Measure Impedance Completed.
+18/12/19 22:55:54 ... Measure Impedance Completed.
+18/12/19 22:55:55 ... Measure Impedance Completed.
+18/12/19 22:55:55 ... Measure Impedance Completed.
+18/12/19 22:55:56 ... Measure Impedance Completed.
+18/12/19 22:55:56 ... Measure Impedance Completed.
+18/12/19 22:55:56 ... Measure Impedance Completed.
+18/12/19 22:55:57 ... Measure Impedance Completed.
+18/12/19 22:55:57 ... Measure Impedance Completed.
+18/12/19 22:55:58 ... Measure Impedance Completed.
+18/12/19 22:55:58 ... Measure Impedance Completed.
+18/12/19 22:55:58 ... Measure Impedance Completed.
+18/12/19 22:55:59 ... Measure Impedance Completed.
+18/12/19 22:55:59 ... Measure Impedance Completed.
+18/12/19 22:56:00 ... Measure Impedance Completed.
+18/12/19 22:56:00 ... Measure Impedance Completed.
+18/12/19 22:56:01 ... Measure Impedance Completed.
+18/12/19 22:56:01 ... Measure Impedance Completed.
+18/12/19 22:56:01 ... Measure Impedance Completed.
+18/12/19 22:56:02 ... Measure Impedance Completed.
+18/12/19 22:56:02 ... Measure Impedance Completed.
+18/12/19 22:56:03 ... Measure Impedance Completed.
+18/12/19 22:56:03 ... Measure Impedance Completed.
+18/12/19 22:56:03 ... Measure Impedance Completed.
+18/12/19 22:56:04 ... Measure Impedance Completed.
+18/12/19 22:56:04 ... Measure Impedance Completed.
+18/12/19 22:56:05 ... Measure Impedance Completed.
+18/12/19 22:56:05 ... Measure Impedance Completed.
+18/12/19 22:56:05 ... Measure Impedance Completed.
+18/12/19 22:56:06 ... Measure Impedance Completed.
+18/12/19 22:56:06 ... Measure Impedance Completed.
+18/12/19 22:56:07 ... Measure Impedance Completed.
+18/12/19 22:56:07 ... Measure Impedance Completed.
+18/12/19 22:56:07 ... Measure Impedance Completed.
+18/12/19 22:56:08 ... Measure Impedance Completed.
+18/12/19 22:56:08 ... Measure Impedance Completed.
+18/12/19 22:56:09 ... Measure Impedance Completed.
+18/12/19 22:56:09 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:00:59 ... EIT program by Gilles Lenaerts.
+18/12/19 23:00:59 ... Started HW.. Press PS to start program..
+18/12/19 23:06:57 ... EIT program by Gilles Lenaerts.
+18/12/19 23:06:57 ... Started HW.. Press PS to start program..
+18/12/19 23:07:20 ... Choose Rcal: 1,2 or 3.
+18/12/19 23:07:30 ... Calibrate using RCAL3 47K. & RFB1 20K.
+18/12/19 23:07:30 ... Temperature: 34 Celcius
+18/12/19 23:07:39 ... Calibration complete.
+18/12/19 23:07:40 ... Measure Impedance Completed.
+18/12/19 23:07:40 ... Measure Impedance Completed.
+18/12/19 23:07:40 ... Measure Impedance Completed.
+18/12/19 23:07:41 ... Measure Impedance Completed.
+18/12/19 23:07:41 ... Measure Impedance Completed.
+18/12/19 23:07:42 ... Measure Impedance Completed.
+18/12/19 23:07:42 ... Measure Impedance Completed.
+18/12/19 23:07:43 ... Measure Impedance Completed.
+18/12/19 23:07:43 ... Measure Impedance Completed.
+18/12/19 23:07:43 ... Measure Impedance Completed.
+18/12/19 23:07:44 ... Measure Impedance Completed.
+18/12/19 23:07:44 ... Measure Impedance Completed.
+18/12/19 23:07:45 ... Measure Impedance Completed.
+18/12/19 23:07:45 ... Measure Impedance Completed.
+18/12/19 23:07:45 ... Measure Impedance Completed.
+18/12/19 23:07:46 ... Measure Impedance Completed.
+18/12/19 23:07:46 ... Measure Impedance Completed.
+18/12/19 23:07:47 ... Measure Impedance Completed.
+18/12/19 23:07:47 ... Measure Impedance Completed.
+18/12/19 23:07:47 ... Measure Impedance Completed.
+18/12/19 23:07:48 ... Measure Impedance Completed.
+18/12/19 23:07:48 ... Measure Impedance Completed.
+18/12/19 23:07:49 ... Measure Impedance Completed.
+18/12/19 23:07:49 ... Measure Impedance Completed.
+18/12/19 23:07:49 ... Measure Impedance Completed.
+18/12/19 23:07:50 ... Measure Impedance Completed.
+18/12/19 23:07:50 ... Measure Impedance Completed.
+18/12/19 23:07:51 ... Measure Impedance Completed.
+18/12/19 23:07:51 ... Measure Impedance Completed.
+18/12/19 23:07:51 ... Measure Impedance Completed.
+18/12/19 23:07:52 ... Measure Impedance Completed.
+18/12/19 23:07:52 ... Measure Impedance Completed.
+18/12/19 23:07:53 ... Measure Impedance Completed.
+18/12/19 23:07:53 ... Measure Impedance Completed.
+18/12/19 23:07:53 ... Measure Impedance Completed.
+18/12/19 23:07:54 ... Measure Impedance Completed.
+18/12/19 23:07:54 ... Measure Impedance Completed.
+18/12/19 23:07:55 ... Measure Impedance Completed.
+18/12/19 23:07:55 ... Measure Impedance Completed.
+18/12/19 23:07:55 ... Measure Impedance Completed.
+18/12/19 23:07:56 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:20:45 ... Measure Impedance Completed.
+18/12/19 23:20:46 ... Measure Impedance Completed.
+18/12/19 23:20:46 ... Measure Impedance Completed.
+18/12/19 23:20:47 ... Measure Impedance Completed.
+18/12/19 23:20:47 ... Measure Impedance Completed.
+18/12/19 23:20:47 ... Measure Impedance Completed.
+18/12/19 23:20:48 ... Measure Impedance Completed.
+18/12/19 23:20:48 ... Measure Impedance Completed.
+18/12/19 23:20:49 ... Measure Impedance Completed.
+18/12/19 23:20:49 ... Measure Impedance Completed.
+18/12/19 23:20:49 ... Measure Impedance Completed.
+18/12/19 23:20:50 ... Measure Impedance Completed.
+18/12/19 23:20:50 ... Measure Impedance Completed.
+18/12/19 23:20:51 ... Measure Impedance Completed.
+18/12/19 23:20:51 ... Measure Impedance Completed.
+18/12/19 23:20:51 ... Measure Impedance Completed.
+18/12/19 23:20:52 ... Measure Impedance Completed.
+18/12/19 23:20:52 ... Measure Impedance Completed.
+18/12/19 23:20:53 ... Measure Impedance Completed.
+18/12/19 23:20:53 ... Measure Impedance Completed.
+18/12/19 23:20:53 ... Measure Impedance Completed.
+18/12/19 23:20:54 ... Measure Impedance Completed.
+18/12/19 23:20:54 ... Measure Impedance Completed.
+18/12/19 23:20:55 ... Measure Impedance Completed.
+18/12/19 23:20:55 ... Measure Impedance Completed.
+18/12/19 23:20:55 ... Measure Impedance Completed.
+18/12/19 23:20:56 ... Measure Impedance Completed.
+18/12/19 23:20:56 ... Measure Impedance Completed.
+18/12/19 23:20:57 ... Measure Impedance Completed.
+18/12/19 23:20:57 ... Measure Impedance Completed.
+18/12/19 23:20:57 ... Measure Impedance Completed.
+18/12/19 23:20:58 ... Measure Impedance Completed.
+18/12/19 23:20:58 ... Measure Impedance Completed.
+18/12/19 23:20:59 ... Measure Impedance Completed.
+18/12/19 23:20:59 ... Measure Impedance Completed.
+18/12/19 23:20:59 ... Measure Impedance Completed.
+18/12/19 23:21:00 ... Measure Impedance Completed.
+18/12/19 23:21:00 ... Measure Impedance Completed.
+18/12/19 23:21:01 ... Measure Impedance Completed.
+18/12/19 23:21:01 ... Measure Impedance Completed.
+18/12/19 23:21:02 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:22:13 ... Measure Impedance Completed.
+18/12/19 23:22:13 ... Measure Impedance Completed.
+18/12/19 23:22:14 ... Measure Impedance Completed.
+18/12/19 23:22:14 ... Measure Impedance Completed.
+18/12/19 23:22:14 ... Measure Impedance Completed.
+18/12/19 23:22:15 ... Measure Impedance Completed.
+18/12/19 23:22:15 ... Measure Impedance Completed.
+18/12/19 23:22:16 ... Measure Impedance Completed.
+18/12/19 23:22:16 ... Measure Impedance Completed.
+18/12/19 23:22:16 ... Measure Impedance Completed.
+18/12/19 23:22:17 ... Measure Impedance Completed.
+18/12/19 23:22:17 ... Measure Impedance Completed.
+18/12/19 23:22:18 ... Measure Impedance Completed.
+18/12/19 23:22:18 ... Measure Impedance Completed.
+18/12/19 23:22:18 ... Measure Impedance Completed.
+18/12/19 23:22:19 ... Measure Impedance Completed.
+18/12/19 23:22:19 ... Measure Impedance Completed.
+18/12/19 23:22:20 ... Measure Impedance Completed.
+18/12/19 23:22:20 ... Measure Impedance Completed.
+18/12/19 23:22:20 ... Measure Impedance Completed.
+18/12/19 23:22:21 ... Measure Impedance Completed.
+18/12/19 23:22:21 ... Measure Impedance Completed.
+18/12/19 23:22:22 ... Measure Impedance Completed.
+18/12/19 23:22:22 ... Measure Impedance Completed.
+18/12/19 23:22:22 ... Measure Impedance Completed.
+18/12/19 23:22:23 ... Measure Impedance Completed.
+18/12/19 23:22:23 ... Measure Impedance Completed.
+18/12/19 23:22:24 ... Measure Impedance Completed.
+18/12/19 23:22:24 ... Measure Impedance Completed.
+18/12/19 23:22:24 ... Measure Impedance Completed.
+18/12/19 23:22:25 ... Measure Impedance Completed.
+18/12/19 23:22:25 ... Measure Impedance Completed.
+18/12/19 23:22:26 ... Measure Impedance Completed.
+18/12/19 23:22:26 ... Measure Impedance Completed.
+18/12/19 23:22:27 ... Measure Impedance Completed.
+18/12/19 23:22:27 ... Measure Impedance Completed.
+18/12/19 23:22:27 ... Measure Impedance Completed.
+18/12/19 23:22:28 ... Measure Impedance Completed.
+18/12/19 23:22:28 ... Measure Impedance Completed.
+18/12/19 23:22:29 ... Measure Impedance Completed.
+18/12/19 23:22:29 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:23:40 ... Measure Impedance Completed.
+18/12/19 23:23:41 ... Measure Impedance Completed.
+18/12/19 23:23:41 ... Measure Impedance Completed.
+18/12/19 23:23:42 ... Measure Impedance Completed.
+18/12/19 23:23:42 ... Measure Impedance Completed.
+18/12/19 23:23:42 ... Measure Impedance Completed.
+18/12/19 23:23:43 ... Measure Impedance Completed.
+18/12/19 23:23:43 ... Measure Impedance Completed.
+18/12/19 23:23:44 ... Measure Impedance Completed.
+18/12/19 23:23:44 ... Measure Impedance Completed.
+18/12/19 23:23:44 ... Measure Impedance Completed.
+18/12/19 23:23:45 ... Measure Impedance Completed.
+18/12/19 23:23:45 ... Measure Impedance Completed.
+18/12/19 23:23:46 ... Measure Impedance Completed.
+18/12/19 23:23:46 ... Measure Impedance Completed.
+18/12/19 23:23:46 ... Measure Impedance Completed.
+18/12/19 23:23:47 ... Measure Impedance Completed.
+18/12/19 23:23:47 ... Measure Impedance Completed.
+18/12/19 23:23:48 ... Measure Impedance Completed.
+18/12/19 23:23:48 ... Measure Impedance Completed.
+18/12/19 23:23:48 ... Measure Impedance Completed.
+18/12/19 23:23:49 ... Measure Impedance Completed.
+18/12/19 23:23:49 ... Measure Impedance Completed.
+18/12/19 23:23:50 ... Measure Impedance Completed.
+18/12/19 23:23:50 ... Measure Impedance Completed.
+18/12/19 23:23:51 ... Measure Impedance Completed.
+18/12/19 23:23:51 ... Measure Impedance Completed.
+18/12/19 23:23:51 ... Measure Impedance Completed.
+18/12/19 23:23:52 ... Measure Impedance Completed.
+18/12/19 23:23:52 ... Measure Impedance Completed.
+18/12/19 23:23:53 ... Measure Impedance Completed.
+18/12/19 23:23:53 ... Measure Impedance Completed.
+18/12/19 23:23:53 ... Measure Impedance Completed.
+18/12/19 23:23:54 ... Measure Impedance Completed.
+18/12/19 23:23:54 ... Measure Impedance Completed.
+18/12/19 23:23:55 ... Measure Impedance Completed.
+18/12/19 23:23:55 ... Measure Impedance Completed.
+18/12/19 23:23:55 ... Measure Impedance Completed.
+18/12/19 23:23:56 ... Measure Impedance Completed.
+18/12/19 23:23:56 ... Measure Impedance Completed.
+18/12/19 23:23:57 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:24:03 ... Measure Impedance Completed.
+18/12/19 23:24:04 ... Measure Impedance Completed.
+18/12/19 23:24:04 ... Measure Impedance Completed.
+18/12/19 23:24:05 ... Measure Impedance Completed.
+18/12/19 23:24:05 ... Measure Impedance Completed.
+18/12/19 23:24:05 ... Measure Impedance Completed.
+18/12/19 23:24:06 ... Measure Impedance Completed.
+18/12/19 23:24:06 ... Measure Impedance Completed.
+18/12/19 23:24:07 ... Measure Impedance Completed.
+18/12/19 23:24:07 ... Measure Impedance Completed.
+18/12/19 23:24:07 ... Measure Impedance Completed.
+18/12/19 23:24:08 ... Measure Impedance Completed.
+18/12/19 23:24:08 ... Measure Impedance Completed.
+18/12/19 23:24:09 ... Measure Impedance Completed.
+18/12/19 23:24:09 ... Measure Impedance Completed.
+18/12/19 23:24:10 ... Measure Impedance Completed.
+18/12/19 23:24:10 ... Measure Impedance Completed.
+18/12/19 23:24:10 ... Measure Impedance Completed.
+18/12/19 23:24:11 ... Measure Impedance Completed.
+18/12/19 23:24:11 ... Measure Impedance Completed.
+18/12/19 23:24:12 ... Measure Impedance Completed.
+18/12/19 23:24:12 ... Measure Impedance Completed.
+18/12/19 23:24:12 ... Measure Impedance Completed.
+18/12/19 23:24:13 ... Measure Impedance Completed.
+18/12/19 23:24:13 ... Measure Impedance Completed.
+18/12/19 23:24:14 ... Measure Impedance Completed.
+18/12/19 23:24:14 ... Measure Impedance Completed.
+18/12/19 23:24:14 ... Measure Impedance Completed.
+18/12/19 23:24:15 ... Measure Impedance Completed.
+18/12/19 23:24:15 ... Measure Impedance Completed.
+18/12/19 23:24:16 ... Measure Impedance Completed.
+18/12/19 23:24:16 ... Measure Impedance Completed.
+18/12/19 23:24:16 ... Measure Impedance Completed.
+18/12/19 23:24:17 ... Measure Impedance Completed.
+18/12/19 23:24:17 ... Measure Impedance Completed.
+18/12/19 23:24:18 ... Measure Impedance Completed.
+18/12/19 23:24:18 ... Measure Impedance Completed.
+18/12/19 23:24:18 ... Measure Impedance Completed.
+18/12/19 23:24:19 ... Measure Impedance Completed.
+18/12/19 23:24:19 ... Measure Impedance Completed.
+18/12/19 23:24:20 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:25:12 ... Measure Impedance Completed.
+18/12/19 23:25:12 ... Measure Impedance Completed.
+18/12/19 23:25:13 ... Measure Impedance Completed.
+18/12/19 23:25:13 ... Measure Impedance Completed.
+18/12/19 23:25:14 ... Measure Impedance Completed.
+18/12/19 23:25:14 ... Measure Impedance Completed.
+18/12/19 23:25:14 ... Measure Impedance Completed.
+18/12/19 23:25:15 ... Measure Impedance Completed.
+18/12/19 23:25:15 ... Measure Impedance Completed.
+18/12/19 23:25:16 ... Measure Impedance Completed.
+18/12/19 23:25:16 ... Measure Impedance Completed.
+18/12/19 23:25:16 ... Measure Impedance Completed.
+18/12/19 23:25:17 ... Measure Impedance Completed.
+18/12/19 23:25:17 ... Measure Impedance Completed.
+18/12/19 23:25:18 ... Measure Impedance Completed.
+18/12/19 23:25:18 ... Measure Impedance Completed.
+18/12/19 23:25:18 ... Measure Impedance Completed.
+18/12/19 23:25:19 ... Measure Impedance Completed.
+18/12/19 23:25:19 ... Measure Impedance Completed.
+18/12/19 23:25:20 ... Measure Impedance Completed.
+18/12/19 23:25:20 ... Measure Impedance Completed.
+18/12/19 23:25:20 ... Measure Impedance Completed.
+18/12/19 23:25:21 ... Measure Impedance Completed.
+18/12/19 23:25:21 ... Measure Impedance Completed.
+18/12/19 23:25:22 ... Measure Impedance Completed.
+18/12/19 23:25:22 ... Measure Impedance Completed.
+18/12/19 23:25:22 ... Measure Impedance Completed.
+18/12/19 23:25:23 ... Measure Impedance Completed.
+18/12/19 23:25:23 ... Measure Impedance Completed.
+18/12/19 23:25:24 ... Measure Impedance Completed.
+18/12/19 23:25:24 ... Measure Impedance Completed.
+18/12/19 23:25:25 ... Measure Impedance Completed.
+18/12/19 23:25:25 ... Measure Impedance Completed.
+18/12/19 23:25:25 ... Measure Impedance Completed.
+18/12/19 23:25:26 ... Measure Impedance Completed.
+18/12/19 23:25:26 ... Measure Impedance Completed.
+18/12/19 23:25:27 ... Measure Impedance Completed.
+18/12/19 23:25:27 ... Measure Impedance Completed.
+18/12/19 23:25:27 ... Measure Impedance Completed.
+18/12/19 23:25:28 ... Measure Impedance Completed.
+18/12/19 23:25:28 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:26:35 ... Measure Impedance Completed.
+18/12/19 23:26:35 ... Measure Impedance Completed.
+18/12/19 23:26:36 ... Measure Impedance Completed.
+18/12/19 23:26:36 ... Measure Impedance Completed.
+18/12/19 23:26:37 ... Measure Impedance Completed.
+18/12/19 23:26:37 ... Measure Impedance Completed.
+18/12/19 23:26:37 ... Measure Impedance Completed.
+18/12/19 23:26:38 ... Measure Impedance Completed.
+18/12/19 23:26:38 ... Measure Impedance Completed.
+18/12/19 23:26:39 ... Measure Impedance Completed.
+18/12/19 23:26:39 ... Measure Impedance Completed.
+18/12/19 23:26:39 ... Measure Impedance Completed.
+18/12/19 23:26:40 ... Measure Impedance Completed.
+18/12/19 23:26:40 ... Measure Impedance Completed.
+18/12/19 23:26:41 ... Measure Impedance Completed.
+18/12/19 23:26:41 ... Measure Impedance Completed.
+18/12/19 23:26:41 ... Measure Impedance Completed.
+18/12/19 23:26:42 ... Measure Impedance Completed.
+18/12/19 23:26:42 ... Measure Impedance Completed.
+18/12/19 23:26:43 ... Measure Impedance Completed.
+18/12/19 23:26:43 ... Measure Impedance Completed.
+18/12/19 23:26:43 ... Measure Impedance Completed.
+18/12/19 23:26:44 ... Measure Impedance Completed.
+18/12/19 23:26:44 ... Measure Impedance Completed.
+18/12/19 23:26:45 ... Measure Impedance Completed.
+18/12/19 23:26:45 ... Measure Impedance Completed.
+18/12/19 23:26:45 ... Measure Impedance Completed.
+18/12/19 23:26:46 ... Measure Impedance Completed.
+18/12/19 23:26:46 ... Measure Impedance Completed.
+18/12/19 23:26:47 ... Measure Impedance Completed.
+18/12/19 23:26:47 ... Measure Impedance Completed.
+18/12/19 23:26:47 ... Measure Impedance Completed.
+18/12/19 23:26:48 ... Measure Impedance Completed.
+18/12/19 23:26:48 ... Measure Impedance Completed.
+18/12/19 23:26:49 ... Measure Impedance Completed.
+18/12/19 23:26:49 ... Measure Impedance Completed.
+18/12/19 23:26:49 ... Measure Impedance Completed.
+18/12/19 23:26:50 ... Measure Impedance Completed.
+18/12/19 23:26:50 ... Measure Impedance Completed.
+18/12/19 23:26:51 ... Measure Impedance Completed.
+18/12/19 23:26:51 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:27:02 ... EIT program completed by Gilles Lenaerts.
+18/12/19 23:27:04 ... Choose Rcal: 1,2 or 3.
+18/12/19 23:27:19 ... EIT program by Gilles Lenaerts.
+18/12/19 23:27:19 ... Started HW.. Press PS to start program..
+18/12/19 23:27:28 ... Choose Rcal: 1,2 or 3.
+18/12/19 23:27:41 ... Calibrate using RCAL3 47K. & RFB1 20K.
+18/12/19 23:27:42 ... Temperature: 33 Celcius
+18/12/19 23:27:51 ... Calibration complete.
+18/12/19 23:27:51 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:27:51 ... Measure Impedance Completed.
+18/12/19 23:27:52 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:28:18 ... Calibrate using RCAL3 47K. & RFB1 20K.
+18/12/19 23:28:18 ... Temperature: 33 Celcius
+18/12/19 23:28:27 ... Calibration complete.
+18/12/19 23:28:28 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:28:28 ... Measure Impedance Completed.
+18/12/19 23:28:29 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:30:24 ... Calibrate using RCAL3 47K. & RFB1 20K.
+18/12/19 23:30:24 ... Temperature: 33 Celcius
+18/12/19 23:30:33 ... Calibration complete.
+18/12/19 23:30:33 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:30:34 ... Measure Impedance Completed.
+18/12/19 23:30:35 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:31:03 ... EIT program by Gilles Lenaerts.
+18/12/19 23:31:03 ... Started HW.. Press PS to start program..
+18/12/19 23:31:06 ... Choose Rcal: 1,2 or 3.
+18/12/19 23:31:09 ... Calibrate using RCAL3 47K. & RFB1 20K.
+18/12/19 23:31:09 ... Temperature: 33 Celcius
+18/12/19 23:31:18 ... Calibration complete.
+18/12/19 23:31:18 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:31:19 ... Measure Impedance Completed.
+18/12/19 23:31:20 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:32:32 ... Calibrate using RCAL3 47K. & RFB1 20K.
+18/12/19 23:32:32 ... Temperature: 33 Celcius
+18/12/19 23:32:41 ... Calibration complete.
+18/12/19 23:32:41 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:32:42 ... Measure Impedance Completed.
+18/12/19 23:32:43 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:33:33 ... EIT program by Gilles Lenaerts.
+18/12/19 23:33:34 ... Started HW.. Press PS to start program..
+18/12/19 23:33:36 ... Choose Rcal: 1,2 or 3.
+18/12/19 23:33:39 ... Calibrate using RCAL2 22K. & RFB1 20K.
+18/12/19 23:33:39 ... Temperature: 33 Celcius
+18/12/19 23:33:48 ... Calibration complete.
+18/12/19 23:33:48 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:33:48 ... Measure Impedance Completed.
+18/12/19 23:33:50 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:33:58 ... Calibrate using RCAL2 22K. & RFB1 20K.
+18/12/19 23:33:58 ... Temperature: 33 Celcius
+18/12/19 23:34:07 ... Calibration complete.
+18/12/19 23:34:07 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:34:08 ... Measure Impedance Completed.
+18/12/19 23:34:09 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:35:20 ... Calibrate using RCAL2 22K. & RFB1 20K.
+18/12/19 23:35:20 ... Temperature: 33 Celcius
+18/12/19 23:35:29 ... Calibration complete.
+18/12/19 23:35:29 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:35:29 ... Measure Impedance Completed.
+18/12/19 23:35:31 ... Is data ok? Type y/n or m(measure again).
+18/12/19 23:35:58 ... EIT program by Gilles Lenaerts.
+18/12/19 23:35:58 ... Started HW.. Press PS to start program..
+18/12/19 23:36:01 ... Choose Rcal: 1,2 or 3.
+18/12/19 23:36:02 ... Calibrate using RCAL1 10K. & RFB1 20K.
+18/12/19 23:36:03 ... Temperature: 33 Celcius
+18/12/19 23:36:12 ... Calibration complete.
+18/12/19 23:36:12 ... Measuring..Temperature chip: 33 Celcius.
+18/12/19 23:36:12 ... Measure Impedance Completed.
+18/12/19 23:36:13 ... Is data ok? Type y/n or m(measure again).
+19/12/19 09:47:05 ... EIT program by Gilles Lenaerts.
+19/12/19 09:47:05 ... Started HW.. Press PS to start program..
+19/12/19 09:51:03 ... EIT program by Gilles Lenaerts.
+19/12/19 09:51:04 ... Started HW.. Press PS to start program..
+19/12/19 09:53:52 ... Choose Rcal: 1,2 or 3.
+19/12/19 09:54:05 ... Calibrate using RCAL2 22K. & RFB1 20K.
+19/12/19 09:54:05 ... Temperature: 24 Celcius
+19/12/19 09:54:14 ... Calibration complete.
+19/12/19 09:54:14 ... Measuring..Temperature chip: 27 Celcius.
+19/12/19 09:54:15 ... Measure Impedance Completed.
+19/12/19 09:54:16 ... Is data ok? Type y/n or m(measure again).
+19/12/19 09:54:43 ... Calibrate using RCAL2 22K. & RFB1 20K.
+19/12/19 09:54:44 ... Temperature: 29 Celcius
+19/12/19 09:54:53 ... Calibration complete.
+19/12/19 09:54:53 ... Measuring..Temperature chip: 29 Celcius.
+19/12/19 09:54:53 ... Measure Impedance Completed.
+19/12/19 09:54:54 ... Is data ok? Type y/n or m(measure again).
+19/12/19 09:55:10 ... Calibrate using RCAL2 22K. & RFB1 20K.
+19/12/19 09:55:10 ... Temperature: 29 Celcius
+19/12/19 09:55:19 ... Calibration complete.
+19/12/19 09:55:19 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 09:55:19 ... Measure Impedance Completed.
+19/12/19 09:55:21 ... Is data ok? Type y/n or m(measure again).
+19/12/19 09:58:28 ... Calibrate using RCAL2 22K. & RFB1 20K.
+19/12/19 09:58:28 ... Temperature: 30 Celcius
+19/12/19 09:58:37 ... Calibration complete.
+19/12/19 09:58:38 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 09:58:38 ... Measure Impedance Completed.
+19/12/19 09:58:39 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:07:38 ... Choose Rcal: 1,2 or 3.
+19/12/19 10:07:41 ... Calibrate using RCAL2 22K. & RFB1 20K.
+19/12/19 10:07:41 ... Temperature: 28 Celcius
+19/12/19 10:07:50 ... Calibration complete.
+19/12/19 10:07:50 ... Measuring..Temperature chip: 29 Celcius.
+19/12/19 10:07:51 ... Measure Impedance Completed.
+19/12/19 10:07:52 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:19:22 ... EIT program by Gilles Lenaerts.
+19/12/19 10:19:22 ... Started HW.. Press PS to start program..
+19/12/19 10:19:24 ... Choose Rcal: 1,2 or 3.
+19/12/19 10:19:26 ... Calibrate using RCAL2 22K. & RFB1 20K.
+19/12/19 10:19:26 ... Temperature: 25 Celcius
+19/12/19 10:19:35 ... Calibration complete.
+19/12/19 10:19:35 ... Measuring..Temperature chip: 27 Celcius.
+19/12/19 10:19:36 ... Measure Impedance Completed.
+19/12/19 10:19:37 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:21:39 ... Calibrate using RCAL2 22K. & RFB1 20K.
+19/12/19 10:21:39 ... Temperature: 30 Celcius
+19/12/19 10:21:48 ... Calibration complete.
+19/12/19 10:21:48 ... Measuring..Temperature chip: 29 Celcius.
+19/12/19 10:21:49 ... Measure Impedance Completed.
+19/12/19 10:21:50 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:23:18 ... EIT program by Gilles Lenaerts.
+19/12/19 10:23:18 ... Started HW.. Press PS to start program..
+19/12/19 10:23:20 ... Choose Rcal: 1,2 or 3.
+19/12/19 10:23:23 ... Calibrate using RCAL2 22K. & RFB1 10K.
+19/12/19 10:23:24 ... Temperature: 30 Celcius
+19/12/19 10:23:33 ... Calibration complete.
+19/12/19 10:23:33 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:23:33 ... Measure Impedance Completed.
+19/12/19 10:23:34 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:23:41 ... Calibrate using RCAL2 22K. & RFB1 10K.
+19/12/19 10:23:42 ... Temperature: 30 Celcius
+19/12/19 10:23:50 ... Calibration complete.
+19/12/19 10:23:51 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:23:51 ... Measure Impedance Completed.
+19/12/19 10:23:52 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:24:00 ... Calibrate using RCAL2 22K. & RFB1 10K.
+19/12/19 10:24:00 ... Temperature: 30 Celcius
+19/12/19 10:24:09 ... Calibration complete.
+19/12/19 10:24:09 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:24:09 ... Measure Impedance Completed.
+19/12/19 10:24:11 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:24:56 ... Calibrate using RCAL2 22K. & RFB1 10K.
+19/12/19 10:24:56 ... Temperature: 30 Celcius
+19/12/19 10:25:05 ... Calibration complete.
+19/12/19 10:25:05 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:25:06 ... Measure Impedance Completed.
+19/12/19 10:25:07 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:25:29 ... Calibrate using RCAL2 22K. & RFB1 10K.
+19/12/19 10:25:29 ... Temperature: 31 Celcius
+19/12/19 10:25:38 ... Calibration complete.
+19/12/19 10:25:39 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:25:39 ... Measure Impedance Completed.
+19/12/19 10:25:40 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:25:49 ... Calibrate using RCAL2 22K. & RFB1 10K.
+19/12/19 10:25:49 ... Temperature: 30 Celcius
+19/12/19 10:25:58 ... Calibration complete.
+19/12/19 10:25:58 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:25:58 ... Measure Impedance Completed.
+19/12/19 10:26:00 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:26:44 ... Calibrate using RCAL2 22K. & RFB1 10K.
+19/12/19 10:26:44 ... Temperature: 30 Celcius
+19/12/19 10:26:53 ... Calibration complete.
+19/12/19 10:26:53 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:26:53 ... Measure Impedance Completed.
+19/12/19 10:26:55 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:27:17 ... Calibrate using RCAL2 22K. & RFB1 10K.
+19/12/19 10:27:17 ... Temperature: 30 Celcius
+19/12/19 10:27:26 ... Calibration complete.
+19/12/19 10:27:26 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:27:26 ... Measure Impedance Completed.
+19/12/19 10:27:28 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:42:37 ... EIT program by Gilles Lenaerts.
+19/12/19 10:42:38 ... Started HW.. Press PS to start program..
+19/12/19 10:42:50 ... Choose Rcal: 1,2 or 3.
+19/12/19 10:42:57 ... Calibrate using RCAL3 47K. & RFB1 1K.
+19/12/19 10:42:57 ... Temperature: 30 Celcius
+19/12/19 10:43:06 ... Calibration complete.
+19/12/19 10:43:06 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:43:07 ... Measure Impedance Completed.
+19/12/19 10:43:08 ... Is data ok? Type y/n or m(measure again).
+19/12/19 10:45:09 ... EIT program by Gilles Lenaerts.
+19/12/19 10:45:09 ... Started HW.. Press PS to start program..
+19/12/19 10:45:20 ... Choose Rcal: 1,2 or 3.
+19/12/19 10:45:21 ... Calibrate using RCAL1 10K. & RFB1 1K.
+19/12/19 10:45:21 ... Temperature: 30 Celcius
+19/12/19 10:45:30 ... Calibration complete.
+19/12/19 10:45:31 ... Measuring..Temperature chip: 30 Celcius.
+19/12/19 10:45:31 ... Measure Impedance Completed.
+19/12/19 10:45:32 ... Is data ok? Type y/n or m(measure again).
+09/01/20 09:25:03 ... EIT program by Gilles Lenaerts.
+09/01/20 09:25:04 ... Started HW.. Press PS to start program..
+09/01/20 09:25:40 ... Choose Rcal: 1,2 or 3.
+09/01/20 09:25:46 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 09:25:46 ... Temperature: 21 Celcius
+09/01/20 09:25:55 ... Calibration complete.
+09/01/20 09:25:55 ... Measuring..Temperature chip: 25 Celcius.
+09/01/20 09:25:56 ... Measure Impedance Completed.
+09/01/20 09:25:57 ... Measuring..Temperature chip: 25 Celcius.
+09/01/20 09:25:58 ... Measure Impedance Completed.
+09/01/20 09:25:59 ... Measuring..Temperature chip: 25 Celcius.
+09/01/20 09:25:59 ... Measure Impedance Completed.
+09/01/20 09:26:00 ... Measuring..Temperature chip: 25 Celcius.
+09/01/20 09:26:01 ... Measure Impedance Completed.
+09/01/20 09:26:02 ... Measuring..Temperature chip: 25 Celcius.
+09/01/20 09:26:03 ... Measure Impedance Completed.
+09/01/20 09:26:04 ... Measuring..Temperature chip: 25 Celcius.
+09/01/20 09:26:04 ... Measure Impedance Completed.
+09/01/20 09:26:05 ... Measuring..Temperature chip: 25 Celcius.
+09/01/20 09:26:06 ... Measure Impedance Completed.
+09/01/20 09:26:07 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:08 ... Measure Impedance Completed.
+09/01/20 09:26:09 ... Measuring..Temperature chip: 25 Celcius.
+09/01/20 09:26:09 ... Measure Impedance Completed.
+09/01/20 09:26:10 ... Measuring..Temperature chip: 25 Celcius.
+09/01/20 09:26:11 ... Measure Impedance Completed.
+09/01/20 09:26:12 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:13 ... Measure Impedance Completed.
+09/01/20 09:26:14 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:14 ... Measure Impedance Completed.
+09/01/20 09:26:15 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:16 ... Measure Impedance Completed.
+09/01/20 09:26:17 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:18 ... Measure Impedance Completed.
+09/01/20 09:26:19 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:19 ... Measure Impedance Completed.
+09/01/20 09:26:20 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:21 ... Measure Impedance Completed.
+09/01/20 09:26:22 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:22 ... Measure Impedance Completed.
+09/01/20 09:26:24 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:24 ... Measure Impedance Completed.
+09/01/20 09:26:25 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:26 ... Measure Impedance Completed.
+09/01/20 09:26:27 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:27 ... Measure Impedance Completed.
+09/01/20 09:26:28 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:26:29 ... Measure Impedance Completed.
+09/01/20 09:26:30 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:31 ... Measure Impedance Completed.
+09/01/20 09:26:32 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:32 ... Measure Impedance Completed.
+09/01/20 09:26:33 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:34 ... Measure Impedance Completed.
+09/01/20 09:26:35 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:36 ... Measure Impedance Completed.
+09/01/20 09:26:37 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:26:37 ... Measure Impedance Completed.
+09/01/20 09:26:38 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:26:39 ... Measure Impedance Completed.
+09/01/20 09:26:40 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:26:41 ... Measure Impedance Completed.
+09/01/20 09:26:42 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:26:42 ... Measure Impedance Completed.
+09/01/20 09:26:43 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:26:44 ... Measure Impedance Completed.
+09/01/20 09:26:45 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:46 ... Measure Impedance Completed.
+09/01/20 09:26:47 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:47 ... Measure Impedance Completed.
+09/01/20 09:26:48 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:26:49 ... Measure Impedance Completed.
+09/01/20 09:26:50 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:26:51 ... Measure Impedance Completed.
+09/01/20 09:26:52 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:52 ... Measure Impedance Completed.
+09/01/20 09:26:53 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:26:54 ... Measure Impedance Completed.
+09/01/20 09:26:55 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:26:56 ... Measure Impedance Completed.
+09/01/20 09:26:57 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:26:57 ... Measure Impedance Completed.
+09/01/20 09:26:58 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:26:59 ... Measure Impedance Completed.
+09/01/20 09:27:00 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:27:01 ... Measure Impedance Completed.
+09/01/20 09:27:02 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:02 ... Measure Impedance Completed.
+09/01/20 09:27:03 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:04 ... Measure Impedance Completed.
+09/01/20 09:27:05 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:06 ... Measure Impedance Completed.
+09/01/20 09:27:07 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:07 ... Measure Impedance Completed.
+09/01/20 09:27:08 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:09 ... Measure Impedance Completed.
+09/01/20 09:27:10 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:11 ... Measure Impedance Completed.
+09/01/20 09:27:12 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:12 ... Measure Impedance Completed.
+09/01/20 09:27:13 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 09:27:14 ... Measure Impedance Completed.
+09/01/20 09:27:15 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:16 ... Measure Impedance Completed.
+09/01/20 09:27:17 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:17 ... Measure Impedance Completed.
+09/01/20 09:27:18 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:19 ... Measure Impedance Completed.
+09/01/20 09:27:20 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:21 ... Measure Impedance Completed.
+09/01/20 09:27:22 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:22 ... Measure Impedance Completed.
+09/01/20 09:27:23 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:24 ... Measure Impedance Completed.
+09/01/20 09:27:25 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:26 ... Measure Impedance Completed.
+09/01/20 09:27:27 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:27 ... Measure Impedance Completed.
+09/01/20 09:27:28 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:29 ... Measure Impedance Completed.
+09/01/20 09:27:30 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:31 ... Measure Impedance Completed.
+09/01/20 09:27:32 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:32 ... Measure Impedance Completed.
+09/01/20 09:27:33 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:34 ... Measure Impedance Completed.
+09/01/20 09:27:35 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:36 ... Measure Impedance Completed.
+09/01/20 09:27:37 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:27:37 ... Measure Impedance Completed.
+09/01/20 09:27:38 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:39 ... Measure Impedance Completed.
+09/01/20 09:27:40 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:41 ... Measure Impedance Completed.
+09/01/20 09:27:42 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:42 ... Measure Impedance Completed.
+09/01/20 09:27:43 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:44 ... Measure Impedance Completed.
+09/01/20 09:27:45 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:46 ... Measure Impedance Completed.
+09/01/20 09:27:47 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:47 ... Measure Impedance Completed.
+09/01/20 09:27:48 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:49 ... Measure Impedance Completed.
+09/01/20 09:27:50 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:51 ... Measure Impedance Completed.
+09/01/20 09:27:52 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:27:52 ... Measure Impedance Completed.
+09/01/20 09:27:53 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:27:54 ... Measure Impedance Completed.
+09/01/20 09:27:55 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:55 ... Measure Impedance Completed.
+09/01/20 09:27:57 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:57 ... Measure Impedance Completed.
+09/01/20 09:27:58 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:27:59 ... Measure Impedance Completed.
+09/01/20 09:28:00 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:00 ... Measure Impedance Completed.
+09/01/20 09:28:01 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:02 ... Measure Impedance Completed.
+09/01/20 09:28:03 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:04 ... Measure Impedance Completed.
+09/01/20 09:28:05 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:05 ... Measure Impedance Completed.
+09/01/20 09:28:06 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:07 ... Measure Impedance Completed.
+09/01/20 09:28:08 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:09 ... Measure Impedance Completed.
+09/01/20 09:28:10 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:10 ... Measure Impedance Completed.
+09/01/20 09:28:11 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:12 ... Measure Impedance Completed.
+09/01/20 09:28:13 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:14 ... Measure Impedance Completed.
+09/01/20 09:28:15 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:15 ... Measure Impedance Completed.
+09/01/20 09:28:16 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:17 ... Measure Impedance Completed.
+09/01/20 09:28:18 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:19 ... Measure Impedance Completed.
+09/01/20 09:28:20 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:20 ... Measure Impedance Completed.
+09/01/20 09:28:21 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:22 ... Measure Impedance Completed.
+09/01/20 09:28:23 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:24 ... Measure Impedance Completed.
+09/01/20 09:28:25 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:25 ... Measure Impedance Completed.
+09/01/20 09:28:26 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:27 ... Measure Impedance Completed.
+09/01/20 09:28:28 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:29 ... Measure Impedance Completed.
+09/01/20 09:28:30 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:30 ... Measure Impedance Completed.
+09/01/20 09:28:31 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:32 ... Measure Impedance Completed.
+09/01/20 09:28:33 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:34 ... Measure Impedance Completed.
+09/01/20 09:28:35 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:35 ... Measure Impedance Completed.
+09/01/20 09:28:36 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:37 ... Measure Impedance Completed.
+09/01/20 09:28:38 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:39 ... Measure Impedance Completed.
+09/01/20 09:28:40 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:40 ... Measure Impedance Completed.
+09/01/20 09:28:41 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:42 ... Measure Impedance Completed.
+09/01/20 09:28:43 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:44 ... Measure Impedance Completed.
+09/01/20 09:28:45 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:45 ... Measure Impedance Completed.
+09/01/20 09:28:46 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:47 ... Measure Impedance Completed.
+09/01/20 09:28:48 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:49 ... Measure Impedance Completed.
+09/01/20 09:28:50 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:50 ... Measure Impedance Completed.
+09/01/20 09:28:51 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:52 ... Measure Impedance Completed.
+09/01/20 09:28:53 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:54 ... Measure Impedance Completed.
+09/01/20 09:28:55 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:55 ... Measure Impedance Completed.
+09/01/20 09:28:56 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:28:57 ... Measure Impedance Completed.
+09/01/20 09:28:58 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:28:59 ... Measure Impedance Completed.
+09/01/20 09:29:00 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:00 ... Measure Impedance Completed.
+09/01/20 09:29:01 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:29:02 ... Measure Impedance Completed.
+09/01/20 09:29:03 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:04 ... Measure Impedance Completed.
+09/01/20 09:29:05 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:05 ... Measure Impedance Completed.
+09/01/20 09:29:06 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:07 ... Measure Impedance Completed.
+09/01/20 09:29:08 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:29:09 ... Measure Impedance Completed.
+09/01/20 09:29:10 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:10 ... Measure Impedance Completed.
+09/01/20 09:29:11 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:12 ... Measure Impedance Completed.
+09/01/20 09:29:13 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:14 ... Measure Impedance Completed.
+09/01/20 09:29:15 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:15 ... Measure Impedance Completed.
+09/01/20 09:29:16 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:17 ... Measure Impedance Completed.
+09/01/20 09:29:18 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:19 ... Measure Impedance Completed.
+09/01/20 09:29:20 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:20 ... Measure Impedance Completed.
+09/01/20 09:29:21 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:22 ... Measure Impedance Completed.
+09/01/20 09:29:23 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:24 ... Measure Impedance Completed.
+09/01/20 09:29:25 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:25 ... Measure Impedance Completed.
+09/01/20 09:29:26 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:27 ... Measure Impedance Completed.
+09/01/20 09:29:28 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:29 ... Measure Impedance Completed.
+09/01/20 09:29:30 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:30 ... Measure Impedance Completed.
+09/01/20 09:29:31 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:32 ... Measure Impedance Completed.
+09/01/20 09:29:33 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:33 ... Measure Impedance Completed.
+09/01/20 09:29:34 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:35 ... Measure Impedance Completed.
+09/01/20 09:29:36 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:37 ... Measure Impedance Completed.
+09/01/20 09:29:38 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:38 ... Measure Impedance Completed.
+09/01/20 09:29:39 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:40 ... Measure Impedance Completed.
+09/01/20 09:29:41 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:42 ... Measure Impedance Completed.
+09/01/20 09:29:43 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:43 ... Measure Impedance Completed.
+09/01/20 09:29:44 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:45 ... Measure Impedance Completed.
+09/01/20 09:29:46 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:47 ... Measure Impedance Completed.
+09/01/20 09:29:48 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:48 ... Measure Impedance Completed.
+09/01/20 09:29:49 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:29:50 ... Measure Impedance Completed.
+09/01/20 09:29:51 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:52 ... Measure Impedance Completed.
+09/01/20 09:29:53 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:53 ... Measure Impedance Completed.
+09/01/20 09:29:54 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:55 ... Measure Impedance Completed.
+09/01/20 09:29:56 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:57 ... Measure Impedance Completed.
+09/01/20 09:29:58 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:29:58 ... Measure Impedance Completed.
+09/01/20 09:29:59 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:00 ... Measure Impedance Completed.
+09/01/20 09:30:01 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:02 ... Measure Impedance Completed.
+09/01/20 09:30:03 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:30:03 ... Measure Impedance Completed.
+09/01/20 09:30:04 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:05 ... Measure Impedance Completed.
+09/01/20 09:30:06 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:07 ... Measure Impedance Completed.
+09/01/20 09:30:08 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:08 ... Measure Impedance Completed.
+09/01/20 09:30:09 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:10 ... Measure Impedance Completed.
+09/01/20 09:30:11 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:12 ... Measure Impedance Completed.
+09/01/20 09:30:13 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:13 ... Measure Impedance Completed.
+09/01/20 09:30:14 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:15 ... Measure Impedance Completed.
+09/01/20 09:30:16 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:17 ... Measure Impedance Completed.
+09/01/20 09:30:18 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:18 ... Measure Impedance Completed.
+09/01/20 09:30:19 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:20 ... Measure Impedance Completed.
+09/01/20 09:30:21 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:22 ... Measure Impedance Completed.
+09/01/20 09:30:23 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:23 ... Measure Impedance Completed.
+09/01/20 09:30:24 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:25 ... Measure Impedance Completed.
+09/01/20 09:30:26 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:27 ... Measure Impedance Completed.
+09/01/20 09:30:28 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:28 ... Measure Impedance Completed.
+09/01/20 09:30:29 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:30 ... Measure Impedance Completed.
+09/01/20 09:30:31 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:30:32 ... Measure Impedance Completed.
+09/01/20 09:30:33 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:33 ... Measure Impedance Completed.
+09/01/20 09:30:34 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:35 ... Measure Impedance Completed.
+09/01/20 09:30:36 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:37 ... Measure Impedance Completed.
+09/01/20 09:30:38 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:38 ... Measure Impedance Completed.
+09/01/20 09:30:39 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:40 ... Measure Impedance Completed.
+09/01/20 09:30:41 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:42 ... Measure Impedance Completed.
+09/01/20 09:30:43 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:43 ... Measure Impedance Completed.
+09/01/20 09:30:44 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:45 ... Measure Impedance Completed.
+09/01/20 09:30:46 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:47 ... Measure Impedance Completed.
+09/01/20 09:30:48 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:48 ... Measure Impedance Completed.
+09/01/20 09:30:49 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:50 ... Measure Impedance Completed.
+09/01/20 09:30:51 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:52 ... Measure Impedance Completed.
+09/01/20 09:30:53 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:53 ... Measure Impedance Completed.
+09/01/20 09:30:54 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 09:30:55 ... Measure Impedance Completed.
+09/01/20 09:30:56 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:57 ... Measure Impedance Completed.
+09/01/20 09:30:58 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:30:58 ... Measure Impedance Completed.
+09/01/20 09:30:59 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:00 ... Measure Impedance Completed.
+09/01/20 09:31:01 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:02 ... Measure Impedance Completed.
+09/01/20 09:31:03 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:03 ... Measure Impedance Completed.
+09/01/20 09:31:04 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:05 ... Measure Impedance Completed.
+09/01/20 09:31:06 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:07 ... Measure Impedance Completed.
+09/01/20 09:31:07 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:08 ... Measure Impedance Completed.
+09/01/20 09:31:09 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:10 ... Measure Impedance Completed.
+09/01/20 09:31:11 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:11 ... Measure Impedance Completed.
+09/01/20 09:31:12 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:31:13 ... Measure Impedance Completed.
+09/01/20 09:31:14 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:15 ... Measure Impedance Completed.
+09/01/20 09:31:16 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:16 ... Measure Impedance Completed.
+09/01/20 09:31:17 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:18 ... Measure Impedance Completed.
+09/01/20 09:31:19 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:20 ... Measure Impedance Completed.
+09/01/20 09:31:21 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:21 ... Measure Impedance Completed.
+09/01/20 09:31:22 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:23 ... Measure Impedance Completed.
+09/01/20 09:31:24 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:25 ... Measure Impedance Completed.
+09/01/20 09:31:26 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:26 ... Measure Impedance Completed.
+09/01/20 09:31:27 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:28 ... Measure Impedance Completed.
+09/01/20 09:31:29 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:30 ... Measure Impedance Completed.
+09/01/20 09:31:31 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:31 ... Measure Impedance Completed.
+09/01/20 09:31:32 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:33 ... Measure Impedance Completed.
+09/01/20 09:31:34 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:35 ... Measure Impedance Completed.
+09/01/20 09:31:36 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:36 ... Measure Impedance Completed.
+09/01/20 09:31:37 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:38 ... Measure Impedance Completed.
+09/01/20 09:31:39 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:40 ... Measure Impedance Completed.
+09/01/20 09:31:41 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:41 ... Measure Impedance Completed.
+09/01/20 09:31:42 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:43 ... Measure Impedance Completed.
+09/01/20 09:31:44 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:45 ... Measure Impedance Completed.
+09/01/20 09:31:46 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:46 ... Measure Impedance Completed.
+09/01/20 09:31:47 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:48 ... Measure Impedance Completed.
+09/01/20 09:31:49 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:31:50 ... Measure Impedance Completed.
+09/01/20 09:31:51 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:51 ... Measure Impedance Completed.
+09/01/20 09:31:52 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:53 ... Measure Impedance Completed.
+09/01/20 09:31:54 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:55 ... Measure Impedance Completed.
+09/01/20 09:31:56 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:56 ... Measure Impedance Completed.
+09/01/20 09:31:57 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:31:58 ... Measure Impedance Completed.
+09/01/20 09:31:59 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:32:00 ... Measure Impedance Completed.
+09/01/20 09:32:01 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:32:01 ... Measure Impedance Completed.
+09/01/20 09:32:02 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:32:03 ... Measure Impedance Completed.
+09/01/20 09:32:04 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:32:05 ... Measure Impedance Completed.
+09/01/20 09:32:06 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:32:06 ... Measure Impedance Completed.
+09/01/20 09:32:07 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:32:08 ... Measure Impedance Completed.
+09/01/20 09:32:09 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:32:10 ... Measure Impedance Completed.
+09/01/20 09:32:11 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:32:11 ... Measure Impedance Completed.
+09/01/20 09:32:12 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:32:13 ... Measure Impedance Completed.
+09/01/20 09:32:14 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:32:15 ... Measure Impedance Completed.
+09/01/20 09:32:16 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:32:16 ... Measure Impedance Completed.
+09/01/20 09:32:17 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:32:18 ... Measure Impedance Completed.
+09/01/20 09:32:19 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:33:02 ... Measure Impedance Completed.
+09/01/20 09:33:03 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:33:03 ... Measure Impedance Completed.
+09/01/20 09:33:04 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:33:05 ... Measure Impedance Completed.
+09/01/20 09:33:06 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:33:07 ... Measure Impedance Completed.
+09/01/20 09:33:08 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:33:08 ... Measure Impedance Completed.
+09/01/20 09:33:09 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:33:10 ... Measure Impedance Completed.
+09/01/20 09:33:11 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:33:12 ... Measure Impedance Completed.
+09/01/20 09:33:13 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:33:13 ... Measure Impedance Completed.
+09/01/20 09:33:14 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:33:15 ... Measure Impedance Completed.
+09/01/20 09:33:16 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:33:17 ... Measure Impedance Completed.
+09/01/20 09:33:18 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:33:18 ... Measure Impedance Completed.
+09/01/20 09:33:19 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:33:20 ... Measure Impedance Completed.
+09/01/20 09:33:21 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:33:22 ... Measure Impedance Completed.
+09/01/20 09:33:23 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:33:23 ... Measure Impedance Completed.
+09/01/20 09:33:24 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:33:25 ... Measure Impedance Completed.
+09/01/20 09:33:26 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:33:27 ... Measure Impedance Completed.
+09/01/20 09:33:28 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:36:29 ... Measure Impedance Completed.
+09/01/20 09:36:30 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:36:30 ... Measure Impedance Completed.
+09/01/20 09:36:31 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:37:10 ... EIT program by Gilles Lenaerts.
+09/01/20 09:37:10 ... Started HW.. Press PS to start program..
+09/01/20 09:37:11 ... Choose Rcal: 1,2 or 3.
+09/01/20 09:37:15 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 09:37:15 ... Temperature: 28 Celcius
+09/01/20 09:37:24 ... Calibration complete.
+09/01/20 09:37:24 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:39:34 ... EIT program by Gilles Lenaerts.
+09/01/20 09:39:34 ... Started HW.. Press PS to start program..
+09/01/20 09:39:35 ... Choose Rcal: 1,2 or 3.
+09/01/20 09:39:38 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 09:39:38 ... Temperature: 28 Celcius
+09/01/20 09:39:47 ... Calibration complete.
+09/01/20 09:39:47 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:39:47 ... Measure Impedance Completed.
+09/01/20 09:40:36 ... EIT program by Gilles Lenaerts.
+09/01/20 09:40:36 ... Started HW.. Press PS to start program..
+09/01/20 09:40:44 ... Choose Rcal: 1,2 or 3.
+09/01/20 09:40:47 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 09:40:48 ... Temperature: 28 Celcius
+09/01/20 09:40:57 ... Calibration complete.
+09/01/20 09:40:57 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:40:57 ... Measure Impedance Completed.
+09/01/20 09:42:39 ... EIT program by Gilles Lenaerts.
+09/01/20 09:42:39 ... Started HW.. Press PS to start program..
+09/01/20 09:42:41 ... Choose Rcal: 1,2 or 3.
+09/01/20 09:42:44 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 09:42:44 ... Temperature: 28 Celcius
+09/01/20 09:42:53 ... Calibration complete.
+09/01/20 09:42:53 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:42:54 ... Measure Impedance Completed.
+09/01/20 09:43:56 ... EIT program by Gilles Lenaerts.
+09/01/20 09:43:57 ... Started HW.. Press PS to start program..
+09/01/20 09:44:22 ... EIT program by Gilles Lenaerts.
+09/01/20 09:44:22 ... Started HW.. Press PS to start program..
+09/01/20 09:44:26 ... Choose Rcal: 1,2 or 3.
+09/01/20 09:44:27 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 09:44:28 ... Temperature: 28 Celcius
+09/01/20 09:44:37 ... Calibration complete.
+09/01/20 09:44:37 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:46:36 ... EIT program by Gilles Lenaerts.
+09/01/20 09:46:37 ... Started HW.. Press PS to start program..
+09/01/20 09:46:56 ... Choose Rcal: 1,2 or 3.
+09/01/20 09:46:59 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 09:46:59 ... Temperature: 28 Celcius
+09/01/20 09:47:08 ... Calibration complete.
+09/01/20 09:47:08 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:47:08 ... Measure Impedance Completed.
+09/01/20 09:47:46 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:48:49 ... EIT program by Gilles Lenaerts.
+09/01/20 09:49:27 ... Started HW.. Press PS to start program..
+09/01/20 09:49:27 ... EIT program by Gilles Lenaerts.
+09/01/20 09:49:27 ... Started HW.. Press PS to start program..
+09/01/20 09:49:27 ... Choose Rcal: 1,2 or 3.
+09/01/20 09:49:31 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 09:49:31 ... Temperature: 28 Celcius
+09/01/20 09:49:40 ... Calibration complete.
+09/01/20 09:49:40 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:49:40 ... Measure Impedance Completed.
+09/01/20 09:50:44 ... EIT program by Gilles Lenaerts.
+09/01/20 09:50:45 ... Started HW.. Press PS to start program..
+09/01/20 09:50:45 ... Choose Rcal: 1,2 or 3.
+09/01/20 09:50:47 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 09:50:47 ... Temperature: 28 Celcius
+09/01/20 09:50:56 ... Calibration complete.
+09/01/20 09:50:56 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:50:57 ... Measure Impedance Completed.
+09/01/20 09:51:21 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 09:51:22 ... Measure Impedance Completed.
+09/01/20 09:51:33 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:51:34 ... Measure Impedance Completed.
+09/01/20 09:51:35 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:51:35 ... Measure Impedance Completed.
+09/01/20 09:53:12 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:54:28 ... EIT program by Gilles Lenaerts.
+09/01/20 09:54:29 ... Started HW.. Press PS to start program..
+09/01/20 09:54:30 ... Choose Rcal: 1,2 or 3.
+09/01/20 09:54:32 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 09:54:32 ... Temperature: 28 Celcius
+09/01/20 09:54:45 ... Calibration complete.
+09/01/20 09:54:45 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:56:23 ... EIT program by Gilles Lenaerts.
+09/01/20 09:56:23 ... Started HW.. Press PS to start program..
+09/01/20 09:56:23 ... Choose Rcal: 1,2 or 3.
+09/01/20 09:56:24 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 09:56:25 ... Temperature: 28 Celcius
+09/01/20 09:56:34 ... Calibration complete.
+09/01/20 09:56:34 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:56:34 ... Measure Impedance Completed.
+09/01/20 09:56:35 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:56:51 ... Measure Impedance Completed.
+09/01/20 09:56:52 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:56:52 ... Measure Impedance Completed.
+09/01/20 09:56:53 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:56:54 ... Measure Impedance Completed.
+09/01/20 09:57:09 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:57:10 ... Measure Impedance Completed.
+09/01/20 09:57:11 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:57:11 ... Measure Impedance Completed.
+09/01/20 09:57:12 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:57:30 ... Measure Impedance Completed.
+09/01/20 09:57:33 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 09:57:35 ... Measure Impedance Completed.
+09/01/20 09:57:59 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:00:41 ... EIT program by Gilles Lenaerts.
+09/01/20 10:00:42 ... Started HW.. Press PS to start program..
+09/01/20 10:00:43 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:00:45 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 10:00:45 ... Temperature: 28 Celcius
+09/01/20 10:00:54 ... Calibration complete.
+09/01/20 10:00:54 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:00:56 ... Again
+09/01/20 10:01:01 ... Again
+09/01/20 10:01:05 ... Again
+09/01/20 10:01:15 ... Again
+09/01/20 10:01:18 ... Again
+09/01/20 10:02:03 ... Again
+09/01/20 10:02:03 ... Again
+09/01/20 10:02:03 ... Again
+09/01/20 10:02:03 ... Again
+09/01/20 10:02:04 ... Again
+09/01/20 10:02:04 ... Again
+09/01/20 10:02:04 ... Again
+09/01/20 10:02:04 ... Again
+09/01/20 10:02:04 ... Again
+09/01/20 10:02:05 ... Again
+09/01/20 10:02:05 ... Again
+09/01/20 10:02:05 ... Again
+09/01/20 10:02:05 ... Again
+09/01/20 10:02:05 ... Again
+09/01/20 10:02:06 ... Again
+09/01/20 10:02:06 ... Again
+09/01/20 10:02:06 ... Again
+09/01/20 10:02:06 ... Again
+09/01/20 10:02:06 ... Again
+09/01/20 10:02:07 ... Again
+09/01/20 10:02:07 ... Again
+09/01/20 10:02:07 ... Again
+09/01/20 10:02:07 ... Again
+09/01/20 10:02:07 ... Again
+09/01/20 10:02:08 ... Again
+09/01/20 10:02:08 ... Again
+09/01/20 10:02:08 ... Again
+09/01/20 10:02:08 ... Again
+09/01/20 10:02:08 ... Again
+09/01/20 10:02:09 ... Again
+09/01/20 10:02:09 ... Again
+09/01/20 10:02:09 ... Again
+09/01/20 10:02:09 ... Again
+09/01/20 10:02:09 ... Again
+09/01/20 10:02:10 ... Again
+09/01/20 10:02:10 ... Again
+09/01/20 10:02:10 ... Again
+09/01/20 10:02:10 ... Again
+09/01/20 10:02:10 ... Again
+09/01/20 10:02:11 ... Again
+09/01/20 10:02:11 ... Again
+09/01/20 10:02:11 ... Again
+09/01/20 10:02:11 ... Again
+09/01/20 10:02:12 ... Again
+09/01/20 10:02:12 ... Again
+09/01/20 10:02:12 ... Again
+09/01/20 10:02:12 ... Again
+09/01/20 10:02:12 ... Again
+09/01/20 10:02:13 ... Again
+09/01/20 10:02:13 ... Again
+09/01/20 10:02:13 ... Again
+09/01/20 10:02:13 ... Again
+09/01/20 10:02:13 ... Again
+09/01/20 10:02:14 ... Again
+09/01/20 10:02:14 ... Again
+09/01/20 10:02:14 ... Again
+09/01/20 10:02:14 ... Again
+09/01/20 10:02:14 ... Again
+09/01/20 10:02:15 ... Again
+09/01/20 10:02:15 ... Again
+09/01/20 10:02:15 ... Again
+09/01/20 10:02:15 ... Again
+09/01/20 10:02:15 ... Again
+09/01/20 10:02:16 ... Again
+09/01/20 10:02:16 ... Again
+09/01/20 10:02:16 ... Again
+09/01/20 10:02:16 ... Again
+09/01/20 10:02:16 ... Again
+09/01/20 10:02:17 ... Again
+09/01/20 10:02:17 ... Again
+09/01/20 10:02:17 ... Again
+09/01/20 10:02:17 ... Again
+09/01/20 10:02:17 ... Again
+09/01/20 10:02:18 ... Again
+09/01/20 10:02:18 ... Again
+09/01/20 10:02:18 ... Again
+09/01/20 10:02:18 ... Again
+09/01/20 10:02:19 ... Again
+09/01/20 10:02:19 ... Again
+09/01/20 10:02:19 ... Again
+09/01/20 10:02:19 ... Again
+09/01/20 10:02:19 ... Again
+09/01/20 10:02:20 ... Again
+09/01/20 10:02:20 ... Again
+09/01/20 10:02:20 ... Again
+09/01/20 10:02:20 ... Again
+09/01/20 10:02:20 ... Again
+09/01/20 10:02:21 ... Again
+09/01/20 10:02:21 ... Again
+09/01/20 10:02:21 ... Again
+09/01/20 10:02:21 ... Again
+09/01/20 10:02:21 ... Again
+09/01/20 10:02:22 ... Again
+09/01/20 10:02:22 ... Again
+09/01/20 10:02:22 ... Again
+09/01/20 10:02:22 ... Again
+09/01/20 10:02:22 ... Again
+09/01/20 10:02:23 ... Again
+09/01/20 10:02:23 ... Again
+09/01/20 10:02:23 ... Again
+09/01/20 10:02:23 ... Again
+09/01/20 10:02:23 ... Again
+09/01/20 10:02:24 ... Again
+09/01/20 10:02:24 ... Again
+09/01/20 10:02:24 ... Again
+09/01/20 10:02:24 ... Again
+09/01/20 10:02:24 ... Again
+09/01/20 10:02:25 ... Again
+09/01/20 10:02:25 ... Again
+09/01/20 10:02:25 ... Again
+09/01/20 10:02:25 ... Again
+09/01/20 10:02:25 ... Again
+09/01/20 10:02:26 ... Again
+09/01/20 10:02:26 ... Again
+09/01/20 10:02:26 ... Again
+09/01/20 10:02:26 ... Again
+09/01/20 10:02:27 ... Again
+09/01/20 10:02:27 ... Again
+09/01/20 10:02:27 ... Again
+09/01/20 10:02:27 ... Again
+09/01/20 10:02:27 ... Again
+09/01/20 10:02:28 ... Again
+09/01/20 10:02:28 ... Again
+09/01/20 10:02:28 ... Again
+09/01/20 10:02:28 ... Again
+09/01/20 10:02:28 ... Again
+09/01/20 10:02:29 ... Again
+09/01/20 10:02:29 ... Again
+09/01/20 10:02:29 ... Again
+09/01/20 10:02:29 ... Again
+09/01/20 10:02:29 ... Again
+09/01/20 10:02:30 ... Again
+09/01/20 10:02:30 ... Again
+09/01/20 10:02:30 ... Again
+09/01/20 10:02:30 ... Again
+09/01/20 10:02:30 ... Again
+09/01/20 10:02:31 ... Again
+09/01/20 10:02:31 ... Again
+09/01/20 10:02:31 ... Again
+09/01/20 10:02:31 ... Again
+09/01/20 10:02:31 ... Again
+09/01/20 10:02:32 ... Again
+09/01/20 10:02:32 ... Again
+09/01/20 10:02:32 ... Again
+09/01/20 10:02:32 ... Again
+09/01/20 10:02:32 ... Again
+09/01/20 10:02:33 ... Again
+09/01/20 10:02:33 ... Again
+09/01/20 10:02:33 ... Again
+09/01/20 10:02:33 ... Again
+09/01/20 10:02:33 ... Again
+09/01/20 10:02:34 ... Again
+09/01/20 10:02:34 ... Again
+09/01/20 10:02:34 ... Again
+09/01/20 10:02:34 ... Again
+09/01/20 10:02:34 ... Again
+09/01/20 10:02:35 ... Again
+09/01/20 10:02:35 ... Again
+09/01/20 10:02:35 ... Again
+09/01/20 10:02:35 ... Again
+09/01/20 10:02:35 ... Again
+09/01/20 10:02:36 ... Again
+09/01/20 10:02:36 ... Again
+09/01/20 10:02:36 ... Again
+09/01/20 10:02:36 ... Again
+09/01/20 10:02:36 ... Again
+09/01/20 10:02:37 ... Again
+09/01/20 10:02:37 ... Again
+09/01/20 10:02:37 ... Again
+09/01/20 10:02:37 ... Again
+09/01/20 10:02:37 ... Again
+09/01/20 10:02:38 ... Again
+09/01/20 10:02:38 ... Again
+09/01/20 10:02:38 ... Again
+09/01/20 10:02:38 ... Again
+09/01/20 10:02:38 ... Measure Impedance Completed.
+09/01/20 10:02:39 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:02:39 ... Again
+09/01/20 10:02:39 ... Again
+09/01/20 10:02:39 ... Again
+09/01/20 10:02:39 ... Again
+09/01/20 10:02:40 ... Again
+09/01/20 10:02:40 ... Again
+09/01/20 10:02:40 ... Again
+09/01/20 10:02:40 ... Again
+09/01/20 10:02:41 ... Again
+09/01/20 10:02:41 ... Again
+09/01/20 10:02:41 ... Again
+09/01/20 10:02:41 ... Again
+09/01/20 10:02:41 ... Again
+09/01/20 10:02:42 ... Again
+09/01/20 10:02:42 ... Again
+09/01/20 10:02:42 ... Again
+09/01/20 10:02:42 ... Again
+09/01/20 10:02:42 ... Again
+09/01/20 10:02:43 ... Again
+09/01/20 10:02:43 ... Again
+09/01/20 10:02:43 ... Again
+09/01/20 10:02:43 ... Again
+09/01/20 10:02:43 ... Again
+09/01/20 10:02:44 ... Again
+09/01/20 10:02:44 ... Again
+09/01/20 10:02:44 ... Again
+09/01/20 10:02:44 ... Again
+09/01/20 10:02:44 ... Again
+09/01/20 10:02:45 ... Again
+09/01/20 10:02:45 ... Again
+09/01/20 10:02:45 ... Again
+09/01/20 10:02:45 ... Again
+09/01/20 10:02:45 ... Again
+09/01/20 10:02:46 ... Again
+09/01/20 10:02:46 ... Again
+09/01/20 10:02:46 ... Again
+09/01/20 10:02:46 ... Again
+09/01/20 10:02:46 ... Again
+09/01/20 10:02:47 ... Again
+09/01/20 10:02:47 ... Again
+09/01/20 10:02:47 ... Again
+09/01/20 10:02:47 ... Again
+09/01/20 10:02:47 ... Again
+09/01/20 10:02:48 ... Again
+09/01/20 10:02:48 ... Again
+09/01/20 10:02:48 ... Again
+09/01/20 10:02:48 ... Again
+09/01/20 10:02:48 ... Again
+09/01/20 10:02:49 ... Again
+09/01/20 10:02:49 ... Again
+09/01/20 10:02:49 ... Again
+09/01/20 10:02:49 ... Again
+09/01/20 10:02:49 ... Again
+09/01/20 10:02:50 ... Again
+09/01/20 10:02:50 ... Again
+09/01/20 10:02:50 ... Again
+09/01/20 10:02:50 ... Again
+09/01/20 10:02:50 ... Again
+09/01/20 10:02:51 ... Again
+09/01/20 10:02:51 ... Again
+09/01/20 10:02:51 ... Again
+09/01/20 10:02:51 ... Again
+09/01/20 10:02:52 ... Again
+09/01/20 10:02:52 ... Again
+09/01/20 10:02:52 ... Again
+09/01/20 10:02:52 ... Again
+09/01/20 10:02:52 ... Again
+09/01/20 10:02:53 ... Again
+09/01/20 10:02:53 ... Again
+09/01/20 10:02:53 ... Again
+09/01/20 10:02:53 ... Again
+09/01/20 10:02:53 ... Again
+09/01/20 10:02:54 ... Again
+09/01/20 10:02:54 ... Again
+09/01/20 10:02:54 ... Again
+09/01/20 10:02:54 ... Again
+09/01/20 10:02:54 ... Again
+09/01/20 10:02:55 ... Again
+09/01/20 10:02:55 ... Again
+09/01/20 10:02:55 ... Again
+09/01/20 10:02:55 ... Again
+09/01/20 10:02:55 ... Again
+09/01/20 10:02:56 ... Again
+09/01/20 10:02:56 ... Again
+09/01/20 10:02:56 ... Again
+09/01/20 10:02:56 ... Again
+09/01/20 10:02:56 ... Again
+09/01/20 10:02:57 ... Again
+09/01/20 10:02:57 ... Again
+09/01/20 10:02:57 ... Again
+09/01/20 10:02:57 ... Again
+09/01/20 10:02:57 ... Again
+09/01/20 10:02:58 ... Again
+09/01/20 10:02:58 ... Again
+09/01/20 10:02:58 ... Again
+09/01/20 10:02:58 ... Again
+09/01/20 10:02:58 ... Again
+09/01/20 10:02:59 ... Again
+09/01/20 10:02:59 ... Again
+09/01/20 10:02:59 ... Again
+09/01/20 10:02:59 ... Again
+09/01/20 10:03:00 ... Again
+09/01/20 10:03:00 ... Again
+09/01/20 10:03:00 ... Again
+09/01/20 10:03:00 ... Again
+09/01/20 10:03:00 ... Again
+09/01/20 10:03:01 ... Again
+09/01/20 10:03:01 ... Again
+09/01/20 10:03:01 ... Again
+09/01/20 10:03:01 ... Again
+09/01/20 10:03:01 ... Again
+09/01/20 10:03:02 ... Again
+09/01/20 10:03:02 ... Again
+09/01/20 10:03:02 ... Again
+09/01/20 10:03:02 ... Again
+09/01/20 10:03:02 ... Again
+09/01/20 10:03:03 ... Again
+09/01/20 10:03:03 ... Again
+09/01/20 10:03:03 ... Again
+09/01/20 10:03:03 ... Again
+09/01/20 10:03:04 ... Again
+09/01/20 10:03:04 ... Again
+09/01/20 10:03:08 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:03:09 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 10:03:09 ... Temperature: 28 Celcius
+09/01/20 10:03:18 ... Calibration complete.
+09/01/20 10:03:18 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:03:19 ... Measure Impedance Completed.
+09/01/20 10:03:21 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:03:34 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:04:51 ... EIT program by Gilles Lenaerts.
+09/01/20 10:04:51 ... Started HW.. Press PS to start program..
+09/01/20 10:05:48 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:05:52 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 10:05:52 ... Temperature: 28 Celcius
+09/01/20 10:06:01 ... Calibration complete.
+09/01/20 10:06:01 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:06:01 ... Measure Impedance Completed.
+09/01/20 10:06:04 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:06:35 ... EIT program by Gilles Lenaerts.
+09/01/20 10:06:35 ... Started HW.. Press PS to start program..
+09/01/20 10:06:40 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:06:42 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 10:06:42 ... Temperature: 28 Celcius
+09/01/20 10:06:51 ... Calibration complete.
+09/01/20 10:06:51 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:10:20 ... EIT program by Gilles Lenaerts.
+09/01/20 10:10:22 ... Started HW.. Press PS to start program..
+09/01/20 10:10:23 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:10:24 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 10:10:24 ... Temperature: 28 Celcius
+09/01/20 10:10:33 ... Calibration complete.
+09/01/20 10:10:33 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:10:34 ... Measure Impedance Completed.
+09/01/20 10:10:36 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:12:33 ... EIT program by Gilles Lenaerts.
+09/01/20 10:12:33 ... Started HW.. Press PS to start program..
+09/01/20 10:12:34 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:12:37 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 10:12:37 ... Temperature: 28 Celcius
+09/01/20 10:12:46 ... Calibration complete.
+09/01/20 10:12:46 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:12:47 ... Measure Impedance Completed.
+09/01/20 10:12:49 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:13:35 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 10:13:35 ... Temperature: 28 Celcius
+09/01/20 10:13:44 ... Calibration complete.
+09/01/20 10:13:44 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:14:44 ... EIT program by Gilles Lenaerts.
+09/01/20 10:14:50 ... Started HW.. Press PS to start program..
+09/01/20 10:14:52 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:14:53 ... Calibrate using RCAL2 22K. & RFB1 10K.
+09/01/20 10:14:54 ... Temperature: 28 Celcius
+09/01/20 10:15:02 ... Calibration complete.
+09/01/20 10:15:03 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:17:47 ... Measure Impedance Completed.
+09/01/20 10:17:50 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:18:05 ... Calibrate using RCAL2 22K. & RFB1 10K.
+09/01/20 10:18:05 ... Temperature: 24 Celcius
+09/01/20 10:18:14 ... Calibration complete.
+09/01/20 10:18:14 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 10:19:10 ... Measure Impedance Completed.
+09/01/20 10:19:11 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:20:56 ... EIT program by Gilles Lenaerts.
+09/01/20 10:20:57 ... Started HW.. Press PS to start program..
+09/01/20 10:21:06 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:21:10 ... Calibrate using RCAL2 22K. & RFB1 10K.
+09/01/20 10:21:10 ... Temperature: 23 Celcius
+09/01/20 10:21:19 ... Calibration complete.
+09/01/20 10:21:19 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 10:21:20 ... Measure Impedance Completed.
+09/01/20 10:21:21 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 10:21:21 ... Measure Impedance Completed.
+09/01/20 10:21:22 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 10:21:23 ... Measure Impedance Completed.
+09/01/20 10:21:24 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 10:21:25 ... Measure Impedance Completed.
+09/01/20 10:21:26 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 10:21:26 ... Measure Impedance Completed.
+09/01/20 10:21:27 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 10:21:28 ... Measure Impedance Completed.
+09/01/20 10:21:29 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 10:21:30 ... Measure Impedance Completed.
+09/01/20 10:21:31 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 10:21:31 ... Measure Impedance Completed.
+09/01/20 10:21:32 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 10:21:33 ... Measure Impedance Completed.
+09/01/20 10:21:34 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 10:21:35 ... Measure Impedance Completed.
+09/01/20 10:21:36 ... Measuring..Temperature chip: 26 Celcius.
+09/01/20 10:21:36 ... Measure Impedance Completed.
+09/01/20 10:21:37 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 10:21:38 ... Measure Impedance Completed.
+09/01/20 10:21:39 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 10:21:40 ... Measure Impedance Completed.
+09/01/20 10:21:41 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 10:21:41 ... Measure Impedance Completed.
+09/01/20 10:21:42 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 10:21:43 ... Measure Impedance Completed.
+09/01/20 10:21:44 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 10:21:45 ... Measure Impedance Completed.
+09/01/20 10:21:46 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 10:22:41 ... Measure Impedance Completed.
+09/01/20 10:22:42 ... Measuring..Temperature chip: 27 Celcius.
+09/01/20 10:23:50 ... Measure Impedance Completed.
+09/01/20 10:23:51 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:23:52 ... Measure Impedance Completed.
+09/01/20 10:23:53 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:23:54 ... Measure Impedance Completed.
+09/01/20 10:23:55 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:23:55 ... Measure Impedance Completed.
+09/01/20 10:23:56 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:23:57 ... Measure Impedance Completed.
+09/01/20 10:23:58 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:23:59 ... Measure Impedance Completed.
+09/01/20 10:24:00 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:00 ... Measure Impedance Completed.
+09/01/20 10:24:01 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:02 ... Measure Impedance Completed.
+09/01/20 10:24:03 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:04 ... Measure Impedance Completed.
+09/01/20 10:24:05 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:05 ... Measure Impedance Completed.
+09/01/20 10:24:06 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:07 ... Measure Impedance Completed.
+09/01/20 10:24:08 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:09 ... Measure Impedance Completed.
+09/01/20 10:24:10 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:24:10 ... Measure Impedance Completed.
+09/01/20 10:24:11 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:12 ... Measure Impedance Completed.
+09/01/20 10:24:13 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:14 ... Measure Impedance Completed.
+09/01/20 10:24:15 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:24:15 ... Measure Impedance Completed.
+09/01/20 10:24:16 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:24:17 ... Measure Impedance Completed.
+09/01/20 10:24:18 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:18 ... Measure Impedance Completed.
+09/01/20 10:24:19 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:20 ... Measure Impedance Completed.
+09/01/20 10:24:21 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:22 ... Measure Impedance Completed.
+09/01/20 10:24:23 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:23 ... Measure Impedance Completed.
+09/01/20 10:24:24 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:25 ... Measure Impedance Completed.
+09/01/20 10:24:26 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:27 ... Measure Impedance Completed.
+09/01/20 10:24:28 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:28 ... Measure Impedance Completed.
+09/01/20 10:24:29 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:30 ... Measure Impedance Completed.
+09/01/20 10:24:31 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:24:32 ... Measure Impedance Completed.
+09/01/20 10:24:33 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:33 ... Measure Impedance Completed.
+09/01/20 10:24:34 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:35 ... Measure Impedance Completed.
+09/01/20 10:24:36 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:24:37 ... Measure Impedance Completed.
+09/01/20 10:24:38 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:24:38 ... Measure Impedance Completed.
+09/01/20 10:24:39 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:40 ... Measure Impedance Completed.
+09/01/20 10:24:41 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:42 ... Measure Impedance Completed.
+09/01/20 10:24:43 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:43 ... Measure Impedance Completed.
+09/01/20 10:24:44 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:45 ... Measure Impedance Completed.
+09/01/20 10:24:46 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:47 ... Measure Impedance Completed.
+09/01/20 10:24:48 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:24:48 ... Measure Impedance Completed.
+09/01/20 10:24:49 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:50 ... Measure Impedance Completed.
+09/01/20 10:24:51 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:52 ... Measure Impedance Completed.
+09/01/20 10:24:53 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:53 ... Measure Impedance Completed.
+09/01/20 10:24:54 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:24:55 ... Measure Impedance Completed.
+09/01/20 10:24:56 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:24:57 ... Measure Impedance Completed.
+09/01/20 10:24:58 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:24:58 ... Measure Impedance Completed.
+09/01/20 10:24:59 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:25:00 ... Measure Impedance Completed.
+09/01/20 10:25:01 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:25:02 ... Measure Impedance Completed.
+09/01/20 10:25:03 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:25:03 ... Measure Impedance Completed.
+09/01/20 10:25:04 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:25:41 ... Measure Impedance Completed.
+09/01/20 10:25:42 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:25:43 ... Measure Impedance Completed.
+09/01/20 10:25:44 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:25:44 ... Measure Impedance Completed.
+09/01/20 10:25:45 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:25:46 ... Measure Impedance Completed.
+09/01/20 10:25:47 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:25:48 ... Measure Impedance Completed.
+09/01/20 10:25:49 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:25:49 ... Measure Impedance Completed.
+09/01/20 10:25:50 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:25:59 ... Measure Impedance Completed.
+09/01/20 10:26:02 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:26:03 ... Measure Impedance Completed.
+09/01/20 10:26:06 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:26:07 ... Measure Impedance Completed.
+09/01/20 10:26:14 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:26:14 ... Measure Impedance Completed.
+09/01/20 10:26:17 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:26:17 ... Measure Impedance Completed.
+09/01/20 10:26:19 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:26:20 ... Measure Impedance Completed.
+09/01/20 10:26:30 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:26:31 ... Measure Impedance Completed.
+09/01/20 10:26:36 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:26:37 ... Measure Impedance Completed.
+09/01/20 10:26:39 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:26:39 ... Measure Impedance Completed.
+09/01/20 10:26:44 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:26:44 ... Measure Impedance Completed.
+09/01/20 10:26:50 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:26:50 ... Measure Impedance Completed.
+09/01/20 10:26:54 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:26:55 ... Measure Impedance Completed.
+09/01/20 10:27:05 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:27:06 ... Measure Impedance Completed.
+09/01/20 10:27:10 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:27:11 ... Measure Impedance Completed.
+09/01/20 10:27:14 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:27:14 ... Measure Impedance Completed.
+09/01/20 10:27:21 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:27:22 ... Measure Impedance Completed.
+09/01/20 10:27:39 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:27:40 ... Measure Impedance Completed.
+09/01/20 10:28:34 ... EIT program by Gilles Lenaerts.
+09/01/20 10:28:34 ... Started HW.. Press PS to start program..
+09/01/20 10:28:34 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:28:36 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 10:28:36 ... Temperature: 29 Celcius
+09/01/20 10:28:45 ... Calibration complete.
+09/01/20 10:28:45 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:28:45 ... Measure Impedance Completed.
+09/01/20 10:28:46 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:28:47 ... Measure Impedance Completed.
+09/01/20 10:28:48 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:28:49 ... Measure Impedance Completed.
+09/01/20 10:28:50 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:28:50 ... Measure Impedance Completed.
+09/01/20 10:28:51 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:28:52 ... Measure Impedance Completed.
+09/01/20 10:28:53 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:28:54 ... Measure Impedance Completed.
+09/01/20 10:28:55 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:28:55 ... Measure Impedance Completed.
+09/01/20 10:28:56 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:28:57 ... Measure Impedance Completed.
+09/01/20 10:28:58 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:28:59 ... Measure Impedance Completed.
+09/01/20 10:29:00 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:29:00 ... Measure Impedance Completed.
+09/01/20 10:29:01 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:29:02 ... Measure Impedance Completed.
+09/01/20 10:29:03 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:04 ... Measure Impedance Completed.
+09/01/20 10:29:05 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:29:05 ... Measure Impedance Completed.
+09/01/20 10:29:06 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:07 ... Measure Impedance Completed.
+09/01/20 10:29:08 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:09 ... Measure Impedance Completed.
+09/01/20 10:29:10 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:10 ... Measure Impedance Completed.
+09/01/20 10:29:11 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:29:12 ... Measure Impedance Completed.
+09/01/20 10:29:13 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:14 ... Measure Impedance Completed.
+09/01/20 10:29:15 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:15 ... Measure Impedance Completed.
+09/01/20 10:29:16 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:17 ... Measure Impedance Completed.
+09/01/20 10:29:18 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:29:18 ... Measure Impedance Completed.
+09/01/20 10:29:20 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:20 ... Measure Impedance Completed.
+09/01/20 10:29:21 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:22 ... Measure Impedance Completed.
+09/01/20 10:29:23 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:23 ... Measure Impedance Completed.
+09/01/20 10:29:24 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:25 ... Measure Impedance Completed.
+09/01/20 10:29:26 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:29:27 ... Measure Impedance Completed.
+09/01/20 10:29:28 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:28 ... Measure Impedance Completed.
+09/01/20 10:29:29 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:30 ... Measure Impedance Completed.
+09/01/20 10:29:31 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:32 ... Measure Impedance Completed.
+09/01/20 10:29:33 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:33 ... Measure Impedance Completed.
+09/01/20 10:29:34 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:35 ... Measure Impedance Completed.
+09/01/20 10:29:36 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:37 ... Measure Impedance Completed.
+09/01/20 10:29:38 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:38 ... Measure Impedance Completed.
+09/01/20 10:29:39 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:29:40 ... Measure Impedance Completed.
+09/01/20 10:29:41 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:29:42 ... Measure Impedance Completed.
+09/01/20 10:29:43 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:43 ... Measure Impedance Completed.
+09/01/20 10:29:44 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:29:45 ... Measure Impedance Completed.
+09/01/20 10:29:46 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:47 ... Measure Impedance Completed.
+09/01/20 10:29:48 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:48 ... Measure Impedance Completed.
+09/01/20 10:29:49 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:50 ... Measure Impedance Completed.
+09/01/20 10:29:51 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:52 ... Measure Impedance Completed.
+09/01/20 10:29:53 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:29:53 ... Measure Impedance Completed.
+09/01/20 10:29:54 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:29:55 ... Measure Impedance Completed.
+09/01/20 10:29:56 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:29:57 ... Measure Impedance Completed.
+09/01/20 10:29:58 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:29:58 ... Measure Impedance Completed.
+09/01/20 10:29:59 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:00 ... Measure Impedance Completed.
+09/01/20 10:30:01 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:02 ... Measure Impedance Completed.
+09/01/20 10:30:03 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:03 ... Measure Impedance Completed.
+09/01/20 10:30:04 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:05 ... Measure Impedance Completed.
+09/01/20 10:30:06 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:07 ... Measure Impedance Completed.
+09/01/20 10:30:08 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:08 ... Measure Impedance Completed.
+09/01/20 10:30:09 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:10 ... Measure Impedance Completed.
+09/01/20 10:30:11 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:12 ... Measure Impedance Completed.
+09/01/20 10:30:13 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:13 ... Measure Impedance Completed.
+09/01/20 10:30:14 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:15 ... Measure Impedance Completed.
+09/01/20 10:30:16 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:17 ... Measure Impedance Completed.
+09/01/20 10:30:18 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:18 ... Measure Impedance Completed.
+09/01/20 10:30:19 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:20 ... Measure Impedance Completed.
+09/01/20 10:30:21 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:22 ... Measure Impedance Completed.
+09/01/20 10:30:23 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:23 ... Measure Impedance Completed.
+09/01/20 10:30:24 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:25 ... Measure Impedance Completed.
+09/01/20 10:30:26 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:26 ... Measure Impedance Completed.
+09/01/20 10:30:27 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:28 ... Measure Impedance Completed.
+09/01/20 10:30:29 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:30:30 ... Measure Impedance Completed.
+09/01/20 10:30:31 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:31 ... Measure Impedance Completed.
+09/01/20 10:30:32 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:33 ... Measure Impedance Completed.
+09/01/20 10:30:34 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:35 ... Measure Impedance Completed.
+09/01/20 10:30:36 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:36 ... Measure Impedance Completed.
+09/01/20 10:30:37 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:38 ... Measure Impedance Completed.
+09/01/20 10:30:39 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:40 ... Measure Impedance Completed.
+09/01/20 10:30:41 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:41 ... Measure Impedance Completed.
+09/01/20 10:30:42 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:43 ... Measure Impedance Completed.
+09/01/20 10:30:44 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:30:45 ... Measure Impedance Completed.
+09/01/20 10:30:46 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:30:46 ... Measure Impedance Completed.
+09/01/20 10:30:47 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:30:48 ... Measure Impedance Completed.
+09/01/20 10:30:49 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:30:50 ... Measure Impedance Completed.
+09/01/20 10:30:51 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:51 ... Measure Impedance Completed.
+09/01/20 10:30:52 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:53 ... Measure Impedance Completed.
+09/01/20 10:30:54 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:55 ... Measure Impedance Completed.
+09/01/20 10:30:56 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:56 ... Measure Impedance Completed.
+09/01/20 10:30:57 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:30:58 ... Measure Impedance Completed.
+09/01/20 10:30:59 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:31:00 ... Measure Impedance Completed.
+09/01/20 10:31:01 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:31:01 ... Measure Impedance Completed.
+09/01/20 10:31:02 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:31:03 ... Measure Impedance Completed.
+09/01/20 10:31:04 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:05 ... Measure Impedance Completed.
+09/01/20 10:31:06 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:06 ... Measure Impedance Completed.
+09/01/20 10:31:07 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:08 ... Measure Impedance Completed.
+09/01/20 10:31:09 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:10 ... Measure Impedance Completed.
+09/01/20 10:31:11 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:11 ... Measure Impedance Completed.
+09/01/20 10:31:12 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:13 ... Measure Impedance Completed.
+09/01/20 10:31:14 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:15 ... Measure Impedance Completed.
+09/01/20 10:31:16 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:31:16 ... Measure Impedance Completed.
+09/01/20 10:31:17 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:18 ... Measure Impedance Completed.
+09/01/20 10:31:19 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:31:20 ... Measure Impedance Completed.
+09/01/20 10:31:21 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:21 ... Measure Impedance Completed.
+09/01/20 10:31:22 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:31:23 ... Measure Impedance Completed.
+09/01/20 10:31:24 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:25 ... Measure Impedance Completed.
+09/01/20 10:31:26 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:26 ... Measure Impedance Completed.
+09/01/20 10:31:27 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:28 ... Measure Impedance Completed.
+09/01/20 10:31:29 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:30 ... Measure Impedance Completed.
+09/01/20 10:31:30 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:31:31 ... Measure Impedance Completed.
+09/01/20 10:31:32 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:33 ... Measure Impedance Completed.
+09/01/20 10:31:34 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:31:34 ... Measure Impedance Completed.
+09/01/20 10:31:35 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:36 ... Measure Impedance Completed.
+09/01/20 10:31:37 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:38 ... Measure Impedance Completed.
+09/01/20 10:31:39 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:39 ... Measure Impedance Completed.
+09/01/20 10:31:40 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:41 ... Measure Impedance Completed.
+09/01/20 10:31:42 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:43 ... Measure Impedance Completed.
+09/01/20 10:31:44 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:44 ... Measure Impedance Completed.
+09/01/20 10:31:45 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:46 ... Measure Impedance Completed.
+09/01/20 10:31:47 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:48 ... Measure Impedance Completed.
+09/01/20 10:31:49 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:49 ... Measure Impedance Completed.
+09/01/20 10:31:50 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:51 ... Measure Impedance Completed.
+09/01/20 10:31:52 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:53 ... Measure Impedance Completed.
+09/01/20 10:31:54 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:54 ... Measure Impedance Completed.
+09/01/20 10:31:55 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:56 ... Measure Impedance Completed.
+09/01/20 10:31:57 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:31:58 ... Measure Impedance Completed.
+09/01/20 10:31:59 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:31:59 ... Measure Impedance Completed.
+09/01/20 10:32:00 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:01 ... Measure Impedance Completed.
+09/01/20 10:32:02 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:03 ... Measure Impedance Completed.
+09/01/20 10:32:04 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:04 ... Measure Impedance Completed.
+09/01/20 10:32:05 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:32:06 ... Measure Impedance Completed.
+09/01/20 10:32:07 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:08 ... Measure Impedance Completed.
+09/01/20 10:32:09 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:09 ... Measure Impedance Completed.
+09/01/20 10:32:10 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:32:11 ... Measure Impedance Completed.
+09/01/20 10:32:12 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:13 ... Measure Impedance Completed.
+09/01/20 10:32:14 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:32:14 ... Measure Impedance Completed.
+09/01/20 10:32:15 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:16 ... Measure Impedance Completed.
+09/01/20 10:32:17 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:18 ... Measure Impedance Completed.
+09/01/20 10:32:19 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:19 ... Measure Impedance Completed.
+09/01/20 10:32:20 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:21 ... Measure Impedance Completed.
+09/01/20 10:32:22 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:23 ... Measure Impedance Completed.
+09/01/20 10:32:24 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:24 ... Measure Impedance Completed.
+09/01/20 10:32:25 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:32:26 ... Measure Impedance Completed.
+09/01/20 10:32:27 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:28 ... Measure Impedance Completed.
+09/01/20 10:32:29 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:29 ... Measure Impedance Completed.
+09/01/20 10:32:30 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:31 ... Measure Impedance Completed.
+09/01/20 10:32:32 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:33 ... Measure Impedance Completed.
+09/01/20 10:32:34 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:34 ... Measure Impedance Completed.
+09/01/20 10:32:35 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:36 ... Measure Impedance Completed.
+09/01/20 10:32:37 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:37 ... Measure Impedance Completed.
+09/01/20 10:32:38 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:32:39 ... Measure Impedance Completed.
+09/01/20 10:32:40 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:41 ... Measure Impedance Completed.
+09/01/20 10:32:42 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:42 ... Measure Impedance Completed.
+09/01/20 10:32:43 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:44 ... Measure Impedance Completed.
+09/01/20 10:32:45 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:46 ... Measure Impedance Completed.
+09/01/20 10:32:47 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:47 ... Measure Impedance Completed.
+09/01/20 10:32:48 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:49 ... Measure Impedance Completed.
+09/01/20 10:32:50 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:51 ... Measure Impedance Completed.
+09/01/20 10:32:52 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:32:52 ... Measure Impedance Completed.
+09/01/20 10:32:53 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:32:54 ... Measure Impedance Completed.
+09/01/20 10:32:55 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:56 ... Measure Impedance Completed.
+09/01/20 10:32:57 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:57 ... Measure Impedance Completed.
+09/01/20 10:32:58 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:32:59 ... Measure Impedance Completed.
+09/01/20 10:33:00 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:01 ... Measure Impedance Completed.
+09/01/20 10:33:02 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:02 ... Measure Impedance Completed.
+09/01/20 10:33:03 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:04 ... Measure Impedance Completed.
+09/01/20 10:33:05 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:06 ... Measure Impedance Completed.
+09/01/20 10:33:07 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:07 ... Measure Impedance Completed.
+09/01/20 10:33:08 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:09 ... Measure Impedance Completed.
+09/01/20 10:33:10 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:11 ... Measure Impedance Completed.
+09/01/20 10:33:12 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:12 ... Measure Impedance Completed.
+09/01/20 10:33:13 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:14 ... Measure Impedance Completed.
+09/01/20 10:33:15 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:16 ... Measure Impedance Completed.
+09/01/20 10:33:17 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:17 ... Measure Impedance Completed.
+09/01/20 10:33:18 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:19 ... Measure Impedance Completed.
+09/01/20 10:33:20 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:21 ... Measure Impedance Completed.
+09/01/20 10:33:22 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:22 ... Measure Impedance Completed.
+09/01/20 10:33:23 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:24 ... Measure Impedance Completed.
+09/01/20 10:33:25 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:26 ... Measure Impedance Completed.
+09/01/20 10:33:27 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:27 ... Measure Impedance Completed.
+09/01/20 10:33:28 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:29 ... Measure Impedance Completed.
+09/01/20 10:33:30 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:31 ... Measure Impedance Completed.
+09/01/20 10:33:32 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:32 ... Measure Impedance Completed.
+09/01/20 10:33:33 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:34 ... Measure Impedance Completed.
+09/01/20 10:33:35 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:36 ... Measure Impedance Completed.
+09/01/20 10:33:37 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:37 ... Measure Impedance Completed.
+09/01/20 10:33:38 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:39 ... Measure Impedance Completed.
+09/01/20 10:33:40 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:40 ... Measure Impedance Completed.
+09/01/20 10:33:42 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:42 ... Measure Impedance Completed.
+09/01/20 10:33:43 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:33:44 ... Measure Impedance Completed.
+09/01/20 10:33:45 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:45 ... Measure Impedance Completed.
+09/01/20 10:33:46 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:47 ... Measure Impedance Completed.
+09/01/20 10:33:48 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:49 ... Measure Impedance Completed.
+09/01/20 10:33:50 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:50 ... Measure Impedance Completed.
+09/01/20 10:33:51 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:52 ... Measure Impedance Completed.
+09/01/20 10:33:53 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:54 ... Measure Impedance Completed.
+09/01/20 10:33:55 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:55 ... Measure Impedance Completed.
+09/01/20 10:33:56 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:57 ... Measure Impedance Completed.
+09/01/20 10:33:58 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:33:59 ... Measure Impedance Completed.
+09/01/20 10:34:00 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:00 ... Measure Impedance Completed.
+09/01/20 10:34:01 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:02 ... Measure Impedance Completed.
+09/01/20 10:34:03 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:04 ... Measure Impedance Completed.
+09/01/20 10:34:05 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:34:05 ... Measure Impedance Completed.
+09/01/20 10:34:06 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:07 ... Measure Impedance Completed.
+09/01/20 10:34:08 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:09 ... Measure Impedance Completed.
+09/01/20 10:34:10 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:10 ... Measure Impedance Completed.
+09/01/20 10:34:11 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:12 ... Measure Impedance Completed.
+09/01/20 10:34:13 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:14 ... Measure Impedance Completed.
+09/01/20 10:34:15 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:15 ... Measure Impedance Completed.
+09/01/20 10:34:16 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:17 ... Measure Impedance Completed.
+09/01/20 10:34:18 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:19 ... Measure Impedance Completed.
+09/01/20 10:34:20 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:34:20 ... Measure Impedance Completed.
+09/01/20 10:34:21 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:22 ... Measure Impedance Completed.
+09/01/20 10:34:23 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:24 ... Measure Impedance Completed.
+09/01/20 10:34:25 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:25 ... Measure Impedance Completed.
+09/01/20 10:34:26 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:27 ... Measure Impedance Completed.
+09/01/20 10:34:28 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:29 ... Measure Impedance Completed.
+09/01/20 10:34:30 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:30 ... Measure Impedance Completed.
+09/01/20 10:34:31 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:32 ... Measure Impedance Completed.
+09/01/20 10:34:33 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:34 ... Measure Impedance Completed.
+09/01/20 10:34:35 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:35 ... Measure Impedance Completed.
+09/01/20 10:34:36 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:37 ... Measure Impedance Completed.
+09/01/20 10:34:38 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:39 ... Measure Impedance Completed.
+09/01/20 10:34:40 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:40 ... Measure Impedance Completed.
+09/01/20 10:34:41 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:42 ... Measure Impedance Completed.
+09/01/20 10:34:43 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:34:44 ... Measure Impedance Completed.
+09/01/20 10:34:45 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:45 ... Measure Impedance Completed.
+09/01/20 10:34:46 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:47 ... Measure Impedance Completed.
+09/01/20 10:34:48 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:34:48 ... Measure Impedance Completed.
+09/01/20 10:34:49 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:50 ... Measure Impedance Completed.
+09/01/20 10:34:51 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:52 ... Measure Impedance Completed.
+09/01/20 10:34:53 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:53 ... Measure Impedance Completed.
+09/01/20 10:34:56 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:56 ... Measure Impedance Completed.
+09/01/20 10:34:57 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:34:58 ... Measure Impedance Completed.
+09/01/20 10:35:05 ... EIT program by Gilles Lenaerts.
+09/01/20 10:35:05 ... Started HW.. Press PS to start program..
+09/01/20 10:35:06 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:35:09 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 10:35:09 ... Temperature: 29 Celcius
+09/01/20 10:35:18 ... Calibration complete.
+09/01/20 10:35:18 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:35:27 ... Measure Impedance Completed.
+09/01/20 10:35:28 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:35:37 ... Measure Impedance Completed.
+09/01/20 10:35:38 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:35:47 ... Measure Impedance Completed.
+09/01/20 10:36:11 ... Measuring..Temperature chip: 28 Celcius.
+09/01/20 10:36:20 ... Measure Impedance Completed.
+09/01/20 10:36:37 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:36:46 ... Measure Impedance Completed.
+09/01/20 10:37:02 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:37:11 ... Measure Impedance Completed.
+09/01/20 10:37:38 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:37:47 ... Measure Impedance Completed.
+09/01/20 10:38:26 ... EIT program by Gilles Lenaerts.
+09/01/20 10:38:26 ... Started HW.. Press PS to start program..
+09/01/20 10:40:23 ... EIT program by Gilles Lenaerts.
+09/01/20 10:40:23 ... Started HW.. Press PS to start program..
+09/01/20 10:41:10 ... EIT program by Gilles Lenaerts.
+09/01/20 10:41:10 ... Started HW.. Press PS to start program..
+09/01/20 10:41:17 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:41:23 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 10:41:23 ... Temperature: 29 Celcius
+09/01/20 10:41:32 ... Calibration complete.
+09/01/20 10:41:32 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:41:41 ... Measure Impedance Completed.
+09/01/20 10:41:58 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:42:07 ... Measure Impedance Completed.
+09/01/20 10:42:41 ... Measuring..Temperature chip: 30 Celcius.
+09/01/20 10:42:50 ... Measure Impedance Completed.
+09/01/20 10:43:43 ... EIT program by Gilles Lenaerts.
+09/01/20 10:43:43 ... Started HW.. Press PS to start program..
+09/01/20 10:43:54 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:43:58 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 10:43:58 ... Temperature: 30 Celcius
+09/01/20 10:44:07 ... Calibration complete.
+09/01/20 10:45:01 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:45:01 ... Measure Impedance Completed.
+09/01/20 10:45:20 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:45:36 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:45:49 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:46:38 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:47:05 ... EIT program completed by Gilles Lenaerts.
+09/01/20 10:47:08 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:47:28 ... Calibrate using RCAL2 22K. & RFB1 10K.
+09/01/20 10:47:28 ... Temperature: 29 Celcius
+09/01/20 10:47:37 ... Calibration complete.
+09/01/20 10:47:37 ... Measuring..Temperature chip: 30 Celcius.
+09/01/20 10:47:46 ... Measure Impedance Completed.
+09/01/20 10:47:48 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:48:04 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:51:31 ... Calibrate using RCAL2 22K. & RFB1 10K.
+09/01/20 10:51:32 ... Temperature: 30 Celcius
+09/01/20 10:51:41 ... Calibration complete.
+09/01/20 10:51:41 ... Measuring..Temperature chip: 29 Celcius.
+09/01/20 10:51:50 ... Measure Impedance Completed.
+09/01/20 10:51:51 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:52:11 ... EIT program by Gilles Lenaerts.
+09/01/20 10:52:11 ... Started HW.. Press PS to start program..
+09/01/20 10:52:15 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:52:17 ... Calibrate using RCAL2 22K. & RFB1 10K.
+09/01/20 10:52:17 ... Temperature: 30 Celcius
+09/01/20 10:52:26 ... Calibration complete.
+09/01/20 10:52:26 ... Measuring..Temperature chip: 30 Celcius.
+09/01/20 10:52:35 ... Measure Impedance Completed.
+09/01/20 10:52:38 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:52:53 ... EIT program completed by Gilles Lenaerts.
+09/01/20 10:52:55 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:53:01 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 10:53:01 ... Temperature: 30 Celcius
+09/01/20 10:53:10 ... Calibration complete.
+09/01/20 10:53:10 ... Measuring..Temperature chip: 30 Celcius.
+09/01/20 10:53:19 ... Measure Impedance Completed.
+09/01/20 10:53:21 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:53:27 ... EIT program completed by Gilles Lenaerts.
+09/01/20 10:53:32 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:53:34 ... Calibrate using RCAL3 47K. & RFB1 10K.
+09/01/20 10:53:35 ... Temperature: 29 Celcius
+09/01/20 10:53:44 ... Calibration complete.
+09/01/20 10:53:44 ... Measuring..Temperature chip: 30 Celcius.
+09/01/20 10:53:53 ... Measure Impedance Completed.
+09/01/20 10:53:55 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:54:31 ... EIT program completed by Gilles Lenaerts.
+09/01/20 10:56:42 ... EIT program by Gilles Lenaerts.
+09/01/20 10:56:42 ... Started HW.. Press PS to start program..
+09/01/20 10:56:48 ... Choose Rcal: 1,2 or 3.
+09/01/20 10:56:56 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 10:56:56 ... Temperature: 30 Celcius
+09/01/20 10:57:05 ... Calibration complete.
+09/01/20 10:57:06 ... Measure Impedance Completed.
+09/01/20 10:57:06 ... Measure Impedance Completed.
+09/01/20 10:57:07 ... Measure Impedance Completed.
+09/01/20 10:57:07 ... Measure Impedance Completed.
+09/01/20 10:57:07 ... Measure Impedance Completed.
+09/01/20 10:57:08 ... Measure Impedance Completed.
+09/01/20 10:57:08 ... Measure Impedance Completed.
+09/01/20 10:57:09 ... Measure Impedance Completed.
+09/01/20 10:57:09 ... Measure Impedance Completed.
+09/01/20 10:57:09 ... Measure Impedance Completed.
+09/01/20 10:57:10 ... Measure Impedance Completed.
+09/01/20 10:57:10 ... Measure Impedance Completed.
+09/01/20 10:57:11 ... Measure Impedance Completed.
+09/01/20 10:57:11 ... Measure Impedance Completed.
+09/01/20 10:57:11 ... Measure Impedance Completed.
+09/01/20 10:57:12 ... Measure Impedance Completed.
+09/01/20 10:57:12 ... Measure Impedance Completed.
+09/01/20 10:57:13 ... Measure Impedance Completed.
+09/01/20 10:57:13 ... Measure Impedance Completed.
+09/01/20 10:57:13 ... Measure Impedance Completed.
+09/01/20 10:57:14 ... Measure Impedance Completed.
+09/01/20 10:57:14 ... Measure Impedance Completed.
+09/01/20 10:57:15 ... Measure Impedance Completed.
+09/01/20 10:57:15 ... Measure Impedance Completed.
+09/01/20 10:57:15 ... Measure Impedance Completed.
+09/01/20 10:57:16 ... Measure Impedance Completed.
+09/01/20 10:57:16 ... Measure Impedance Completed.
+09/01/20 10:57:17 ... Measure Impedance Completed.
+09/01/20 10:57:17 ... Measure Impedance Completed.
+09/01/20 10:57:17 ... Measure Impedance Completed.
+09/01/20 10:57:18 ... Measure Impedance Completed.
+09/01/20 10:57:18 ... Measure Impedance Completed.
+09/01/20 10:57:19 ... Measure Impedance Completed.
+09/01/20 10:57:19 ... Measure Impedance Completed.
+09/01/20 10:57:20 ... Measure Impedance Completed.
+09/01/20 10:57:20 ... Measure Impedance Completed.
+09/01/20 10:57:20 ... Measure Impedance Completed.
+09/01/20 10:57:21 ... Measure Impedance Completed.
+09/01/20 10:57:21 ... Measure Impedance Completed.
+09/01/20 10:57:22 ... Measure Impedance Completed.
+09/01/20 10:57:22 ... Is data ok? Type y/n or m(measure again).
+09/01/20 10:59:57 ... EIT program by Gilles Lenaerts.
+09/01/20 10:59:58 ... Started HW.. Press PS to start program..
+09/01/20 10:59:59 ... Choose Rcal: 1,2 or 3.
+09/01/20 11:00:01 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 11:00:01 ... Temperature: 30 Celcius
+09/01/20 11:00:10 ... Calibration complete.
+09/01/20 11:00:11 ... probeCurrentCycle: 1 , probeVoltCycle: 1 .
+09/01/20 11:00:11 ... Measure Impedance Completed.
+09/01/20 11:00:11 ... probeCurrentCycle: 1 , probeVoltCycle: 2 .
+09/01/20 11:00:11 ... Measure Impedance Completed.
+09/01/20 11:00:12 ... probeCurrentCycle: 1 , probeVoltCycle: 3 .
+09/01/20 11:00:12 ... Measure Impedance Completed.
+09/01/20 11:00:12 ... probeCurrentCycle: 1 , probeVoltCycle: 4 .
+09/01/20 11:00:13 ... Measure Impedance Completed.
+09/01/20 11:00:13 ... probeCurrentCycle: 1 , probeVoltCycle: 5 .
+09/01/20 11:00:13 ... Measure Impedance Completed.
+09/01/20 11:00:14 ... probeCurrentCycle: 2 , probeVoltCycle: 1 .
+09/01/20 11:00:14 ... Measure Impedance Completed.
+09/01/20 11:00:14 ... probeCurrentCycle: 2 , probeVoltCycle: 2 .
+09/01/20 11:00:14 ... Measure Impedance Completed.
+09/01/20 11:00:15 ... probeCurrentCycle: 2 , probeVoltCycle: 3 .
+09/01/20 11:00:15 ... Measure Impedance Completed.
+09/01/20 11:00:15 ... probeCurrentCycle: 2 , probeVoltCycle: 4 .
+09/01/20 11:00:16 ... Measure Impedance Completed.
+09/01/20 11:00:16 ... probeCurrentCycle: 2 , probeVoltCycle: 5 .
+09/01/20 11:00:16 ... Measure Impedance Completed.
+09/01/20 11:00:17 ... probeCurrentCycle: 3 , probeVoltCycle: 1 .
+09/01/20 11:00:17 ... Measure Impedance Completed.
+09/01/20 11:00:17 ... probeCurrentCycle: 3 , probeVoltCycle: 2 .
+09/01/20 11:00:18 ... Measure Impedance Completed.
+09/01/20 11:00:18 ... probeCurrentCycle: 3 , probeVoltCycle: 3 .
+09/01/20 11:00:18 ... Measure Impedance Completed.
+09/01/20 11:00:19 ... probeCurrentCycle: 3 , probeVoltCycle: 4 .
+09/01/20 11:00:19 ... Measure Impedance Completed.
+09/01/20 11:00:19 ... probeCurrentCycle: 3 , probeVoltCycle: 5 .
+09/01/20 11:00:19 ... Measure Impedance Completed.
+09/01/20 11:00:20 ... probeCurrentCycle: 4 , probeVoltCycle: 1 .
+09/01/20 11:00:20 ... Measure Impedance Completed.
+09/01/20 11:00:20 ... probeCurrentCycle: 4 , probeVoltCycle: 2 .
+09/01/20 11:00:21 ... Measure Impedance Completed.
+09/01/20 11:00:21 ... probeCurrentCycle: 4 , probeVoltCycle: 3 .
+09/01/20 11:00:21 ... Measure Impedance Completed.
+09/01/20 11:00:22 ... probeCurrentCycle: 4 , probeVoltCycle: 4 .
+09/01/20 11:00:22 ... Measure Impedance Completed.
+09/01/20 11:00:22 ... probeCurrentCycle: 4 , probeVoltCycle: 5 .
+09/01/20 11:00:22 ... Measure Impedance Completed.
+09/01/20 11:00:23 ... probeCurrentCycle: 5 , probeVoltCycle: 1 .
+09/01/20 11:00:23 ... Measure Impedance Completed.
+09/01/20 11:00:23 ... probeCurrentCycle: 5 , probeVoltCycle: 2 .
+09/01/20 11:00:24 ... Measure Impedance Completed.
+09/01/20 11:00:24 ... probeCurrentCycle: 5 , probeVoltCycle: 3 .
+09/01/20 11:00:24 ... Measure Impedance Completed.
+09/01/20 11:00:25 ... probeCurrentCycle: 5 , probeVoltCycle: 4 .
+09/01/20 11:00:25 ... Measure Impedance Completed.
+09/01/20 11:00:25 ... probeCurrentCycle: 5 , probeVoltCycle: 5 .
+09/01/20 11:00:25 ... Measure Impedance Completed.
+09/01/20 11:00:26 ... probeCurrentCycle: 6 , probeVoltCycle: 1 .
+09/01/20 11:00:26 ... Measure Impedance Completed.
+09/01/20 11:00:26 ... probeCurrentCycle: 6 , probeVoltCycle: 2 .
+09/01/20 11:00:27 ... Measure Impedance Completed.
+09/01/20 11:00:27 ... probeCurrentCycle: 6 , probeVoltCycle: 3 .
+09/01/20 11:00:27 ... Measure Impedance Completed.
+09/01/20 11:00:28 ... probeCurrentCycle: 6 , probeVoltCycle: 4 .
+09/01/20 11:00:28 ... Measure Impedance Completed.
+09/01/20 11:00:28 ... probeCurrentCycle: 6 , probeVoltCycle: 5 .
+09/01/20 11:00:28 ... Measure Impedance Completed.
+09/01/20 11:00:29 ... probeCurrentCycle: 7 , probeVoltCycle: 1 .
+09/01/20 11:00:29 ... Measure Impedance Completed.
+09/01/20 11:00:29 ... probeCurrentCycle: 7 , probeVoltCycle: 2 .
+09/01/20 11:00:30 ... Measure Impedance Completed.
+09/01/20 11:00:30 ... probeCurrentCycle: 7 , probeVoltCycle: 3 .
+09/01/20 11:00:30 ... Measure Impedance Completed.
+09/01/20 11:00:31 ... probeCurrentCycle: 7 , probeVoltCycle: 4 .
+09/01/20 11:00:31 ... Measure Impedance Completed.
+09/01/20 11:00:31 ... probeCurrentCycle: 7 , probeVoltCycle: 5 .
+09/01/20 11:00:31 ... Measure Impedance Completed.
+09/01/20 11:00:32 ... probeCurrentCycle: 8 , probeVoltCycle: 1 .
+09/01/20 11:00:32 ... Measure Impedance Completed.
+09/01/20 11:00:32 ... probeCurrentCycle: 8 , probeVoltCycle: 2 .
+09/01/20 11:00:33 ... Measure Impedance Completed.
+09/01/20 11:00:33 ... probeCurrentCycle: 8 , probeVoltCycle: 3 .
+09/01/20 11:00:33 ... Measure Impedance Completed.
+09/01/20 11:00:34 ... probeCurrentCycle: 8 , probeVoltCycle: 4 .
+09/01/20 11:00:34 ... Measure Impedance Completed.
+09/01/20 11:00:34 ... probeCurrentCycle: 8 , probeVoltCycle: 5 .
+09/01/20 11:00:34 ... Measure Impedance Completed.
+09/01/20 11:00:35 ... Is data ok? Type y/n or m(measure again).
+09/01/20 11:01:39 ... probeCurrentCycle: 1 , probeVoltCycle: 1 .
+09/01/20 11:01:39 ... Measure Impedance Completed.
+09/01/20 11:01:39 ... probeCurrentCycle: 1 , probeVoltCycle: 2 .
+09/01/20 11:01:39 ... Measure Impedance Completed.
+09/01/20 11:01:40 ... probeCurrentCycle: 1 , probeVoltCycle: 3 .
+09/01/20 11:01:40 ... Measure Impedance Completed.
+09/01/20 11:01:40 ... probeCurrentCycle: 1 , probeVoltCycle: 4 .
+09/01/20 11:01:41 ... Measure Impedance Completed.
+09/01/20 11:01:41 ... probeCurrentCycle: 1 , probeVoltCycle: 5 .
+09/01/20 11:01:41 ... Measure Impedance Completed.
+09/01/20 11:01:42 ... probeCurrentCycle: 2 , probeVoltCycle: 1 .
+09/01/20 11:01:42 ... Measure Impedance Completed.
+09/01/20 11:01:42 ... probeCurrentCycle: 2 , probeVoltCycle: 2 .
+09/01/20 11:01:42 ... Measure Impedance Completed.
+09/01/20 11:01:43 ... probeCurrentCycle: 2 , probeVoltCycle: 3 .
+09/01/20 11:01:43 ... Measure Impedance Completed.
+09/01/20 11:01:43 ... probeCurrentCycle: 2 , probeVoltCycle: 4 .
+09/01/20 11:01:44 ... Measure Impedance Completed.
+09/01/20 11:01:44 ... probeCurrentCycle: 2 , probeVoltCycle: 5 .
+09/01/20 11:01:44 ... Measure Impedance Completed.
+09/01/20 11:01:45 ... probeCurrentCycle: 3 , probeVoltCycle: 1 .
+09/01/20 11:01:45 ... Measure Impedance Completed.
+09/01/20 11:01:45 ... probeCurrentCycle: 3 , probeVoltCycle: 2 .
+09/01/20 11:01:45 ... Measure Impedance Completed.
+09/01/20 11:01:46 ... probeCurrentCycle: 3 , probeVoltCycle: 3 .
+09/01/20 11:01:46 ... Measure Impedance Completed.
+09/01/20 11:01:47 ... probeCurrentCycle: 3 , probeVoltCycle: 4 .
+09/01/20 11:01:47 ... Measure Impedance Completed.
+09/01/20 11:01:47 ... probeCurrentCycle: 3 , probeVoltCycle: 5 .
+09/01/20 11:01:47 ... Measure Impedance Completed.
+09/01/20 11:01:48 ... probeCurrentCycle: 4 , probeVoltCycle: 1 .
+09/01/20 11:01:48 ... Measure Impedance Completed.
+09/01/20 11:01:48 ... probeCurrentCycle: 4 , probeVoltCycle: 2 .
+09/01/20 11:01:49 ... Measure Impedance Completed.
+09/01/20 11:01:49 ... probeCurrentCycle: 4 , probeVoltCycle: 3 .
+09/01/20 11:01:49 ... Measure Impedance Completed.
+09/01/20 11:01:50 ... probeCurrentCycle: 4 , probeVoltCycle: 4 .
+09/01/20 11:01:50 ... Measure Impedance Completed.
+09/01/20 11:01:50 ... probeCurrentCycle: 4 , probeVoltCycle: 5 .
+09/01/20 11:01:50 ... Measure Impedance Completed.
+09/01/20 11:01:51 ... probeCurrentCycle: 5 , probeVoltCycle: 1 .
+09/01/20 11:01:51 ... Measure Impedance Completed.
+09/01/20 11:01:51 ... probeCurrentCycle: 5 , probeVoltCycle: 2 .
+09/01/20 11:01:52 ... Measure Impedance Completed.
+09/01/20 11:01:52 ... probeCurrentCycle: 5 , probeVoltCycle: 3 .
+09/01/20 11:01:52 ... Measure Impedance Completed.
+09/01/20 11:01:53 ... probeCurrentCycle: 5 , probeVoltCycle: 4 .
+09/01/20 11:01:53 ... Measure Impedance Completed.
+09/01/20 11:01:53 ... probeCurrentCycle: 5 , probeVoltCycle: 5 .
+09/01/20 11:01:53 ... Measure Impedance Completed.
+09/01/20 11:01:54 ... probeCurrentCycle: 6 , probeVoltCycle: 1 .
+09/01/20 11:01:54 ... Measure Impedance Completed.
+09/01/20 11:01:54 ... probeCurrentCycle: 6 , probeVoltCycle: 2 .
+09/01/20 11:01:55 ... Measure Impedance Completed.
+09/01/20 11:01:55 ... probeCurrentCycle: 6 , probeVoltCycle: 3 .
+09/01/20 11:01:55 ... Measure Impedance Completed.
+09/01/20 11:01:56 ... probeCurrentCycle: 6 , probeVoltCycle: 4 .
+09/01/20 11:01:56 ... Measure Impedance Completed.
+09/01/20 11:01:56 ... probeCurrentCycle: 6 , probeVoltCycle: 5 .
+09/01/20 11:01:56 ... Measure Impedance Completed.
+09/01/20 11:01:57 ... probeCurrentCycle: 7 , probeVoltCycle: 1 .
+09/01/20 11:01:57 ... Measure Impedance Completed.
+09/01/20 11:01:57 ... probeCurrentCycle: 7 , probeVoltCycle: 2 .
+09/01/20 11:01:58 ... Measure Impedance Completed.
+09/01/20 11:01:58 ... probeCurrentCycle: 7 , probeVoltCycle: 3 .
+09/01/20 11:01:58 ... Measure Impedance Completed.
+09/01/20 11:01:59 ... probeCurrentCycle: 7 , probeVoltCycle: 4 .
+09/01/20 11:01:59 ... Measure Impedance Completed.
+09/01/20 11:01:59 ... probeCurrentCycle: 7 , probeVoltCycle: 5 .
+09/01/20 11:01:59 ... Measure Impedance Completed.
+09/01/20 11:02:00 ... probeCurrentCycle: 8 , probeVoltCycle: 1 .
+09/01/20 11:02:00 ... Measure Impedance Completed.
+09/01/20 11:02:00 ... probeCurrentCycle: 8 , probeVoltCycle: 2 .
+09/01/20 11:02:01 ... Measure Impedance Completed.
+09/01/20 11:02:01 ... probeCurrentCycle: 8 , probeVoltCycle: 3 .
+09/01/20 11:02:01 ... Measure Impedance Completed.
+09/01/20 11:02:02 ... probeCurrentCycle: 8 , probeVoltCycle: 4 .
+09/01/20 11:02:02 ... Measure Impedance Completed.
+09/01/20 11:02:02 ... probeCurrentCycle: 8 , probeVoltCycle: 5 .
+09/01/20 11:02:02 ... Measure Impedance Completed.
+09/01/20 11:02:03 ... Is data ok? Type y/n or m(measure again).
+09/01/20 11:07:33 ... EIT program by Gilles Lenaerts.
+09/01/20 11:07:33 ... Started HW.. Press PS to start program..
+09/01/20 11:07:41 ... Choose Rcal: 1,2 or 3.
+09/01/20 11:07:44 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 11:08:55 ... EIT program by Gilles Lenaerts.
+09/01/20 11:08:55 ... Started HW.. Press PS to start program..
+09/01/20 11:10:50 ... Choose Rcal: 1,2 or 3.
+09/01/20 11:10:52 ... Calibrate using RCAL1 10K. & RFB1 10K.
+09/01/20 11:10:52 ... Temperature: 24 Celcius
+09/01/20 11:11:01 ... Calibration complete.
+09/01/20 11:11:02 ... probeCurrentCycle: 1 , probeVoltCycle: 1 .
+09/01/20 11:11:02 ... Measure Impedance Completed.
+09/01/20 11:11:02 ... probeCurrentCycle: 1 , probeVoltCycle: 2 .
+09/01/20 11:11:02 ... Measure Impedance Completed.
+09/01/20 11:11:03 ... probeCurrentCycle: 1 , probeVoltCycle: 3 .
+09/01/20 11:11:03 ... Measure Impedance Completed.
+09/01/20 11:11:03 ... probeCurrentCycle: 1 , probeVoltCycle: 4 .
+09/01/20 11:11:04 ... Measure Impedance Completed.
+09/01/20 11:11:04 ... probeCurrentCycle: 1 , probeVoltCycle: 5 .
+09/01/20 11:11:04 ... Measure Impedance Completed.
+09/01/20 11:11:05 ... probeCurrentCycle: 2 , probeVoltCycle: 1 .
+09/01/20 11:11:05 ... Measure Impedance Completed.
+09/01/20 11:11:05 ... probeCurrentCycle: 2 , probeVoltCycle: 2 .
+09/01/20 11:11:05 ... Measure Impedance Completed.
+09/01/20 11:11:06 ... probeCurrentCycle: 2 , probeVoltCycle: 3 .
+09/01/20 11:11:06 ... Measure Impedance Completed.
+09/01/20 11:11:06 ... probeCurrentCycle: 2 , probeVoltCycle: 4 .
+09/01/20 11:11:07 ... Measure Impedance Completed.
+09/01/20 11:11:07 ... probeCurrentCycle: 2 , probeVoltCycle: 5 .
+09/01/20 11:11:07 ... Measure Impedance Completed.
+09/01/20 11:11:08 ... probeCurrentCycle: 3 , probeVoltCycle: 1 .
+09/01/20 11:11:08 ... Measure Impedance Completed.
+09/01/20 11:11:08 ... probeCurrentCycle: 3 , probeVoltCycle: 2 .
+09/01/20 11:11:08 ... Measure Impedance Completed.
+09/01/20 11:11:09 ... probeCurrentCycle: 3 , probeVoltCycle: 3 .
+09/01/20 11:11:09 ... Measure Impedance Completed.
+09/01/20 11:11:10 ... probeCurrentCycle: 3 , probeVoltCycle: 4 .
+09/01/20 11:11:10 ... Measure Impedance Completed.
+09/01/20 11:11:10 ... probeCurrentCycle: 3 , probeVoltCycle: 5 .
+09/01/20 11:11:10 ... Measure Impedance Completed.
+09/01/20 11:11:11 ... probeCurrentCycle: 4 , probeVoltCycle: 1 .
+09/01/20 11:11:11 ... Measure Impedance Completed.
+09/01/20 11:11:11 ... probeCurrentCycle: 4 , probeVoltCycle: 2 .
+09/01/20 11:11:12 ... Measure Impedance Completed.
+09/01/20 11:11:12 ... probeCurrentCycle: 4 , probeVoltCycle: 3 .
+09/01/20 11:11:12 ... Measure Impedance Completed.
+09/01/20 11:11:13 ... probeCurrentCycle: 4 , probeVoltCycle: 4 .
+09/01/20 11:11:13 ... Measure Impedance Completed.
+09/01/20 11:11:13 ... probeCurrentCycle: 4 , probeVoltCycle: 5 .
+09/01/20 11:11:13 ... Measure Impedance Completed.
+09/01/20 11:11:14 ... probeCurrentCycle: 5 , probeVoltCycle: 1 .
+09/01/20 11:11:14 ... Measure Impedance Completed.
+09/01/20 11:11:14 ... probeCurrentCycle: 5 , probeVoltCycle: 2 .
+09/01/20 11:11:15 ... Measure Impedance Completed.
+09/01/20 11:11:15 ... probeCurrentCycle: 5 , probeVoltCycle: 3 .
+09/01/20 11:11:15 ... Measure Impedance Completed.
+09/01/20 11:11:16 ... probeCurrentCycle: 5 , probeVoltCycle: 4 .
+09/01/20 11:11:16 ... Measure Impedance Completed.
+09/01/20 11:11:16 ... probeCurrentCycle: 5 , probeVoltCycle: 5 .
+09/01/20 11:11:16 ... Measure Impedance Completed.
+09/01/20 11:11:17 ... probeCurrentCycle: 6 , probeVoltCycle: 1 .
+09/01/20 11:11:17 ... Measure Impedance Completed.
+09/01/20 11:11:17 ... probeCurrentCycle: 6 , probeVoltCycle: 2 .
+09/01/20 11:11:18 ... Measure Impedance Completed.
+09/01/20 11:11:18 ... probeCurrentCycle: 6 , probeVoltCycle: 3 .
+09/01/20 11:11:18 ... Measure Impedance Completed.
+09/01/20 11:11:19 ... probeCurrentCycle: 6 , probeVoltCycle: 4 .
+09/01/20 11:11:19 ... Measure Impedance Completed.
+09/01/20 11:11:19 ... probeCurrentCycle: 6 , probeVoltCycle: 5 .
+09/01/20 11:11:19 ... Measure Impedance Completed.
+09/01/20 11:11:20 ... probeCurrentCycle: 7 , probeVoltCycle: 1 .
+09/01/20 11:11:20 ... Measure Impedance Completed.
+09/01/20 11:11:20 ... probeCurrentCycle: 7 , probeVoltCycle: 2 .
+09/01/20 11:11:21 ... Measure Impedance Completed.
+09/01/20 11:11:21 ... probeCurrentCycle: 7 , probeVoltCycle: 3 .
+09/01/20 11:11:21 ... Measure Impedance Completed.
+09/01/20 11:11:22 ... probeCurrentCycle: 7 , probeVoltCycle: 4 .
+09/01/20 11:11:22 ... Measure Impedance Completed.
+09/01/20 11:11:22 ... probeCurrentCycle: 7 , probeVoltCycle: 5 .
+09/01/20 11:11:22 ... Measure Impedance Completed.
+09/01/20 11:11:23 ... probeCurrentCycle: 8 , probeVoltCycle: 1 .
+09/01/20 11:11:23 ... Measure Impedance Completed.
+09/01/20 11:11:23 ... probeCurrentCycle: 8 , probeVoltCycle: 2 .
+09/01/20 11:11:24 ... Measure Impedance Completed.
+09/01/20 11:11:24 ... probeCurrentCycle: 8 , probeVoltCycle: 3 .
+09/01/20 11:11:24 ... Measure Impedance Completed.
+09/01/20 11:11:25 ... probeCurrentCycle: 8 , probeVoltCycle: 4 .
+09/01/20 11:11:25 ... Measure Impedance Completed.
+09/01/20 11:11:25 ... probeCurrentCycle: 8 , probeVoltCycle: 5 .
+09/01/20 11:11:25 ... Measure Impedance Completed.
+09/01/20 11:13:11 ... EIT program by Gilles Lenaerts.
+09/01/20 11:13:11 ... Started HW.. Press PS to start program..

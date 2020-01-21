@@ -3,7 +3,7 @@
 #include "MCP23S17.h"
 #include "AD5933.h"
 
-char rcalSEL = 0x00;
+char rfbSEL = 0x00;
 
 /*
 * Rcal & RFB selects
@@ -37,19 +37,19 @@ int RCal_RFB_Select(int RCAL, int RFB){
 			case 1:     print(" & RFB1 10K.\n");
 						break;
 			case 2:     print(" & RFB1 22K.\n");
-						aPortSEL |= (GPA5);   //RFB 2
+						rfbSEL = (GPA5);   //RFB 2
 						break;
 			case 3:     print(" & RFB1 1K.\n");
-						aPortSEL |= (GPA4);   //Rcal 1
+						rfbSEL = (GPA4);   //Rcal 1
 						break;
 			case 4:     print(" & RFB1 66K.\n");
-						aPortSEL |= (GPA4 | GPA5);   //Rcal 1
+						rfbSEL = (GPA4 | GPA5);   //Rcal 1
 						break;
 		}
-		rcalSEL = aPortSEL;
+		//rfbSEL = aPortSEL;
 
 		//Transfer stage
-		sendMCSP(GPIOA_ADR, rcalSEL);
+		sendMCSP(GPIOA_ADR, aPortSEL | rfbSEL);
 		sendMCSP(GPIOB_ADR, bPortSEL);
 
 		return rcalval; 	//used in gainfactor
@@ -317,7 +317,7 @@ void probeMeasureSelect(){
 
 
 	//Transfer stage
-	sendMCSP(GPIOA_ADR, aPortSEL);
+	sendMCSP(GPIOA_ADR, aPortSEL | rfbSEL);
 	sendMCSP(GPIOB_ADR, bPortSEL);
 
   }

@@ -291,6 +291,7 @@ double AD5933_CalculateImpedance(double gainFactor,
 							0x21,  //AD5933_CONTROL_FUNCTION(AD5933_START_FREQ_SWEEP)
 							1);
 
+	status 		= 0;
 
 	// Wait for data to be valid
 	while((status & AD5933_STATUS_DATA_VALID) == 0)
@@ -314,8 +315,12 @@ double AD5933_CalculateImpedance(double gainFactor,
 		magnitude = sqrtf((realData * realData) + (imgData * imgData));
 
 		// Calculate impedance
+		impedance = 0;
 		impedance = 1 / (magnitude * gainFactor / 1000000000);
 		impedanceOhms = (unsigned long)impedance;
+		//print("Again\n");
+
+		//sleep(0.1);
 
 		if (mode == 2)
 		{
@@ -347,6 +352,8 @@ double AD5933_CalculateImpedance(double gainFactor,
 			measuredData[probeCurrentCycle-1][probeVoltCycle-1].magnitude = magnitude;
 			measuredData[probeCurrentCycle-1][probeVoltCycle-1].imaginary = imgData;
 			measuredData[probeCurrentCycle-1][probeVoltCycle-1].real = realData;
+
+			printf("probeCurrentCycle: %d , probeVoltCycle: %d .\n", probeCurrentCycle, probeVoltCycle);
 
 		}
 		//printf("\n\r <%d,%d,%0.2f,%0.2f>  \n\r",realData, imgData, magnitude,impedance);
@@ -473,13 +480,18 @@ void measureImpedance(void)
 void writeSerialImpedanceArray()
 {
 	static int i, wholeMagn, thousandthsMagn = 0;
+	wholeMagn = 0;
+	thousandthsMagn = 0;
+
 	if (mode == 1)
 	{
 		for(int j=0;j<=8;j++)
 		{
 			for(int y=0;y<=5;y++)
 			{
-				xil_printf("Cycle:%d, Probe:%d, Freq:%d, Impedance:%d, Magnitude:%f, Imaginary:%hu Real:%hu;\r",j, y, measuredData[j][y].frequency, measuredData[j][y].impedance, measuredData[j][y].magnitude, measuredData[j][y].real, measuredData[j][y].imaginary);
+			    wholeMagn = measuredData[j][y].magnitude;
+			    thousandthsMagn = (measuredData[j][y].magnitude - wholeMagn) * 1000;
+				xil_printf("Cycle:%d, Probe:%d, Freq:%d, Impedance:%d, Magnitude:%d.%3d, Imaginary:%hu Real:%hu;\r",j, y, measuredData[j][y].frequency, measuredData[j][y].impedance, wholeMagn, thousandthsMagn, measuredData[j][y].imaginary, measuredData[j][y].magnitude, measuredData[j][y].real);
 				/* for 3D end array
 				for(int i=0;i<=stepCount;i++)
 				{
@@ -498,7 +510,7 @@ void writeSerialImpedanceArray()
 			//Need to find new print variable with float. %".
 		    wholeMagn = RcalMeasuredData[i].magnitude;
 		    thousandthsMagn = (RcalMeasuredData[i].magnitude - wholeMagn) * 1000;
-			xil_printf("Freq:%d, Impedance:%d, Magnitude:%d.%3d, Imaginary:%hu Real:%hu;\r",RcalMeasuredData[i].frequency, RcalMeasuredData[i].impedance, wholeMagn, thousandthsMagn, RcalMeasuredData[i].real, RcalMeasuredData[i].imaginary);
+			xil_printf("Freq:%d, Impedance:%d, Magnitude:%d.%3d, Imaginary:%hu Real:%hu;\r",RcalMeasuredData[i].frequency, RcalMeasuredData[i].impedance, wholeMagn, thousandthsMagn, RcalMeasuredData[i].imaginary, RcalMeasuredData[i].real);
 		}
 		print("\n");
 		//usleep(900);
